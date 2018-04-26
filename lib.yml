@@ -1,0 +1,28 @@
+target_default: lib
+
+includes:
+  - lib.yml
+
+packages:
+  - dataRetrieval
+  - dplyr
+  - feather
+  - scipiper
+  - yaml
+
+file_extensions:
+  - feather
+  - ind
+
+targets:
+
+  lib:
+    depends:
+      - lib/cfg/gd_config.yml
+
+  lib/cfg:
+    command: dir.create(target_name, recursive=I(TRUE), showWarnings=I(FALSE))
+
+  lib/cfg/gd_config.yml:
+    depends: lib/cfg
+    command: gd_config(config_file=target_name, folder=I("1__f8XB796VOpQrm6y4saKZNv-XMwq8w_"))
