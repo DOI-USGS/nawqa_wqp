@@ -1,8 +1,5 @@
 target_default: lib
 
-includes:
-  - lib.yml
-
 packages:
   - dataRetrieval
   - dplyr
