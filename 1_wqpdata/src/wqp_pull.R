@@ -22,7 +22,7 @@ partition_inventory <- function(inventory_ind, wqp_pull, wqp_state_codes, wqp_co
   scipiper::sc_retrieve(inventory_ind)
   inventory <- feather::read_feather(scipiper::as_data_file(inventory_ind)) %>%
     select(Constituent, Site=MonitoringLocationIdentifier, StateCode, resultCount)
-  
+
   # split up the work into manageably sized partitions (~max size specified in wqp_pull)
   partitions <- bind_rows(lapply(unique(inventory$Constituent), function(constituent) {
     bind_rows(lapply(unique(inventory$StateCode), function(statecode) {
@@ -37,7 +37,7 @@ partition_inventory <- function(inventory_ind, wqp_pull, wqp_state_codes, wqp_co
         group_by(Site) %>%
         summarize(NumObs=sum(resultCount)) %>%
         arrange(desc(NumObs))
-      
+
       # split the full pull (combine atomic groups) into right-sized partitions
       # by an old but fairly effective paritioning heuristic: pick the number of
       # partitions desired, sort the atomic groups by descending size, and then
@@ -52,7 +52,7 @@ partition_inventory <- function(inventory_ind, wqp_pull, wqp_state_codes, wqp_co
         assignments[i] <- smallest_partition
         partition_sizes[smallest_partition] <- partition_sizes[smallest_partition] + size_i
       }
-      
+
       # create and return data.frame rows for binding in the two lapply loops
       state <- wqp_state_codes %>%
         filter(value==sprintf('US:%s', statecode)) %>%
@@ -66,7 +66,7 @@ partition_inventory <- function(inventory_ind, wqp_pull, wqp_state_codes, wqp_co
           PullTask=sprintf('%s_%s_%03d', gsub(' ', '_', state), constituent, assignments))
     }))
   }))
-  
+
   # prepare nested collections of other possible arguments to include in the readWQPdata calls
   parameter_codes <- bind_rows(lapply(unique(partitions$Constituent), function(constituent) {
     data_frame(Constituent=constituent, CharacteristicNames=wqp_codes$characteristicName[[constituent]]) %>%
@@ -79,14 +79,14 @@ partition_inventory <- function(inventory_ind, wqp_pull, wqp_state_codes, wqp_co
     dplyr::ungroup() %>%
     dplyr::left_join(parameter_codes, by='Constituent') %>%
     dplyr::mutate(SiteType=list(site_types))
-  
+
   return(pull_tasks_df)
 }
 
 # prepare a plan for downloading (from WQP) and posting (to GD) one data file
 # per state
 plan_wqp_pull <- function(partitions, folders) {
-  
+
   partition <- scipiper::create_task_step(
     step_name = 'partition',
     target_name = function(task_name, step_name, ...) {
@@ -96,7 +96,7 @@ plan_wqp_pull <- function(partitions, folders) {
       sprintf("filter_partitions(wqp_pull_partitions, I('%s'))", task_name)
     }
   )
-  
+
   # steps: download, post
   download <- scipiper::create_task_step(
     step_name = 'download',
@@ -112,7 +112,7 @@ plan_wqp_pull <- function(partitions, folders) {
         sep="\n      ")
     }
   )
-  
+
   post <- scipiper::create_task_step(
     step_name = 'post',
     target_name = function(task_name, step_name, ...) {
@@ -130,7 +130,7 @@ plan_wqp_pull <- function(partitions, folders) {
         scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.feather', task_name))))
     }
   )
-  
+
   retrieve <- scipiper::create_task_step(
     step_name = 'retrieve',
     target_name = function(task_name, step_name, ...) {
@@ -145,26 +145,26 @@ plan_wqp_pull <- function(partitions, folders) {
         scipiper::as_ind_file(target_name))
     }
   )
-  
+
   task_plan <- scipiper::create_task_plan(
     task_names=sort(partitions$PullTask),
     task_steps=list(partition, download, post, retrieve),
     final_steps='post',
-    add_complete=FALSE, 
+    add_complete=FALSE,
     ind_dir=folders$log)
-  
+
 }
 
 create_wqp_pull_makefile <- function(makefile, task_plan) {
   create_task_makefile(
     makefile=makefile, task_plan=task_plan,
     include='remake.yml',
-    packages=c('dplyr', 'dataRetrieval', 'feather', 'scipiper','doMC','foreach'),
+    packages=c('dplyr', 'dataRetrieval', 'feather', 'scipiper'),
     file_extensions=c('ind','feather'))
 }
 
 get_wqp_data <- function(ind_file, partition, wq_dates) {
-  
+
   # prepare the argument to pass to readWQPdata
   wqp_args <- list(
     characteristicName=partition$Params[[1]]$CharacteristicNames,
@@ -183,25 +183,25 @@ get_wqp_data <- function(ind_file, partition, wq_dates) {
       siteid=partition$Sites[[1]]$Site
     ))
   }
-  
+
   # do the data pull
   wqp_dat_time <- system.time({
     wqp_dat <- do.call(dataRetrieval::readWQPdata, wqp_args)
-  }) 
+  })
   message(
     "WQP pull for ", partition$PullTask,
     " took ", wqp_dat_time['elapsed'], " seconds and",
     " returned ", nrow(wqp_dat), " rows")
-  
+
   # make wqp_dat a tibble, converting either from data.frame (the usual case) or
   # NULL (if there are no results)
   wqp_dat <- as_data_frame(wqp_dat)
-  
+
   # write the data and indicator file. do this even if there were 0 results
   # because remake expects this function to always create the target file
   data_file <- as_data_file(ind_file)
   feather::write_feather(as_data_frame(wqp_dat), path=data_file)
   sc_indicate(ind_file, data_file=data_file)
-  
+
   invisible()
 }
