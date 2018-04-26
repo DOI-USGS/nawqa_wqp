@@ -1,11 +1,7 @@
 target_default: lib
 
 packages:
-  - dataRetrieval
-  - dplyr
-  - feather
-  - scipiper
-  - yaml
+  - googledrive
 
 file_extensions:
   - feather
