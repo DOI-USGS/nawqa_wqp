@@ -3,7 +3,7 @@
 # prepare a data.frame that maps state names to the FIPS codes used by WQP
 get_wqp_state_codes <- function() {
   states_xml <- xml2::read_xml('https://www.waterqualitydata.us/Codes/statecode?countrycode=US')
-  states_list <- xml2::as_list(states_xml)
+  states_list <- xml2::as_list(states_xml)[["Codes"]]
   states_df <- bind_rows(lapply(states_list[names(states_list)=='Code'], function(code) {
     data_frame(
       value = attr(code, 'value'),
@@ -11,7 +11,7 @@ get_wqp_state_codes <- function() {
       providers = attr(code, 'providers'))
   }))
   if(nrow(states_df) < 1){stop('No State FIPS codes downloaded,
-                               which is critical for later steps, check 
+                               which is critical for later steps, check
                                that get_wqp_state_codes works')}
   return(states_df)
 }
@@ -22,10 +22,10 @@ get_wqp_state_codes <- function() {
 inventory_wqp <- function(ind_file, wqp_state_codes, wqp_states, wqp_codes) {
   # convert states list to FIPS list
   state_codes <- filter(wqp_state_codes, name %in% wqp_states) %>% pull(value)
-  
+
   # identify available constituent sets
   constituents <- names(wqp_codes$characteristicName)
-  
+
   # prepare the args to whatWQPdata. all arguments will be the same every time
   # except characteristicName, which we'll loop through to get separate counts
   # for each
@@ -36,7 +36,7 @@ inventory_wqp <- function(ind_file, wqp_state_codes, wqp_states, wqp_codes) {
     sampleMedia=wqp_codes$sampleMedia
     # we'd include dates, but they get ignored by the service behind whatWQPdata
   )
-  
+
   # loop over the constituents, getting rows for each
   sample_time <- system.time({
     samples <- bind_rows(lapply(constituents, function(constituent) {
@@ -56,7 +56,7 @@ inventory_wqp <- function(ind_file, wqp_state_codes, wqp_states, wqp_codes) {
     }))
   })
   message(sprintf('sample inventory complete, required %0.0f seconds', sample_time[['elapsed']]))
-  
+
   # get additional site information
   message(Sys.time(), ': getting additional site data')
   site_time <- system.time({
@@ -64,7 +64,7 @@ inventory_wqp <- function(ind_file, wqp_state_codes, wqp_states, wqp_codes) {
     sites <- do.call(whatWQPsites, wqp_site_args)
   })
   message(sprintf('site inventory complete, required %0.0f seconds', site_time[['elapsed']]))
-  
+
   # merge constituent info with site info
   wqp_info <- left_join(
     samples %>%
@@ -77,11 +77,11 @@ inventory_wqp <- function(ind_file, wqp_state_codes, wqp_states, wqp_codes) {
       mutate(LatitudeMeasure = ifelse(LatitudeMeasure < 10, NA, LatitudeMeasure),
              LongitudeMeasure = ifelse(LongitudeMeasure > -10, NA, LongitudeMeasure)),
     by='MonitoringLocationIdentifier')
-  
+
   # write the data file and the indicator file
   data_file <- as_data_file(ind_file)
   feather::write_feather(wqp_info, path=data_file)
   gd_put(ind_file, data_file) # sc_indicate(ind_file, data_file=data_file)
-  
+
   invisible()
 }
