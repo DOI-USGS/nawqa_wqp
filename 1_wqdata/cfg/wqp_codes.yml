@@ -7,103 +7,105 @@ characteristicName:
     - 'Suspended Sediment Concentration (SSC)'
     - 'Total Suspended Particulate Matter'
     - 'Fixed suspended solids'
-    
+
   #tis:
     #- 'Sediment, inorganic, classification (choice list)'
-    
+
   chlorophyll:
     - "Chlorophyll"
     - "Chlorophyll A"
     - "Chlorophyll a"
     - "Chlorophyll a (probe relative fluorescence)"
     - "Chlorophyll a (probe)"
+    - "Chlorophyll a (probe) concentration, Cyanobacteria (bluegreen)"
     - "Chlorophyll a - Periphyton (attached)"
     - "Chlorophyll a - Phytoplankton (suspended)"
+    - "Chlorophyll a, collected/analyzed (YES/NO) (choice list)"
     - "Chlorophyll a, corrected for pheophytin"
     - "Chlorophyll a, free of pheophytin"
     - "Chlorophyll a, uncorrected for pheophytin"
     - "Chlorophyll b"
     - "Chlorophyll c"
     - "Chlorophyll/Pheophytin ratio"
-    
-  secchi:
-    - "Depth, Secchi disk depth"
-    - "Depth, Secchi disk depth (choice list)"
-    - "Secchi Reading Condition (choice list)"
-    - "Secchi depth"
-    - "Water transparency, Secchi disc"
-  
-  cdom:
-    - 'Colored dissolved organic matter (CDOM)'
-    
-  doc:
-    - 'Organic carbon'
-    - 'Total carbon'
-    - 'Hydrophilic fraction of organic carbon'
-    - 'Non-purgeable Organic Carbon (NPOC)'
-    
-  poc:
-    - 'Particulate organic carbon'
-    - 'Total Particulate Carbon'
-    - 'Total Particulate Organic Carbon'
-  
-  nitrate:
-    - 'Nitrate'
-    - 'Nitrate as N'
-    - 'Nitrate-N'
-    - 'Nitrate-Nitrogen'
-    - 'Nitrate-nitrogen'
-    - 'Nutrient-nitrogen'
-    
-    
-  tn:
-    - "Inorganic nitrogen (NO2, NO3, & NH3)"
-    - "Inorganic nitrogen (ammonia, nitrate and nitrite)"
-    - "Inorganic nitrogen (nitrate and nitrite)"
-    - "Inorganic nitrogen (nitrate and nitrite) as N"
-    - 'Nitrate + Nitrite'
-    - 'Nitrate-Nitrite'
-    - 'Nitrogen'
-    - 'Nitrogen Kjeldahl'
-    - 'Organic Nitrogen'
-    - 'Particulate Organic Nitrogen and Particulate Nitrogen'
-    - 'Total Kjeldahl nitrogen'
-    - 'Total Kjeldahl nitrogen (Organic N & NH3)'
-    - 'Total Nitrogen, mixed forms'
-    - 'Total Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)'
-    - 'Total Particulate Nitrogen'
-    - 'Ammonia-nitrogen'
-    - 'Ammonia-nitrogen as N'
-    - 'Ammonia'
-    - 'Ammonium as N'
-    - 'Ammonium as NH4'
-    - 'Ammonium-Nitrogen'
-    
-    
-#Could easily add organic nitrogen, ammonia etc..
-    
-  p:
-    - "Inorganic phosphorus"
-    - 'Non-apatite inorganic phosphorus'
-    - 'Organic phosphorus'
-    - 'Ortho-Phosphate-Phosphorus'
-    - 'Particulate Inorganic Phosphorus'
-    - 'Phosphate-phosphorus'
-    - 'Phosphate-phosphorus as P'
-    - 'Phosphate-phosphorus as PO4'
-    - 'Phosphorus'
-    - 'Phosphorus as P'
-    - 'Phosphorus, Particulate Organic'
-    - 'Phosphorus, hydrolyzable'
-    - 'Phosphorus, hydrolyzable plus orthophosphate'
-    - 'Phosphorus, phosphate (PO4) as orthophosphate'
-    - 'Soluble Reactive Phosphorus (SRP)'
-    - 'Total Particulate Phosphorus'
-    - 'Total Phosphorus, mixed forms'
-    - 'Apatite inorganic phosphorus'
-    - 'Exchangeable phosphorus'
-    - 'Hydrolyzable phosphorus'
-  
+
+#  secchi:
+#    - "Depth, Secchi disk depth"
+#    - "Depth, Secchi disk depth (choice list)"
+#    - "Secchi Reading Condition (choice list)"
+#    - "Secchi depth"
+#    - "Water transparency, Secchi disc"
+#
+#  cdom:
+#    - 'Colored dissolved organic matter (CDOM)'
+#
+#  doc:
+#    - 'Organic carbon'
+#    - 'Total carbon'
+#    - 'Hydrophilic fraction of organic carbon'
+#    - 'Non-purgeable Organic Carbon (NPOC)'
+#
+#  poc:
+#    - 'Particulate organic carbon'
+#    - 'Total Particulate Carbon'
+#    - 'Total Particulate Organic Carbon'
+#
+#  nitrate:
+#    - 'Nitrate'
+#    - 'Nitrate as N'
+#    - 'Nitrate-N'
+#    - 'Nitrate-Nitrogen'
+#    - 'Nitrate-nitrogen'
+#    - 'Nutrient-nitrogen'
+#
+#
+#  tn:
+#    - "Inorganic nitrogen (NO2, NO3, & NH3)"
+#    - "Inorganic nitrogen (ammonia, nitrate and nitrite)"
+#    - "Inorganic nitrogen (nitrate and nitrite)"
+#    - "Inorganic nitrogen (nitrate and nitrite) as N"
+#    - 'Nitrate + Nitrite'
+#    - 'Nitrate-Nitrite'
+#    - 'Nitrogen'
+#    - 'Nitrogen Kjeldahl'
+#    - 'Organic Nitrogen'
+#    - 'Particulate Organic Nitrogen and Particulate Nitrogen'
+#    - 'Total Kjeldahl nitrogen'
+#    - 'Total Kjeldahl nitrogen (Organic N & NH3)'
+#    - 'Total Nitrogen, mixed forms'
+#    - 'Total Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)'
+#    - 'Total Particulate Nitrogen'
+#    - 'Ammonia-nitrogen'
+#    - 'Ammonia-nitrogen as N'
+#    - 'Ammonia'
+#    - 'Ammonium as N'
+#    - 'Ammonium as NH4'
+#    - 'Ammonium-Nitrogen'
+#
+#
+##Could easily add organic nitrogen, ammonia etc..
+#
+#  p:
+#    - "Inorganic phosphorus"
+#    - 'Non-apatite inorganic phosphorus'
+#    - 'Organic phosphorus'
+#    - 'Ortho-Phosphate-Phosphorus'
+#    - 'Particulate Inorganic Phosphorus'
+#    - 'Phosphate-phosphorus'
+#    - 'Phosphate-phosphorus as P'
+#    - 'Phosphate-phosphorus as PO4'
+#    - 'Phosphorus'
+#    - 'Phosphorus as P'
+#    - 'Phosphorus, Particulate Organic'
+#    - 'Phosphorus, hydrolyzable'
+#    - 'Phosphorus, hydrolyzable plus orthophosphate'
+#    - 'Phosphorus, phosphate (PO4) as orthophosphate'
+#    - 'Soluble Reactive Phosphorus (SRP)'
+#    - 'Total Particulate Phosphorus'
+#    - 'Total Phosphorus, mixed forms'
+#    - 'Apatite inorganic phosphorus'
+#    - 'Exchangeable phosphorus'
+#    - 'Hydrolyzable phosphorus'
+
 # https://www.waterqualitydata.us/Codes/sampleMedia?mimeType=xml
 sampleMedia:
   - "Water"
@@ -111,7 +113,4 @@ sampleMedia:
 
 # https://www.waterqualitydata.us/Codes/siteType?mimeType=xml
 siteType:
-  - "Lake, Reservoir, Impoundment"
   - "Stream"
-  - "Estuary"
-  - "Facility"
