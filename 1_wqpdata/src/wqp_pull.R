@@ -158,7 +158,7 @@ plan_wqp_pull <- function(partitions, folders) {
 create_wqp_pull_makefile <- function(makefile, task_plan) {
   create_task_makefile(
     makefile=makefile, task_plan=task_plan,
-    include='remake.yml',
+    include=getOption('scipiper.remake_file'),
     packages=c('dplyr', 'dataRetrieval', 'feather', 'scipiper'),
     file_extensions=c('ind','feather'))
 }
