@@ -1,0 +1,103 @@
+target_default: 1_wqpdata
+
+includes:
+  - lib.yml
+
+packages:
+  - dataRetrieval
+  - dplyr
+  - feather
+  - scipiper
+  - yaml
+
+file_extensions:
+  - feather
+  - ind
+
+sources:
+  - 1_wqpdata/src/wqp_inventory.R
+  - 1_wqpdata/src/wqp_pull.R
+
+targets:
+
+  1_wqpdata:
+    depends:
+      - lib/cfg/gd_config.yml
+      - 1_wqpdata/log/tasks_1_wqp.ind
+
+  # -- prepare for data pull --
+
+  # load wqp-specific config info
+  wq_dates:
+    command: yaml.load_file("1_wqpdata/cfg/wq_dates.yml")
+  wqp_states:
+    command: yaml.load_file("1_wqpdata/cfg/wqp_states.yml")
+  wqp_codes:
+    command: yaml.load_file("1_wqpdata/cfg/wqp_codes.yml")
+  wqp_state_codes:
+    command: get_wqp_state_codes()
+  wqp_pull:
+    command: yaml.load_file("1_wqpdata/cfg/wqp_pull.yml")
+
+  # prepare destination folders for intermediate and final output.
+  # tmp=temporary folder for holding files to only be created on 1 computer.
+  # out=folder to hold .ind and data files corresponding to shared cache or everybody's local build.
+  # log=folder for the few indicator files that don't correspond to a data file.
+  1_wqpdata/tmp/data:
+    command: dir.create(target_name, recursive=I(TRUE), showWarnings=I(FALSE))
+  1_wqpdata/out/inventory:
+    command: dir.create(target_name, recursive=I(TRUE), showWarnings=I(FALSE))
+  1_wqpdata/out/data:
+    command: dir.create(target_name, recursive=I(TRUE), showWarnings=I(FALSE))
+  1_wqpdata/log:
+    command: dir.create(target_name, recursive=I(TRUE), showWarnings=I(FALSE))
+  wqp_pull_folders:
+    command: list(
+      tmp='1_wqpdata/tmp/data',
+      out='1_wqpdata/out/data',
+      log='1_wqpdata/log')
+
+  # -- get inventory of observations available to download --
+
+  # get an inventory of WQP sites and sample counts. for this and all
+  # shared-cache targets (and those that depend on any shared-cache targets),
+  # the heavy lifting is done by the .ind recipe, which writes the data (.feather)
+  # file, posts the file to google drive, and writes the .feather.ind file.
+  # (the local data creation and drive posting could be separated into two
+  # remake targets, but let's risk having to redo the inventory for the sake of
+  # keeping this remake file a touch simpler and practicing the two-target option
+  # for gd_put/gd_get)
+  1_wqpdata/out/inventory/wqp_inventory.feather.ind:
+    depends: 1_wqpdata/out/inventory
+    command: inventory_wqp(
+      ind_file=target_name,
+      wqp_state_codes=wqp_state_codes,
+      wqp_states=wqp_states,
+      wqp_codes=wqp_codes)
+  # the only job of this data recipe is to pull data from the shared cache
+  1_wqpdata/out/inventory/wqp_inventory.feather:
+    command: gd_get('1_wqpdata/out/inventory/wqp_inventory.feather.ind')
+  # use the inventory. because this is an object, everybody will end up
+  # pulling wqp_inventory.feather and building this object locally, if only
+  # to know whether 1_wqpdata/log/tasks_1_wqp.ind is up to date
+  wqp_pull_partitions:
+    command: partition_inventory(
+      inventory_ind='1_wqpdata/out/inventory/wqp_inventory.feather.ind',
+      wqp_pull=wqp_pull,
+      wqp_state_codes=wqp_state_codes,
+      wqp_codes=wqp_codes)
+
+  # -- pull the data --
+
+  # prepare a remake-style plan for running each state as a separate
+  # remake target in a separate remake file (tasks_1_wqp.yml)
+  wqp_pull_plan:
+    command: plan_wqp_pull(partitions=wqp_pull_partitions, folders=wqp_pull_folders)
+  tasks_1_wqp.yml:
+    command: create_wqp_pull_makefile(makefile=target_name, task_plan=wqp_pull_plan)
+
+  # run the data pulls
+  1_wqpdata/log/tasks_1_wqp.ind:
+    command: loop_tasks(
+      task_plan=wqp_pull_plan, task_makefile='tasks_1_wqp.yml',
+      num_tries=I(30), sleep_on_error=I(20))
