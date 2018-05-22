@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alabama_inorganicP_001.feather.ind
+type: file
+hash: 9a41f50bb6dc6cb4f2571879e952b5da
+time: 2018-05-22 18:49:36 UTC
+depends:
+  partition_Alabama_inorganicP_001: a5029a165926b9c747e8b3919d078bde
+  wq_dates: 29ef63133e93f376cd28942e0559cc00
+fixed: 7b1ff846102600e2e10a6351f091ce0a
+code:
+  functions:
+    get_wqp_data: 9830b4cd9f07ab20fae1269583c1031e
+
