@@ -21,3 +21,9 @@
 *.utf8.md
 *.knit.md
 .Rproj.user
+
+# Dependency management files
+.remake/
+
+# don't need .remake or any tmp directories
+*/tmp/
