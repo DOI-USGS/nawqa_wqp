@@ -7,7 +7,7 @@ characteristicName:
     - "Temperature, water"
     - "Temperature, water, deg F"
 
-  inorganicP:
+  phosphorus:
     - "Inorganic phosphorus"
     - "Phosphate"
     - "Phosphate-phosphorus"
@@ -18,12 +18,8 @@ characteristicName:
     - "Polyphosphate"
     - "Phosphorus, hydrolyzable"
     - "Phosphorus, hydrolyzable plus orthophosphate"
-
-  organicP:
     - "Organic phosphorus"
     - "Phosphorus, Particulate Organic"
-
-  totalP:
     - "Phosphorus"
     - "Phosphorus as P"
     - "Total Phosphorus, mixed forms"
