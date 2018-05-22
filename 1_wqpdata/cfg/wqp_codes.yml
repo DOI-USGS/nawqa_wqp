@@ -1,0 +1,48 @@
+# https://www.waterqualitydata.us/Codes/Characteristicname?mimeType=xml
+characteristicName:
+
+  temperature:
+    - "Temperature"
+    - "Temperature, sample"
+    - "Temperature, water"
+    - "Temperature, water, deg F"
+
+  phosphorus:
+    - "Inorganic phosphorus"
+    - "Phosphate"
+    - "Phosphate-phosphorus"
+    - "Phosphate-phosphorus as P"
+    - "Phosphate-phosphorus as PO4"
+    - "Phosphorus, phosphate (PO4) as orthophosphate"
+    - "Soluble Reactive Phosphorus (SRP)"
+    - "Polyphosphate"
+    - "Phosphorus, hydrolyzable"
+    - "Phosphorus, hydrolyzable plus orthophosphate"
+    - "Organic phosphorus"
+    - "Phosphorus, Particulate Organic"
+    - "Phosphorus"
+    - "Phosphorus as P"
+    - "Total Phosphorus, mixed forms"
+
+  nitrate:
+    - "Nitrate"
+    - "Nitrate + Nitrite"
+    - "Nitrate as N"
+    - "Nitrate-N"
+    - "Nitrate-Nitrite"
+    - "Nitrate-Nitrogen"
+    - "Nitrate-nitrogen"
+    - "Nitrite"
+    - "Nitrite as N"
+    - "Inorganic nitrogen (nitrate and nitrite)"
+    - "Inorganic nitrogen (nitrate and nitrite) as N"
+    - "Nitrite-N"
+
+# https://www.waterqualitydata.us/Codes/sampleMedia?mimeType=xml
+sampleMedia:
+  - "Water"
+  - "water"
+
+# https://www.waterqualitydata.us/Codes/siteType?mimeType=xml
+siteType:
+  - "Stream"

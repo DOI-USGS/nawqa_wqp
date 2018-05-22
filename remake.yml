@@ -1,0 +1,10 @@
+target_default: all
+
+include:
+  - 1_wqpdata.yml
+
+targets:
+
+  all:
+    depends:
+      - 1_wqpdata

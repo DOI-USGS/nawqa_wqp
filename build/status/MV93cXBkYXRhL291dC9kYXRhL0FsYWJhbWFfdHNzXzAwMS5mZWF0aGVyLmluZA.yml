@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Alabama_tss_001.feather.ind
+type: file
+hash: d586aaaf7ecd10bf8f84850038fc6d11
+time: 2018-05-22 17:51:52 UTC
+depends:
+  1_wqpdata/tmp/data/Alabama_tss_001.feather.ind: d586aaaf7ecd10bf8f84850038fc6d11
+fixed: 6d6155120a06963f683253e7c66970c9
+code:
+  functions: {}
+

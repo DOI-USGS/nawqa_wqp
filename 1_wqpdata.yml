@@ -1,6 +1,6 @@
 target_default: 1_wqpdata
 
-includes:
+include:
   - lib.yml
 
 packages:
