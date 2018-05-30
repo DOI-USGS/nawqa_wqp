@@ -1,0 +1,17 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=lf
+
+# Explicitly declare text files you want to always be normalized and converted
+# to default line endings on checkout.
+*.ind text
+*.yml text
+*.yaml text
+*.R text
+*.Rmd text
+
+# Denote all files that are truly binary and should not be modified.
+*.feather binary
+*.rds binary
+*.png binary
+*.jpg binary
+*.pdf binary
