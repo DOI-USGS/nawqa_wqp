@@ -168,8 +168,8 @@ get_wqp_data <- function(ind_file, partition, wq_dates) {
   # prepare the argument to pass to readWQPdata
   wqp_args <- list(
     characteristicName=partition$Params[[1]]$CharacteristicNames,
-    startDateLo=wq_dates$StartDate,
-    startDateHi=wq_dates$EndDate
+    startDateLo=wq_dates$startDate,
+    startDateHi=wq_dates$endDate
   )
   # specify sites either by whole state and siteType (if we didn't split the
   # site into multiple site sets) or as a specific list of sites (otherwise)
