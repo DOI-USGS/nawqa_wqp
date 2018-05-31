@@ -100,4 +100,9 @@ targets:
   1_wqpdata/log/tasks_1_wqp.ind:
     command: loop_tasks(
       task_plan=wqp_pull_plan, task_makefile='tasks_1_wqp.yml',
-      num_tries=I(30), sleep_on_error=I(20))
+      num_tries=I(30), sleep_on_error=I(20),
+      task_names=I(c(
+        "Alabama_nitrate_001",
+        "Alabama_phosphorus_001",
+        "Alabama_temperature_001",
+        "Alabama_temperature_002")))
