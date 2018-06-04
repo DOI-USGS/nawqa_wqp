@@ -18,7 +18,7 @@ sapply(indicator_files, scipiper::gd_get, USE.NAMES=FALSE)
 
 # read in the data and combine into one big file
 data_files <- sapply(indicator_files, scipiper::as_data_file, USE.NAMES=FALSE)
-data <- bind_rows(lapply(data_files, function(dfile) {
+combined_data <- bind_rows(lapply(data_files, function(dfile) {
   cname <- gsub('1_wqpdata/out/data/Alabama_', '', gsub("_00.\\.feather", '', dfile))
   dat <- feather::read_feather(dfile) %>%
     mutate(ConstituentGroup=cname)
@@ -40,7 +40,7 @@ totalP <- c(
   "Phosphorus",
   "Phosphorus as P",
   "Total Phosphorus, mixed forms")
-data_split_P <- data %>%
+data_split_P <- combined_data %>%
   mutate(ConstituentGroup = ifelse(
     ConstituentGroup!='phosphorus',
     ConstituentGroup,
@@ -53,7 +53,7 @@ data_split_P <- data %>%
 # but for now we'll just do any-P and NO3) per sample. this takes a few seconds,
 # may get to be unweildy when we have more states and constituents, such that
 # maybe breaking it up into years or states will make sense.
-constituents_per_sample <- data %>%
+constituents_per_sample <- combined_data %>%
   select(ConstituentGroup, MonitoringLocationIdentifier, ResultMeasureValue, ActivityStartDateTime) %>%
   mutate(Year = as.integer(format(ActivityStartDateTime, '%Y'))) %>%
   group_by(MonitoringLocationIdentifier, ActivityStartDateTime, Year) %>%
