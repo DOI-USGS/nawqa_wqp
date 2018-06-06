@@ -87,6 +87,24 @@ targets:
       wqp_state_codes=wqp_state_codes,
       wqp_codes=wqp_codes)
 
+  # prepare a remake-style plan for inventorying each constituent as a separate
+  # remake target in a separate remake file (tasks_1_wqp_inventory.yml)
+  inventory_plan:
+    command: plan_inventory(constituents=wqp_codes, folders=wqp_pull_folders)
+  tasks_1_wqp_inventory.yml:
+    command: create_task_makefile(
+      makefile=target_name,
+      task_plan=inventory_plan,
+      include='1_wqpdata.yml',
+      packages=c('dplyr', 'dataRetrieval', 'feather', 'scipiper'),
+      file_extensions=c('ind','feather'))
+
+  # run the data pulls
+  1_wqpdata/log/tasks_1_wqp_inventory.ind:
+    command: loop_tasks(
+      task_plan=inventory_plan, task_makefile='tasks_1_wqp_inventory.yml',
+      num_tries=I(30), sleep_on_error=I(20)
+
   # -- pull the data --
 
   # prepare a remake-style plan for running each state as a separate
