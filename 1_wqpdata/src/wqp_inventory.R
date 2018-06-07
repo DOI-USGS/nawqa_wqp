@@ -89,7 +89,7 @@ plan_inventory <- function(constituents, folders) {
   inventory <- scipiper::create_task_step(
     step_name = 'inventory',
     target_name = function(task_name, step_name, ...) {
-      scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.feather', task_name)))
+      scipiper::as_ind_file(file.path(folders$tmp, sprintf('inventory_%s.feather', task_name)))
     },
     command = function(task_name, ...) {
       sprintf("inventory_wqp(target_name, wqp_state_codes, wqp_states, wqp_codes, I('%s'))", task_name)
@@ -100,12 +100,12 @@ plan_inventory <- function(constituents, folders) {
   download <- scipiper::create_task_step(
     step_name = 'download',
     target_name = function(task_name, step_name, ...) {
-      file.path(folders$tmp, sprintf('%s.feather', task_name))
+      file.path(folders$tmp, sprintf('inventory_%s.feather', task_name))
     },
     command = function(task_name, ...) {
       sprintf(
         "gd_get(ind_file='%s')",
-        scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.feather', task_name)))
+        scipiper::as_ind_file(file.path(folders$tmp, sprintf('inventory_%s.feather', task_name)))
       )
     }
   )
@@ -124,13 +124,13 @@ plan_inventory <- function(constituents, folders) {
           "wqp_state_codes = wqp_state_codes,",
           "wqp_codes=wqp_codes)",
           sep="\n      "),
-        scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.feather', task_name))),
+        scipiper::as_ind_file(file.path(folders$tmp, sprintf('inventory_%s.feather', task_name))),
         task_name)
     }
   )
 
   task_plan <- scipiper::create_task_plan(
-    task_names=sort(names(wqp_codes$characteristicName)),
+    task_names=sort(names(constituents$characteristicName)),
     task_steps=list(inventory, download, partition),
     final_steps='partition',
     add_complete=FALSE,
