@@ -86,22 +86,22 @@ targets:
       task_plan=inventory_plan, task_makefile='tasks_1_wqp_inventory.yml',
       num_tries=I(30), sleep_on_error=I(20))
 
-  # -- pull the data --
+  # -- create separate task plans for each constituent for data pulls --
 
   # prepare a remake-style plan for running each state as a separate
   # remake target in a separate remake file (tasks_1_wqp.yml)
   wqp_pull_plan:
-    command: plan_wqp_pull(partitions=wqp_pull_partitions, folders=wqp_pull_folders)
+    command: plan_wqp_pull_per_constituent(
+      constituents=wqp_codes,
+      folders = wqp_pull_folders,
+      folders_item=I('wqp_pull_folders'))
   tasks_1_wqp.yml:
     command: create_wqp_pull_makefile(makefile=target_name, task_plan=wqp_pull_plan)
 
-  # run the data pulls
+  # -- run the data pulls --
+
   1_wqpdata/log/tasks_1_wqp.ind:
     command: loop_tasks(
       task_plan=wqp_pull_plan, task_makefile='tasks_1_wqp.yml',
       num_tries=I(30), sleep_on_error=I(20),
-      task_names=I(c(
-        "Alabama_nitrate_001",
-        "Alabama_phosphorus_001",
-        "Alabama_temperature_001",
-        "Alabama_temperature_002")))
+      task_names=I("nitrate"))
