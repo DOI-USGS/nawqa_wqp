@@ -16,7 +16,7 @@ filter_partitions <- function(partitions, pull_task) {
 # so that we know whether to re-pull a partition based solely on whether the
 # contents of that row have changed. each row should therefore include the lists
 # of sites and characteristic names.
-partition_inventory <- function(inventory_ind, wqp_pull, wqp_state_codes, wqp_codes) {
+partition_inventory <- function(ind_file, inventory_ind, wqp_pull, wqp_state_codes, wqp_codes) {
   # read in the inventory, which includes all dates and is therefore a superset
   # of what we'll be pulling for a specific date range
 
@@ -81,7 +81,12 @@ partition_inventory <- function(inventory_ind, wqp_pull, wqp_state_codes, wqp_co
     dplyr::left_join(parameter_codes, by='Constituent') %>%
     dplyr::mutate(SiteType=list(site_types))
 
-  return(pull_tasks_df)
+  # write the data file and the indicator file
+  data_file <- as_data_file(ind_file)
+  saveRDS(pull_tasks_df, file=data_file)
+  gd_put(ind_file, data_file) # sc_indicate(ind_file, data_file=data_file)
+
+  invisible()
 }
 
 # prepare a plan for downloading (from WQP) and posting (to GD) one data file

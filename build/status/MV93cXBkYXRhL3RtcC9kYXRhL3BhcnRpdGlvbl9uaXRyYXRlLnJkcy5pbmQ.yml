@@ -1,0 +1,15 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/partition_nitrate.rds.ind
+type: file
+hash: c65d030651a126bb4b1cfbbfa1300fb0
+time: 2018-06-07 18:15:48 UTC
+depends:
+  1_wqpdata/tmp/data/inventory_nitrate.feather.ind: 6cbd8277b61db3770b00bd25b428de40
+  wqp_pull: a25c30028f2a45d7d933854046b0f449
+  wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
+  wqp_codes: b719e8f0d49ca909602bf52f83cb9bdf
+fixed: 5627431419fe06de834a85a47d724c80
+code:
+  functions:
+    partition_inventory: ca480915965142b1c3f7d32ae2f0b4f3
+

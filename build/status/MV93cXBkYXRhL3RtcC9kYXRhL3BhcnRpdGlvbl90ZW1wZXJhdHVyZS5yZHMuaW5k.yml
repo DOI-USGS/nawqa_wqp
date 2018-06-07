@@ -1,0 +1,15 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/partition_temperature.rds.ind
+type: file
+hash: 2b8156af68af142c3d96e25b360ffb5a
+time: 2018-06-07 18:16:16 UTC
+depends:
+  1_wqpdata/tmp/data/inventory_temperature.feather.ind: e297d9baf93028ed1ae1932cc8588cca
+  wqp_pull: a25c30028f2a45d7d933854046b0f449
+  wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
+  wqp_codes: b719e8f0d49ca909602bf52f83cb9bdf
+fixed: 86fb00dce3cee9a93122731ec40c05a9
+code:
+  functions:
+    partition_inventory: ca480915965142b1c3f7d32ae2f0b4f3
+

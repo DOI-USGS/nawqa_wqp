@@ -113,12 +113,13 @@ plan_inventory <- function(constituents, folders) {
   partition <- scipiper::create_task_step(
     step_name = 'partition',
     target_name = function(task_name, step_name, ...) {
-      sprintf('%s_pull_partitions', task_name)
+      scipiper::as_ind_file(file.path(folders$tmp, sprintf('partition_%s.rds', task_name)))
     },
     command = function(task_name, ...) {
       sprintf(
         paste(
           "partition_inventory(",
+          "ind_file = target_name,",
           "inventory_ind = '%s',",
           "wqp_pull = wqp_pull,",
           "wqp_state_codes = wqp_state_codes,",

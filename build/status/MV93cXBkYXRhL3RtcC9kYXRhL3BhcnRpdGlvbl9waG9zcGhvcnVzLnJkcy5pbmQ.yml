@@ -1,0 +1,15 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/partition_phosphorus.rds.ind
+type: file
+hash: c8ca34626f7b8d3c08778bda133030e8
+time: 2018-06-07 18:16:02 UTC
+depends:
+  1_wqpdata/tmp/data/inventory_phosphorus.feather.ind: 30daba17d9c527ec019dd7b9a666b80f
+  wqp_pull: a25c30028f2a45d7d933854046b0f449
+  wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
+  wqp_codes: b719e8f0d49ca909602bf52f83cb9bdf
+fixed: a75edbeb2daadde2bf803c57716317ff
+code:
+  functions:
+    partition_inventory: ca480915965142b1c3f7d32ae2f0b4f3
+
