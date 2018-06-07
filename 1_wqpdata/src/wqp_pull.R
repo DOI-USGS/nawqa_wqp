@@ -19,7 +19,8 @@ filter_partitions <- function(partitions, pull_task) {
 partition_inventory <- function(inventory_ind, wqp_pull, wqp_state_codes, wqp_codes) {
   # read in the inventory, which includes all dates and is therefore a superset
   # of what we'll be pulling for a specific date range
-  scipiper::sc_retrieve(inventory_ind)
+
+  #scipiper::sc_retrieve(inventory_ind)
   inventory <- feather::read_feather(scipiper::as_data_file(inventory_ind)) %>%
     select(Constituent, Site=MonitoringLocationIdentifier, StateCode, resultCount)
 
