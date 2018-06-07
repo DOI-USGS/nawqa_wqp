@@ -138,11 +138,3 @@ plan_inventory <- function(constituents, folders) {
     ind_dir=folders$log)
 
 }
-
-create_inventory_makefile <- function(makefile, task_plan) {
-  create_task_makefile(
-    makefile=makefile, task_plan=task_plan,
-    include='1_wqpdata.yml',
-    packages=c('dplyr', 'dataRetrieval', 'feather', 'scipiper'),
-    file_extensions=c('ind','feather'))
-}

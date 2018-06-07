@@ -96,7 +96,12 @@ targets:
       folders = wqp_pull_folders,
       folders_item=I('wqp_pull_folders'))
   tasks_1_wqp.yml:
-    command: create_wqp_pull_makefile(makefile=target_name, task_plan=wqp_pull_plan)
+    command: create_task_makefile(
+      makefile=target_name,
+      task_plan=wqp_pull_plan,
+      include='1_wqpdata.yml',
+      packages=I(c('dplyr', 'dataRetrieval', 'feather', 'scipiper')),
+      file_extensions=I(c('ind','feather')))
 
   # -- run the data pulls --
 

@@ -165,14 +165,6 @@ plan_wqp_pull_per_constituent <- function(constituents, folders, folders_item) {
 
 }
 
-create_wqp_pull_makefile <- function(makefile, task_plan) {
-  create_task_makefile(
-    makefile=makefile, task_plan=task_plan,
-    include='1_wqpdata.yml',
-    packages=c('dplyr', 'dataRetrieval', 'feather', 'scipiper'),
-    file_extensions=c('ind','feather'))
-}
-
 # prepare a plan for downloading (from WQP) and posting (to GD) one data file
 # per state per constituent
 plan_wqp_pull <- function(partitions, constituent, folders) {
@@ -243,14 +235,6 @@ plan_wqp_pull <- function(partitions, constituent, folders) {
     add_complete=FALSE,
     ind_dir=folders$log)
 
-}
-
-create_wqp_pull_makefile <- function(makefile, task_plan) {
-  create_task_makefile(
-    makefile=makefile, task_plan=task_plan,
-    include='1_wqpdata.yml',
-    packages=c('dplyr', 'dataRetrieval', 'feather', 'scipiper'),
-    file_extensions=c('ind','feather'))
 }
 
 get_wqp_data <- function(ind_file, partition, wq_dates) {
