@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/tasks_1_wqp_inventory.ind
+type: file
+hash: 28ae9a6d87252c4387c2f4c8681f3907
+time: 2018-06-07 16:18:03 UTC
+depends:
+  inventory_plan: 7efafd774f1f99159eb0466ce228e99b
+  tasks_1_wqp_inventory.yml: 63d10622413037f8c25d03c0af83d5a1
+fixed: c5cfdfacf90cb942deb045710cb0842c
+code:
+  functions: {}
+
