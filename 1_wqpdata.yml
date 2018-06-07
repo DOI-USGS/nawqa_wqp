@@ -23,6 +23,7 @@ targets:
   1_wqpdata:
     depends:
       - lib/cfg/gd_config.yml
+      - 1_wqpdata/log/tasks_1_wqp_inventory.ind
       - 1_wqpdata/log/tasks_1_wqp.ind
 
   # -- prepare for data pull --
