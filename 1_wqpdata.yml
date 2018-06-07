@@ -67,25 +67,6 @@ targets:
   # remake targets, but let's risk having to redo the inventory for the sake of
   # keeping this remake file a touch simpler and practicing the two-target option
   # for gd_put/gd_get)
-  1_wqpdata/out/inventory/wqp_inventory.feather.ind:
-    depends: 1_wqpdata/out/inventory
-    command: inventory_wqp(
-      ind_file=target_name,
-      wqp_state_codes=wqp_state_codes,
-      wqp_states=wqp_states,
-      wqp_codes=wqp_codes)
-  # the only job of this data recipe is to pull data from the shared cache
-  1_wqpdata/out/inventory/wqp_inventory.feather:
-    command: gd_get('1_wqpdata/out/inventory/wqp_inventory.feather.ind')
-  # use the inventory. because this is an object, everybody will end up
-  # pulling wqp_inventory.feather and building this object locally, if only
-  # to know whether 1_wqpdata/log/tasks_1_wqp.ind is up to date
-  wqp_pull_partitions:
-    command: partition_inventory(
-      inventory_ind='1_wqpdata/out/inventory/wqp_inventory.feather.ind',
-      wqp_pull=wqp_pull,
-      wqp_state_codes=wqp_state_codes,
-      wqp_codes=wqp_codes)
 
   # prepare a remake-style plan for inventorying each constituent as a separate
   # remake target in a separate remake file (tasks_1_wqp_inventory.yml)
@@ -96,14 +77,14 @@ targets:
       makefile=target_name,
       task_plan=inventory_plan,
       include='1_wqpdata.yml',
-      packages=c('dplyr', 'dataRetrieval', 'feather', 'scipiper'),
-      file_extensions=c('ind','feather'))
+      packages=I(c('dplyr', 'dataRetrieval', 'feather', 'scipiper')),
+      file_extensions=I(c('ind','feather')))
 
-  # run the data pulls
+  # run the inventory pulls
   1_wqpdata/log/tasks_1_wqp_inventory.ind:
     command: loop_tasks(
       task_plan=inventory_plan, task_makefile='tasks_1_wqp_inventory.yml',
-      num_tries=I(30), sleep_on_error=I(20)
+      num_tries=I(30), sleep_on_error=I(20))
 
   # -- pull the data --
 
