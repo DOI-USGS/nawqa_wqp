@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maine_nitrate_001.feather.ind
+type: file
+hash: c25651308be5ced810f9badfd7cdd8dd
+time: 2018-06-26 04:01:20 UTC
+depends:
+  partition_Maine_nitrate_001: d0190909dffdadd8858185842b79ecd1
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 07784b4d6c98f922d452deb902c2bef0
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

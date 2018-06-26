@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nevada_phosphorus_001.feather.ind
+type: file
+hash: 6344569032e24ef41ae2280a4a13aa54
+time: 2018-06-26 04:48:28 UTC
+depends:
+  partition_Nevada_phosphorus_001: fabcadb2c372e48dae40c0e718319cdc
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 38e87619a8721e49c44be1cc266da337
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

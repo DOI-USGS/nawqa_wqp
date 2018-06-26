@@ -1,11 +1,11 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Alabama_nitrate_001.feather.ind
 type: file
-hash: c7ff6fea750d2c1cddbb7d9c868e9cd8
-time: 2018-05-30 21:52:18 UTC
+hash: dffcdd16edb7460cb809c769e6af3684
+time: 2018-06-15 14:59:03 UTC
 depends:
-  partition_Alabama_nitrate_001: 915a5e37ae89333b1c3552cac8e50144
-  wq_dates: 20d7954a5dd1cebdced3c8a94478dfd1
+  partition_Alabama_nitrate_001: 02fc699cd0fe6a4fe83e84b06f8ddf53
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
 fixed: 11ae946a4368d12c1d12fbe6ffc25eb1
 code:
   functions:

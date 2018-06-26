@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Mexico_phosphorus_001.feather.ind
+type: file
+hash: 5ee47f572f8669db2fa40a1f52039db4
+time: 2018-06-26 04:52:38 UTC
+depends:
+  partition_New_Mexico_phosphorus_001: 731cb5e5f0e8d2c9e6659895c513e10f
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: ae80b654ab695a69c7c05e04ef868160
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

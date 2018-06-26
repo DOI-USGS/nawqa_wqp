@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Carolina_phosphorus_001.feather.ind
+type: file
+hash: 2785481134150631e01a872413b8b519
+time: 2018-06-15 14:55:39 UTC
+depends:
+  partition_South_Carolina_phosphorus_001: 344a2dd17a3d007bdcb353116bfb7920
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9edce9e52522dc38c5076330656eead8
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

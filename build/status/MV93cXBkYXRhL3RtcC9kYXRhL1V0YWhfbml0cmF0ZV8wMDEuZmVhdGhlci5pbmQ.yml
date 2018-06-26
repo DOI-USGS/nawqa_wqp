@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Utah_nitrate_001.feather.ind
+type: file
+hash: c428c626662ff5aca5c1d0ee16cc8a58
+time: 2018-06-26 05:11:02 UTC
+depends:
+  partition_Utah_nitrate_001: 9d4effa0d4ad4d8bd7f4302ac6ced544
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: a171c8f8327daa9a66645183687507c2
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

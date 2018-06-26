@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/North_Dakota_nitrate_001.feather.ind
+type: file
+hash: 132cc3c4c1e897107dbb832b37ca6446
+time: 2018-06-26 04:55:17 UTC
+depends:
+  1_wqpdata/tmp/data/North_Dakota_nitrate_001.feather.ind: 132cc3c4c1e897107dbb832b37ca6446
+fixed: 350370f727909c7d96ace0bfe181b11a
+code:
+  functions: {}
+

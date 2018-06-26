@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Ohio_nitrate_001.feather.ind
+type: file
+hash: e1e7a12de612755dae962aead68858f2
+time: 2018-06-26 04:56:54 UTC
+depends:
+  partition_Ohio_nitrate_001: 3f6c4547fea178f6b1c99d89bf6f1ec4
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: aaed537b5a3d2d324a2c05ffaa798ff1
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Hampshire_phosphorus_001.feather.ind
+type: file
+hash: e7ea7154517414629b76a3a6821bead7
+time: 2018-06-26 04:49:43 UTC
+depends:
+  partition_New_Hampshire_phosphorus_001: 132e698c924e48348d531365ffcceac9
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: b674f139132073933622f9711aac4914
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

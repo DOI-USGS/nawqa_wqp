@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Idaho_nitrate_001.feather.ind
+type: file
+hash: 941baca67c15d3f68207fdae484f305f
+time: 2018-06-26 03:51:04 UTC
+depends:
+  partition_Idaho_nitrate_001: efcd2eda996a4108f8050a6d1838d891
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 3b2218af7e9f1a73127cd69afeca6892
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

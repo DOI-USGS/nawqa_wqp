@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/New_Hampshire_nitrate_001.feather.ind
+type: file
+hash: b1740fdfda68b474951000ca7d2e144b
+time: 2018-06-26 04:49:10 UTC
+depends:
+  1_wqpdata/tmp/data/New_Hampshire_nitrate_001.feather.ind: b1740fdfda68b474951000ca7d2e144b
+fixed: 69bd797a318e62710f22efd0f94da22b
+code:
+  functions: {}
+

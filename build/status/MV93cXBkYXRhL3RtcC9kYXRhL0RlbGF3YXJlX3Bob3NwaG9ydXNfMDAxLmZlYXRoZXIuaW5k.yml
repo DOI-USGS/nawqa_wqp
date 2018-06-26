@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Delaware_phosphorus_001.feather.ind
+type: file
+hash: 75954968813bccff0974f1d2ec6b5651
+time: 2018-06-26 03:46:56 UTC
+depends:
+  partition_Delaware_phosphorus_001: 94907f2b3d22cba9bddbc2b32c189450
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f169ab83eef7e1eccc0793f94e54abf0
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

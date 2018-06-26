@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Connecticut_phosphorus_001.feather.ind
+type: file
+hash: 561b61880fd4824d92e0d309831316d7
+time: 2018-06-26 03:45:36 UTC
+depends:
+  partition_Connecticut_phosphorus_001: 5301efe9cdaa5c845a761fed725c7f91
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 47c167bfa195d22d22617149c09527b8
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_York_phosphorus_001.feather.ind
+type: file
+hash: 1bb35a5a69bc93454c555295fb63a4db
+time: 2018-06-26 04:54:22 UTC
+depends:
+  partition_New_York_phosphorus_001: 4400375e9a253a5b137fd9f063a60a3d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: a47e01db385e6fc762e28971995f6a90
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

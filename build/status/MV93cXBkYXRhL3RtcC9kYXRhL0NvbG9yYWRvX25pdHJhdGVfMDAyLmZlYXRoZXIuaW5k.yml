@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_nitrate_002.feather.ind
+type: file
+hash: e38ad7b7f05db80dbe282117c08c3eee
+time: 2018-06-26 03:43:03 UTC
+depends:
+  partition_Colorado_nitrate_002: c9f60cdac204ff06472028af06bce2b7
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 74334537b57fccd8dabdf85b21e35bf6
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

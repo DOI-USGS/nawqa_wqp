@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/District_of_Columbia_nitrate_001.feather.ind
+type: file
+hash: e389b269c43ecd2822f671583a2caea0
+time: 2018-06-26 03:47:35 UTC
+depends:
+  partition_District_of_Columbia_nitrate_001: d37eab47323ffb03494917a85daf9d30
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 7a2c5067d097c550e5c10cf28a34417d
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

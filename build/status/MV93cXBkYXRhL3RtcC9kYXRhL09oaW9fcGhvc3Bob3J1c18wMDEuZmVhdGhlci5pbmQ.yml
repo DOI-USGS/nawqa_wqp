@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Ohio_phosphorus_001.feather.ind
+type: file
+hash: 5ec299900f04a1568f2442a01cfa7e0c
+time: 2018-06-26 04:57:45 UTC
+depends:
+  partition_Ohio_phosphorus_001: dc4d6f19c28cd03e2f681b472b8c0184
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: e421a68231dc4ee64483b9bc884cf7a5
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

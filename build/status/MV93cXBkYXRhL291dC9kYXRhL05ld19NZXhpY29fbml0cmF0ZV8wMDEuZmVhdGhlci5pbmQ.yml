@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/New_Mexico_nitrate_001.feather.ind
+type: file
+hash: 13cf6da2db127a9217f451020b679b26
+time: 2018-06-26 04:52:11 UTC
+depends:
+  1_wqpdata/tmp/data/New_Mexico_nitrate_001.feather.ind: 13cf6da2db127a9217f451020b679b26
+fixed: a17f9723197fd7b5f8fade3a54467333
+code:
+  functions: {}
+

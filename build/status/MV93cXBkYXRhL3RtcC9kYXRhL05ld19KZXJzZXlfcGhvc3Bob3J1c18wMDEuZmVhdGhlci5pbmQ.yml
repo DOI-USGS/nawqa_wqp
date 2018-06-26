@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Jersey_phosphorus_001.feather.ind
+type: file
+hash: 4ac936a051b09874c4357e3889e2a275
+time: 2018-06-26 04:51:24 UTC
+depends:
+  partition_New_Jersey_phosphorus_001: b61dd3c1273c06b6cebfc7c268a6ce55
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: e763aaeff64d199c07bbaaafeda2f8f2
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

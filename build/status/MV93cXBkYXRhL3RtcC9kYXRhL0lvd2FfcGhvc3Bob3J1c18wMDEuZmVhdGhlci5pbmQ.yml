@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Iowa_phosphorus_001.feather.ind
+type: file
+hash: f73cfedbc618864ce2df60c0e3cec75c
+time: 2018-06-26 03:56:25 UTC
+depends:
+  partition_Iowa_phosphorus_001: f4cf46d1367ff43b529415b05fd0cf35
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f74eed38c9caa4ba0562e07eb2e7f705
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

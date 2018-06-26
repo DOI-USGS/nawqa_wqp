@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Utah_phosphorus_001.feather.ind
+type: file
+hash: c52446b993f6a354d313a24fd739b296
+time: 2018-06-26 05:12:06 UTC
+depends:
+  partition_Utah_phosphorus_001: ada89f55b14aad1b5341e2c570a5529e
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 3d5111c000806852531e01c53c6e32e1
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

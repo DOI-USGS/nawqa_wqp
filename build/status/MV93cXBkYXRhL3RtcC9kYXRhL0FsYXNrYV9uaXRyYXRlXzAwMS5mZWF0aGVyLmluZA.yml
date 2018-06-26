@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alaska_nitrate_001.feather.ind
+type: file
+hash: ec00e2a05d338ed3894f75cee3172b41
+time: 2018-06-26 03:30:10 UTC
+depends:
+  partition_Alaska_nitrate_001: 7909d1fa14f645965a9b97c572f0ded9
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 632a3535aba8fe1e6f6f70739e1888da
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

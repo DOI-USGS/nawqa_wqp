@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/California_phosphorus_001.feather.ind
+type: file
+hash: 6353ca3ef714f7eaa9ccd5beae4f5280
+time: 2018-06-26 03:38:54 UTC
+depends:
+  partition_California_phosphorus_001: 72ca0687b2045926ae48f0cf8b8d3b15
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0a541ecf1e45a8b6f94f6603b1d8746e
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

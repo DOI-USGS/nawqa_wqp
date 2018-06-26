@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kansas_phosphorus_001.feather.ind
+type: file
+hash: b704a1b851289b5fa670d9940870b4bc
+time: 2018-06-26 03:57:49 UTC
+depends:
+  partition_Kansas_phosphorus_001: 22648ff4e31aa4d3be26ea801521d09e
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c3f2dc135d12ff846b48642a510217ce
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

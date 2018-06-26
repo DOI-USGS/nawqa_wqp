@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maine_phosphorus_001.feather.ind
+type: file
+hash: ca8dc1d6f5e85127e84fbf57f65324a4
+time: 2018-06-26 04:17:23 UTC
+depends:
+  partition_Maine_phosphorus_001: 1ad7bdee68deedbf3413ed82bc27cc0c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 2d56f9b303961a502a20d206065ef88a
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Hawaii_phosphorus_001.feather.ind
+type: file
+hash: 3ddeab2ba3b704dcb017c2c243097af2
+time: 2018-06-26 03:50:27 UTC
+depends:
+  partition_Hawaii_phosphorus_001: f2dfbd98de0b617ae752954cdba55f7e
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c189e5500c6213f71d94172dfedbe6be
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+
