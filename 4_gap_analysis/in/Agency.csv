@@ -1,0 +1,146 @@
+Full,SIR ,WQX,State,Type
+Alabama Department of Environmental Management,AL DEM,21AWIC,Alabama,State
+Arizona Department of Environmental Quality,AZ DEQ,21ARIZ_WQX,Arizona,State
+Arizona Southwest Watershed Research Center,AZ SWRC,AZDEQ_SW,Arizona,Federal
+AK-Chin Indian Community,AZ TAKIC,AK-CHIN_WQX,Arizona,Tribe
+Cocopah Indian Tribe Environmental Protection Office,AZ TCOCOPAH,COCOPAH_INDIAN,Arizona,Tribe
+Salt River Pima-Maricopa Indian Community,AZ TSRPMIC,SRPMIC  ,Arizona,Tribe
+Fort McDowell Yavapai Nation,AZ TFMYN,FMYN_WQX,Arizona,Tribe
+Yavapai-Apache Nation,AZ TYAN,YAN_WQX ,Arizona,Tribe
+Cocopah Indian Tribe Environmental Protection Office,AZ TCOCOPAH,COCOPAH_INDIAN,Arizona,Tribe
+Arkansas Department of Environmental Quality,AR DEQ,ARDEQH2O_WQX,Arkansas,State
+Arkansas State University Ecotoxicology Research Facility,AR ASUERF,ASUERF,Arkansas,Academic
+Equilibrium,AR EQUIL,EQUILIBRIUM,Arkansas,Private
+GBMc and Associates,AR GBMC,GBMCASSOC2014,Arkansas,Private
+Arkansas Water Resource Center,AR AWRC,AWRC,Arkansas,NA
+California State Water Resources Control Board,CA CEDEN,CEDEN,California,State
+"Quechan Tribe of the Fort Yuma Indian Reservation, California & Arizona",CA TQI,QUECHAN_WQX ,California,Tribe
+Blue Lake Rancheria,CA TBLR,BLR,California,Tribe
+Blue Lake Rancheria,CA TBLR,BLR_WQX,California,Tribe
+"Big Valley Band of Pomo Indians of the Big Valley Rancheria, California",CA BVR,CA_BVR,California,Tribe
+Elk Valley Rancheria,CA TEVR,ELKVALLEYCA_WQX,California,Tribe
+Hopland Band of Pomo Indians Tribal Environmental Protection Agency,CA THBPI,HOPTERA_WQX,California,Tribe
+Morongo Band of Mission Indians,CA TMBMI,MORONGO1_WQX,California,Tribe
+Owens Valley Indian Water Commission,CA TOVIWC,OVIWC,California,Tribe
+Pit River Tribe,CA TPR,PRTWQX,California,Tribe
+Quartz Valley Indian Reservation,CA TQVIR,QVIR,California,Tribe
+Quartz Valley Indian Reservation,CA TQVIR,QVIR_WQX,California,Tribe
+Resighini Rancheria Environmental Protection,CA RREP,RREPA_WQX,California,Tribe
+San Manuel Band of Mission Indians,CA TSMBMI,SANMANUEL,California,Tribe
+Santa Ynez Chumash Environmental Office,CA TSYCEO,SYCEO_WQX,California,Tribe
+Table Mountain Rancheria,CA TTMR,TABLEMOUNTAINRANCHERIA_WQX,California,Tribe
+Twenty-Nine Palms,CA T29P,TEPA29,California,Tribe
+Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California,CA TMTC,TMTC_WQX,California,Tribe
+"Cher-Ae Heights Indian Community of the Trinidad Rancheria, California",CA TR,TRINIDADRANCHERIAEPA,California,Tribe
+Adams Rib Ranch,CO ARR,ARR,Colorado,Volunteer
+Animas River Stakeholders Group,CO ARSG,ANIMASWP,Colorado,NGO
+Coal Creek Watershed Coalition,CO CCWC,CCWC,Colorado,NGO
+Colorado Department of Public Health and Environment,CO DPHE,21COL001_WQX,Colorado,State
+"Colorado Division of Reclamation, Mining and Safety",CO DRMS,DRMS,Colorado,State
+San Miguel Watershed Coalition,CO SMWC,SMWC,Colorado,NGO
+Southern Ute Tribe,CO TSU,SOUTHUTE,Colorado,Tribe
+Standley Lake Watershed Group,CO STAND,STANDLEY,Colorado,NGO
+Ute Mountain Utes Tribe,CO TUMU,UTEMTN,Colorado,Tribe
+Uncompahgre Watershed Partnership,CO UWP,UWP,Colorado,NGO
+Delaware Department of Natural Resources and Environmental Control,DE DNREC,21DELAWQ_WQX,Delaware,State
+Delaware River Basin Commission,RG4 DRBC,31DELRBC_WQX,Delaware,Regional
+Chesapeake Bay Program,MD CBP,CBP_WQX,Maryland,Regional
+Alachua County Environmental Protection Department,FL ACEPD,21FLACEP_WQX,Florida,County or subcounty
+Avon Park Air Force Range,FL APAFR,21FLAVON_WQX,Florida,Federal
+Broward County Environmental Protection Department,FL BCEPD,21FLBROW_WQX,Florida,County or subcounty
+Charlotte County,FL CC,21FLCCSW_WQX,Florida,County or subcounty
+City of Cape Coral,FL CCC,CAPECRD_WQX,Florida,County or subcounty
+Collier County Pollution Control,FL CCPC,21FLCOLL_WQX,Florida,County or subcounty
+City of Deltona,FL CD,21FLDELT_WQX,Florida,County or subcounty
+City of Jacksonville,FL CJ,21FLJXWQ_WQX,Florida,County or subcounty
+City of St Petersburg,FL CSP,21FLCOSP_WQX,Florida,County or subcounty
+City of Tallahassee Stormwater,FL CTS,21FLCOT_WQX,Florida,County or subcounty
+Florida Department of Environmental Protection,FL DEP,21FLGW_WQX,Florida,State
+"Florida Department of Environmental Protection , Bream Fisherman Asso",FL DEP BFA,21FLBFA_WQX,Florida,State
+"Florida Department Environmental Protection, Central District",FL DEP CD,21FLCEN_WQX,Florida,State
+"Florida Department of Environmental Protection, Northeast District",FL DEP NED,21FLA_WQX,Florida,State
+"Florida Department of Environmental Protection, Northwest District",FL DEP NWD,21FLPNS_WQX,Florida,State
+"Florida Department of Environmental Protection, OCEC",FL DEP OCEC,21FLCMP_WQX,Florida,State
+"Florida Department of Environmental Protection, South District",FL DEP SD,21FLFTM_WQX,Florida,State
+"Florida Department of Environmental Protection, Southeast District",FL DEP SED,21FLWPB_WQX,Florida,State
+"FDEP, Water Quality Standards and Special Projects (Florida)",FL DEP SP,21FLWQSP_WQX,Florida,State
+"Florida Department Environmental Protection, Southwest District",FL DEP SWD,21FLTPA_WQX,Florida,State
+Dade Environmental Resource Management,FL DERM,21FLDADE_WQX,Florida,County or subcounty
+Environmental Protection Commission of Hillsborough County,FL HLCE,21FLHILL_WQX,Florida,County or subcounty
+Leon County Public Works,FL LCPW,21FLLEON_WQX,Florida,County or subcounty
+Lake County Water Resource Management,FL LCRM,21FLLCPC_WQX,Florida,County or subcounty
+Lee County,FL LEECO,21FLEECO_WQX,Florida,County or subcounty
+Loxahatchee River District,FL LRD,21FLLOX_WQX,Florida,County or subcounty
+Manatee County Environmental Management Department,FL MCEMD,21FLMANA_WQX,Florida,County or subcounty
+Orange County Environmental Protection,FL OCEP,21FLORAN_WQX,Florida,County or subcounty
+Palm Beach County Environmental Resources Management Department,FL PBCERMD,21FLPBCH_WQX,Florida,County or subcounty
+Pinellas County Department of Environmental Management,FL PCDEM,21FLPDEM_WQX,Florida,County or subcounty
+Polk County Water Resources,FL PCWR,21FLPOLK_WQX,Florida,County or subcounty
+Reedy Creek Improvement District - Environmental Services,FL RCID,21FLRCID_WQX,Florida,County or subcounty
+Sarasota County Environmental Services,FL SCES,21FLSARA_WQX,Florida,County or subcounty
+Seminole County,FL SEMC,21FLSEM_WQX,Florida,County or subcounty
+St. Johns Water Management District,FL SJWMD,21FLSJWM_WQX,Florida,County or subcounty
+Schroeder-Manatee Ranch Communities Incorporated,FL SMRC,21FLSMRC_WQX,Florida,Private
+Suwannee River Water Management District,FL SRWMD,21FLSUW_WQX,Florida,County or subcounty
+Southwest Florida Water Management District,FL SWFWMD,21FLSWFD_WQX,Florida,County or subcounty
+Tampa Bay Water,FL TBW,21FLTBW_WQX,Florida,County or subcounty
+Seminole Tribe of Florida,FL TSF,STF_WQX,Florida,Tribe
+Volusia County Environmental Health Lab,FL VCEHL,21FLVEMD_WQX,Florida,County or subcounty
+Georgia Department of Natural Resources,GA DNR,21GAEPD_WQX,Georgia,State
+Iowa Department of Natural Resources,IA DNR,,Iowa ,State
+Bunker Hill Mining and Metallurgical Complex,ID BHMMC,BUNKER_WQX,Idaho,Private
+Shoshone Bannock Tribe,ID TSB,SHOSHONE_BANNOCK,Idaho,Tribe
+Coeur dAlene Tribe,ID TCD,CDATWATRES,Idaho,Tribe
+J.R. Simplot and FMC Corporation,ID JRSFC,JRSIMPLOT_FMC,Idaho,Private
+Nez Perce Tribe,ID TNP,NEZPERCETRIBE_WQX,Idaho,Tribe
+Kansas Department Of Health And Environment,KS DHE,21KAN001_WQX,Kansas,State
+The Quapaw Tribe of Indians,KS TQTO,QTEO_WQX,Kansas,Tribal
+Prairie Band Potawatomi Nation,KS TPBPN,PRAIRIEBAND,Kansas,Tribal
+Kickapoo Tribe in Kansas,KS TKTK,KICKAPOO07,Kansas,Tribal
+Blue River Watershed Association,KS BRWA,BLUERIVERWATERSHEDASSOCIATION,Kansas,NGO
+Kansas Water Office,KS WO,KWO,Kansas,State
+Illinois Environmental Protection Agency,IL EPA,IL_EPA_WQX,Illinois,State
+Indiana Department of Environmental Management,IN STOR,INSTOR_WQX,Indiana,State
+Indiana Department of Environmental Management,IN DEM,21IND_WQX,Indiana,State
+"Pokagon Band of Potawatomi Indians, Department of Natural Resources",MI TPBPI,PBDNR,Michigan,Tribal
+Minnesota Pollution Control Agency - Ambient Surface Water,MN PCA,MNPCA,Minnesota,State
+Missouri Department of Natural Resources,MO DNR,MDNR,Missouri,State
+Midwest Environmental Consultants,MO MEC,MEC,Missouri,State
+Sac and Fox Nation of Missouri in Kansas and Nebraska,MO TSACFOX,SACFOXMO,Missouri,Tribal
+Mississippi Department of Environmental Quality,MS DEQ,21MSWQ_WQX,Mississippi,State
+MS Band of Choctaw Indians,MS TBCI,MBCI_OEP,Mississippi,Tribe
+Nebraska Department Of Environmental Quality,NE DEQ,21NEB001_WQX,Nebraska,State
+North Carolina Department of Envrionment and Natural Resources,NC DENR,21NC03WQ,North Carolina,State
+Eastern Band of Cherokee Indians,NC TEBCI,EBCI,North Carolina,Tribe
+NCDENR-DWR,NC DENR,21NCMONITORING,North Carolina,NA
+Neveda Division of Environmental Protection,NV DEP,21NEV1_WQX,Neveda,State
+Shoshone-Paiute Tribes,NV TSP,SHOPAITR_WQX,Neveda,Tribal
+"Ohio Environmental Protection Agency, Division of Surface Water",OH EPA,21OHIO_WQX,Ohio ,State
+Oklahoma Conservation Commission,OK CONC,OKCONCOM_WQX,Oklahoma,State
+Cherokee Nation,OK TCN,CHEROKEE_WQX  ,Oklahoma,Tribe
+State of Oregon Dept. of Environmental Quality,OR DEQ,OREGONDEQ,Oregon,State
+Tri-State Water Quality Council,RG3 TSWQC,TSWQC_WQX,--,Regional
+Ohio River Valley Water Sanitation Commission (ORSANCO),RG8 ORSANCO,31ORWUNT_WQX,--,Regional
+South Carolina Department of Health and Environmental Control,SC DHEC,21SC60WQ_WQX,South Carolina,State
+Environmental Quality Laboratory Coastal Carolina University,SC EQLCCU,CCU_EQL,South Carolina,Academic
+Tennessee Department of Environment and Conservation,TN DEC,TDECWPC,Tennessee,State
+Tennessee Department of Environment and Conservation,TN DEC,TDECDOE_WQX,Tennessee,State
+U.S. Army Corps of Engineers,US ACE,USACOEND,--,Federal
+USDA Agricultural Research Service,US DA ARS,ARS,--,Federal
+Northeast Iowa RC&D (USDA),US DA NEIRCD,NEIARCD_WQX,--,Federal
+Bureau of Reclamation,US BR,1119USBR_WQX,--,Federal
+EPA Region 4 Athens Lab (Georgia),US EPA R4 ATHENS,R4ATHENS_WQX,Georgia,Federal
+EPA La Posta,US EPA LP,LPEPA106,California,Federal
+EPA Region 10 Office of Water and Watersheds,USE EPA R10 OWOW,R10NPDES,--,Federal
+EPA Region 7,US EPA R7,EPA_R7_WQX,--,National
+National Park Service Water Resources Division,US NPS,11NPSWRD_WQX,--,National
+U.S. Geological Survey,USGS,USGS,--,National
+Bunker Hill Mining and Metallurgical Complex (Region 10) USGS,USGS,USGS,--,National
+NCDENR-DWR,NC DENR-DWR,21NCMONITORING,North Carolina,State
+TDEC Division of Water Resources,TN DEC,TDECWR_WQX,Tennessee,State
+Utah Department of Environmental Quality,UT DEQ,UTAHDWQ_WQX,Utah,State
+Virginia Department of Environmental Quality,VA DEQ,21VASWCB,Virigina,State
+Vermont Department of Environmental Conservation,VT DEC,1VTDECWQ,Vermont,State
+"TerraGraphics Environmental Engineering, Inc.",WA TEE,TGENVIRO,Washington,Private
+Washington State Department of Ecology,WA SDE,WA_ECOLOGY,Washington,State
+Wisconsin Department of Natural Resources,WI DNR,WIDNR_WQX,Wisconsin,State
