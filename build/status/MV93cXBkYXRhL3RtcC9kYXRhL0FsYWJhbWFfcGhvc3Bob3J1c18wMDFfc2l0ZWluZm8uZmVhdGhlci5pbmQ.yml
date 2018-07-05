@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alabama_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: d40dfe34e8339fd9cc78ec2f537fec8a
+time: 2018-07-05 18:36:01 UTC
+depends: {}
+fixed: de84595fff324507afa0b8997fb18279
+code:
+  functions:
+    get_wqp_siteinfo: 5d9fba0720154ed7be83b2c6b0559c99
+
