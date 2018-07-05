@@ -126,7 +126,7 @@ plan_wqp_pull_per_constituent <- function(constituents, folders, folders_item) {
           "create_task_makefile(",
           "makefile=target_name,",
           "task_plan=%s,",
-          "include=I(c('1_wqpdata.yml',target_name)),",
+          "include=I(c('1_wqpdata.yml')),",
           "packages=I(c('dplyr', 'dataRetrieval', 'feather', 'scipiper')),",
           "file_extensions=I(c('ind','feather')))",
           sep="\n      "
