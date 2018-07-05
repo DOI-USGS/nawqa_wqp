@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Kentucky_nitrate_001.feather.ind
+type: file
+hash: 37d25a4e7ea9a127aba906cb1d144929
+time: 2018-06-26 03:58:48 UTC
+depends:
+  1_wqpdata/tmp/data/Kentucky_nitrate_001.feather.ind: 37d25a4e7ea9a127aba906cb1d144929
+fixed: 2dbda5ee73f5cf3648d22970ad685da9
+code:
+  functions: {}
+

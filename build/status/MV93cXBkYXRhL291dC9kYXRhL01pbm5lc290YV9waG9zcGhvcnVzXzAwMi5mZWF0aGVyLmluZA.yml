@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Minnesota_phosphorus_002.feather.ind
+type: file
+hash: 82281598bb4a960d5852c041c7651877
+time: 2018-06-26 04:42:55 UTC
+depends:
+  1_wqpdata/tmp/data/Minnesota_phosphorus_002.feather.ind: 82281598bb4a960d5852c041c7651877
+fixed: 5968b423f0ea83c0d8d855fc1cf5a58b
+code:
+  functions: {}
+

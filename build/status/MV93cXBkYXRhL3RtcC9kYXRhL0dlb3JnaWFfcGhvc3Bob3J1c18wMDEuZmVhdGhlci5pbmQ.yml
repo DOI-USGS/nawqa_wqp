@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_phosphorus_001.feather.ind
+type: file
+hash: 3a055ae797d76441f372f6d362632259
+time: 2018-06-15 14:49:15 UTC
+depends:
+  partition_Georgia_phosphorus_001: a8a29567e84919fa1f81290d5cd66ca5
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 6605550725ef6594ac5df56dbfc9f3e8
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

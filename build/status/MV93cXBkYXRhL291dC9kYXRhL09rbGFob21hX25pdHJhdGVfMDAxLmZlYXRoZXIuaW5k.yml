@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Oklahoma_nitrate_001.feather.ind
+type: file
+hash: 039758cdb8f468729b0f89480bd200f0
+time: 2018-06-26 04:58:49 UTC
+depends:
+  1_wqpdata/tmp/data/Oklahoma_nitrate_001.feather.ind: 039758cdb8f468729b0f89480bd200f0
+fixed: 10aa8fba48726a80ceb399f7c0dbc817
+code:
+  functions: {}
+

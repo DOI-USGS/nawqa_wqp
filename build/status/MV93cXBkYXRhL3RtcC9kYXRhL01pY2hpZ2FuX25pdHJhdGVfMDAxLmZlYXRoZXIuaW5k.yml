@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Michigan_nitrate_001.feather.ind
+type: file
+hash: 7ec96cbf6cccc22b744b456b04546f7b
+time: 2018-06-26 04:35:22 UTC
+depends:
+  partition_Michigan_nitrate_001: 0bdfbc5dd08c6e0c0f9f366d06fd106f
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 3d2af920c2f0b08dcbf461e4f9a8ef84
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

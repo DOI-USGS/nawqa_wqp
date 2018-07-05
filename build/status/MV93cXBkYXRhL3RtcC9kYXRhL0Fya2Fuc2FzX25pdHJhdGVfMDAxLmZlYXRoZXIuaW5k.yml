@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arkansas_nitrate_001.feather.ind
+type: file
+hash: 30f69773efb361bf541c4c45f432bff8
+time: 2018-06-26 03:35:57 UTC
+depends:
+  partition_Arkansas_nitrate_001: 79e62a2fa4cf1a34877d7e53f1e2918a
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 814bd58a18cd1201d2f1f1bc70e13daf
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Idaho_phosphorus_001.feather.ind
+type: file
+hash: 443fa0eb6c2c5083ce4c4051f5b4b5bb
+time: 2018-06-26 03:51:43 UTC
+depends:
+  partition_Idaho_phosphorus_001: 9ed82e8c51f6b5ce24de0f024e22301a
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 7415da38bf08da7f0a52436938d77c91
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

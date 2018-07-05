@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Mississippi_phosphorus_001.feather.ind
+type: file
+hash: 62b8ac4ec093c1a21d7360f2be0e74f4
+time: 2018-06-15 14:51:26 UTC
+depends:
+  partition_Mississippi_phosphorus_001: 327579b98aebd781be42c4d0c31782ee
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 1633743361520fa75694a006a27983bd
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

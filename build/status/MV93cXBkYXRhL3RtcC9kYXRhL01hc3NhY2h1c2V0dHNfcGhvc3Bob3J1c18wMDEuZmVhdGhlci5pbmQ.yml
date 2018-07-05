@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Massachusetts_phosphorus_001.feather.ind
+type: file
+hash: 82afbdf9943937b4ee7c09f2eb9cecd5
+time: 2018-06-26 04:34:35 UTC
+depends:
+  partition_Massachusetts_phosphorus_001: 91169f96f2a895966643d339aed4288a
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 46b6dcaa7f1144eb6b2e18f43918740e
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Louisiana_phosphorus_001.feather.ind
+type: file
+hash: 833c8b87a2c8b33247938753507f8350
+time: 2018-06-26 04:00:43 UTC
+depends:
+  partition_Louisiana_phosphorus_001: 744ccefa64ca4eab60380ee7818909ce
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 60d6c5d50bbf7eeb64e1e033753e7f42
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

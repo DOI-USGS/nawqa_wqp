@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Minnesota_phosphorus_002.feather.ind
+type: file
+hash: 82281598bb4a960d5852c041c7651877
+time: 2018-06-26 04:42:39 UTC
+depends:
+  partition_Minnesota_phosphorus_002: eafeaf3c0f2b7383db3da37b8dbf5e0b
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 23e7a77568a28363c10d11b16c7fcfaf
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

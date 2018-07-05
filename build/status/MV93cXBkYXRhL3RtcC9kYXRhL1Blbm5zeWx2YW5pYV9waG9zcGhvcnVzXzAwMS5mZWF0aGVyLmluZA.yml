@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Pennsylvania_phosphorus_001.feather.ind
+type: file
+hash: 762cbdb0260505f42423538e36c12d3d
+time: 2018-06-26 05:04:29 UTC
+depends:
+  partition_Pennsylvania_phosphorus_001: 55c9f23623a2cec5ad26cd3976565c48
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 3c810ad4f0cc4bde61fa490a116d370f
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

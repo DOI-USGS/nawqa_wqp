@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Indiana_nitrate_001.feather.ind
+type: file
+hash: e8d5aa6432bc60b315bd18ce4e31655c
+time: 2018-06-26 03:53:47 UTC
+depends:
+  partition_Indiana_nitrate_001: 79c447dc54a83b1a25c1bc08160c98b7
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 103b6520b01746fd718439759af3ebcb
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

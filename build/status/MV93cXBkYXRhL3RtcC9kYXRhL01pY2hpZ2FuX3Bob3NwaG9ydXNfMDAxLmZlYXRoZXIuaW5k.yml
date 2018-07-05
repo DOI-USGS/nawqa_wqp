@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Michigan_phosphorus_001.feather.ind
+type: file
+hash: a1d65ae0dd98a8bd6270e6f43efa941b
+time: 2018-06-26 04:36:03 UTC
+depends:
+  partition_Michigan_phosphorus_001: 3534596b5b70d63f5fdc55ea62d71435
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 4b6a85f20fe2a9fdca0e716bded2a519
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

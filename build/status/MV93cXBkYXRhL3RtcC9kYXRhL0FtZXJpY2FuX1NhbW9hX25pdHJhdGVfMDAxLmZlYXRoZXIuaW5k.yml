@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/American_Samoa_nitrate_001.feather.ind
+type: file
+hash: 7d0cd90a1e99307358d3e34b4fcf49c6
+time: 2018-06-26 03:32:42 UTC
+depends:
+  partition_American_Samoa_nitrate_001: c71a14b5797216c07780a51d01affa60
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f22d6f07d3e6aa671bdf59234b7c58b5
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

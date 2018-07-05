@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Illinois_phosphorus_001.feather.ind
+type: file
+hash: 1637e1d17868d804e4e2c0fc12857fcd
+time: 2018-06-26 03:52:52 UTC
+depends:
+  partition_Illinois_phosphorus_001: 59c7cd67642c3baba02dd66818a1c0fa
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: a4292d2989ec1754ae2b7bd0bec51574
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

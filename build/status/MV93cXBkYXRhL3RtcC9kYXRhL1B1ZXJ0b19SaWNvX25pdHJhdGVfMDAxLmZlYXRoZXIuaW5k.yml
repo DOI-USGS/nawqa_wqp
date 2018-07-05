@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Puerto_Rico_nitrate_001.feather.ind
+type: file
+hash: 111a732ecbe0f2a2dbb5b8d4ba0d9b71
+time: 2018-06-26 05:05:17 UTC
+depends:
+  partition_Puerto_Rico_nitrate_001: 36a40f6cfb86bc769affad52727153b8
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: df3a456121d12e0da338e3559721ca87
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

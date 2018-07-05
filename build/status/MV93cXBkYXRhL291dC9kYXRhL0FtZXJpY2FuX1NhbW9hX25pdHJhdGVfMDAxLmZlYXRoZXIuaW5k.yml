@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/American_Samoa_nitrate_001.feather.ind
+type: file
+hash: 7d0cd90a1e99307358d3e34b4fcf49c6
+time: 2018-06-26 03:32:50 UTC
+depends:
+  1_wqpdata/tmp/data/American_Samoa_nitrate_001.feather.ind: 7d0cd90a1e99307358d3e34b4fcf49c6
+fixed: efa11770b51c4aad20bcbfac9ac1271e
+code:
+  functions: {}
+

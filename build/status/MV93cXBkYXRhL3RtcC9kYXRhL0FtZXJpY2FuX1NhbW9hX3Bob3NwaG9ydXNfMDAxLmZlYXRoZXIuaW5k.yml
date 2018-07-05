@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/American_Samoa_phosphorus_001.feather.ind
+type: file
+hash: 1bd659adec4b0fd0d0d7eaa3809f83d7
+time: 2018-06-26 03:33:19 UTC
+depends:
+  partition_American_Samoa_phosphorus_001: 18e2251856783de7a9e9eb82fb858af0
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 8b8322e0b41771c50e6d97e24b08bba6
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

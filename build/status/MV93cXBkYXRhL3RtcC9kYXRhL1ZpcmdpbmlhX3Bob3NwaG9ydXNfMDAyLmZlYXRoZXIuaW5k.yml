@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Virginia_phosphorus_002.feather.ind
+type: file
+hash: e728cccc3ce7475e212ff54ceb47760b
+time: 2018-06-26 05:20:25 UTC
+depends:
+  partition_Virginia_phosphorus_002: a84b0772281c86d1298038e140d93bc9
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 01860d281a975a163ef907a4afa5ddcb
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

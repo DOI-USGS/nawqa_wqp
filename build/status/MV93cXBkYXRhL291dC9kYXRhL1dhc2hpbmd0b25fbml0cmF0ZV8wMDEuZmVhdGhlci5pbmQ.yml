@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Washington_nitrate_001.feather.ind
+type: file
+hash: bbe24c77ef20c1f018dab07e44043cbb
+time: 2018-06-26 05:21:29 UTC
+depends:
+  1_wqpdata/tmp/data/Washington_nitrate_001.feather.ind: bbe24c77ef20c1f018dab07e44043cbb
+fixed: ab70f63562b4e9864f5e536275ec17cd
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Indiana_phosphorus_001.feather.ind
+type: file
+hash: 379489ffa423a308dc98003cc1985e65
+time: 2018-06-26 03:54:39 UTC
+depends:
+  partition_Indiana_phosphorus_001: 8e6dd18de606b8a9bed48c1f33e09f39
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9e12cb71a28ad5f975c70a3599903ccf
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Virginia_nitrate_001.feather.ind
+type: file
+hash: 25d62fdaf3a8d3a8cb993cb1f5f950c3
+time: 2018-06-26 05:15:24 UTC
+depends:
+  partition_Virginia_nitrate_001: 75d05deaa2cd6abb4c677776af2f662e
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: a32e05b3115d449162f43c604c6d1da3
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

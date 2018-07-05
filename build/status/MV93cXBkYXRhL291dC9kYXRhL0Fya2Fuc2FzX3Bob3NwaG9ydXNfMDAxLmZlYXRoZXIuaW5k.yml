@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Arkansas_phosphorus_001.feather.ind
+type: file
+hash: 0234b205cbb14997c1dd61795dd84655
+time: 2018-06-26 03:37:00 UTC
+depends:
+  1_wqpdata/tmp/data/Arkansas_phosphorus_001.feather.ind: 0234b205cbb14997c1dd61795dd84655
+fixed: 4b718fa933ac54cf33b23897a2a84a39
+code:
+  functions: {}
+

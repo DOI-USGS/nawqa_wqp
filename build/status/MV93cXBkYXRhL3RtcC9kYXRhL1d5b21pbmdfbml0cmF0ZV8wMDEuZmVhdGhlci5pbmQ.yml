@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wyoming_nitrate_001.feather.ind
+type: file
+hash: 995e1f51f2b7c5a835a69865028d858e
+time: 2018-06-26 05:26:50 UTC
+depends:
+  partition_Wyoming_nitrate_001: a3576b04a571b5b04e869a704f3ea5e4
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: abc5e6d5c4ce675eeb99f552f48978f1
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

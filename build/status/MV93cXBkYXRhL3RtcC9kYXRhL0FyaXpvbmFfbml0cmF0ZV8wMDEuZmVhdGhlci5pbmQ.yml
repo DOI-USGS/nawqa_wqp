@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arizona_nitrate_001.feather.ind
+type: file
+hash: 026832e69eddadde0d25e6382263e405
+time: 2018-06-26 03:34:02 UTC
+depends:
+  partition_Arizona_nitrate_001: 0ef4606c41f664a6f2b3d7143dc8509a
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0a5df2c8bbb76f8fe980924678131f1c
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

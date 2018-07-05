@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Pennsylvania_nitrate_002.feather.ind
+type: file
+hash: e34ff95a95fa4da94f4013d00aa425ea
+time: 2018-06-26 05:03:16 UTC
+depends:
+  partition_Pennsylvania_nitrate_002: 8226b84537beb4ba2fba9343148de38a
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f3748b13225a0941cf7967b1e3d56839
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

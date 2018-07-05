@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/South_Carolina_nitrate_001.feather.ind
+type: file
+hash: b6824260c2e7b84cd2a5e3aa93c90d00
+time: 2018-06-15 14:55:09 UTC
+depends:
+  1_wqpdata/tmp/data/South_Carolina_nitrate_001.feather.ind: b6824260c2e7b84cd2a5e3aa93c90d00
+fixed: 0e898eb5b63e42a5034e39cfa984afb6
+code:
+  functions: {}
+
