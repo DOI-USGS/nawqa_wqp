@@ -122,8 +122,8 @@ plan_wqp_pull <- function(partitions, folders) {
     command = function(task_name, ...) {
       paste(
         "get_wqp_siteinfo(",
-        "ind_file=target_name)",
-        sprintf("local_file=I('%s'),", file.path(folders$tmp, sprintf('%s_siteinfo.rds', task_name))),
+        "ind_file=target_name,",
+        sprintf("local_file=I('%s'))", file.path(folders$tmp, sprintf('%s_siteinfo.rds', task_name))),
         sep="\n      ")
     }
   )
