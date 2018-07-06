@@ -1,13 +1,11 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Alabama_phosphorus_001.feather.ind
 type: file
-hash: 2a1630ef50f0773c5a9dbca9b5cabab5
-time: 2018-07-05 18:35:07 UTC
-depends:
-  partition_Alabama_phosphorus_001: 14614147abd19c01de8bae4c85b80ad5
-  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
-fixed: a4e1b5295eba1960265807e0a3c7e222
+hash: 373de225639b1dc4ec60585d11dcee4f
+time: 2018-07-06 13:02:31 UTC
+depends: {}
+fixed: a26b193471b8eb7a8bfc69b86dd75fcb
 code:
   functions:
-    get_wqp_data: a2d5a859d536c905442b46bbb0cea606
+    extract_wqp_data: 76a879c8c219ba49d01fadfaaf2fb9b6
 
