@@ -101,7 +101,7 @@ plan_wqp_pull <- function(partitions, folders) {
   download <- scipiper::create_task_step(
     step_name = 'download',
     target_name = function(task_name, step_name, ...) {
-      scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.feather', task_name)))
+      scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))
     },
     command = function(task_name, ...) {
       paste(
@@ -113,23 +113,38 @@ plan_wqp_pull <- function(partitions, folders) {
     }
   )
 
+  # extract data from data file
+  extract_data <- scipiper::create_task_step(
+    step_name = 'extract_data',
+    target_name = function(task_name, step_name, ...) {
+      scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.feather', task_name)))
+    },
+    command = function(task_name, ...) {
+      paste(
+        "extract_wqp_data(",
+        "ind_file=target_name,",
+        sprintf("local_file=I('%s'))", file.path(folders$tmp, sprintf('%s.rds', task_name))),
+        sep="\n      ")
+    }
+  )
+
   # extract site info from data file
-  extract <- scipiper::create_task_step(
-    step_name = 'extract',
+  extract_siteinfo <- scipiper::create_task_step(
+    step_name = 'extract_siteinfo',
     target_name = function(task_name, step_name, ...) {
       scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s_siteinfo.feather', task_name)))
     },
     command = function(task_name, ...) {
       paste(
-        "get_wqp_siteinfo(",
+        "extract_wqp_siteinfo(",
         "ind_file=target_name,",
-        sprintf("local_file=I('%s'))", file.path(folders$tmp, sprintf('%s_siteinfo.rds', task_name))),
+        sprintf("local_file=I('%s'))", file.path(folders$tmp, sprintf('%s.rds', task_name))),
         sep="\n      ")
     }
   )
 
-  post <- scipiper::create_task_step(
-    step_name = 'post',
+  post_data <- scipiper::create_task_step(
+    step_name = 'post_data',
     target_name = function(task_name, step_name, ...) {
       scipiper::as_ind_file(file.path(folders$out, sprintf('%s.feather', task_name)))
     },
@@ -164,8 +179,8 @@ plan_wqp_pull <- function(partitions, folders) {
     }
   )
 
-  retrieve <- scipiper::create_task_step(
-    step_name = 'retrieve',
+  retrieve_data <- scipiper::create_task_step(
+    step_name = 'retrieve_data',
     target_name = function(task_name, step_name, ...) {
       file.path(folders$out, sprintf('%s.feather', task_name))
     },
@@ -196,7 +211,8 @@ plan_wqp_pull <- function(partitions, folders) {
 
   task_plan <- scipiper::create_task_plan(
     task_names=sort(partitions$PullTask),
-    task_steps=list(partition, download, extract, post, post_siteinfo, retrieve, retrieve_siteinfo),
+    task_steps=list(partition, download, extract_data, extract_siteinfo,
+                    post_data, post_siteinfo, retrieve_data, retrieve_siteinfo),
     final_steps='post_siteinfo',
     add_complete=FALSE,
     ind_dir=folders$log)
@@ -244,21 +260,25 @@ get_wqp_data <- function(ind_file, partition, wq_dates) {
   # make wqp_dat a tibble, converting either from data.frame (the usual case) or
   # NULL (if there are no results)
   wqp_dat <- as_data_frame(wqp_dat)
-  wqp_dat_siteinfo <- attr(wqp_dat, "siteInfo")
-
-  file_siteinfo <- gsub(".feather.ind", "_siteinfo.rds", ind_file)
-  saveRDS(wqp_dat_siteinfo, file_siteinfo)
 
   # write the data and indicator file. do this even if there were 0 results
   # because remake expects this function to always create the target file
   data_file <- as_data_file(ind_file)
-  feather::write_feather(as_data_frame(wqp_dat), path=data_file)
+  saveRDS(wqp_dat, data_file)
   sc_indicate(ind_file, data_file=data_file)
 
   invisible()
 }
 
-get_wqp_siteinfo <- function(ind_file, local_file) {
+extract_wqp_data <- function(ind_file, local_file) {
+  wqp_dat <- readRDS(local_file)
+
+  data_file <- as_data_file(ind_file)
+  feather::write_feather(wqp_dat, path=data_file)
+  sc_indicate(ind_file, data_file=data_file)
+}
+
+extract_wqp_siteinfo <- function(ind_file, local_file) {
   wqp_dat_siteinfo <- readRDS(local_file)
 
   data_file <- as_data_file(ind_file)
