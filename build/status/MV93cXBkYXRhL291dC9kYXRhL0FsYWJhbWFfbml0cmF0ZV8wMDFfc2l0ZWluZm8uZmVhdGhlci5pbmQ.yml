@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Alabama_nitrate_001_siteinfo.feather.ind
+type: file
+hash: f29c60032891af4b2baa91096c09c4b4
+time: 2018-07-06 13:02:13 UTC
+depends:
+  1_wqpdata/tmp/data/Alabama_nitrate_001_siteinfo.feather.ind: f29c60032891af4b2baa91096c09c4b4
+fixed: f638af04bbbfdc4b8c1ad4f5c2c15423
+code:
+  functions: {}
+

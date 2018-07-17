@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alabama_phosphorus_001.rds.ind
+type: file
+hash: f6be1bf38faa5549a6107e8183efa02e
+time: 2018-07-06 13:01:29 UTC
+depends:
+  partition_Alabama_phosphorus_001: 14614147abd19c01de8bae4c85b80ad5
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d76796b485e0c798a0532c0325238e5a
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

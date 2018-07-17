@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alabama_nitrate_001.rds.ind
+type: file
+hash: b40712e4933b19f7208ea181f403f512
+time: 2018-07-06 12:57:12 UTC
+depends:
+  partition_Alabama_nitrate_001: 55c19b8852bc273b53e1d76ae1390a8f
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: e8b4dda98f2633be2518a78f80f2736e
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+
