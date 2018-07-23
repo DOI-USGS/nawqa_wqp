@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alaska_nitrate_001.rds.ind
+type: file
+hash: 8aa24d477b482ef7b8f767eec5a8bc1e
+time: 2018-07-20 21:19:29 UTC
+depends:
+  partition_Alaska_nitrate_001: 7909d1fa14f645965a9b97c572f0ded9
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 1f458c6328fb9e042a2bb3cf4e1d7319
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

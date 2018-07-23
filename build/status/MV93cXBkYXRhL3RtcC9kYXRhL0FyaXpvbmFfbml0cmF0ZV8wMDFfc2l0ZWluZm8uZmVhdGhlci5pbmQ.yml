@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arizona_nitrate_001_siteinfo.feather.ind
+type: file
+hash: aeb89821c40a4ea57a38092dbcb2df3b
+time: 2018-07-20 21:22:57 UTC
+depends:
+  tasks_1_wqp.yml: 4b0856ded217179efb859ef61b0b4e42
+fixed: e178e970e65837e208c6cb619e8ad651
+code:
+  functions:
+    extract_wqp_siteinfo: b024b5b4f45857a70deb38c19d94faaf
+

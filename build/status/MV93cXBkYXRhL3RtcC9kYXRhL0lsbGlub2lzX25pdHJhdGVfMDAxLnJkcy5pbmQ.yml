@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Illinois_nitrate_001.rds.ind
+type: file
+hash: 5a12fd54f6c9529ddd5abb33ae26a48e
+time: 2018-07-20 21:58:57 UTC
+depends:
+  partition_Illinois_nitrate_001: 7609e0d8c13dbf78bb55f44a93c37125
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 559206641bf905cc8977179fe37bc753
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

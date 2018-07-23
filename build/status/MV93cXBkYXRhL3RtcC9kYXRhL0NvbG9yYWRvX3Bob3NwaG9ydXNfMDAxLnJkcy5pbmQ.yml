@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_phosphorus_001.rds.ind
+type: file
+hash: 1ca66a29583c34bd43ed1006c334fb98
+time: 2018-07-20 21:33:01 UTC
+depends:
+  partition_Colorado_phosphorus_001: e9989191a0ea83b053e06635dfd9ed24
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: cba46852f8206792d8b5fae23f556530
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nevada_nitrate_001.rds.ind
+type: file
+hash: 883f66c817c83c8f5954a1077541f86b
+time: 2018-07-20 22:42:28 UTC
+depends:
+  partition_Nevada_nitrate_001: 750eaf4420475fa02d7267c77e40cf73
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0f0d15a4f0802e4be5487df782d460e5
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

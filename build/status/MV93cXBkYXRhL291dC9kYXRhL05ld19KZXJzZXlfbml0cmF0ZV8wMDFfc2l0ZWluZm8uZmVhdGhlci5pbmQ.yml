@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/New_Jersey_nitrate_001_siteinfo.feather.ind
+type: file
+hash: cf6442219c5e2051d8ed00940f0d2db7
+time: 2018-07-20 22:46:22 UTC
+depends:
+  1_wqpdata/tmp/data/New_Jersey_nitrate_001_siteinfo.feather.ind: cf6442219c5e2051d8ed00940f0d2db7
+fixed: 6a4478e93bbf786036bda5482f84fb79
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Florida_nitrate_001.rds.ind
+type: file
+hash: d9a68dd905479f4ea652fe95f3590c51
+time: 2018-07-20 21:39:42 UTC
+depends:
+  partition_Florida_nitrate_001: c531e49df145761f274ed894a2822ccb
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 4d61d182c00eec6c3893db03f2420c1b
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

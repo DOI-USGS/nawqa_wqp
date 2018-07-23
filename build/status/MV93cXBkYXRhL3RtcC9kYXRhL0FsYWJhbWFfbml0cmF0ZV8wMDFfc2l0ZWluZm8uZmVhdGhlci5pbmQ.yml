@@ -1,11 +1,12 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Alabama_nitrate_001_siteinfo.feather.ind
 type: file
-hash: f29c60032891af4b2baa91096c09c4b4
-time: 2018-07-06 12:59:35 UTC
-depends: {}
-fixed: e56bade3595a0a5746cbf53566376b7a
+hash: b2d4f671a6562a5df0b2e86b36be276a
+time: 2018-07-20 21:17:03 UTC
+depends:
+  tasks_1_wqp.yml: 4b0856ded217179efb859ef61b0b4e42
+fixed: 4e6c7363a92649d26eece421e992b2fc
 code:
   functions:
-    extract_wqp_siteinfo: 5d9fba0720154ed7be83b2c6b0559c99
+    extract_wqp_siteinfo: b024b5b4f45857a70deb38c19d94faaf
 

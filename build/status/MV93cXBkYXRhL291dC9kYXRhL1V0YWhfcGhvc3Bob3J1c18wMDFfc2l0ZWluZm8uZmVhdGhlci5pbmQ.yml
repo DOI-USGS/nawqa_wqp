@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Utah_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: 338dbdcfd271cf737118674552bdc28a
+time: 2018-07-20 23:21:12 UTC
+depends:
+  1_wqpdata/tmp/data/Utah_phosphorus_001_siteinfo.feather.ind: 338dbdcfd271cf737118674552bdc28a
+fixed: 0e499e9c905eafce2453a9ded6b5f9ad
+code:
+  functions: {}
+

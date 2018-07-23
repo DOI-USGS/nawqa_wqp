@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Virginia_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: 8df7779a688092374f526ac4b5f047c5
+time: 2018-07-20 23:30:14 UTC
+depends:
+  1_wqpdata/tmp/data/Virginia_phosphorus_001_siteinfo.feather.ind: 8df7779a688092374f526ac4b5f047c5
+fixed: f3001c7b445d0ba4b6846e1d3ef0b27f
+code:
+  functions: {}
+

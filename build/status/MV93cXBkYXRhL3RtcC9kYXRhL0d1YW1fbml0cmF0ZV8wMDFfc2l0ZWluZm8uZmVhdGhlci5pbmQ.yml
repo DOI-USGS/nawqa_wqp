@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Guam_nitrate_001_siteinfo.feather.ind
+type: file
+hash: a52dbc5cefa4372b4a00310327433647
+time: 2018-07-20 21:53:51 UTC
+depends:
+  tasks_1_wqp.yml: 4b0856ded217179efb859ef61b0b4e42
+fixed: 2d1c64aa926f59659f45863683a8e777
+code:
+  functions:
+    extract_wqp_siteinfo: b024b5b4f45857a70deb38c19d94faaf
+

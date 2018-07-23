@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/American_Samoa_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: 3ef739b593505fa8bc80446d5ae5c276
+time: 2018-07-20 21:22:02 UTC
+depends:
+  tasks_1_wqp.yml: 4b0856ded217179efb859ef61b0b4e42
+fixed: 78495a0f371bb5587c0c6c379b426d9a
+code:
+  functions:
+    extract_wqp_siteinfo: b024b5b4f45857a70deb38c19d94faaf
+

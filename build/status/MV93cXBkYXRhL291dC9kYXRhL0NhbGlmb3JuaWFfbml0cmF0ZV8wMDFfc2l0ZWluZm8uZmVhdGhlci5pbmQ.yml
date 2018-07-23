@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/California_nitrate_001_siteinfo.feather.ind
+type: file
+hash: b22bb63ff37f3ccaee442a8b56d2753d
+time: 2018-07-20 21:27:21 UTC
+depends:
+  1_wqpdata/tmp/data/California_nitrate_001_siteinfo.feather.ind: b22bb63ff37f3ccaee442a8b56d2753d
+fixed: ec55cc8272fdc807224109ca37c2e09c
+code:
+  functions: {}
+

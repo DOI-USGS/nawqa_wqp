@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Indiana_phosphorus_001.rds.ind
+type: file
+hash: c928361bcf576f55dec20b109b50e44a
+time: 2018-07-20 22:01:48 UTC
+depends:
+  partition_Indiana_phosphorus_001: a53547beef5e59e06e7a07351af9ecb8
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 678b1b4f9349975cef9b198d139c8537
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

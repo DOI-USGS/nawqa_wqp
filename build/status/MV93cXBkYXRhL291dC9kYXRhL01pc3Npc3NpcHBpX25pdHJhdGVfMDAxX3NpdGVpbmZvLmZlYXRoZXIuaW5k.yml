@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Mississippi_nitrate_001_siteinfo.feather.ind
+type: file
+hash: 11aa7d3e551a8196f7f742d7d0302483
+time: 2018-07-20 22:35:07 UTC
+depends:
+  1_wqpdata/tmp/data/Mississippi_nitrate_001_siteinfo.feather.ind: 11aa7d3e551a8196f7f742d7d0302483
+fixed: 15b0a02685ab5c3705904bedf5cd117f
+code:
+  functions: {}
+

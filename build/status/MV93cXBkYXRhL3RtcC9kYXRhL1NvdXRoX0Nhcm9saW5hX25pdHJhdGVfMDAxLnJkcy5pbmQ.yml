@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Carolina_nitrate_001.rds.ind
+type: file
+hash: b98414d4a22cbcda9bce15acf99152ff
+time: 2018-07-20 23:11:02 UTC
+depends:
+  partition_South_Carolina_nitrate_001: 243a39d7bd4367f02df3b53d038fdb9d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 8f6aa15d08daa0362b533a8ece688a65
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

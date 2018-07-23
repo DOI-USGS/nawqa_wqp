@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Nebraska_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: 51a7a8560a0f311c87000a7847ef82fb
+time: 2018-07-20 22:41:52 UTC
+depends:
+  1_wqpdata/tmp/data/Nebraska_phosphorus_001_siteinfo.feather.ind: 51a7a8560a0f311c87000a7847ef82fb
+fixed: e439edde465cc17fc075f9c7f1f55d65
+code:
+  functions: {}
+

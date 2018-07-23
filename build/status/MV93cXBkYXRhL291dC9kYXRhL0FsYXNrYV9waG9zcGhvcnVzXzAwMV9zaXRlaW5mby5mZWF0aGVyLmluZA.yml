@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Alaska_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: 0679d71ea54b54351ee023f56a1b6ad8
+time: 2018-07-20 21:20:42 UTC
+depends:
+  1_wqpdata/tmp/data/Alaska_phosphorus_001_siteinfo.feather.ind: 0679d71ea54b54351ee023f56a1b6ad8
+fixed: bdab52cf671b5c5c1f7849e054f6fe2b
+code:
+  functions: {}
+

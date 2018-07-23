@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Iowa_phosphorus_001.rds.ind
+type: file
+hash: 2d32393c64b7a43b3ca9f944cad85fbe
+time: 2018-07-20 22:03:43 UTC
+depends:
+  partition_Iowa_phosphorus_001: 6f8b1fbb11ed0cf8395e2f90317096f9
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: ad320b2d0e3de800f1183157f819cfbb
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

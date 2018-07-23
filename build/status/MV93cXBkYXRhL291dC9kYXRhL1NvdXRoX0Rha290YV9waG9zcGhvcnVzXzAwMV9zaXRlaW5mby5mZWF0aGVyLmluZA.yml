@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/South_Dakota_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: d79adf3e4cb234c458c5114fcdb0a9fc
+time: 2018-07-20 23:14:16 UTC
+depends:
+  1_wqpdata/tmp/data/South_Dakota_phosphorus_001_siteinfo.feather.ind: d79adf3e4cb234c458c5114fcdb0a9fc
+fixed: 3819ec4d1162ee2a8083f856195f8de9
+code:
+  functions: {}
+

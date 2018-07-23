@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Jersey_phosphorus_001.rds.ind
+type: file
+hash: 7fcf4ba5f05d4bebca1058ef72aa1235
+time: 2018-07-20 22:47:12 UTC
+depends:
+  partition_New_Jersey_phosphorus_001: b29cbee36dfbd41765496f29175fd745
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 262fa6d902a2fc5c239b66985ac1f8ad
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

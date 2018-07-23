@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Rhode_Island_nitrate_001.rds.ind
+type: file
+hash: 2f570fd22f24ba834fb398fcc37e2174
+time: 2018-07-20 23:09:14 UTC
+depends:
+  partition_Rhode_Island_nitrate_001: 46d72c50ac341c3752f1ad056000df4a
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: a620b6670de159a63941e75c994c360c
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Pennsylvania_nitrate_002.rds.ind
+type: file
+hash: 1c53001c9cec4b32cf0479b4232db1da
+time: 2018-07-20 23:04:29 UTC
+depends:
+  partition_Pennsylvania_nitrate_002: e03aff4f3268e1e858a93cc2b3349ce1
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 080d4c421e0a21db4290675bb89d0fd9
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

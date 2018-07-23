@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Hampshire_nitrate_001.rds.ind
+type: file
+hash: 63b0323b3c218c73033b1a6cf298cd7f
+time: 2018-07-20 22:44:09 UTC
+depends:
+  partition_New_Hampshire_nitrate_001: b48d8da4125d67f1d3c999ea3875d5e1
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c5d24394acce576e71429e6fabb4f1d9
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

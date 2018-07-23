@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Washington_nitrate_001_siteinfo.feather.ind
+type: file
+hash: 1cb484746a9d8ea6143f32979f430844
+time: 2018-07-20 23:33:57 UTC
+depends:
+  1_wqpdata/tmp/data/Washington_nitrate_001_siteinfo.feather.ind: 1cb484746a9d8ea6143f32979f430844
+fixed: bc95a7d2e19a0dffe5b1ece44aa28b05
+code:
+  functions: {}
+

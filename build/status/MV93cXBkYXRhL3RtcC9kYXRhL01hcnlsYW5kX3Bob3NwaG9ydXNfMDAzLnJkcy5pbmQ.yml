@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maryland_phosphorus_003.rds.ind
+type: file
+hash: bd6f5f7a7ec0528d97f1807c0d686bdc
+time: 2018-07-20 22:21:16 UTC
+depends:
+  partition_Maryland_phosphorus_003: 39de4fa4289fccb7baf6ed4d61d7cd12
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 521403e3e3c677e4e719fc577316c149
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

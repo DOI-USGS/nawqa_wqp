@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_York_nitrate_001_siteinfo.feather.ind
+type: file
+hash: 8d1e44fe41b21fd0f071e946af714439
+time: 2018-07-20 22:50:08 UTC
+depends:
+  tasks_1_wqp.yml: 4b0856ded217179efb859ef61b0b4e42
+fixed: 033e3a4748e9ee1e193db1a3e98a07b5
+code:
+  functions:
+    extract_wqp_siteinfo: b024b5b4f45857a70deb38c19d94faaf
+

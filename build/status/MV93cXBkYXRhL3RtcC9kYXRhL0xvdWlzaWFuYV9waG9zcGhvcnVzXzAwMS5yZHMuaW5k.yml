@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Louisiana_phosphorus_001.rds.ind
+type: file
+hash: 2a52d4df30d6fc86cd16c6d0602f40f9
+time: 2018-07-20 22:09:28 UTC
+depends:
+  partition_Louisiana_phosphorus_001: dc18af374092b8fb7346e105b668508c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 608a96952e87d53391d0d8ec0ceb1b2d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

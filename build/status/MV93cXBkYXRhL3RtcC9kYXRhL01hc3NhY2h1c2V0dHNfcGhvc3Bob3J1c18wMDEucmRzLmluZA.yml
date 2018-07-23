@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Massachusetts_phosphorus_001.rds.ind
+type: file
+hash: 07691528c2756b18d5810de5c2ed53ee
+time: 2018-07-20 22:26:04 UTC
+depends:
+  partition_Massachusetts_phosphorus_001: cada2b73197396bbcdfefa1762e59b3c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 7d9bbc0237cfe278284a42bfaa0367c0
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

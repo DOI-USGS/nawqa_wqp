@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Pennsylvania_phosphorus_002.rds.ind
+type: file
+hash: dd9f649a99bef329902aee51e354627f
+time: 2018-07-20 23:06:46 UTC
+depends:
+  partition_Pennsylvania_phosphorus_002: eae53f61cfe4468ae92267722d4a0ced
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 05961f4187b1314f94329e48d6670864
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

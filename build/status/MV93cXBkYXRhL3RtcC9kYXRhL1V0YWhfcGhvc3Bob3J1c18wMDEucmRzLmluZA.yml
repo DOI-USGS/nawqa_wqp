@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Utah_phosphorus_001.rds.ind
+type: file
+hash: b342a25e3149b2d4838e880ca46a852a
+time: 2018-07-20 23:20:58 UTC
+depends:
+  partition_Utah_phosphorus_001: be6ab657139f4b3306cabb76fee7d0e0
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 8b2270c91be8ff2b94f4b68e593c5586
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

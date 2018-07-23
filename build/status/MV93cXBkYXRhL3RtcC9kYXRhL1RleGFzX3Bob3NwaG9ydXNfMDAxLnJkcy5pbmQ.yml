@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Texas_phosphorus_001.rds.ind
+type: file
+hash: 52ce79989c4c0759f7c3e535450dde1b
+time: 2018-07-20 23:18:04 UTC
+depends:
+  partition_Texas_phosphorus_001: dc1459006edefe3b423d32d5dce4d450
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0be7f41e831db9a2a9501b29f9d1eaed
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Utah_nitrate_001_siteinfo.feather.ind
+type: file
+hash: 2f82b105730f98abad92a43dc07c871f
+time: 2018-07-20 23:19:55 UTC
+depends:
+  1_wqpdata/tmp/data/Utah_nitrate_001_siteinfo.feather.ind: 2f82b105730f98abad92a43dc07c871f
+fixed: b03037c8660b8ee68424a1bf6f191606
+code:
+  functions: {}
+

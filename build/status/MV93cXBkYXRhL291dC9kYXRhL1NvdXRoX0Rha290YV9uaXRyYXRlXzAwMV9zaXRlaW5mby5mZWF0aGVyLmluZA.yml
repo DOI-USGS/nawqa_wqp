@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/South_Dakota_nitrate_001_siteinfo.feather.ind
+type: file
+hash: c5a06a47db05461e66c3879a886762cb
+time: 2018-07-20 23:13:12 UTC
+depends:
+  1_wqpdata/tmp/data/South_Dakota_nitrate_001_siteinfo.feather.ind: c5a06a47db05461e66c3879a886762cb
+fixed: 71aa9e7ad70375923afd71fa8acc26b9
+code:
+  functions: {}
+

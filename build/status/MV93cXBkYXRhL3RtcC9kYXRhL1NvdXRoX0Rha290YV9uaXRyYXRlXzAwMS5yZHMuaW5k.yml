@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Dakota_nitrate_001.rds.ind
+type: file
+hash: f960fca2a414957820c58db3f43a379a
+time: 2018-07-20 23:12:58 UTC
+depends:
+  partition_South_Dakota_nitrate_001: ec305bbb28bf3472df264ca70c6a9b06
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c142f9fed87e606c15de841220bfc0d5
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

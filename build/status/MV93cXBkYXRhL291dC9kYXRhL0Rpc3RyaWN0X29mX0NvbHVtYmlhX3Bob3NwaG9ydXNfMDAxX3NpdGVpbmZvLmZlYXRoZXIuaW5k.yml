@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/District_of_Columbia_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: a84fb991b9f88c4e9453b765a68d5f97
+time: 2018-07-20 21:38:11 UTC
+depends:
+  1_wqpdata/tmp/data/District_of_Columbia_phosphorus_001_siteinfo.feather.ind: a84fb991b9f88c4e9453b765a68d5f97
+fixed: cb6a170220236a73a479d64310dfb1b7
+code:
+  functions: {}
+
