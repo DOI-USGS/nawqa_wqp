@@ -226,8 +226,8 @@ plan_wqp_pull <- function(partitions, folders) {
     task_names=sort(partitions$PullTask),
     task_steps=list(partition, download, confirm_download, extract_data, extract_siteinfo,
                     post_data, post_siteinfo, retrieve_data, retrieve_siteinfo),
-    final_steps='post_siteinfo',
-    add_complete=FALSE,
+    final_steps=c('post_data', 'post_siteinfo'),
+    add_complete=TRUE,
     ind_dir=folders$log)
 
 }
