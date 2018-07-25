@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Kansas_nitrate_001.ind
+type: file
+hash: c371a1d0c85e4ef7da93f56079707b5a
+time: 2018-07-25 19:52:23 UTC
+depends:
+  1_wqpdata/out/data/Kansas_nitrate_001.feather.ind: 68123caf8ac21b094735024ed73d6f35
+  1_wqpdata/out/data/Kansas_nitrate_001_siteinfo.feather.ind: 9e990c7615d785fbc384ed9d9f3adbed
+fixed: e083ceda038b7db76b8e8f86b6e65ac2
+code:
+  functions: {}
+

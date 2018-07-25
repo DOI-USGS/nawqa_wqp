@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Georgia_nitrate_001.ind
+type: file
+hash: 9cc069852b8c064760a677e97b742cc8
+time: 2018-07-25 19:37:33 UTC
+depends:
+  1_wqpdata/out/data/Georgia_nitrate_001.feather.ind: b1e509d289c29972676627bbbf770dd6
+  1_wqpdata/out/data/Georgia_nitrate_001_siteinfo.feather.ind: 32af0d6b2dc8e0641ee577acd4120cb6
+fixed: 294627268a0375301bd6bda73248424c
+code:
+  functions: {}
+

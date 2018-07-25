@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Oklahoma_phosphorus_001.ind
+type: file
+hash: 1efa985c8bf20fc25deb347f8c142ff4
+time: 2018-07-25 20:47:43 UTC
+depends:
+  1_wqpdata/out/data/Oklahoma_phosphorus_001.feather.ind: 574443427c563aa5a4d0d412cda1827f
+  1_wqpdata/out/data/Oklahoma_phosphorus_001_siteinfo.feather.ind: da2635d1a86b3c8a557b8909af19000d
+fixed: 205f2e199d3bf6be510c282a4495b08f
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_Mexico_nitrate_001.ind
+type: file
+hash: cb55b8da27df54e3095fe7798b227ac2
+time: 2018-07-25 20:36:14 UTC
+depends:
+  1_wqpdata/out/data/New_Mexico_nitrate_001.feather.ind: 0ba197cb0815f77f46ef8fab877119cc
+  1_wqpdata/out/data/New_Mexico_nitrate_001_siteinfo.feather.ind: 879c52f07c8c665c3edcce562e373268
+fixed: e8f0a42351464ebec38cda4d684de100
+code:
+  functions: {}
+

@@ -2,11 +2,11 @@ version: 0.3.0
 name: 1_wqpdata/tmp/data/Minnesota_nitrate_002_siteinfo.feather.ind
 type: file
 hash: 52a95e6404b68827234f3e7036be3bfd
-time: 2018-07-20 22:31:01 UTC
+time: 2018-07-25 20:17:47 UTC
 depends:
-  tasks_1_wqp.yml: 4b0856ded217179efb859ef61b0b4e42
+  tasks_1_wqp.yml: 42a8cace84b679f9e25954ca6e8b2ae8
 fixed: 392fb41d84bb18d0410e5ea826cbba64
 code:
   functions:
-    extract_wqp_siteinfo: b024b5b4f45857a70deb38c19d94faaf
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
 

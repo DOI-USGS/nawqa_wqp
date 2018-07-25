@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Illinois_phosphorus_001.ind
+type: file
+hash: 0263dfb7e0fe9c78c834f67ceaa29bb0
+time: 2018-07-25 19:46:50 UTC
+depends:
+  1_wqpdata/out/data/Illinois_phosphorus_001.feather.ind: 5b9eda13bead4109b596feb759ade3f9
+  1_wqpdata/out/data/Illinois_phosphorus_001_siteinfo.feather.ind: 36c02d8fc8327e5ad9d7a1c71acbb6d2
+fixed: 8cd2eb3c3f2d1246cc1f509b0da1c644
+code:
+  functions: {}
+

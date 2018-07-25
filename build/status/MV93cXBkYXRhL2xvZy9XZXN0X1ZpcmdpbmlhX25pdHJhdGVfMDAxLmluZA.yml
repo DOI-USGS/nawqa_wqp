@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/West_Virginia_nitrate_001.ind
+type: file
+hash: 9f14d95085609e4fd90415ee27c6446d
+time: 2018-07-25 21:23:53 UTC
+depends:
+  1_wqpdata/out/data/West_Virginia_nitrate_001.feather.ind: 1a86ca4f68e1b6f094dc75246ca5364f
+  1_wqpdata/out/data/West_Virginia_nitrate_001_siteinfo.feather.ind: 45e4a7f2e22251fcc37c21922dbfd413
+fixed: 582094a7324c5271c7410f3668528b45
+code:
+  functions: {}
+

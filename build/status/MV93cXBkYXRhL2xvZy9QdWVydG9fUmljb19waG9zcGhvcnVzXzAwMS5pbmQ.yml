@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Puerto_Rico_phosphorus_001.ind
+type: file
+hash: df581ee66996d16b20a12877c511e4d8
+time: 2018-07-25 20:56:31 UTC
+depends:
+  1_wqpdata/out/data/Puerto_Rico_phosphorus_001.feather.ind: e53ba121c8618641cc7c6f2300ff1cdd
+  1_wqpdata/out/data/Puerto_Rico_phosphorus_001_siteinfo.feather.ind: 2d8c3b38666992f2f0ef6651b2ab4ce7
+fixed: aa54d9df99284481a4137b215399d8c6
+code:
+  functions: {}
+

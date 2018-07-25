@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Guam_phosphorus_001.ind
+type: file
+hash: b5fff47cb5ae1e87fccfd4af54a1790e
+time: 2018-07-25 19:40:42 UTC
+depends:
+  1_wqpdata/out/data/Guam_phosphorus_001.feather.ind: 64586dbcd9db14bf888b3ae3a2f36760
+  1_wqpdata/out/data/Guam_phosphorus_001_siteinfo.feather.ind: 7d9479cfc1a1278b11c01629c2a33a69
+fixed: fa5936262d537ca764f6b0b20681ed60
+code:
+  functions: {}
+

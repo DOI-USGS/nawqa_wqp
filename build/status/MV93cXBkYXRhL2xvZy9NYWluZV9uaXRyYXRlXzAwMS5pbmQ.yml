@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Maine_nitrate_001.ind
+type: file
+hash: 5995bbfd798dbff058dcf1a4014a4166
+time: 2018-07-25 19:58:46 UTC
+depends:
+  1_wqpdata/out/data/Maine_nitrate_001.feather.ind: 1f1cd0f8c1c64ba2a2cb1217f5b50426
+  1_wqpdata/out/data/Maine_nitrate_001_siteinfo.feather.ind: c4b4cc47ee430109e1eaa2fb6675d866
+fixed: 64e2d8a5f6bbdefd4fbeeb77b0860cc0
+code:
+  functions: {}
+

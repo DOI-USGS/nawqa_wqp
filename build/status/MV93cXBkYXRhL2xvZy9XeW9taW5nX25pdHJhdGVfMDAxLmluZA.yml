@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Wyoming_nitrate_001.ind
+type: file
+hash: 10f887b53c90ea7c5326839c013673ab
+time: 2018-07-25 21:29:33 UTC
+depends:
+  1_wqpdata/out/data/Wyoming_nitrate_001.feather.ind: 4ea750b06dc945a3df43288f548033d7
+  1_wqpdata/out/data/Wyoming_nitrate_001_siteinfo.feather.ind: 4654cf408d454f5368d29b21ad074cad
+fixed: 7636c570460bebf98c4c2254010fa1f1
+code:
+  functions: {}
+

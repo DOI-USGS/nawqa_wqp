@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Louisiana_phosphorus_001.ind
+type: file
+hash: 64d9647398e2267a5820b102c308b35f
+time: 2018-07-25 19:57:49 UTC
+depends:
+  1_wqpdata/out/data/Louisiana_phosphorus_001.feather.ind: 2bb00e39979ed08bf597a1457b2d9dad
+  1_wqpdata/out/data/Louisiana_phosphorus_001_siteinfo.feather.ind: 7bcdb902b78d90d1332a89afffbddab5
+fixed: 4d5810f864d48734aedf31ee20e04918
+code:
+  functions: {}
+

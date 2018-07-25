@@ -2,11 +2,11 @@ version: 0.3.0
 name: 1_wqpdata/tmp/data/Virginia_nitrate_002_siteinfo.feather.ind
 type: file
 hash: d7cf566a0e1ca2ad90bcb3076654607c
-time: 2018-07-20 23:27:24 UTC
+time: 2018-07-25 21:15:16 UTC
 depends:
-  tasks_1_wqp.yml: 4b0856ded217179efb859ef61b0b4e42
+  tasks_1_wqp.yml: 42a8cace84b679f9e25954ca6e8b2ae8
 fixed: b64b4dae8c708fb9a3ca45bcf257fe43
 code:
   functions:
-    extract_wqp_siteinfo: b024b5b4f45857a70deb38c19d94faaf
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
 

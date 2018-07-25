@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Colorado_nitrate_001.ind
+type: file
+hash: 63a0e0eafdc78ed78e9710f915970215
+time: 2018-07-25 19:16:31 UTC
+depends:
+  1_wqpdata/out/data/Colorado_nitrate_001.feather.ind: d96cf610482c8e5781f3218d184f5ce4
+  1_wqpdata/out/data/Colorado_nitrate_001_siteinfo.feather.ind: 38e4ff1f4404d7579ac0c261ba6c4f83
+fixed: 327ba89c97db55f445141ad8a2405a09
+code:
+  functions: {}
+

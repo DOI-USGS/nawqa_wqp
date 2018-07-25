@@ -1,13 +1,12 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Wyoming_phosphorus_001.feather.ind
 type: file
-hash: 788a481a3dd8daddd7f272b6ea87fc78
-time: 2018-06-26 05:27:27 UTC
+hash: 1c80e6f21eefd528b33b2da37e577d36
+time: 2018-07-25 22:07:12 UTC
 depends:
-  partition_Wyoming_phosphorus_001: cab0ca883152d450659ccdb8c1f25ff1
-  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
-fixed: 6cbbbd48b9a76224dc03dc0c2846a25c
+  tasks_1_wqp.yml: 42a8cace84b679f9e25954ca6e8b2ae8
+fixed: 4e06e52660a01e68ab3988decb71fad5
 code:
   functions:
-    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
 

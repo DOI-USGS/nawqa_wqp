@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Vermont_nitrate_001.ind
+type: file
+hash: 689a6dee202983414972fc67a18dd8b6
+time: 2018-07-25 21:10:26 UTC
+depends:
+  1_wqpdata/out/data/Vermont_nitrate_001.feather.ind: 93eefde924d789b3ca21115c44bea2ca
+  1_wqpdata/out/data/Vermont_nitrate_001_siteinfo.feather.ind: a294561cdc6f67eab45140d12d541474
+fixed: 322aa285cc6a7d526cfdbd2367ede147
+code:
+  functions: {}
+

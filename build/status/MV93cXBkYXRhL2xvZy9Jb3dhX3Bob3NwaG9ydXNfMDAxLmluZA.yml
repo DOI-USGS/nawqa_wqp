@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Iowa_phosphorus_001.ind
+type: file
+hash: b0e7ea1567acef134a8fac304d16b7a4
+time: 2018-07-25 19:51:21 UTC
+depends:
+  1_wqpdata/out/data/Iowa_phosphorus_001.feather.ind: 9bd836cd6b1e15628597f4cb9ba356e4
+  1_wqpdata/out/data/Iowa_phosphorus_001_siteinfo.feather.ind: 69fc8078ad0f9b83561be3253abdd8fb
+fixed: a07e84b33bcf733398cc4d942908378e
+code:
+  functions: {}
+
