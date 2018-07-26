@@ -134,7 +134,7 @@ plan_inventory <- function(constituents, folders) {
     task_names=sort(names(constituents$characteristicName)),
     task_steps=list(inventory, download, partition),
     final_steps='partition',
-    add_complete=FALSE,
+    add_complete=TRUE,
     ind_dir=folders$log)
 
 }
