@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/California_phosphorus_001.ind
+type: file
+hash: ade99089e1fdd5ae25bb6b40015d2b6a
+time: 2018-07-25 19:15:23 UTC
+depends:
+  1_wqpdata/out/data/California_phosphorus_001.feather.ind: 180e7c4a8cb6cc3e859be26c65759ff6
+  1_wqpdata/out/data/California_phosphorus_001_siteinfo.feather.ind: 45ee81cbe408860fe92ad4e879dced5c
+fixed: 9f504c2df940f3fc9db5e276f6dcc312
+code:
+  functions: {}
+

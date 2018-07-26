@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nevada_phosphorus_001.rds.ind
+type: file
+hash: 582b880d4305869e501d079cc251dca1
+time: 2018-07-20 22:43:20 UTC
+depends:
+  partition_Nevada_phosphorus_001: 2afeebaea3b2f03d93eaae3f967b666e
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 3cf3379aeda1fee858fac8b8d1e80e43
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

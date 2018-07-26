@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_York_phosphorus_001.rds.ind
+type: file
+hash: b748a6d43d55d18fa0e6563ae965873e
+time: 2018-07-20 22:51:13 UTC
+depends:
+  partition_New_York_phosphorus_001: 4f1225c60b5ca84dfdd39df9a51e2470
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9725c8a053fe0c96edc8f97fde746b50
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

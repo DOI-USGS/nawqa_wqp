@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wisconsin_phosphorus_002.feather.ind
+type: file
+hash: a8d6bf74be339c1035bb4e97dd8c0b42
+time: 2018-07-17 18:04:27 UTC
+depends:
+  partition_Wisconsin_phosphorus_002: 507182731d3573dfd8fb17690a5bc9eb
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: da6364497c25daa7065e45380c6c13c7
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

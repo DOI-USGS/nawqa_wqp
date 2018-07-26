@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/District_of_Columbia_nitrate_001.rds.ind
+type: file
+hash: a759197da38e33f7b291c17659ff5ac2
+time: 2018-07-20 21:37:10 UTC
+depends:
+  partition_District_of_Columbia_nitrate_001: 99bdcbe65f5e172abbd91e484bffb563
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: fae62761d32e0acd61345b84a1221fa5
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

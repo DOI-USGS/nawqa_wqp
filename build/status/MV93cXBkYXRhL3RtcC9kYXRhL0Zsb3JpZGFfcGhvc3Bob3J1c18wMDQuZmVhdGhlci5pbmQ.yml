@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Florida_phosphorus_004.feather.ind
+type: file
+hash: d8c181c3448d936cd74f99625554bf84
+time: 2018-07-17 17:56:10 UTC
+depends:
+  partition_Florida_phosphorus_004: 932155586b34a18830cf808f4c966ae0
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 62513265047fd0a398254b82083c28dc
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

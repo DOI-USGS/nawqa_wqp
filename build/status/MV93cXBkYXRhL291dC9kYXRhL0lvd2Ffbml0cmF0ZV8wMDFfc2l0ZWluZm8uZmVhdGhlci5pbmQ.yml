@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Iowa_nitrate_001_siteinfo.feather.ind
+type: file
+hash: be853c30043ab4c143f20f0f685a6c5b
+time: 2018-07-20 22:02:55 UTC
+depends:
+  1_wqpdata/tmp/data/Iowa_nitrate_001_siteinfo.feather.ind: be853c30043ab4c143f20f0f685a6c5b
+fixed: d2f5f7e565c5fc8b6e5ab80c5c7cd2f1
+code:
+  functions: {}
+

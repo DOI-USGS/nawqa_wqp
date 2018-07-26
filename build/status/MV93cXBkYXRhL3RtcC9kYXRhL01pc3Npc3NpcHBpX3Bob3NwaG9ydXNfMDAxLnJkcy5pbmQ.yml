@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Mississippi_phosphorus_001.rds.ind
+type: file
+hash: 8e9fa3984a50cc353ad2cd7238df4764
+time: 2018-07-20 22:35:47 UTC
+depends:
+  partition_Mississippi_phosphorus_001: 2c1df7a95e0c1a98485fcf20d02340f6
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 93ae990c6d240146eb00b5a7e9cded6c
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

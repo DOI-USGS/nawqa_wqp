@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_York_nitrate_001.rds.ind
+type: file
+hash: 1e96a1a2502d5dc42cff02f490dd56f9
+time: 2018-07-20 22:50:06 UTC
+depends:
+  partition_New_York_nitrate_001: 2669aa65ce6b675aa3c14865447f5c45
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: ceffe6432dfc2b8a3b2772bd2fac2261
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

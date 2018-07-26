@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oregon_phosphorus_001.rds.ind
+type: file
+hash: 26c95483cda7c3ad9f9b8d3d11d1e18e
+time: 2018-07-20 23:01:56 UTC
+depends:
+  partition_Oregon_phosphorus_001: 06e67a3df9068f630621f91e76125b60
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f5e607d33b45d00b5d714dc875f0d4fe
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

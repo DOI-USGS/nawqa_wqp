@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_nitrate_001.rds.ind
+type: file
+hash: 46e4ec5c519650f1a579c0d14910bb56
+time: 2018-07-20 21:51:56 UTC
+depends:
+  partition_Georgia_nitrate_001: 80fc4b9a6be9aa1bad76be0071d21285
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0164b3a7adc248d61b5f7a20b0fcb476
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_Jersey_phosphorus_001.ind
+type: file
+hash: 525cfc8e57c71795969ed94698e3fbda
+time: 2018-07-25 20:35:16 UTC
+depends:
+  1_wqpdata/out/data/New_Jersey_phosphorus_001.feather.ind: 6149582b943cc673ef74aa1891562a97
+  1_wqpdata/out/data/New_Jersey_phosphorus_001_siteinfo.feather.ind: aac3118c74a3e4b764762d0254191b6c
+fixed: 3ce609cc7a10429e9df49d4acff22ba3
+code:
+  functions: {}
+

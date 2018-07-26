@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Delaware_nitrate_001.rds.ind
+type: file
+hash: 00e2ee1ef283275e810f1daa68009c3b
+time: 2018-07-20 21:35:34 UTC
+depends:
+  partition_Delaware_nitrate_001: c2dfa67c713a1872999745cde0debad6
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f0fee2f0115a207f19765d793162324a
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

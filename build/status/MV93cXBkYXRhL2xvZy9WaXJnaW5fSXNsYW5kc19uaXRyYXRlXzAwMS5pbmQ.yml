@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Virgin_Islands_nitrate_001.ind
+type: file
+hash: 804ce5c42409e66a8aa02213f00fae14
+time: 2018-07-25 21:12:26 UTC
+depends:
+  1_wqpdata/out/data/Virgin_Islands_nitrate_001.feather.ind: 809c8cbd7570ed3ab8b3049199bd207f
+  1_wqpdata/out/data/Virgin_Islands_nitrate_001_siteinfo.feather.ind: 809c8cbd7570ed3ab8b3049199bd207f
+fixed: b4f812651920f70271171018321fdcd9
+code:
+  functions: {}
+

@@ -1,11 +1,12 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Alabama_phosphorus_001_siteinfo.feather.ind
 type: file
-hash: 373de225639b1dc4ec60585d11dcee4f
-time: 2018-07-06 13:01:57 UTC
-depends: {}
-fixed: 87128fc0e3897aafbebbea2364ec0ca5
+hash: e73c5d3deda7eded79078558afc62f0c
+time: 2018-07-25 19:03:26 UTC
+depends:
+  tasks_1_wqp.yml: 42a8cace84b679f9e25954ca6e8b2ae8
+fixed: 2eab2e1874fc97bb7959da7d2e6a2115
 code:
   functions:
-    extract_wqp_siteinfo: 5d9fba0720154ed7be83b2c6b0559c99
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
 

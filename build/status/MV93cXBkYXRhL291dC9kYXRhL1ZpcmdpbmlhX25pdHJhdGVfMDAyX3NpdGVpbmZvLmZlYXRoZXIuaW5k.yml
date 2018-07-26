@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Virginia_nitrate_002_siteinfo.feather.ind
+type: file
+hash: d7cf566a0e1ca2ad90bcb3076654607c
+time: 2018-07-20 23:27:37 UTC
+depends:
+  1_wqpdata/tmp/data/Virginia_nitrate_002_siteinfo.feather.ind: d7cf566a0e1ca2ad90bcb3076654607c
+fixed: 562eec502530b77440f8cac29a5801b0
+code:
+  functions: {}
+

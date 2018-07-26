@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Nebraska_nitrate_001_siteinfo.feather.ind
+type: file
+hash: 93e93a1c91a3cb653edb5161d592462b
+time: 2018-07-20 22:40:50 UTC
+depends:
+  1_wqpdata/tmp/data/Nebraska_nitrate_001_siteinfo.feather.ind: 93e93a1c91a3cb653edb5161d592462b
+fixed: bc97402e34b378c237e35f29a0d48971
+code:
+  functions: {}
+

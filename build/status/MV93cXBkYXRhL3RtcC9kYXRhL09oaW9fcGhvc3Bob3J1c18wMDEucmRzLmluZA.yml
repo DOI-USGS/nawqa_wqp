@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Ohio_phosphorus_001.rds.ind
+type: file
+hash: 45b177a811a54cea988cd6905fb4b6a1
+time: 2018-07-20 22:57:37 UTC
+depends:
+  partition_Ohio_phosphorus_001: 04a14458ccec58357edbf8c85865f0ff
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 6a646d9c1c687bbfd275cc13d5a2f485
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

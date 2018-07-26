@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nebraska_phosphorus_001.rds.ind
+type: file
+hash: 9a072e1fffb4997a501002a856410157
+time: 2018-07-20 22:41:32 UTC
+depends:
+  partition_Nebraska_phosphorus_001: 543625a635abbf1d8c4e1099d6fabd2c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: e1b45113df2ae69e2dce5b6ced8330be
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

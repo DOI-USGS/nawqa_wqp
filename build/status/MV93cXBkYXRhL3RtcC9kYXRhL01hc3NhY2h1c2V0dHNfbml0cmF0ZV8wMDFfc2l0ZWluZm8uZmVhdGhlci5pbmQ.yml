@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Massachusetts_nitrate_001_siteinfo.feather.ind
+type: file
+hash: dd44804cb80ed70d455d0f83fcc4f7e7
+time: 2018-07-25 20:12:40 UTC
+depends:
+  tasks_1_wqp.yml: 42a8cace84b679f9e25954ca6e8b2ae8
+fixed: b1006ed4da5577fe3812482e96bbb14b
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

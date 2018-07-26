@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Maine_phosphorus_001.ind
+type: file
+hash: 3bd39f105a3adf580665472eadd9c3a8
+time: 2018-07-25 19:59:45 UTC
+depends:
+  1_wqpdata/out/data/Maine_phosphorus_001.feather.ind: ed8b42efce5e8e62796967a33cf8ac52
+  1_wqpdata/out/data/Maine_phosphorus_001_siteinfo.feather.ind: b64d7ce6742e94da40c604ca076e2547
+fixed: eef3f5f1ff0e3820eadf8f4fd58eca4e
+code:
+  functions: {}
+

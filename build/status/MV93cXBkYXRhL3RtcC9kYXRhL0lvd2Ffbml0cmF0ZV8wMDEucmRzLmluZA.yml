@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Iowa_nitrate_001.rds.ind
+type: file
+hash: c3abc768da7776bc6647334796b4b515
+time: 2018-07-20 22:02:45 UTC
+depends:
+  partition_Iowa_nitrate_001: cadb70be69f97d7bfded5b4318ad2ac4
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: aa494c837f66e355eea3f6d29c55e90b
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

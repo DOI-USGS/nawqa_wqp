@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Louisiana_nitrate_001.ind
+type: file
+hash: 6e7ce2b619a9b01f73fe82b7bfe01fa9
+time: 2018-07-25 19:56:35 UTC
+depends:
+  1_wqpdata/out/data/Louisiana_nitrate_001.feather.ind: ddd6b41c146e2a6a66842dcfe588256c
+  1_wqpdata/out/data/Louisiana_nitrate_001_siteinfo.feather.ind: 7bcdb902b78d90d1332a89afffbddab5
+fixed: f468dc1c42a4a05024908b3d41f8d8e3
+code:
+  functions: {}
+

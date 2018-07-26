@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Carolina_phosphorus_001.rds.ind
+type: file
+hash: 75fcdb48e03c755e26932692a5a2e9f4
+time: 2018-07-20 23:12:01 UTC
+depends:
+  partition_South_Carolina_phosphorus_001: dba573389c8b8593f270e133c7b2506d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c9c64e2ee2830ba6b6d582e6c7152993
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

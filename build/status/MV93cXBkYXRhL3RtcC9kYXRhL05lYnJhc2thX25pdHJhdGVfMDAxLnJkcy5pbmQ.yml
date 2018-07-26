@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nebraska_nitrate_001.rds.ind
+type: file
+hash: d2a747055bc1d9d8063508f6cd5ce601
+time: 2018-07-20 22:40:37 UTC
+depends:
+  partition_Nebraska_nitrate_001: 801c2a926aa47b85cf672f8b9a5a884d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 641291a47e8f96c25e6cf38fe5be2289
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

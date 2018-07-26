@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Vermont_phosphorus_001.rds.ind
+type: file
+hash: 4283db1048b88c7ca4c60e3c8ad0f3ac
+time: 2018-07-20 23:23:04 UTC
+depends:
+  partition_Vermont_phosphorus_001: cd1e009bb75967abfa593f6c937843d3
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: bfc6c9a81ceb2ceb0e5d68aef0dd7b7e
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

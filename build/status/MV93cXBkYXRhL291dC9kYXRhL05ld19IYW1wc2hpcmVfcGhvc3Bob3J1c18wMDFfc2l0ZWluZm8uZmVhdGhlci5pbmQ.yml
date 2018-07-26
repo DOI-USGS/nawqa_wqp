@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/New_Hampshire_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: aa35b8847ae783b2d2dbbce9f8eb57e3
+time: 2018-07-20 22:45:17 UTC
+depends:
+  1_wqpdata/tmp/data/New_Hampshire_phosphorus_001_siteinfo.feather.ind: aa35b8847ae783b2d2dbbce9f8eb57e3
+fixed: 56ded8e1fdc7ea2339753cf40cc41b36
+code:
+  functions: {}
+

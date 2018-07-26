@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Delaware_phosphorus_001.rds.ind
+type: file
+hash: 199b9c8797ee6a96627473d33fb2411b
+time: 2018-07-20 21:36:25 UTC
+depends:
+  partition_Delaware_phosphorus_001: f85e47fc634ecc053b2c6df889b57d6d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0f1be11dc7fbfc5e7fb4780426a141ae
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

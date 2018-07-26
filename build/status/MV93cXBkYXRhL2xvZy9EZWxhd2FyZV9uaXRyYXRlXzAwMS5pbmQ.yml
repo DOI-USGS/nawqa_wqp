@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Delaware_nitrate_001.ind
+type: file
+hash: 9ce796c6ebc00cf5b7042a3edb473233
+time: 2018-07-25 19:22:26 UTC
+depends:
+  1_wqpdata/out/data/Delaware_nitrate_001.feather.ind: e9a2ea29734ca9386f2b198a2952237f
+  1_wqpdata/out/data/Delaware_nitrate_001_siteinfo.feather.ind: 95b91fa5ae4de90918f917c6b8cfbf4d
+fixed: 2fc746f12d8eb3b893e4d74dd42ec8cf
+code:
+  functions: {}
+

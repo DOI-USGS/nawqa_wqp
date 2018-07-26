@@ -23,6 +23,10 @@ characteristicName:
     - "Phosphorus"
     - "Phosphorus as P"
     - "Total Phosphorus, mixed forms"
+    - "Orthophosphate"
+    - "Orthophosphate as PO4"
+    - "Orthophosphate as P"
+    - "Ortho-Phosphate-Phosphorus"
 
   nitrate:
     - "Nitrate"

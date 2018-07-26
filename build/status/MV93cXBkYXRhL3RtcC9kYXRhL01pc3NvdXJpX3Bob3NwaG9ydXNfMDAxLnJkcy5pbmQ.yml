@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Missouri_phosphorus_001.rds.ind
+type: file
+hash: 32860a58ca20399f5d59854350922901
+time: 2018-07-20 22:37:47 UTC
+depends:
+  partition_Missouri_phosphorus_001: c996b3e7d8f8d145890359c6e0327ac5
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 46b2a6805dcdf7154b793c76194d10fd
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,12 +1,12 @@
 version: 0.3.0
 name: 1_wqpdata/out/inventory/wqp_inventory.feather.ind
 type: file
-hash: a784c2170620ee3e4bbe99f4a4407abc
-time: 2018-07-05 18:42:51 UTC
+hash: 910c75a24f756c3f83cc57bb800353e6
+time: 2018-07-18 21:03:24 UTC
 depends:
   wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
-  wqp_states: ccdbb22fc8750e99996090cb41485918
-  wqp_codes: 1c6634605f93ba66890b9bfcaf181500
+  wqp_states: 0f8f4a33363213d2698e31f0ee1b1df0
+  wqp_codes: dd11495933b023e078f38c1ae69b0239
   1_wqpdata/out/inventory: .na.character
 fixed: ee14462d7d190b513225b1d36a739cb3
 code:

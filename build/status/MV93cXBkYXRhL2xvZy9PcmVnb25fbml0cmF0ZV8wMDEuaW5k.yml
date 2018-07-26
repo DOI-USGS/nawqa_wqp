@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Oregon_nitrate_001.ind
+type: file
+hash: b5449d02185b2394817ae93a8c3ed7bc
+time: 2018-07-25 20:48:49 UTC
+depends:
+  1_wqpdata/out/data/Oregon_nitrate_001.feather.ind: afcc9c89dfdb5fb3920133da7e10a503
+  1_wqpdata/out/data/Oregon_nitrate_001_siteinfo.feather.ind: e0ccfcfdd886c2bb1b0fde158971cd63
+fixed: eb105d6320ba0c561922c9afb1c0d971
+code:
+  functions: {}
+

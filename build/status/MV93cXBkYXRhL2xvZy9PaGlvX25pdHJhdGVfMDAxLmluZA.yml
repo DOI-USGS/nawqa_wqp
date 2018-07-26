@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Ohio_nitrate_001.ind
+type: file
+hash: 0e0f1a2489dcb4b6e46ead021a62b5c4
+time: 2018-07-25 20:44:17 UTC
+depends:
+  1_wqpdata/out/data/Ohio_nitrate_001.feather.ind: 9e052ef926491b7dacaafb74b0c1e590
+  1_wqpdata/out/data/Ohio_nitrate_001_siteinfo.feather.ind: 65a0c82993b10206628a4128344e6713
+fixed: 5d50c034af002067f598e8589ad33beb
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Tennessee_phosphorus_001.ind
+type: file
+hash: fa3c548156f2c3a044cbee20cd77b9ab
+time: 2018-07-25 21:05:09 UTC
+depends:
+  1_wqpdata/out/data/Tennessee_phosphorus_001.feather.ind: 774162a3ffcab143e066d965d32f0f15
+  1_wqpdata/out/data/Tennessee_phosphorus_001_siteinfo.feather.ind: 83ff4fb0ff98b4cdf2103800ba111340
+fixed: 6d921811ccaa90e575393194b34a5427
+code:
+  functions: {}
+

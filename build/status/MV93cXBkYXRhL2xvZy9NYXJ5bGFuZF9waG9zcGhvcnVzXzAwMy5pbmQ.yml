@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Maryland_phosphorus_003.ind
+type: file
+hash: d8b619b75cd6929fedadf4eb2dab5442
+time: 2018-07-25 20:08:57 UTC
+depends:
+  1_wqpdata/out/data/Maryland_phosphorus_003.feather.ind: b49a226e49ca7520e8c890451e20b740
+  1_wqpdata/out/data/Maryland_phosphorus_003_siteinfo.feather.ind: 21c434738268b99a58a6920cc9daa67f
+fixed: e32e34188348166e9e5e06636d41215b
+code:
+  functions: {}
+

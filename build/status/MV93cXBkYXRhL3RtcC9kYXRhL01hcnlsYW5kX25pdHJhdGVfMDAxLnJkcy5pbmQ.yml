@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maryland_nitrate_001.rds.ind
+type: file
+hash: 89865348c5ce870af805d942065056b4
+time: 2018-07-20 22:12:52 UTC
+depends:
+  partition_Maryland_nitrate_001: c5cd39955f220bc389c2b7a4adee140b
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5c3395a918f6c92eb5f60520666067b6
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

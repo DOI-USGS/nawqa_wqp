@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/South_Carolina_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: c5b6d8d4177c789433a192c00016efb5
+time: 2018-07-20 23:12:14 UTC
+depends:
+  1_wqpdata/tmp/data/South_Carolina_phosphorus_001_siteinfo.feather.ind: c5b6d8d4177c789433a192c00016efb5
+fixed: e4cbd7cc9f69a2defd088e385c90a687
+code:
+  functions: {}
+

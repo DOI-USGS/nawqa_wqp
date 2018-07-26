@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Rhode_Island_phosphorus_001.ind
+type: file
+hash: 09e14223571aeea77008f3d697e746fa
+time: 2018-07-25 20:58:48 UTC
+depends:
+  1_wqpdata/out/data/Rhode_Island_phosphorus_001.feather.ind: 10ba62f607ef62deedca5f3e3d76e155
+  1_wqpdata/out/data/Rhode_Island_phosphorus_001_siteinfo.feather.ind: 862ce34951a4cff3c4782be62196dc09
+fixed: f73c1b683eaf26de0425cdd2c1eb07db
+code:
+  functions: {}
+

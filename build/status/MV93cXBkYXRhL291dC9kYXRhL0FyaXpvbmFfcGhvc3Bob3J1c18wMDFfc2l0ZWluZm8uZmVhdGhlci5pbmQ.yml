@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Arizona_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: 039d8c8044bbedf7082db1d545c339e4
+time: 2018-07-20 21:23:53 UTC
+depends:
+  1_wqpdata/tmp/data/Arizona_phosphorus_001_siteinfo.feather.ind: 039d8c8044bbedf7082db1d545c339e4
+fixed: 7bfa569b074f63713c0cdf86d5366233
+code:
+  functions: {}
+

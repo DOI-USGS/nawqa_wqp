@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Arizona_nitrate_001.ind
+type: file
+hash: b626f32bf0073b9526ec59d2b6b3bb40
+time: 2018-07-25 19:09:27 UTC
+depends:
+  1_wqpdata/out/data/Arizona_nitrate_001.feather.ind: 3d179f64f1f6173bb3f25a0a36c750e4
+  1_wqpdata/out/data/Arizona_nitrate_001_siteinfo.feather.ind: aeb89821c40a4ea57a38092dbcb2df3b
+fixed: 6602147b6899136e185bd6bda3280919
+code:
+  functions: {}
+

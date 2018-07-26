@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Michigan_nitrate_001.ind
+type: file
+hash: 00d189e4f82119c2d6e6cce5f228b222
+time: 2018-07-25 20:14:50 UTC
+depends:
+  1_wqpdata/out/data/Michigan_nitrate_001.feather.ind: 8142832043982e8b187cb02281fa06fc
+  1_wqpdata/out/data/Michigan_nitrate_001_siteinfo.feather.ind: 6891c15dcdf696610f8829abf86dc2b9
+fixed: 39194aa3ed88b598ee70a74725c2da7f
+code:
+  functions: {}
+

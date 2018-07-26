@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maine_phosphorus_001.rds.ind
+type: file
+hash: 2cac452de79a7be104f4cb3a1e96de60
+time: 2018-07-20 22:11:26 UTC
+depends:
+  partition_Maine_phosphorus_001: fc2fe35818902f3d7fee1891951a9626
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 8534fac31099ce97e13c7e7a512995ab
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

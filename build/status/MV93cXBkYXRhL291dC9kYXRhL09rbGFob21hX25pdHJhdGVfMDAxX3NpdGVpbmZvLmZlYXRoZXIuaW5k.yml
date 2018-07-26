@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Oklahoma_nitrate_001_siteinfo.feather.ind
+type: file
+hash: a358a91dbe54124352223bebdd47b22e
+time: 2018-07-20 22:58:59 UTC
+depends:
+  1_wqpdata/tmp/data/Oklahoma_nitrate_001_siteinfo.feather.ind: a358a91dbe54124352223bebdd47b22e
+fixed: f06b639094cbf5b3ac64e52db5b1ac53
+code:
+  functions: {}
+

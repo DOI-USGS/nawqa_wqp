@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wyoming_phosphorus_001.rds.ind
+type: file
+hash: daf2b93e3f06098c007ed054a4e7f732
+time: 2018-07-20 23:42:46 UTC
+depends:
+  partition_Wyoming_phosphorus_001: dd867ec4bdf6c014b8be7423c84df445
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 029ecf856b1ef88a64e214331287f600
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

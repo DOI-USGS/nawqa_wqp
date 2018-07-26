@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_York_phosphorus_001.ind
+type: file
+hash: 823ad0e40e536a821e2149325f8b2567
+time: 2018-07-25 20:39:02 UTC
+depends:
+  1_wqpdata/out/data/New_York_phosphorus_001.feather.ind: f2a166df52a1a1ea784f1983cfb87f75
+  1_wqpdata/out/data/New_York_phosphorus_001_siteinfo.feather.ind: 6dc4cb366b875fdb08b6fe909e0ef852
+fixed: c2e6e8b0de77e977cd6b7f47980915f7
+code:
+  functions: {}
+

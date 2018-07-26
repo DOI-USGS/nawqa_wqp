@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Connecticut_nitrate_001_siteinfo.feather.ind
+type: file
+hash: a4e2e6b50faf74ab51e78ec36a0c0985
+time: 2018-07-20 21:34:07 UTC
+depends:
+  1_wqpdata/tmp/data/Connecticut_nitrate_001_siteinfo.feather.ind: a4e2e6b50faf74ab51e78ec36a0c0985
+fixed: f91c26d68bdeac6f17922ce184d80f00
+code:
+  functions: {}
+

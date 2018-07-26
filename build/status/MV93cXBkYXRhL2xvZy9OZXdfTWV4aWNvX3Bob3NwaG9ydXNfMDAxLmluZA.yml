@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_Mexico_phosphorus_001.ind
+type: file
+hash: 03d3aecfa0fd69dbaa4358472d26476d
+time: 2018-07-25 20:37:06 UTC
+depends:
+  1_wqpdata/out/data/New_Mexico_phosphorus_001.feather.ind: aec264591529d6ca1cf42898e039ed81
+  1_wqpdata/out/data/New_Mexico_phosphorus_001_siteinfo.feather.ind: a67314e65e749b3043e1149231530f50
+fixed: 077b2b783b6c1a61ae3a709d5a1a5860
+code:
+  functions: {}
+

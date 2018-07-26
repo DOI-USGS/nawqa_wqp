@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Vermont_nitrate_001.rds.ind
+type: file
+hash: 1c0ddc72fb48d831d9de918406724107
+time: 2018-07-20 23:21:57 UTC
+depends:
+  partition_Vermont_nitrate_001: 702416bd235d5722fdcd40f5040b9506
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: b28fbd0adcc8f89e911e3c46979432f5
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Washington_phosphorus_001.ind
+type: file
+hash: 4e5426bb467563a5f8255dcea85acaf5
+time: 2018-07-25 21:22:50 UTC
+depends:
+  1_wqpdata/out/data/Washington_phosphorus_001.feather.ind: d62e939088fef459728ca964b384365c
+  1_wqpdata/out/data/Washington_phosphorus_001_siteinfo.feather.ind: 0f7795d59215413d958daf7a6eeacd9a
+fixed: 71ada9b84d664e03e1cf2918da706f4d
+code:
+  functions: {}
+

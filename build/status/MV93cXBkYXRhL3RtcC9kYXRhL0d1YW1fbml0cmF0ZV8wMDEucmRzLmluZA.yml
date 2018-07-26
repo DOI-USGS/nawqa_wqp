@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Guam_nitrate_001.rds.ind
+type: file
+hash: 10741199abaeb97b4a9417f510199d53
+time: 2018-07-20 21:53:49 UTC
+depends:
+  partition_Guam_nitrate_001: 3fc6375d60a6f851cfce110f9065a907
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 77669bc8a1da3a73301214d9e567e8e9
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

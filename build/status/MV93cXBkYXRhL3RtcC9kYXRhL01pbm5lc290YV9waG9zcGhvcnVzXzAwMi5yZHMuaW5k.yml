@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Minnesota_phosphorus_002.rds.ind
+type: file
+hash: 67f00b4037d9a0462300ee45f44fd131
+time: 2018-07-20 22:34:03 UTC
+depends:
+  partition_Minnesota_phosphorus_002: 58d3a33a4d0923ab28b0b62af9bd8070
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 19bfb0823eb021746aa81632911bde5e
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Tennessee_nitrate_001.ind
+type: file
+hash: f9befba82a89deb6a3fdf1ae479f6b4a
+time: 2018-07-25 21:03:58 UTC
+depends:
+  1_wqpdata/out/data/Tennessee_nitrate_001.feather.ind: 165aecc55c389c549d358eecbb315fd9
+  1_wqpdata/out/data/Tennessee_nitrate_001_siteinfo.feather.ind: a0f2a43094e08769bd884f089661922a
+fixed: 20f1455c433549645b9c0de4b456852b
+code:
+  functions: {}
+

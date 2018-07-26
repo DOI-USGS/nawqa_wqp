@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Guam_phosphorus_001.rds.ind
+type: file
+hash: 21d5fe10b7bd377f63b7457de9992a4e
+time: 2018-07-20 21:54:40 UTC
+depends:
+  partition_Guam_phosphorus_001: 57791a14f28ec99c4b867a543b702e87
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: fcf3257042519307b735f00286709fda
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

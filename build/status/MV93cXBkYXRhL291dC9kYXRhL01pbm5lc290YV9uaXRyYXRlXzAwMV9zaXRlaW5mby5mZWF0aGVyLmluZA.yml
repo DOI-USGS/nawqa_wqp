@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Minnesota_nitrate_001_siteinfo.feather.ind
+type: file
+hash: 5b8273cbc13771260485a28b5db63257
+time: 2018-07-20 22:29:38 UTC
+depends:
+  1_wqpdata/tmp/data/Minnesota_nitrate_001_siteinfo.feather.ind: 5b8273cbc13771260485a28b5db63257
+fixed: bc0ca13f7f3dfe6aab6fb9567d2dbd77
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Kansas_phosphorus_001.ind
+type: file
+hash: cf2e1c9913ee37d0f142b577000651d2
+time: 2018-07-25 19:53:27 UTC
+depends:
+  1_wqpdata/out/data/Kansas_phosphorus_001.feather.ind: fb565934ead455961ec3164f51009219
+  1_wqpdata/out/data/Kansas_phosphorus_001_siteinfo.feather.ind: dabe4280be19779bcfcb4512bd207e00
+fixed: fa48d98a0f711fcb2e06d544f56d8540
+code:
+  functions: {}
+

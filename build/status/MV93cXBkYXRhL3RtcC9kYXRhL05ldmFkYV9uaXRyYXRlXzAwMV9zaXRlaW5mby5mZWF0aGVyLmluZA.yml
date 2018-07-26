@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nevada_nitrate_001_siteinfo.feather.ind
+type: file
+hash: 78d8c4bcf784eb58ed554c1897de00e9
+time: 2018-07-25 20:29:27 UTC
+depends:
+  tasks_1_wqp.yml: 42a8cace84b679f9e25954ca6e8b2ae8
+fixed: 55c7338913f38df7dfdffd61056fcea4
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

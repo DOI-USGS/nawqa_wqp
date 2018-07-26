@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Dakota_phosphorus_001.rds.ind
+type: file
+hash: 43d79e69646af1066aaf3e35841c957a
+time: 2018-07-20 22:55:17 UTC
+depends:
+  partition_North_Dakota_phosphorus_001: ed2a75ee7fe744665065757bf3b0903b
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c207c8d2b2ed4f39cded8dcee78b0e1b
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

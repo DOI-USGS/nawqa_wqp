@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oregon_nitrate_001.rds.ind
+type: file
+hash: 44870b080082bfe0bc46e7f14aae23e4
+time: 2018-07-20 23:00:49 UTC
+depends:
+  partition_Oregon_nitrate_001: c3f056c4bf30ecb45e6aefa61d0e39f0
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: b7c0f6cdf013584fd3021c3736eaee14
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

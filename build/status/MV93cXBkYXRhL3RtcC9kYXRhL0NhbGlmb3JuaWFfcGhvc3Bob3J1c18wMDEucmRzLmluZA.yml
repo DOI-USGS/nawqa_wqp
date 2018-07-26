@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/California_phosphorus_001.rds.ind
+type: file
+hash: c69e36869636bb6e8fb10c3ac9fbf22e
+time: 2018-07-20 21:28:12 UTC
+depends:
+  partition_California_phosphorus_001: 050e1509631692a03d71cd63c40f86d1
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 60418ed165ff7812e6e2fcf3fe169b72
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

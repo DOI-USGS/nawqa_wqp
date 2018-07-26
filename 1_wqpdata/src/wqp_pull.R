@@ -113,6 +113,17 @@ plan_wqp_pull <- function(partitions, folders) {
     }
   )
 
+  confirm_download <- scipiper::create_task_step(
+    step_name = 'confirm_download',
+    target_name = function(task_name, step_name, ...) {
+      file.path(folders$tmp, sprintf('%s.rds', task_name))
+    },
+    command = function(task_name, ...) {
+      paste(sprintf("c('%s')",
+                    scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))))
+    }
+  )
+
   # extract data from data file
   extract_data <- scipiper::create_task_step(
     step_name = 'extract_data',
@@ -123,7 +134,8 @@ plan_wqp_pull <- function(partitions, folders) {
       paste(
         "extract_wqp_data(",
         "ind_file=target_name,",
-        sprintf("local_file=I('%s'))", file.path(folders$tmp, sprintf('%s.rds', task_name))),
+        sprintf("local_file=I('%s'),", scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))),
+        "remake_file = 'tasks_1_wqp.yml')",
         sep="\n      ")
     }
   )
@@ -138,7 +150,8 @@ plan_wqp_pull <- function(partitions, folders) {
       paste(
         "extract_wqp_siteinfo(",
         "ind_file=target_name,",
-        sprintf("local_file=I('%s'))", file.path(folders$tmp, sprintf('%s.rds', task_name))),
+        sprintf("local_file=I('%s'),", scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))),
+        "remake_file = 'tasks_1_wqp.yml')",
         sep="\n      ")
     }
   )
@@ -211,10 +224,10 @@ plan_wqp_pull <- function(partitions, folders) {
 
   task_plan <- scipiper::create_task_plan(
     task_names=sort(partitions$PullTask),
-    task_steps=list(partition, download, extract_data, extract_siteinfo,
+    task_steps=list(partition, download, confirm_download, extract_data, extract_siteinfo,
                     post_data, post_siteinfo, retrieve_data, retrieve_siteinfo),
-    final_steps='post_siteinfo',
-    add_complete=FALSE,
+    final_steps=c('post_data', 'post_siteinfo'),
+    add_complete=TRUE,
     ind_dir=folders$log)
 
 }
@@ -270,16 +283,23 @@ get_wqp_data <- function(ind_file, partition, wq_dates) {
   invisible()
 }
 
-extract_wqp_data <- function(ind_file, local_file) {
-  wqp_dat <- readRDS(local_file)
+extract_wqp_data <- function(ind_file, local_file, remake_file) {
+  wqp_dat <- readRDS(sc_retrieve(local_file, remake_file))
 
   data_file <- as_data_file(ind_file)
   feather::write_feather(wqp_dat, path=data_file)
   sc_indicate(ind_file, data_file=data_file)
 }
 
-extract_wqp_siteinfo <- function(ind_file, local_file) {
-  wqp_dat_siteinfo <- readRDS(local_file)
+extract_wqp_siteinfo <- function(ind_file, local_file, remake_file) {
+  wqp_dat <- readRDS(sc_retrieve(local_file, remake_file))
+  wqp_dat_siteinfo <- attr(wqp_dat, "siteInfo")
+
+  if(is.null(wqp_dat_siteinfo)) {
+    # when wqp_dat is an empty data.frame, attr(wqp_dat, "siteInfo") is NULL
+    # write_feather throws an error when it's NULL, so making an empty df instead
+    wqp_dat_siteinfo <- data.frame()
+  }
 
   data_file <- as_data_file(ind_file)
   feather::write_feather(wqp_dat_siteinfo, path=data_file)

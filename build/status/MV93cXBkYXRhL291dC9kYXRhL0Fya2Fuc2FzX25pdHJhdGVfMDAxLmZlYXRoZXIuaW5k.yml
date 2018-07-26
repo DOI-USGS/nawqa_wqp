@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/out/data/Arkansas_nitrate_001.feather.ind
 type: file
-hash: 30f69773efb361bf541c4c45f432bff8
-time: 2018-06-26 03:36:10 UTC
+hash: 26ec625caf3984dc3db74b225fac3056
+time: 2018-07-25 19:11:44 UTC
 depends:
-  1_wqpdata/tmp/data/Arkansas_nitrate_001.feather.ind: 30f69773efb361bf541c4c45f432bff8
+  1_wqpdata/tmp/data/Arkansas_nitrate_001.feather.ind: 26ec625caf3984dc3db74b225fac3056
 fixed: d871f49aa243fe027a208798b3d3792a
 code:
   functions: {}

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Michigan_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: 788c4f5385a3db111f8a84070d4e5710
+time: 2018-07-25 20:15:31 UTC
+depends:
+  tasks_1_wqp.yml: 42a8cace84b679f9e25954ca6e8b2ae8
+fixed: db0da756c8e74f49e4503d8402a74a0c
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

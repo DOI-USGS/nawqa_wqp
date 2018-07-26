@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_nitrate_001.rds.ind
+type: file
+hash: e5c0319f191689fa267f8b5725eb68d4
+time: 2018-07-20 21:30:26 UTC
+depends:
+  partition_Colorado_nitrate_001: bc29a83aa63014f6c0c05ac652e8cd11
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 27f9cafbc5d0c994f494552bfc5307d5
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

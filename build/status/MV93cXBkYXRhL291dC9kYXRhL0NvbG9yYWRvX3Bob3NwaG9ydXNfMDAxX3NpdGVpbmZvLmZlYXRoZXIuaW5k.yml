@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Colorado_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: 9f432a7bca38baaa1aca6f52863296bd
+time: 2018-07-20 21:33:14 UTC
+depends:
+  1_wqpdata/tmp/data/Colorado_phosphorus_001_siteinfo.feather.ind: 9f432a7bca38baaa1aca6f52863296bd
+fixed: f6217174b19f1fe96b24850c3d1496ec
+code:
+  functions: {}
+

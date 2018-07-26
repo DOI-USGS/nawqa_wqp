@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Utah_nitrate_001.rds.ind
+type: file
+hash: 2b0369c2b6b3ed0af9dc5856ce98839f
+time: 2018-07-20 23:19:41 UTC
+depends:
+  partition_Utah_nitrate_001: 69e1c3b3b1629e3bb43abd15fdfef9a6
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5f4bf83f85dabaa7372ac24b5d6f3f45
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+
