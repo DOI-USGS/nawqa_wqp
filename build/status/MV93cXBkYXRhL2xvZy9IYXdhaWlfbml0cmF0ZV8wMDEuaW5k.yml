@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Hawaii_nitrate_001.ind
+type: file
+hash: 57269a661f7dd37e805a5dea68bd118e
+time: 2018-07-25 19:41:48 UTC
+depends:
+  1_wqpdata/out/data/Hawaii_nitrate_001.feather.ind: d17d2221cad537d5ecf1fe40c54f4086
+  1_wqpdata/out/data/Hawaii_nitrate_001_siteinfo.feather.ind: 704b31694c0fb19ac4a10e4d0dbe997b
+fixed: 8b7864f39be875e1d434c8ee4fd308bf
+code:
+  functions: {}
+

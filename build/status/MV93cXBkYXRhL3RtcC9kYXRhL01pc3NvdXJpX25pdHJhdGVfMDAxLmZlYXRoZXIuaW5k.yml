@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Missouri_nitrate_001.feather.ind
+type: file
+hash: f44c375e2906e9ec3ac5493d3dd98353
+time: 2018-06-26 04:43:38 UTC
+depends:
+  partition_Missouri_nitrate_001: 6b81db877815585b6bd8f0af5e43b555
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 57aaec2c9d59226ecdf4a1b6a5f23fa0
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Hawaii_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: 704b31694c0fb19ac4a10e4d0dbe997b
+time: 2018-07-20 21:56:32 UTC
+depends:
+  1_wqpdata/tmp/data/Hawaii_phosphorus_001_siteinfo.feather.ind: 704b31694c0fb19ac4a10e4d0dbe997b
+fixed: 3c30fc0a6c8b1c304022b9da8c204d51
+code:
+  functions: {}
+

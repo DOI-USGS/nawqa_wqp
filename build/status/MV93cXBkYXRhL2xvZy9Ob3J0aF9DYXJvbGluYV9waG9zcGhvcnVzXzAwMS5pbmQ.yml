@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/North_Carolina_phosphorus_001.ind
+type: file
+hash: 25b056f0a17c1262affb88d4beed0cbf
+time: 2018-07-25 20:41:05 UTC
+depends:
+  1_wqpdata/out/data/North_Carolina_phosphorus_001.feather.ind: b6142b143fd94085cd0f1df3dfa320a9
+  1_wqpdata/out/data/North_Carolina_phosphorus_001_siteinfo.feather.ind: ab3aa934fa0de2c59b3c74fcf941c8b4
+fixed: bf48aa0e54e45f781d2bdfd5a0ef3b02
+code:
+  functions: {}
+

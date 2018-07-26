@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nebraska_phosphorus_001.feather.ind
+type: file
+hash: c6f35423714f2ed39171850d01b0e939
+time: 2018-06-26 04:47:16 UTC
+depends:
+  partition_Nebraska_phosphorus_001: e191eeca39eb5911644312e5d1d52182
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: b07ffadac3b6a9e1d255ef4be6193fc2
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

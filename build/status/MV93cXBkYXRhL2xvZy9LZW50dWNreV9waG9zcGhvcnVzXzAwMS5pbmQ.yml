@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Kentucky_phosphorus_001.ind
+type: file
+hash: 89d055cf5ff4cc2099e9443d843df41d
+time: 2018-07-25 19:55:30 UTC
+depends:
+  1_wqpdata/out/data/Kentucky_phosphorus_001.feather.ind: 5e3fb229bc14220e832a11dd0ac680a3
+  1_wqpdata/out/data/Kentucky_phosphorus_001_siteinfo.feather.ind: c203b6a38c5f575875936719aa40c007
+fixed: e517f98c70932dea81f63b820f9baf34
+code:
+  functions: {}
+

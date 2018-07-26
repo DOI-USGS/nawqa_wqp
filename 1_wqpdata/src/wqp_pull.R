@@ -183,7 +183,7 @@ plan_wqp_pull <- function(partitions, constituent, folders) {
   download <- scipiper::create_task_step(
     step_name = 'download',
     target_name = function(task_name, step_name, ...) {
-      scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.feather', task_name)))
+      scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))
     },
     command = function(task_name, ...) {
       paste(
@@ -195,8 +195,51 @@ plan_wqp_pull <- function(partitions, constituent, folders) {
     }
   )
 
-  post <- scipiper::create_task_step(
-    step_name = 'post',
+  confirm_download <- scipiper::create_task_step(
+    step_name = 'confirm_download',
+    target_name = function(task_name, step_name, ...) {
+      file.path(folders$tmp, sprintf('%s.rds', task_name))
+    },
+    command = function(task_name, ...) {
+      paste(sprintf("c('%s')",
+                    scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))))
+    }
+  )
+
+  # extract data from data file
+  extract_data <- scipiper::create_task_step(
+    step_name = 'extract_data',
+    target_name = function(task_name, step_name, ...) {
+      scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.feather', task_name)))
+    },
+    command = function(task_name, ...) {
+      paste(
+        "extract_wqp_data(",
+        "ind_file=target_name,",
+        sprintf("local_file=I('%s'),", scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))),
+        "remake_file = 'tasks_1_wqp.yml')",
+        sep="\n      ")
+    }
+  )
+
+  # extract site info from data file
+  extract_siteinfo <- scipiper::create_task_step(
+    step_name = 'extract_siteinfo',
+    target_name = function(task_name, step_name, ...) {
+      scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s_siteinfo.feather', task_name)))
+    },
+    command = function(task_name, ...) {
+      paste(
+        "extract_wqp_siteinfo(",
+        "ind_file=target_name,",
+        sprintf("local_file=I('%s'),", scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))),
+        "remake_file = 'tasks_1_wqp.yml')",
+        sep="\n      ")
+    }
+  )
+
+  post_data <- scipiper::create_task_step(
+    step_name = 'post_data',
     target_name = function(task_name, step_name, ...) {
       scipiper::as_ind_file(file.path(folders$out, sprintf('%s.feather', task_name)))
     },
@@ -213,8 +256,26 @@ plan_wqp_pull <- function(partitions, constituent, folders) {
     }
   )
 
-  retrieve <- scipiper::create_task_step(
-    step_name = 'retrieve',
+  post_siteinfo <- scipiper::create_task_step(
+    step_name = 'post_siteinfo',
+    target_name = function(task_name, step_name, ...) {
+      scipiper::as_ind_file(file.path(folders$out, sprintf('%s_siteinfo.feather', task_name)))
+    },
+    command = function(task_name, ...) {
+      sprintf(
+        paste(
+          "gd_put(",
+          "remote_ind=target_name,",
+          "local_source='%s',",
+          "mock_get=I('move'),",
+          "on_exists=I('update'))",
+          sep="\n      "),
+        scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s_siteinfo.feather', task_name))))
+    }
+  )
+
+  retrieve_data <- scipiper::create_task_step(
+    step_name = 'retrieve_data',
     target_name = function(task_name, step_name, ...) {
       file.path(folders$out, sprintf('%s.feather', task_name))
     },
@@ -228,11 +289,27 @@ plan_wqp_pull <- function(partitions, constituent, folders) {
     }
   )
 
+  retrieve_siteinfo <- scipiper::create_task_step(
+    step_name = 'retrieve_siteinfo',
+    target_name = function(task_name, step_name, ...) {
+      file.path(folders$out, sprintf('%s_siteinfo.feather', task_name))
+    },
+    command = function(task_name, target_name, ...) {
+      sprintf(
+        paste(
+          "gd_get(",
+          "ind_file='%s')",
+          sep="\n      "),
+        scipiper::as_ind_file(target_name))
+    }
+  )
+
   task_plan <- scipiper::create_task_plan(
     task_names=sort(partitions$PullTask),
-    task_steps=list(partition, download, post, retrieve),
-    final_steps='post',
-    add_complete=FALSE,
+    task_steps=list(partition, download, confirm_download, extract_data, extract_siteinfo,
+                    post_data, post_siteinfo, retrieve_data, retrieve_siteinfo),
+    final_steps=c('post_data', 'post_siteinfo'),
+    add_complete=TRUE,
     ind_dir=folders$log)
 
 }
@@ -274,8 +351,31 @@ get_wqp_data <- function(ind_file, partition, wq_dates) {
   # write the data and indicator file. do this even if there were 0 results
   # because remake expects this function to always create the target file
   data_file <- as_data_file(ind_file)
-  feather::write_feather(as_data_frame(wqp_dat), path=data_file)
+  saveRDS(wqp_dat, data_file)
   sc_indicate(ind_file, data_file=data_file)
 
   invisible()
+}
+
+extract_wqp_data <- function(ind_file, local_file, remake_file) {
+  wqp_dat <- readRDS(sc_retrieve(local_file, remake_file))
+
+  data_file <- as_data_file(ind_file)
+  feather::write_feather(wqp_dat, path=data_file)
+  sc_indicate(ind_file, data_file=data_file)
+}
+
+extract_wqp_siteinfo <- function(ind_file, local_file, remake_file) {
+  wqp_dat <- readRDS(sc_retrieve(local_file, remake_file))
+  wqp_dat_siteinfo <- attr(wqp_dat, "siteInfo")
+
+  if(is.null(wqp_dat_siteinfo)) {
+    # when wqp_dat is an empty data.frame, attr(wqp_dat, "siteInfo") is NULL
+    # write_feather throws an error when it's NULL, so making an empty df instead
+    wqp_dat_siteinfo <- data.frame()
+  }
+
+  data_file <- as_data_file(ind_file)
+  feather::write_feather(wqp_dat_siteinfo, path=data_file)
+  sc_indicate(ind_file, data_file=data_file)
 }

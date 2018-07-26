@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/American_Samoa_phosphorus_001.ind
+type: file
+hash: 2da9a779dc52846101d36ad3e105e18e
+time: 2018-07-25 19:08:21 UTC
+depends:
+  1_wqpdata/out/data/American_Samoa_phosphorus_001.feather.ind: c4534300524e4770159ce853605a0358
+  1_wqpdata/out/data/American_Samoa_phosphorus_001_siteinfo.feather.ind: 3ef739b593505fa8bc80446d5ae5c276
+fixed: 54e5933c22299509edac444eb11e8b1c
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Connecticut_phosphorus_001.rds.ind
+type: file
+hash: 7ce4611f610514544c6e7479fdf9ce9c
+time: 2018-07-20 21:34:48 UTC
+depends:
+  partition_Connecticut_phosphorus_001: 3725d0941cdab61786d24181c361d25b
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: b18bc4c7fcdeb3195e188a0874adb644
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

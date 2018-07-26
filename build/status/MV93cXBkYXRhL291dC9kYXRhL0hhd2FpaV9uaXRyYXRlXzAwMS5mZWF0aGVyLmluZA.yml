@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Hawaii_nitrate_001.feather.ind
+type: file
+hash: d17d2221cad537d5ecf1fe40c54f4086
+time: 2018-07-25 19:41:48 UTC
+depends:
+  1_wqpdata/tmp/data/Hawaii_nitrate_001.feather.ind: d17d2221cad537d5ecf1fe40c54f4086
+fixed: a94cf9b34488f562ff5e07373170db99
+code:
+  functions: {}
+

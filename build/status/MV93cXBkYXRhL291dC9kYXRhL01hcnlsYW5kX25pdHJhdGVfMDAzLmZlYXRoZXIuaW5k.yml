@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Maryland_nitrate_003.feather.ind
+type: file
+hash: 5b4db823ee2b7f58fa87ffda4c5ef272
+time: 2018-07-25 20:03:23 UTC
+depends:
+  1_wqpdata/tmp/data/Maryland_nitrate_003.feather.ind: 5b4db823ee2b7f58fa87ffda4c5ef272
+fixed: c57d1689985b5ddb3804112787852c8f
+code:
+  functions: {}
+

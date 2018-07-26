@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Massachusetts_nitrate_001.feather.ind
+type: file
+hash: d1ee8c4e5215facfee32e18097240204
+time: 2018-07-25 20:12:57 UTC
+depends:
+  1_wqpdata/tmp/data/Massachusetts_nitrate_001.feather.ind: d1ee8c4e5215facfee32e18097240204
+fixed: 85b4eede3c278ff4af7ac8b90d4aee35
+code:
+  functions: {}
+

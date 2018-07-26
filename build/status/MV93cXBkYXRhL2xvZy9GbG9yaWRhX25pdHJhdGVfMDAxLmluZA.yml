@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Florida_nitrate_001.ind
+type: file
+hash: cba20926c06f52c2d350c6092b1d70fd
+time: 2018-07-25 19:26:44 UTC
+depends:
+  1_wqpdata/out/data/Florida_nitrate_001.feather.ind: 5149c8c9da77db8597cf04d3c32e27e6
+  1_wqpdata/out/data/Florida_nitrate_001_siteinfo.feather.ind: f124330b7b317e490e7010b2403ce3e7
+fixed: ef55e568d55794093d3d217ae92b190a
+code:
+  functions: {}
+

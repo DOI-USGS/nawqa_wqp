@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Oregon_phosphorus_001.ind
+type: file
+hash: ed9c9eefc9ac52e27a0c2c67cc8f606f
+time: 2018-07-25 20:50:01 UTC
+depends:
+  1_wqpdata/out/data/Oregon_phosphorus_001.feather.ind: c1d435888294a4c8ba1167d13e379b1a
+  1_wqpdata/out/data/Oregon_phosphorus_001_siteinfo.feather.ind: e5b8240f3a105c369e892c6263ae49b3
+fixed: 7a21d8b23dcd9d62b4c449dd494deddb
+code:
+  functions: {}
+

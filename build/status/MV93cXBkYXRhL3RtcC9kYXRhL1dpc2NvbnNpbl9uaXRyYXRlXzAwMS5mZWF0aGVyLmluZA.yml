@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wisconsin_nitrate_001.feather.ind
+type: file
+hash: 8587f62583a958093a662ccb17fc0196
+time: 2018-06-26 05:24:22 UTC
+depends:
+  partition_Wisconsin_nitrate_001: 6110334344374edb7dc6a9a219256ccb
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: eac7b2ae6058126c31338d1711a805af
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

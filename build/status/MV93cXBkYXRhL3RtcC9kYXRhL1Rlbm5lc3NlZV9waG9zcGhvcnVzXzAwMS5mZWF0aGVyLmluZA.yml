@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Tennessee_phosphorus_001.feather.ind
+type: file
+hash: 3504912c98fe03a61437cf3bd0f26e0b
+time: 2018-06-15 14:57:48 UTC
+depends:
+  partition_Tennessee_phosphorus_001: deedc6c998d76bd6978bbb1957fb29ae
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f5a719b00cba317c94e2a4a829e005f4
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

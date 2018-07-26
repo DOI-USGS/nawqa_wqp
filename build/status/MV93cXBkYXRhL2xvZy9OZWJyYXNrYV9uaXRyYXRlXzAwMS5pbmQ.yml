@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Nebraska_nitrate_001.ind
+type: file
+hash: 515745f75bbf871276b02a26221b046b
+time: 2018-07-25 20:27:45 UTC
+depends:
+  1_wqpdata/out/data/Nebraska_nitrate_001.feather.ind: 9c94e8c02ee10c5718a059b465efdb3d
+  1_wqpdata/out/data/Nebraska_nitrate_001_siteinfo.feather.ind: 93e93a1c91a3cb653edb5161d592462b
+fixed: 787b7578c73c9b80f3a96719ef079b92
+code:
+  functions: {}
+

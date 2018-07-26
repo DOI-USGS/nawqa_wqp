@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/West_Virginia_nitrate_001.rds.ind
+type: file
+hash: 022410d0aeddac9163d84030f1d2de0f
+time: 2018-07-20 23:35:41 UTC
+depends:
+  partition_West_Virginia_nitrate_001: 2096d7c37f71d1f63147c2883197e78f
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 841979c8c72cf8cf34442ea11cd4cedb
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

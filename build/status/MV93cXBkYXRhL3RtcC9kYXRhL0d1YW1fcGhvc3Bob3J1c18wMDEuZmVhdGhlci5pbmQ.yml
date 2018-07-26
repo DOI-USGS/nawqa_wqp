@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Guam_phosphorus_001.feather.ind
+type: file
+hash: 5690b8e77285fe8f7a2325e03c06ef44
+time: 2018-06-26 03:49:13 UTC
+depends:
+  partition_Guam_phosphorus_001: 2df65c5e01380a00b92cf58aa481d855
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5c60eb95d2cd81e07bcfcadc857663d2
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

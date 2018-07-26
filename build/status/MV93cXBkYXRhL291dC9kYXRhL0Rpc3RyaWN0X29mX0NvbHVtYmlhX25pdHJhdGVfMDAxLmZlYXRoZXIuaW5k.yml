@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/District_of_Columbia_nitrate_001.feather.ind
+type: file
+hash: a565232dcf5b06fc4164cbef8f6f781b
+time: 2018-07-25 19:24:34 UTC
+depends:
+  1_wqpdata/tmp/data/District_of_Columbia_nitrate_001.feather.ind: a565232dcf5b06fc4164cbef8f6f781b
+fixed: a4c6bec0168fff568dc0fb1cd4e7d7e6
+code:
+  functions: {}
+

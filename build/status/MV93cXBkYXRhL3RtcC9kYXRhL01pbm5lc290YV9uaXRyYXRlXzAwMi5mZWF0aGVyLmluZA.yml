@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Minnesota_nitrate_002.feather.ind
+type: file
+hash: c13f1b15fd8b7ad41b3f4df9b7b1bae0
+time: 2018-06-26 04:39:42 UTC
+depends:
+  partition_Minnesota_nitrate_002: bdb801322b3250547a026b0fdd5264cb
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: da9cc49d97178d0e14b0fa5eba59fce0
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

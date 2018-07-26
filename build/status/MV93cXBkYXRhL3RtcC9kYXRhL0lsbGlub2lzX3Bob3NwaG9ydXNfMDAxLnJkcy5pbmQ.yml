@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Illinois_phosphorus_001.rds.ind
+type: file
+hash: 8a2e8a063cd70137eedb4c65ffd74ee7
+time: 2018-07-20 21:59:45 UTC
+depends:
+  partition_Illinois_phosphorus_001: e78e857a6980fa561e19fa056f475450
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9202a493b4c1f68ea88156688693ebd0
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

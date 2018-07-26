@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Washington_nitrate_001.rds.ind
+type: file
+hash: bf552bc54765a02d75e5ef70b663e763
+time: 2018-07-20 23:33:44 UTC
+depends:
+  partition_Washington_nitrate_001: 1d1fc1ed995225bf0a02994d43f8d148
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 698effee6191e44e716649de5b00576d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

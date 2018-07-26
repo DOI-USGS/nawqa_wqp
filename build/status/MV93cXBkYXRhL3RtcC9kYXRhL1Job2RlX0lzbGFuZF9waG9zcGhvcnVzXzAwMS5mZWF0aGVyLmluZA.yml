@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Rhode_Island_phosphorus_001.feather.ind
+type: file
+hash: 3310fd4fce960ebc97221e3432101106
+time: 2018-06-26 05:07:17 UTC
+depends:
+  partition_Rhode_Island_phosphorus_001: e1f3919ad0425ff4ab856fcf0cfe19d1
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: ea2853c2e12bca85a0b1254c50dfe519
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

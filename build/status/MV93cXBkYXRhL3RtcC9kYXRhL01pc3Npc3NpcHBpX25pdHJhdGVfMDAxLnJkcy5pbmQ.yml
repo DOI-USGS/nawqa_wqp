@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Mississippi_nitrate_001.rds.ind
+type: file
+hash: ae8bbbaa47cfaf6c667a59966d4e349e
+time: 2018-07-20 22:34:56 UTC
+depends:
+  partition_Mississippi_nitrate_001: 72e9beb90a67c2a370602fdbaa52f0fe
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 88a75fc3baa2cd996e0b234090481c3a
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

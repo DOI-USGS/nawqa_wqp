@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kentucky_phosphorus_001.feather.ind
+type: file
+hash: fb682d904261ae6ee8da9a4a13ce9bd9
+time: 2018-06-26 03:59:22 UTC
+depends:
+  partition_Kentucky_phosphorus_001: c3838224cb7c0bb4c3d673b70ff65c88
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d73d78ed167eb2225ad07716aa00d385
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

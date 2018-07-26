@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Delaware_phosphorus_001.ind
+type: file
+hash: 7dd7708cac50a0e5eaa36b0e2a03549c
+time: 2018-07-25 19:23:32 UTC
+depends:
+  1_wqpdata/out/data/Delaware_phosphorus_001.feather.ind: 08e75ec2ded24d4a925dd13ac3e855bd
+  1_wqpdata/out/data/Delaware_phosphorus_001_siteinfo.feather.ind: 03ca6f0bb64df9ab31fe2d643baa3595
+fixed: 3b97f63435a57375948e3906ecf74261
+code:
+  functions: {}
+

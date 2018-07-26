@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: af5aad0fb9356a4cf5e1c472f415e139
+time: 2018-07-25 19:38:20 UTC
+depends:
+  tasks_1_wqp.yml: 42a8cace84b679f9e25954ca6e8b2ae8
+fixed: 0079fa199af455472264c52a1d020e09
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

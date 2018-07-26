@@ -1,11 +1,11 @@
 # https://www.waterqualitydata.us/Codes/Characteristicname?mimeType=xml
 characteristicName:
 
-  temperature:
-    - "Temperature"
-    - "Temperature, sample"
-    - "Temperature, water"
-    - "Temperature, water, deg F"
+  #temperature:
+  #  - "Temperature"
+  #  - "Temperature, sample"
+  #  - "Temperature, water"
+  #  - "Temperature, water, deg F"
 
   phosphorus:
     - "Inorganic phosphorus"
@@ -23,6 +23,10 @@ characteristicName:
     - "Phosphorus"
     - "Phosphorus as P"
     - "Total Phosphorus, mixed forms"
+    - "Orthophosphate"
+    - "Orthophosphate as PO4"
+    - "Orthophosphate as P"
+    - "Ortho-Phosphate-Phosphorus"
 
   nitrate:
     - "Nitrate"

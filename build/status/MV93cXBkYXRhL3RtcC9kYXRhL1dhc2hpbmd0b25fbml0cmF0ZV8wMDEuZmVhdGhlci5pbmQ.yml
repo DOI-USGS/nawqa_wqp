@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Washington_nitrate_001.feather.ind
+type: file
+hash: bbe24c77ef20c1f018dab07e44043cbb
+time: 2018-06-26 05:21:18 UTC
+depends:
+  partition_Washington_nitrate_001: 9d5d3355935f47d6de5d25ab5a5ec1a7
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f4e47de9af769a6e9102b0b7544db2b0
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

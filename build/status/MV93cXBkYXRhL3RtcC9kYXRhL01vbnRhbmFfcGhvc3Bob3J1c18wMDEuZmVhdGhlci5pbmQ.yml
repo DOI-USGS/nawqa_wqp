@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Montana_phosphorus_001.feather.ind
+type: file
+hash: 942c75214d4ff4f08bf3e5af6aec81bb
+time: 2018-06-26 04:45:51 UTC
+depends:
+  partition_Montana_phosphorus_001: 5a37a6686b61c98e1c0790537b70d5c3
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 6a257ca23d62734f50f4ff9ce7c043d6
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

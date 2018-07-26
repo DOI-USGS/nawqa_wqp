@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Florida_phosphorus_003.rds.ind
+type: file
+hash: 842b1d2d9c6d354c52c42620ccef753a
+time: 2018-07-20 21:48:15 UTC
+depends:
+  partition_Florida_phosphorus_003: 488dd5e9a42ecac50d0aef10a260ae96
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9df97dcbdfdb702db5b59eab7956cfa1
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

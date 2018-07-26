@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Texas_nitrate_001_siteinfo.feather.ind
+type: file
+hash: c54d423e19505809a1f87f8b3d8a16c3
+time: 2018-07-20 23:17:21 UTC
+depends:
+  1_wqpdata/tmp/data/Texas_nitrate_001_siteinfo.feather.ind: c54d423e19505809a1f87f8b3d8a16c3
+fixed: bb2372223ce50f8765e00b3d63eb83b0
+code:
+  functions: {}
+

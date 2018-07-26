@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oregon_nitrate_001.feather.ind
+type: file
+hash: 7f3820bd0affee5abb4424eecc9163ae
+time: 2018-06-26 05:00:14 UTC
+depends:
+  partition_Oregon_nitrate_001: a481b5eb212bba5f743e75a41bbe0e6e
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5d11b24c3933e6ce95da4ef9982f4450
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

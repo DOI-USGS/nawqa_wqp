@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Michigan_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: 788c4f5385a3db111f8a84070d4e5710
+time: 2018-07-20 22:28:10 UTC
+depends:
+  1_wqpdata/tmp/data/Michigan_phosphorus_001_siteinfo.feather.ind: 788c4f5385a3db111f8a84070d4e5710
+fixed: a4c4934ab3c057638dd9f41def0fa4d4
+code:
+  functions: {}
+

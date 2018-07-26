@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Louisiana_nitrate_001.feather.ind
+type: file
+hash: ddd6b41c146e2a6a66842dcfe588256c
+time: 2018-07-25 19:56:35 UTC
+depends:
+  1_wqpdata/tmp/data/Louisiana_nitrate_001.feather.ind: ddd6b41c146e2a6a66842dcfe588256c
+fixed: 60f30e7165b705d301d3ea93f4abc409
+code:
+  functions: {}
+

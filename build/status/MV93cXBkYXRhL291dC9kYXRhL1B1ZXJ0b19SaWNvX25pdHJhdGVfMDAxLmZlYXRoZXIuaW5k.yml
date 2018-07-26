@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Puerto_Rico_nitrate_001.feather.ind
+type: file
+hash: e58d816087f496cef8e0f07470ff2fdd
+time: 2018-07-25 20:55:30 UTC
+depends:
+  1_wqpdata/tmp/data/Puerto_Rico_nitrate_001.feather.ind: e58d816087f496cef8e0f07470ff2fdd
+fixed: 79d2e7902b33970e1cc78a564e29d797
+code:
+  functions: {}
+

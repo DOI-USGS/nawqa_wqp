@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kansas_nitrate_001.feather.ind
+type: file
+hash: 654b8bebc9fb16cb22607d4c00848ff9
+time: 2018-06-26 03:57:09 UTC
+depends:
+  partition_Kansas_nitrate_001: 2ee2eed00049cca95a3b2c2076fc4cd3
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 7a1348e5d181d680fdc9079b262eda1c
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

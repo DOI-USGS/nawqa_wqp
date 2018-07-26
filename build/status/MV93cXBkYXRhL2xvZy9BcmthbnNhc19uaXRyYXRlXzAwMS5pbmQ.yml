@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Arkansas_nitrate_001.ind
+type: file
+hash: a282515902729c9083936e6e746dd98e
+time: 2018-07-25 19:11:44 UTC
+depends:
+  1_wqpdata/out/data/Arkansas_nitrate_001.feather.ind: 26ec625caf3984dc3db74b225fac3056
+  1_wqpdata/out/data/Arkansas_nitrate_001_siteinfo.feather.ind: 665f01d96f7f3218d10af5fca20c6d78
+fixed: e75defbfd9d41d6191704b23c2807602
+code:
+  functions: {}
+

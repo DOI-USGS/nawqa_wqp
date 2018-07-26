@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/District_of_Columbia_phosphorus_001.feather.ind
+type: file
+hash: 0dc2a33ada000fa907b9725d16b1dc63
+time: 2018-06-26 03:48:08 UTC
+depends:
+  partition_District_of_Columbia_phosphorus_001: bc30af270448860cd03cc6058beb8ded
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9d716e67c5d9787654a01aea71200741
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Rhode_Island_nitrate_001.feather.ind
+type: file
+hash: f3b57d23a25018dd9b60a7c931392f1b
+time: 2018-07-25 20:57:29 UTC
+depends:
+  1_wqpdata/tmp/data/Rhode_Island_nitrate_001.feather.ind: f3b57d23a25018dd9b60a7c931392f1b
+fixed: 246060d17e4d25662221ff250f436531
+code:
+  functions: {}
+

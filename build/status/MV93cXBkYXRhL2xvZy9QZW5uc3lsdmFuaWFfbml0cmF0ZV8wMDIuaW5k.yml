@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Pennsylvania_nitrate_002.ind
+type: file
+hash: 30a5c97965c1e70ef7cf11e8fe9ff0e2
+time: 2018-07-25 20:52:11 UTC
+depends:
+  1_wqpdata/out/data/Pennsylvania_nitrate_002.feather.ind: 105d90b773b6587a9c0ecb375f56237c
+  1_wqpdata/out/data/Pennsylvania_nitrate_002_siteinfo.feather.ind: 7a1a36f4367b8687ca0105c5f3ebf355
+fixed: a470bfccbe02c7539ff7b4cd00351ac5
+code:
+  functions: {}
+

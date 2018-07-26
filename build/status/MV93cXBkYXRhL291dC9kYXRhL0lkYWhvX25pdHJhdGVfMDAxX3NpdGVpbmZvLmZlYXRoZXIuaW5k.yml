@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Idaho_nitrate_001_siteinfo.feather.ind
+type: file
+hash: dfadcf6872d9876982a4901874c95383
+time: 2018-07-20 21:57:23 UTC
+depends:
+  1_wqpdata/tmp/data/Idaho_nitrate_001_siteinfo.feather.ind: dfadcf6872d9876982a4901874c95383
+fixed: eba59b94ff85b84eaedd85504599dd7e
+code:
+  functions: {}
+

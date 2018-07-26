@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Illinois_nitrate_001_siteinfo.feather.ind
+type: file
+hash: 033f5c30219cc42cbe49ede64e88e7f6
+time: 2018-07-20 21:59:06 UTC
+depends:
+  1_wqpdata/tmp/data/Illinois_nitrate_001_siteinfo.feather.ind: 033f5c30219cc42cbe49ede64e88e7f6
+fixed: f80abecd9fa244e30fb7782ff2c64b6f
+code:
+  functions: {}
+

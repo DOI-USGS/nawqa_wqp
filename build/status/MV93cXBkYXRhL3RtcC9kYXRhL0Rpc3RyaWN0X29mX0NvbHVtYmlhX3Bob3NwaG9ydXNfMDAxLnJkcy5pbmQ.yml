@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/District_of_Columbia_phosphorus_001.rds.ind
+type: file
+hash: 374a98b5780d15d7ddafd9d13b7bf1ed
+time: 2018-07-20 21:38:01 UTC
+depends:
+  partition_District_of_Columbia_phosphorus_001: 1d93cbed4acbf0cb8c58e8ca587f1e05
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 14ed8f0b76eff817870a8530db05ec0d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

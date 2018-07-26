@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Hampshire_phosphorus_001.rds.ind
+type: file
+hash: 58a5220bc8028ad565c8165110327cc6
+time: 2018-07-20 22:45:06 UTC
+depends:
+  partition_New_Hampshire_phosphorus_001: a122921f4d343a748a5c95e96c4dcbdd
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 19d320e4b932c90702632bf8a1eb451a
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

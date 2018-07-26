@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_York_nitrate_001.ind
+type: file
+hash: 6ab63e9c000ca65e2993bc76cf5ba571
+time: 2018-07-25 20:38:01 UTC
+depends:
+  1_wqpdata/out/data/New_York_nitrate_001.feather.ind: a2ac6a5e618cf4eeca6058b5de44e336
+  1_wqpdata/out/data/New_York_nitrate_001_siteinfo.feather.ind: 8d1e44fe41b21fd0f071e946af714439
+fixed: 44fa46eeae9250cad52f796e544f3602
+code:
+  functions: {}
+

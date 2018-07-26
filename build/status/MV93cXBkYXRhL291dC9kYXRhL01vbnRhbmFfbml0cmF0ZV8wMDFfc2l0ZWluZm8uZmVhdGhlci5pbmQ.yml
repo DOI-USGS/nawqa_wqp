@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Montana_nitrate_001_siteinfo.feather.ind
+type: file
+hash: 1d4075e55bf93708c7ff64a2a385abe8
+time: 2018-07-20 22:38:57 UTC
+depends:
+  1_wqpdata/tmp/data/Montana_nitrate_001_siteinfo.feather.ind: 1d4075e55bf93708c7ff64a2a385abe8
+fixed: 7a7cab4357158b67f228108946e985a8
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_York_nitrate_001.feather.ind
+type: file
+hash: 21e83f3fa390a822bcc103d7ad4e0be2
+time: 2018-06-26 04:53:34 UTC
+depends:
+  partition_New_York_nitrate_001: 73cdbf2965eb33ea91bf6518b968ee8e
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5c478bff3000f0a41a8f5e54aa1fcadc
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

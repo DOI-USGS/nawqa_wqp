@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maryland_phosphorus_006.feather.ind
+type: file
+hash: 4c5166b32a2aef3d2207839efe681448
+time: 2018-07-17 17:59:15 UTC
+depends:
+  partition_Maryland_phosphorus_006: bfe5cd6ce2e6e825b2ead8835f5b18fc
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: fdf235848a778e19a2988bbde1dc413d
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

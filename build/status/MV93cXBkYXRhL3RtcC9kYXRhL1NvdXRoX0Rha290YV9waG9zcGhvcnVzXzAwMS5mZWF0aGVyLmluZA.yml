@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Dakota_phosphorus_001.feather.ind
+type: file
+hash: 793e9a11d82c703be07548fbebe96dd6
+time: 2018-06-26 05:08:41 UTC
+depends:
+  partition_South_Dakota_phosphorus_001: 043d0925e97715658f6faaced918ca96
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 866ede762cc63ee8f56a17fad8761e4d
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

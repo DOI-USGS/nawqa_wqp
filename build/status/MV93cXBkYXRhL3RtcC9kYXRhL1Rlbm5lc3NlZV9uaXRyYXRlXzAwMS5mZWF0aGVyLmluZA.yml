@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Tennessee_nitrate_001.feather.ind
+type: file
+hash: 57da0f44fcaae5d820b8226bdab4da87
+time: 2018-06-15 14:56:44 UTC
+depends:
+  partition_Tennessee_nitrate_001: b08c1985281888bb4d83cf3c275f652e
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 86359d053c21aae048803e720dd43765
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

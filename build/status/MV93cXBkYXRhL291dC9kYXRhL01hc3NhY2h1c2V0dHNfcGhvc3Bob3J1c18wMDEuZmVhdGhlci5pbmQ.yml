@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Massachusetts_phosphorus_001.feather.ind
+type: file
+hash: 6bac1ee0da81e9a42f46392e8a179512
+time: 2018-07-25 20:13:52 UTC
+depends:
+  1_wqpdata/tmp/data/Massachusetts_phosphorus_001.feather.ind: 6bac1ee0da81e9a42f46392e8a179512
+fixed: ec1c95a7729a5f5ff20349c5807568ee
+code:
+  functions: {}
+

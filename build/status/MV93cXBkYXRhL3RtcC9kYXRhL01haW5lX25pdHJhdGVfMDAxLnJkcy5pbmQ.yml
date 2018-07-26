@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maine_nitrate_001.rds.ind
+type: file
+hash: 9d2e87570668f014571cb4fb3c880d4c
+time: 2018-07-20 22:10:25 UTC
+depends:
+  partition_Maine_nitrate_001: d2f5859a7660620f0a68b00a2d287418
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 3fc84c9f59570aa407b136c285a48d08
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

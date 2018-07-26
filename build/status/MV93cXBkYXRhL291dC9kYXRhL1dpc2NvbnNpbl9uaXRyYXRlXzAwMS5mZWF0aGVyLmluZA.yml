@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Wisconsin_nitrate_001.feather.ind
+type: file
+hash: aa4c783512cddc42b1f75f4a050568b0
+time: 2018-07-25 21:26:08 UTC
+depends:
+  1_wqpdata/tmp/data/Wisconsin_nitrate_001.feather.ind: aa4c783512cddc42b1f75f4a050568b0
+fixed: 520072c25aae51e03d3eca6d7f141057
+code:
+  functions: {}
+

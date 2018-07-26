@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Indiana_phosphorus_001_siteinfo.feather.ind
+type: file
+hash: c1b0288eda993c4a9f782a2cab07f28c
+time: 2018-07-20 22:01:58 UTC
+depends:
+  1_wqpdata/tmp/data/Indiana_phosphorus_001_siteinfo.feather.ind: c1b0288eda993c4a9f782a2cab07f28c
+fixed: c4475f30364d1dacb6f8ad424b0421b3
+code:
+  functions: {}
+

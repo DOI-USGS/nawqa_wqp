@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kentucky_nitrate_001.feather.ind
+type: file
+hash: 37d25a4e7ea9a127aba906cb1d144929
+time: 2018-06-26 03:58:32 UTC
+depends:
+  partition_Kentucky_nitrate_001: 00bf05e7440bd9426f3a62217e57f00c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: e2244757786f1c73493f1d697c2a2eed
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

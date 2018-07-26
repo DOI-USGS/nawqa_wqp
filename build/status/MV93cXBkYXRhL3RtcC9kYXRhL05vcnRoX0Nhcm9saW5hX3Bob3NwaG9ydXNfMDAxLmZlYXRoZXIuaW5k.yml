@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Carolina_phosphorus_001.feather.ind
+type: file
+hash: 6c6cbb7a93ebddc0b905d96ad9b8f4c0
+time: 2018-06-15 14:53:49 UTC
+depends:
+  partition_North_Carolina_phosphorus_001: edabc73e39061c2bb4c02046707436aa
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f55155ad426a3e4753233a3189d41b54
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

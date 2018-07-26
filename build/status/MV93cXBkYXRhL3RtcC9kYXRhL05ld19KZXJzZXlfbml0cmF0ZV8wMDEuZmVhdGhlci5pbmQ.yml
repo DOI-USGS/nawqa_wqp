@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Jersey_nitrate_001.feather.ind
+type: file
+hash: 5b925f0610dd576346cec0039296d65f
+time: 2018-06-26 04:50:31 UTC
+depends:
+  partition_New_Jersey_nitrate_001: 0d6de4fb3f7d66ab37aab1bf9ae96619
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 4c2edaf3b7e703afe49d7e4405f57588
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

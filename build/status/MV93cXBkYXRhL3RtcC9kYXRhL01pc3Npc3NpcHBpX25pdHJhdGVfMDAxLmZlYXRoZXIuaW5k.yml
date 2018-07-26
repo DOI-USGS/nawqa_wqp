@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Mississippi_nitrate_001.feather.ind
+type: file
+hash: d5f14d35ecc170bebf308c455cb39001
+time: 2018-06-15 14:50:17 UTC
+depends:
+  partition_Mississippi_nitrate_001: f8430d3849141d0252fa684681a9db5b
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: ac22e01463fb37676d6cffffb7ec485f
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wisconsin_phosphorus_002_siteinfo.feather.ind
+type: file
+hash: a854e2d914bab10dfcfdae115c7fa7b3
+time: 2018-07-25 21:28:12 UTC
+depends:
+  tasks_1_wqp.yml: 42a8cace84b679f9e25954ca6e8b2ae8
+fixed: 99152734007401449040c827bee21f2c
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

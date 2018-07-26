@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oklahoma_nitrate_001.rds.ind
+type: file
+hash: 45a8cb5d23932e1c6f8db39bfec1bb00
+time: 2018-07-20 22:58:47 UTC
+depends:
+  partition_Oklahoma_nitrate_001: b242f965c4de6c1f017e9be77622c2da
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9e1b79fbc445c3492ee0179659606fae
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

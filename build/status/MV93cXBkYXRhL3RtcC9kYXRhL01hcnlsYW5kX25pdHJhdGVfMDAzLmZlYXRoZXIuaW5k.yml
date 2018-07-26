@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maryland_nitrate_003.feather.ind
+type: file
+hash: fe32fef1dab9d2be8747ac32a9dad945
+time: 2018-06-26 04:23:51 UTC
+depends:
+  partition_Maryland_nitrate_003: 19fdb1e720ed156d669eb36116410f6f
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 3f121ab5d5a60e6ef412fed07ce326bc
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

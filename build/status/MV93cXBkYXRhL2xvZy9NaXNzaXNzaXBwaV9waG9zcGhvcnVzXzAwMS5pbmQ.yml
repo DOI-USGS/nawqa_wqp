@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Mississippi_phosphorus_001.ind
+type: file
+hash: fb5bb6fc5bb8c781aa0ffaabc69bab00
+time: 2018-07-25 20:22:58 UTC
+depends:
+  1_wqpdata/out/data/Mississippi_phosphorus_001.feather.ind: 68a96573291462a0594040d5ebfe037c
+  1_wqpdata/out/data/Mississippi_phosphorus_001_siteinfo.feather.ind: a35a29d8a38eeb62bca1445016c5acbb
+fixed: 3f94ee90184cc531df19f12918bb46ba
+code:
+  functions: {}
+

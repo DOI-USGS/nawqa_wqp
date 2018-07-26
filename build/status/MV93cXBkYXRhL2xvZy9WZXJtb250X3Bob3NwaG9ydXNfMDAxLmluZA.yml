@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Vermont_phosphorus_001.ind
+type: file
+hash: 46d718b804193b12f0b0789674ecda90
+time: 2018-07-25 21:11:35 UTC
+depends:
+  1_wqpdata/out/data/Vermont_phosphorus_001.feather.ind: e34666137771b82cfdab1aa6f164ddce
+  1_wqpdata/out/data/Vermont_phosphorus_001_siteinfo.feather.ind: 4f2f67ff83527025538535324f2c2dd0
+fixed: 26ebd3e36a754283ac178ccf3385340d
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Minnesota_phosphorus_001.ind
+type: file
+hash: f5119f3ad8356df955adc7217add5bfa
+time: 2018-07-25 20:19:40 UTC
+depends:
+  1_wqpdata/out/data/Minnesota_phosphorus_001.feather.ind: cc3affa118c4ab8469ec9168ecdbaaba
+  1_wqpdata/out/data/Minnesota_phosphorus_001_siteinfo.feather.ind: 7e8edda4385d2fb010208304dfe98850
+fixed: 2bdbcfb825425470b7c37b643371bb79
+code:
+  functions: {}
+

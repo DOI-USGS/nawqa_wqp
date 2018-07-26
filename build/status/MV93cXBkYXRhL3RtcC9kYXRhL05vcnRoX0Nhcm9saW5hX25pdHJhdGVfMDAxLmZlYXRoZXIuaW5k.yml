@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Carolina_nitrate_001.feather.ind
+type: file
+hash: 3e3ed1d4a66db3a64f89149ef52fe3a5
+time: 2018-06-15 14:52:43 UTC
+depends:
+  partition_North_Carolina_nitrate_001: 162d861ed4020d2900cb2201a33e589f
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9a5699a145a830c71480a52f475062e4
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

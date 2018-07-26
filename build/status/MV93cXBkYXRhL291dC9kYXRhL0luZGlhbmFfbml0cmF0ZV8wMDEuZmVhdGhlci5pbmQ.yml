@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Indiana_nitrate_001.feather.ind
+type: file
+hash: 5e27e589d5b192592f949701479b3c17
+time: 2018-07-25 19:47:57 UTC
+depends:
+  1_wqpdata/tmp/data/Indiana_nitrate_001.feather.ind: 5e27e589d5b192592f949701479b3c17
+fixed: 578966f327c66af628ae8608fc4955e3
+code:
+  functions: {}
+

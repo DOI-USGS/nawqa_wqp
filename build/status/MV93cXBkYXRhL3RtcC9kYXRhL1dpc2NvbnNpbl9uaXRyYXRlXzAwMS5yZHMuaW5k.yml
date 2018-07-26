@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wisconsin_nitrate_001.rds.ind
+type: file
+hash: e843064c53c08bfe646ad5845c0e62d9
+time: 2018-07-20 23:37:54 UTC
+depends:
+  partition_Wisconsin_nitrate_001: 952564e5427b0e98020f3ce03713470c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 055c9be2ac7b1df0e1ea8a3c9d2e246a
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

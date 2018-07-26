@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_phosphorus_001.feather.ind
+type: file
+hash: 067934d2aae9fb18cd904a75b1c459d2
+time: 2018-06-26 03:44:03 UTC
+depends:
+  partition_Colorado_phosphorus_001: 44918535f552e2298d8bcd115ee5da20
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: b99c6918b2d13da1095a1e62d81e1ce0
+code:
+  functions:
+    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Connecticut_phosphorus_001.ind
+type: file
+hash: c81705dbac356264cd018f21c0bd2802
+time: 2018-07-25 19:21:21 UTC
+depends:
+  1_wqpdata/out/data/Connecticut_phosphorus_001.feather.ind: 0136c3a263b20da4c4ed2a4a3181dbee
+  1_wqpdata/out/data/Connecticut_phosphorus_001_siteinfo.feather.ind: 3e72148139b64566c11a7f419e58f939
+fixed: 1db608d3d0e991699f37cce1b35e8e78
+code:
+  functions: {}
+

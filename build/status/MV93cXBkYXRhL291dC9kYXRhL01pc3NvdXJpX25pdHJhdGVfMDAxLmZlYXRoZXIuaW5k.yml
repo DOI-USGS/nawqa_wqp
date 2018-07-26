@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Missouri_nitrate_001.feather.ind
+type: file
+hash: 7115d5d6eff7c2c27ccb89c4cae9e1de
+time: 2018-07-25 20:24:08 UTC
+depends:
+  1_wqpdata/tmp/data/Missouri_nitrate_001.feather.ind: 7115d5d6eff7c2c27ccb89c4cae9e1de
+fixed: 12921a56bff929ee73c6426ed21917ad
+code:
+  functions: {}
+

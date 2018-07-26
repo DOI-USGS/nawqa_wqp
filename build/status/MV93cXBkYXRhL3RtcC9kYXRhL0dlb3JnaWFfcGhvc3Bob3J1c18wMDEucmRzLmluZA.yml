@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_phosphorus_001.rds.ind
+type: file
+hash: 42de8549557167483343256ab04a063b
+time: 2018-07-20 21:53:03 UTC
+depends:
+  partition_Georgia_phosphorus_001: 7f5eb772334794235fed6f18e4c92ed2
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d9d4aa6bae427cc06e492fd716c6ff8d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+
