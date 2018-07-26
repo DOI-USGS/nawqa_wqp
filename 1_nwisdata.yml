@@ -1,0 +1,89 @@
+target_default: 1_nwisdata
+
+# include 1_wqpdata.yml mainly to get the lib.yml targets without reading those targets twice
+include:
+  - 1_wqpdata.yml
+
+packages:
+  - dataRetrieval
+  - dplyr
+  - feather
+  - scipiper
+  - yaml
+
+file_extensions:
+  - feather
+  - ind
+
+sources:
+  - 1_nwisdata/src/nwis_inventory.R
+  - 1_nwisdata/src/nwis_pull.R
+
+targets:
+
+  1_nwisdata:
+    depends:
+      - 1_nwisdata/log/tasks_1_nwis.ind
+
+  # -- prepare for data pull --
+
+  # load nwis-specific config info
+  nwis_dates:
+    command: yaml.load_file("1_nwisdata/cfg/nwis_dates.yml")
+  nwis_states:
+    command: yaml.load_file("1_nwisdata/cfg/nwis_states.yml")
+  nwis_codes:
+    command: yaml.load_file("1_nwisdata/cfg/nwis_codes.yml")
+  nwis_pull:
+    command: yaml.load_file("1_nwisdata/cfg/nwis_pull.yml")
+
+  # list destination folders for intermediate and final output.
+  # tmp=temporary folder for holding files to only be created on 1 computer.
+  # out=folder to hold .ind and data files corresponding to shared cache or everybody's local build.
+  # log=folder for the few indicator files that don't correspond to a data file.
+  nwis_pull_folders:
+    command: list(
+      tmp=I('1_nwisdata/tmp/data'),
+      out=I('1_nwisdata/out/data'),
+      log=I('1_nwisdata/log'))
+
+  # -- get inventory of observations available to download --
+
+  # get an inventory of NWIS sites and sample counts. for this and all
+  # shared-cache targets (and those that depend on any shared-cache targets),
+  # the heavy lifting is done by the .ind recipe, which writes the data (.rds)
+  # file, posts the file to google drive, and writes the .rds.ind file.
+  1_nwisdata/out/inventory/nwis_inventory.rds.ind:
+    depends: 1_nwisdata/out/inventory
+    command: inventory_nwis(
+      ind_file=target_name,
+      nwis_states=nwis_states,
+      nwis_codes=nwis_codes)
+  # the only job of this data recipe is to pull data from the shared cache
+  1_nwisdata/out/inventory/nwis_inventory.rds:
+    command: gd_get('1_nwisdata/out/inventory/nwis_inventory.rds.ind')
+
+
+  # use the inventory. because this is an object, everybody will end up
+  # pulling nwis_inventory.feather and building this object locally, if only
+  # to know whether 1_nwisdata/log/tasks_1_nwis.ind is up to date
+  #nwis_pull_partitions:
+  #  command: partition_inventory(
+  #    inventory_ind='1_nwisdata/out/inventory/nwis_inventory.feather.ind',
+  #    nwis_pull=nwis_pull,
+  #    nwis_codes=nwis_codes)
+
+  # -- pull the data --
+
+  # prepare a remake-style plan for running each state as a separate
+  # remake target in a separate remake file (tasks_1_nwis.yml)
+  #nwis_pull_plan:
+  #  command: plan_nwis_pull(partitions=nwis_pull_partitions, folders=nwis_pull_folders)
+  #tasks_1_nwis.yml:
+  #  command: create_nwis_pull_makefile(makefile=target_name, task_plan=nwis_pull_plan)
+
+  # run the data pulls
+  #1_nwisdata/log/tasks_1_nwis.ind:
+  #  command: loop_tasks(
+  #    task_plan=nwis_pull_plan, task_makefile='tasks_1_nwis.yml',
+  #    num_tries=I(30), sleep_on_error=I(20))
