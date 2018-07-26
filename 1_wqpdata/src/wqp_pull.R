@@ -126,7 +126,7 @@ plan_wqp_pull_per_constituent <- function(constituents, folders, folders_item) {
           "create_task_makefile(",
           "makefile=target_name,",
           "task_plan=%s,",
-          "include=I(c('1_wqpdata.yml')),",
+          "include=I(c('tasks_1_wqp.yml')),",
           "packages=I(c('dplyr', 'dataRetrieval', 'feather', 'scipiper')),",
           "file_extensions=I(c('ind','feather')))",
           sep="\n      "
@@ -217,7 +217,7 @@ plan_wqp_pull <- function(partitions, constituent, folders) {
         "extract_wqp_data(",
         "ind_file=target_name,",
         sprintf("local_file=I('%s'),", scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))),
-        "remake_file = 'tasks_1_wqp.yml')",
+        sprintf("remake_file = 'tasks_1_wqp_%s.yml')", constituent),
         sep="\n      ")
     }
   )
@@ -233,7 +233,7 @@ plan_wqp_pull <- function(partitions, constituent, folders) {
         "extract_wqp_siteinfo(",
         "ind_file=target_name,",
         sprintf("local_file=I('%s'),", scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))),
-        "remake_file = 'tasks_1_wqp.yml')",
+        sprintf("remake_file = 'tasks_1_wqp_%s.yml')", constituent),
         sep="\n      ")
     }
   )
