@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/log/phosphorus.ind
+type: file
+hash: 5c34f00193500dd16870c2810bf8ef8f
+time: 2018-07-26 18:59:07 UTC
+depends:
+  1_wqpdata/tmp/data/partition_phosphorus.rds.ind: 2ec8ba2f4858c06ad16f842e00c724e2
+fixed: 1a9b8403cd8736cb817ba684b3297314
+code:
+  functions: {}
+

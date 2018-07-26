@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/tasks_1_wqp_nitrate.ind
+type: file
+hash: 2269aef9795b7215f3b8d6bea8c9db2f
+time: 2018-07-26 21:12:07 UTC
+depends:
+  wqp_pull_plan_nitrate: f94b49b19045bf0c8f17cbb7ead94892
+  tasks_1_wqp_nitrate.yml: 2692673104a9ac722d6f4a2bb58b401f
+fixed: c5cfdfacf90cb942deb045710cb0842c
+code:
+  functions: {}
+

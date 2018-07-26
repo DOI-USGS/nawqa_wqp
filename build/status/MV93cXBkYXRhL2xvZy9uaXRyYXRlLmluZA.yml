@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/log/nitrate.ind
+type: file
+hash: 66c42bcd2037aa9b24b1f302ab26e50b
+time: 2018-07-26 18:49:46 UTC
+depends:
+  1_wqpdata/tmp/data/partition_nitrate.rds.ind: 582bcae414ee0641749542f086241466
+fixed: a960e6e069bf7fdf71e4cc091e54d8e3
+code:
+  functions: {}
+

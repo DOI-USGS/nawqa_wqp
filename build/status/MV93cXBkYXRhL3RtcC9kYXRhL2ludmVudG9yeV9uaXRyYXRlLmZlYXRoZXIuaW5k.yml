@@ -1,0 +1,14 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/inventory_nitrate.feather.ind
+type: file
+hash: 562f13219120c5070b4961405c316d27
+time: 2018-07-26 18:49:28 UTC
+depends:
+  wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
+  wqp_states: 0f8f4a33363213d2698e31f0ee1b1df0
+  wqp_codes: dd11495933b023e078f38c1ae69b0239
+fixed: b0d2512902c0575057d764ce26af794d
+code:
+  functions:
+    inventory_wqp: 8ae9f1db6ec0464082456ed8297018cc
+
