@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kentucky_temperature_001_siteinfo.feather.ind
+type: file
+hash: bc975b235d3bc1db6abf7c45000df6ef
+time: 2018-07-27 17:24:17 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 5e66499c440f30e26e8d851eb61fb811
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

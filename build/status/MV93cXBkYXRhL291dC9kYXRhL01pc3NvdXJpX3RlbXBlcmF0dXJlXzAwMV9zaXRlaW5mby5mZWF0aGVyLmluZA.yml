@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Missouri_temperature_001_siteinfo.feather.ind
+type: file
+hash: 80f733966360fa55710cca73d1e6d55c
+time: 2018-07-27 17:59:02 UTC
+depends:
+  1_wqpdata/tmp/data/Missouri_temperature_001_siteinfo.feather.ind: 80f733966360fa55710cca73d1e6d55c
+fixed: 33568c2392384215bfcf93ec400dcd81
+code:
+  functions: {}
+

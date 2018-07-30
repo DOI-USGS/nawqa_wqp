@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wisconsin_temperature_043.rds.ind
+type: file
+hash: 0659983e00a721e2ad6463ed84694a63
+time: 2018-07-30 02:59:12 UTC
+depends:
+  partition_Wisconsin_temperature_043: 683589df642d930ce580041baae53813
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: e05d58281228e326248b6909da0e8b9b
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

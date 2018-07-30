@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Iowa_temperature_001_siteinfo.feather.ind
+type: file
+hash: 9c2e68a68f6e9b51a40e269c85fd0419
+time: 2018-07-27 17:20:00 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: e17ff2c96d158e400d10f63dde82824e
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

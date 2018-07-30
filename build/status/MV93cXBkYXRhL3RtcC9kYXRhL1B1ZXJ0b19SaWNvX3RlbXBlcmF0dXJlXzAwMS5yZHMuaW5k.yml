@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Puerto_Rico_temperature_001.rds.ind
+type: file
+hash: 6a9f5bfde2893a51092023b16e0264ce
+time: 2018-07-27 19:40:42 UTC
+depends:
+  partition_Puerto_Rico_temperature_001: 206e283a4083bb9315ba8b92b5758d14
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 16ac2317b3a06a21c3d57f3c810716dd
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

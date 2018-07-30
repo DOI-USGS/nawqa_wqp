@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Oregon_temperature_003_siteinfo.feather.ind
+type: file
+hash: 1b7b87c7e4f99523da0475c535ead69f
+time: 2018-07-27 18:41:15 UTC
+depends:
+  1_wqpdata/tmp/data/Oregon_temperature_003_siteinfo.feather.ind: 1b7b87c7e4f99523da0475c535ead69f
+fixed: e2abaffb027017355ad7ff2f6d7abf32
+code:
+  functions: {}
+

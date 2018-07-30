@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Ohio_temperature_001.feather.ind
+type: file
+hash: e05b488b73b8acd575bfd52e0035330e
+time: 2018-07-27 18:29:01 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 34b6af34db28d5415dd0fea3d860c308
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

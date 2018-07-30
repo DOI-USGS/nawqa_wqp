@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oregon_temperature_005.feather.ind
+type: file
+hash: 9df2aca4fffbeee993760dc9049933b7
+time: 2018-07-27 18:45:48 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 05ef97ffb7dfeeb3a88643e6667ec486
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

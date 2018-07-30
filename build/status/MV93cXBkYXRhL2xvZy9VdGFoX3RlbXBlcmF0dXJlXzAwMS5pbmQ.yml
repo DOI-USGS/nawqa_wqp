@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Utah_temperature_001.ind
+type: file
+hash: 9e8ba3edd4cc07142a5d708af4edc8c1
+time: 2018-07-27 20:00:07 UTC
+depends:
+  1_wqpdata/out/data/Utah_temperature_001.feather.ind: 872a1273aa3556e65a7d64d9754a4838
+  1_wqpdata/out/data/Utah_temperature_001_siteinfo.feather.ind: 793786a9558f310729491b97d4d00271
+fixed: b79f126e783a159de3ff02e1d9688dc0
+code:
+  functions: {}
+

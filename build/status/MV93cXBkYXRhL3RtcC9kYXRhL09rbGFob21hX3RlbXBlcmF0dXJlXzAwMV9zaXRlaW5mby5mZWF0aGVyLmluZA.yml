@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oklahoma_temperature_001_siteinfo.feather.ind
+type: file
+hash: e4bd5911e4fcb018efaaf75cb01f087b
+time: 2018-07-27 18:31:38 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 815dadf910f0820ead627ffc81649203
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

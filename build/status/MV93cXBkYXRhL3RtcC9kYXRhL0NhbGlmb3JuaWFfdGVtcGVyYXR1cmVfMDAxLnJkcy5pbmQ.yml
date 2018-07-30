@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/California_temperature_001.rds.ind
+type: file
+hash: d3ed45b0cec307145adfbe2a81759ba6
+time: 2018-07-27 16:36:06 UTC
+depends:
+  partition_California_temperature_001: 2635ccece80657ab1d24ced20e284a4d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: fd5922c1abe421e74f2d12a5f0c11faa
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

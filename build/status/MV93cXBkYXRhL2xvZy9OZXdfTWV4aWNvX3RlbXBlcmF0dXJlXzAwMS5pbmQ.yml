@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_Mexico_temperature_001.ind
+type: file
+hash: 7642dcf95895d9b8a97bc53da78e1b2f
+time: 2018-07-27 18:14:41 UTC
+depends:
+  1_wqpdata/out/data/New_Mexico_temperature_001.feather.ind: 4b1a9ea899385829fc6aa7845725e02c
+  1_wqpdata/out/data/New_Mexico_temperature_001_siteinfo.feather.ind: f71812803234c306f450e2744b531dcc
+fixed: e01c73ccc943efe42c7debd48ef7af4d
+code:
+  functions: {}
+

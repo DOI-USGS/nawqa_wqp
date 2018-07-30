@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_York_temperature_001.rds.ind
+type: file
+hash: ba81c511ab329a81f83a31126b8a8b5e
+time: 2018-07-27 18:15:48 UTC
+depends:
+  partition_New_York_temperature_001: 4525c5a9c67a55879aa51c456050a926
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: a55e6844809802a875747c18fbbccc4e
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

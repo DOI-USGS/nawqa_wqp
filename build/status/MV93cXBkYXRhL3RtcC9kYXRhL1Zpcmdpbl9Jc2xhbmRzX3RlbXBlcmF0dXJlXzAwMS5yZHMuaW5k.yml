@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Virgin_Islands_temperature_001.rds.ind
+type: file
+hash: 92041ad9a1bdc34c1d6875d8d20cdc62
+time: 2018-07-27 20:02:57 UTC
+depends:
+  partition_Virgin_Islands_temperature_001: d4cec0e6e68bce1a8562f483a11585e3
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 2145c5159ff0f52f20ea702a557868f9
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

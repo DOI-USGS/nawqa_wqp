@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Hampshire_temperature_001_siteinfo.feather.ind
+type: file
+hash: 6a90a7bad4d78fc0363d161d1ba69a85
+time: 2018-07-27 18:07:14 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 04d2ccc866f902b45e5320df982f4ae9
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

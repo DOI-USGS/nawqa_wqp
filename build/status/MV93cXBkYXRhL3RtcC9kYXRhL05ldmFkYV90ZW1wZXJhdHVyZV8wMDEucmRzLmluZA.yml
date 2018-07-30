@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nevada_temperature_001.rds.ind
+type: file
+hash: 7649cb1c5f04852ef3ae0c46e7286c06
+time: 2018-07-27 18:04:33 UTC
+depends:
+  partition_Nevada_temperature_001: 8dfcbc4c51a542fd7b7edf974dd05fd7
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: df310cebe6b1a400cf3ec75606a0297c
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

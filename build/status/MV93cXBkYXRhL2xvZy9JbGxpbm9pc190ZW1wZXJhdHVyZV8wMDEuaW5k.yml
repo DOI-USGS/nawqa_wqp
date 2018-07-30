@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Illinois_temperature_001.ind
+type: file
+hash: 0c1c0378cf68dbdd3ea489cac2561a8c
+time: 2018-07-27 17:16:05 UTC
+depends:
+  1_wqpdata/out/data/Illinois_temperature_001.feather.ind: 6d915008b0683a1426148e3e99ce3152
+  1_wqpdata/out/data/Illinois_temperature_001_siteinfo.feather.ind: 8d7c2a58de94893c1d88109b273ba892
+fixed: 6d0556fc4e9f8bf31f139aa17a660db4
+code:
+  functions: {}
+

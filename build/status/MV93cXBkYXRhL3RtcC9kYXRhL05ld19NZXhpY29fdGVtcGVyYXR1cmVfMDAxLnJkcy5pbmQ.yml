@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Mexico_temperature_001.rds.ind
+type: file
+hash: 50a987c86d99c8d7ca2afd2e5f0929e1
+time: 2018-07-27 18:13:23 UTC
+depends:
+  partition_New_Mexico_temperature_001: 0461a5ea2ab0132a6e6329f96798f599
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 65ebcab7fb10281769c0e9b76ce25651
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

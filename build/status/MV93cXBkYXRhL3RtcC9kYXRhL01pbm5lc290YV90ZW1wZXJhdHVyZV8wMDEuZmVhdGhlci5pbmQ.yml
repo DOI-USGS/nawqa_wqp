@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Minnesota_temperature_001.feather.ind
+type: file
+hash: 0baa4f6caf435b7c53db1e3ce6733b37
+time: 2018-07-27 17:47:51 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: bc68fb3a9d090ee1db8d8f3b8fb0fdd9
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

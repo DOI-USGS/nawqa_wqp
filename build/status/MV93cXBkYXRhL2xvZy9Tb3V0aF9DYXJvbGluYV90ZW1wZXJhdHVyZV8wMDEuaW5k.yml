@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/South_Carolina_temperature_001.ind
+type: file
+hash: 97e308eaab1d4a948be505673642d649
+time: 2018-07-27 19:48:32 UTC
+depends:
+  1_wqpdata/out/data/South_Carolina_temperature_001.feather.ind: 2921b580d96c3168d43e198bbe66890c
+  1_wqpdata/out/data/South_Carolina_temperature_001_siteinfo.feather.ind: d1e70be5ba48abe052d2895aa8960b3b
+fixed: 2df2867016084bec9ff971388544ec01
+code:
+  functions: {}
+

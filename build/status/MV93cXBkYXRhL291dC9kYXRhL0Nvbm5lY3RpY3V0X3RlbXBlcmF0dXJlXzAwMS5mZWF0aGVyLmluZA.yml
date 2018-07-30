@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Connecticut_temperature_001.feather.ind
+type: file
+hash: a4521d3e7c3f1a15e3ee60da46e0b477
+time: 2018-07-27 16:45:25 UTC
+depends:
+  1_wqpdata/tmp/data/Connecticut_temperature_001.feather.ind: a4521d3e7c3f1a15e3ee60da46e0b477
+fixed: b16a8e3b2c121c7844dd5672dc5ee3ad
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Hawaii_temperature_001.rds.ind
+type: file
+hash: 0a90921762fcf9fdc7a971b84acee2ed
+time: 2018-07-27 17:10:35 UTC
+depends:
+  partition_Hawaii_temperature_001: 51d9cfd8cad59543e93f77ce3e7e0b41
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d63576d7b92ae91c84e3d218db3bf659
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

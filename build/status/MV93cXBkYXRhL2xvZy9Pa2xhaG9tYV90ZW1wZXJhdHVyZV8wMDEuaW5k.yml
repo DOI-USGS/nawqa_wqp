@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Oklahoma_temperature_001.ind
+type: file
+hash: 2b11960e693a643f5f02014e149f7354
+time: 2018-07-27 18:32:23 UTC
+depends:
+  1_wqpdata/out/data/Oklahoma_temperature_001.feather.ind: f9c61c07fe789796145e642db06aceb0
+  1_wqpdata/out/data/Oklahoma_temperature_001_siteinfo.feather.ind: e4bd5911e4fcb018efaaf75cb01f087b
+fixed: cfc6ce347ec9ea0d70cc635667ce3a27
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Kentucky_temperature_001.ind
+type: file
+hash: a8f346d85cd653d3e1d6bebf7f6090e9
+time: 2018-07-27 17:25:02 UTC
+depends:
+  1_wqpdata/out/data/Kentucky_temperature_001.feather.ind: f0e203b4597b5b3cc7029faddd862b18
+  1_wqpdata/out/data/Kentucky_temperature_001_siteinfo.feather.ind: bc975b235d3bc1db6abf7c45000df6ef
+fixed: 68e5004857f0ddb442767ab4c2dff126
+code:
+  functions: {}
+

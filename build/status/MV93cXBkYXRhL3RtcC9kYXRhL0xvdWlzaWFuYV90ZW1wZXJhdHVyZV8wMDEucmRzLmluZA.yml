@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Louisiana_temperature_001.rds.ind
+type: file
+hash: 8fcd3256fa5fdf9289310b31e917653a
+time: 2018-07-27 17:26:01 UTC
+depends:
+  partition_Louisiana_temperature_001: f59dcae275c5caa45c697f649f77e0f7
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 1942e9b126ede8fa16ba8d528cb532d8
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

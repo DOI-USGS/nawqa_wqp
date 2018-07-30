@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Tennessee_temperature_001.ind
+type: file
+hash: 06c62fd03d76d7d1a8d4a3aadb91b775
+time: 2018-07-27 19:55:18 UTC
+depends:
+  1_wqpdata/out/data/Tennessee_temperature_001.feather.ind: 186bc6688709710592ac20474aa6e014
+  1_wqpdata/out/data/Tennessee_temperature_001_siteinfo.feather.ind: 735714a4cc0ae7d6f0e138ced66fae42
+fixed: f1514b9da04989ef8ba975586836d36b
+code:
+  functions: {}
+

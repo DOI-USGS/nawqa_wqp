@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Tennessee_temperature_001.rds.ind
+type: file
+hash: 7bdd71f1645227544a3ca74cddcf00d6
+time: 2018-07-27 19:53:40 UTC
+depends:
+  partition_Tennessee_temperature_001: 7f32a25f16eab98addb3eb3bf9c498fc
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 1f8fc944dfaebffc647a15500e88f9e7
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

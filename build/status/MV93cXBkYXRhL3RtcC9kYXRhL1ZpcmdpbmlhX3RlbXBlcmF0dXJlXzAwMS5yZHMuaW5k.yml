@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Virginia_temperature_001.rds.ind
+type: file
+hash: d9d1df5d6cea81b701636e6745e39521
+time: 2018-07-27 23:29:58 UTC
+depends:
+  partition_Virginia_temperature_001: 510fd8d3d423ece34899e27cafac75cf
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d8de2ef737b2b59943c847edcabf4648
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Wisconsin_temperature_013_siteinfo.feather.ind
+type: file
+hash: f99109c5f250c595fc6ed43ec8a0acd1
+time: 2018-07-30 01:22:26 UTC
+depends:
+  1_wqpdata/tmp/data/Wisconsin_temperature_013_siteinfo.feather.ind: f99109c5f250c595fc6ed43ec8a0acd1
+fixed: 77a206c649aa23fa231950ae1352502a
+code:
+  functions: {}
+

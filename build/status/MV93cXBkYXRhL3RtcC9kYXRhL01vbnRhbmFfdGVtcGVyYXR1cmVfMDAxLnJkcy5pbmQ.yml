@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Montana_temperature_001.rds.ind
+type: file
+hash: cf86d98ed40eb0920a071f021a020510
+time: 2018-07-27 18:00:16 UTC
+depends:
+  partition_Montana_temperature_001: 4faf376dd52e1f75971a3bfe9ae5d40c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 8ae65b7da9d68214729c6b779c0f50ac
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

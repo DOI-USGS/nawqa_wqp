@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Michigan_temperature_001_siteinfo.feather.ind
+type: file
+hash: a439cfbe5305f1904b941c014506bc86
+time: 2018-07-27 17:46:15 UTC
+depends:
+  1_wqpdata/tmp/data/Michigan_temperature_001_siteinfo.feather.ind: a439cfbe5305f1904b941c014506bc86
+fixed: 7ab7f1fcd8e5c1ea0c50b3a8954685cb
+code:
+  functions: {}
+

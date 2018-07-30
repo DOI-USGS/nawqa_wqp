@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Virgin_Islands_temperature_001.ind
+type: file
+hash: 042552ec27b8a90a1270a195e424d4a1
+time: 2018-07-27 20:04:04 UTC
+depends:
+  1_wqpdata/out/data/Virgin_Islands_temperature_001.feather.ind: 809c8cbd7570ed3ab8b3049199bd207f
+  1_wqpdata/out/data/Virgin_Islands_temperature_001_siteinfo.feather.ind: 809c8cbd7570ed3ab8b3049199bd207f
+fixed: a48551b594d4aafe17b2abed709f54f8
+code:
+  functions: {}
+

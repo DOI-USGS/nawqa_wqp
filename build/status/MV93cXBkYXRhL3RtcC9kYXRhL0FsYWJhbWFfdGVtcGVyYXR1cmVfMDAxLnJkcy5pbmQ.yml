@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alabama_temperature_001.rds.ind
+type: file
+hash: f8e5034b8dc744aae85a538d6584ca84
+time: 2018-07-27 15:12:26 UTC
+depends:
+  partition_Alabama_temperature_001: 9f2d6b497dd6ec779eb5c0248336ab0b
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 41933c51da19a83510e272b6f4d78a53
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

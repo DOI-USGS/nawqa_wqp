@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_temperature_002.rds.ind
+type: file
+hash: f5b5d3f84438184c1d3c01530e394b52
+time: 2018-07-27 16:42:44 UTC
+depends:
+  partition_Colorado_temperature_002: 7c7d863b65b89423fc860b4e87f47998
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 196c02565d6c58cb106d6fb5c78cd80a
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Carolina_temperature_001.rds.ind
+type: file
+hash: dc0cda01f35f951bb39406a6040a7850
+time: 2018-07-27 19:46:29 UTC
+depends:
+  partition_South_Carolina_temperature_001: 26041f24b739a3782b4a114030a3d7c5
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 21c1441d730a9443b239d8cd239a3eca
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

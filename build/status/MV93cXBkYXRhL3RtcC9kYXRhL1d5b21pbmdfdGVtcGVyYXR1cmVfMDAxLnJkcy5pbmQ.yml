@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wyoming_temperature_001.rds.ind
+type: file
+hash: 1641ec41aad23080f9f82fd2e6d3d1ac
+time: 2018-07-30 03:19:13 UTC
+depends:
+  partition_Wyoming_temperature_001: c81540868a18d5f8a14d1549cecc1476
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 23b992bd05108f6f9787cbf2bf69f79f
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

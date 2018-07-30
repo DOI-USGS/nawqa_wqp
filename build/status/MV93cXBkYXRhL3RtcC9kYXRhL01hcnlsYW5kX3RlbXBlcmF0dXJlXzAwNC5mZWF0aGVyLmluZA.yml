@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maryland_temperature_004.feather.ind
+type: file
+hash: 4cfed5dfcab6dfea647139147eac590d
+time: 2018-07-27 17:41:01 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 9b8bdcb8ebfa871992c8a3bbc80809e4
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

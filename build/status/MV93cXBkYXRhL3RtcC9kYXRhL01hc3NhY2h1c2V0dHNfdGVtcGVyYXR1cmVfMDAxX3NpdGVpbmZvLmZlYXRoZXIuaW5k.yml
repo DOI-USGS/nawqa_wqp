@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Massachusetts_temperature_001_siteinfo.feather.ind
+type: file
+hash: 2dce3a3f25cd4abbe8f7a0362c83f748
+time: 2018-07-27 17:43:34 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 75ad746165744889e339cba3ff3029e6
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

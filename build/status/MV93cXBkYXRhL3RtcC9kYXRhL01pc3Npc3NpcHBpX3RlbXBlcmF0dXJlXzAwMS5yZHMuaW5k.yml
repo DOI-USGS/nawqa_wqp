@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Mississippi_temperature_001.rds.ind
+type: file
+hash: bc04271570b834b4cfc4797f4c7c9511
+time: 2018-07-27 17:55:50 UTC
+depends:
+  partition_Mississippi_temperature_001: 22089e2e29ca1eb8514862732ace6b33
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9589e68f5239d943646ad13e7b775ae0
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

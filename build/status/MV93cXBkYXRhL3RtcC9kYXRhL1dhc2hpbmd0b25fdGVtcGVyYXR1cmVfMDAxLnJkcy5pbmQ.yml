@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Washington_temperature_001.rds.ind
+type: file
+hash: 5a8f5193a1fe70160f205479587f38f2
+time: 2018-07-27 23:40:43 UTC
+depends:
+  partition_Washington_temperature_001: aa41b1a85d34b2116c749207ab8e42fb
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 75c25bac35a118cfb54f5ca57e21dc07
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

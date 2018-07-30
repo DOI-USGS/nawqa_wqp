@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_York_temperature_001.ind
+type: file
+hash: 7e29a11f6f07b34a60ebc45a63a2f3ca
+time: 2018-07-27 18:16:57 UTC
+depends:
+  1_wqpdata/out/data/New_York_temperature_001.feather.ind: 9d9d9e9a0b25e0a0b140e8cd7d97b9aa
+  1_wqpdata/out/data/New_York_temperature_001_siteinfo.feather.ind: 75b0491edf9b83fe0d62ccf6f6fdf583
+fixed: 0a6ff71cb357d245bc56cd96056c1943
+code:
+  functions: {}
+

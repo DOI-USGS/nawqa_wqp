@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_temperature_002_siteinfo.feather.ind
+type: file
+hash: 55f54fab4939a1f0cd4909213d99075f
+time: 2018-07-27 16:43:08 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 420c5fcb34995e90e424318ee119f494
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

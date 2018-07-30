@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Rhode_Island_temperature_001.rds.ind
+type: file
+hash: 535e496893f58b69b3c43d0de5f0b94d
+time: 2018-07-27 19:43:03 UTC
+depends:
+  partition_Rhode_Island_temperature_001: 55e0816c10538fbd183d170bc55273c2
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5ac9a9194d9000db80b9092ccf6fff87
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

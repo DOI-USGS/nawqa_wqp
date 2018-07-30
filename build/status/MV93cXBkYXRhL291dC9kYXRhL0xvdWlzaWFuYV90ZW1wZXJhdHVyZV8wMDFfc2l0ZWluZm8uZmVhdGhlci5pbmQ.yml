@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Louisiana_temperature_001_siteinfo.feather.ind
+type: file
+hash: 415871219edf0fec5090f72be9256ce2
+time: 2018-07-27 17:27:08 UTC
+depends:
+  1_wqpdata/tmp/data/Louisiana_temperature_001_siteinfo.feather.ind: 415871219edf0fec5090f72be9256ce2
+fixed: 77ffbb502cefb1a3f7861ddc4b99b556
+code:
+  functions: {}
+

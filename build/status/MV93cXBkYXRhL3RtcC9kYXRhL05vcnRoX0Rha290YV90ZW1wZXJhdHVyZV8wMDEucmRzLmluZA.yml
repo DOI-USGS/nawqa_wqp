@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Dakota_temperature_001.rds.ind
+type: file
+hash: fbf3bacab59cd840634a960b254384da
+time: 2018-07-27 18:24:36 UTC
+depends:
+  partition_North_Dakota_temperature_001: 5aac91352258404a45321d5e9573f58a
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 730d3b23796d7fb8c285412f73003bca
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

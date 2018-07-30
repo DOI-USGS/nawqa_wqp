@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Texas_temperature_001.rds.ind
+type: file
+hash: fa6d25401abe9f41ca36b3622f7b3051
+time: 2018-07-27 19:56:23 UTC
+depends:
+  partition_Texas_temperature_001: 904891241cdf7cc1e2109dd28ef55b90
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 6a89c826c3ef2c3a5aea8644c382dc02
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

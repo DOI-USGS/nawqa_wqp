@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Indiana_temperature_001.rds.ind
+type: file
+hash: 9a02feb7fde65158fe5cc7e27f66077f
+time: 2018-07-27 17:17:19 UTC
+depends:
+  partition_Indiana_temperature_001: cf80a9520809c5dd02fb8ebf0b344bf2
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 77971dc739e076755d7210f3852eb2d6
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

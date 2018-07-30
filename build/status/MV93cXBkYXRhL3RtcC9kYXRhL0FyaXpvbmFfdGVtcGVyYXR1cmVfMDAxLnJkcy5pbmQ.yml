@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arizona_temperature_001.rds.ind
+type: file
+hash: f7b2919cdfbc17634798255d5a8c04f8
+time: 2018-07-27 16:31:31 UTC
+depends:
+  partition_Arizona_temperature_001: aaccdefa5b4fbeb155998dd1187513a6
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 33587e5e6b94107f331ceca31ecf5eb3
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

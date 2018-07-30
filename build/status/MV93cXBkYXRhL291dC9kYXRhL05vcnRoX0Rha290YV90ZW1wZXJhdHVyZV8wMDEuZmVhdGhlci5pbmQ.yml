@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/North_Dakota_temperature_001.feather.ind
+type: file
+hash: a4954b96782299c7cdbdc11e9c8f857b
+time: 2018-07-27 18:25:18 UTC
+depends:
+  1_wqpdata/tmp/data/North_Dakota_temperature_001.feather.ind: a4954b96782299c7cdbdc11e9c8f857b
+fixed: 731644dd0b6b302cc42ce8183d2238d2
+code:
+  functions: {}
+

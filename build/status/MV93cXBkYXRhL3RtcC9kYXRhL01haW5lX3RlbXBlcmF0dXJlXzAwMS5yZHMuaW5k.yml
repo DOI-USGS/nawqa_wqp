@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maine_temperature_001.rds.ind
+type: file
+hash: 223bc348435d4509e17bed7d543f63ea
+time: 2018-07-27 17:28:06 UTC
+depends:
+  partition_Maine_temperature_001: aa0382a84b89d207104c0c1443416dd0
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 8fb2a4c0b2e87adbc6026306a55bc54d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

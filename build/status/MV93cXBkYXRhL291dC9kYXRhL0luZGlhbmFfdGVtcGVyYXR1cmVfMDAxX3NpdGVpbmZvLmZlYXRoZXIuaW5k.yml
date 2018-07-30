@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Indiana_temperature_001_siteinfo.feather.ind
+type: file
+hash: dbf8a7259c652a643236e19c83704b94
+time: 2018-07-27 17:18:30 UTC
+depends:
+  1_wqpdata/tmp/data/Indiana_temperature_001_siteinfo.feather.ind: dbf8a7259c652a643236e19c83704b94
+fixed: 9e98a7a6eef620d8ebb86b268db39964
+code:
+  functions: {}
+

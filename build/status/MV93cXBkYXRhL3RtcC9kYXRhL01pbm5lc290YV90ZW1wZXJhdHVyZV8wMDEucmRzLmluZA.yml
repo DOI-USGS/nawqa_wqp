@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Minnesota_temperature_001.rds.ind
+type: file
+hash: 1e920e4c4501c1faf413186af375d842
+time: 2018-07-27 17:47:46 UTC
+depends:
+  partition_Minnesota_temperature_001: bbace8dd72ce132fb6020f374ebc56ae
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 1fa97149e6f2c9b8dbb8b2c585462542
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

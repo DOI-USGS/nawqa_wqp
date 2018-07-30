@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kentucky_temperature_001.rds.ind
+type: file
+hash: f7c9ab87cc14271493d0d5253a3fbba2
+time: 2018-07-27 17:23:55 UTC
+depends:
+  partition_Kentucky_temperature_001: c1328e5b1e5c569f10a0421afb0d6ee2
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9bed5abdabfeee41ffee344ae63073b4
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+
