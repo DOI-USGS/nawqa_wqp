@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_temperature_002.feather.ind
+type: file
+hash: f174d9b8fb897d23ecf66753289a822b
+time: 2018-07-27 17:05:37 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 27e56d65eab6f180d6914580f1f47ebb
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

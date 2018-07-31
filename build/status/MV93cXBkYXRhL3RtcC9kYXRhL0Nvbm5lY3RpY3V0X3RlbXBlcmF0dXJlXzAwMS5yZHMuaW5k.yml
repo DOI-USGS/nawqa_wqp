@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Connecticut_temperature_001.rds.ind
+type: file
+hash: aa7ec13a896dcc7d537aaf29e89d2158
+time: 2018-07-27 16:44:44 UTC
+depends:
+  partition_Connecticut_temperature_001: e1281fa752a31a6f9a942514d69bdf4b
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: aa755fc5d78c16753ee785d8f9e57cd9
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

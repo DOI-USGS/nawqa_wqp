@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Texas_temperature_001.feather.ind
+type: file
+hash: edb2c22d0e4f2e158a3e2e84b36d5262
+time: 2018-07-27 19:56:28 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 3c1de65501c50a3c22ea131eda24bbd2
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

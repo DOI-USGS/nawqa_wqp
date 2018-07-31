@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Washington_temperature_003.feather.ind
+type: file
+hash: 79e670f3befb295eb2f8ce6b00d9d448
+time: 2018-07-27 23:50:32 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: b6835e073c9ccb3ecaadcf59edad48bd
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

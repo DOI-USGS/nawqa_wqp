@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Arkansas_temperature_001.feather.ind
+type: file
+hash: ef87111742d8cbaf6e9b7f913da86cd6
+time: 2018-07-27 16:34:36 UTC
+depends:
+  1_wqpdata/tmp/data/Arkansas_temperature_001.feather.ind: ef87111742d8cbaf6e9b7f913da86cd6
+fixed: 6d818c5829e9176bf40139d9be50873b
+code:
+  functions: {}
+

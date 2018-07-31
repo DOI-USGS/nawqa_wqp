@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/South_Dakota_temperature_001.feather.ind
+type: file
+hash: 6ca328b98183fa536798eee931154016
+time: 2018-07-27 19:51:43 UTC
+depends:
+  1_wqpdata/tmp/data/South_Dakota_temperature_001.feather.ind: 6ca328b98183fa536798eee931154016
+fixed: 6b72237703549c5fce1242fea857450d
+code:
+  functions: {}
+

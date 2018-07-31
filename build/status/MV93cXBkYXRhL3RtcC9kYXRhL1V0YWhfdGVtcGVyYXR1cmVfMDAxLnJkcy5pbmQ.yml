@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Utah_temperature_001.rds.ind
+type: file
+hash: 961fb8ba5a84e01060bcfb2a2b52164c
+time: 2018-07-27 19:58:53 UTC
+depends:
+  partition_Utah_temperature_001: b43c4572060553e62c6e58ae74fe0daa
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 4c6f7e10658b95e7157951da695ea984
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

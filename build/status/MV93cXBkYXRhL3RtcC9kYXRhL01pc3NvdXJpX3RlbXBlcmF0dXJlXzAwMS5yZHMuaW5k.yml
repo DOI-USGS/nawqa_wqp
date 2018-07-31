@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Missouri_temperature_001.rds.ind
+type: file
+hash: f9c0790a70ee5c3af5afa00b7fb0b506
+time: 2018-07-27 17:57:59 UTC
+depends:
+  partition_Missouri_temperature_001: ee47f1329f3d5f30aa49f31c0f68edcb
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d28b2d5a880b69e7ce8b0302a6398a16
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

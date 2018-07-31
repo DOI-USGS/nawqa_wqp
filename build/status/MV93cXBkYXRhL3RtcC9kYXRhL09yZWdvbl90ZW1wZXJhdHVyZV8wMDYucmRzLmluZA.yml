@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oregon_temperature_006.rds.ind
+type: file
+hash: 385ac01e738b30e63a72384fa74ea1d0
+time: 2018-07-27 18:48:21 UTC
+depends:
+  partition_Oregon_temperature_006: 4709ff2385dcda9e970323da1a4d21f3
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 6d22862d797907449ebcf21eefd3032d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maryland_temperature_001.rds.ind
+type: file
+hash: 5e1e5c18edd5dab5f7241e98ca56d12d
+time: 2018-07-27 17:31:06 UTC
+depends:
+  partition_Maryland_temperature_001: 86d6363572b49b8cf248b5f60c332c45
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 33c5ceb560e1c9324b25aea49eacb19a
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

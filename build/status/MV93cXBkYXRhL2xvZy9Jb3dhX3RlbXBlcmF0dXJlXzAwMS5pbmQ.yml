@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Iowa_temperature_001.ind
+type: file
+hash: 96357df44b3d5a8bf154d39a1da9d0b7
+time: 2018-07-27 17:20:40 UTC
+depends:
+  1_wqpdata/out/data/Iowa_temperature_001.feather.ind: 6f11df15e633b659fd5f30fa783056b8
+  1_wqpdata/out/data/Iowa_temperature_001_siteinfo.feather.ind: 9c2e68a68f6e9b51a40e269c85fd0419
+fixed: 878106100418eba7bec5ab0700713ae7
+code:
+  functions: {}
+

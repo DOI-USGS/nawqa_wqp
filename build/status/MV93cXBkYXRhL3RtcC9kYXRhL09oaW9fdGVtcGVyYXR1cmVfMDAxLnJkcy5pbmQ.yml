@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Ohio_temperature_001.rds.ind
+type: file
+hash: 8e9852c5a82366deb525a840baa9611d
+time: 2018-07-27 18:28:55 UTC
+depends:
+  partition_Ohio_temperature_001: 096fe976f7b79c0e4b6ca9686fc71ec7
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 8c6481ba2c18d642b90a8092b66b01a9
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

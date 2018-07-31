@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Wyoming_temperature_001.feather.ind
+type: file
+hash: de8564a91f58da523f46c3def239c536
+time: 2018-07-30 03:20:00 UTC
+depends:
+  1_wqpdata/tmp/data/Wyoming_temperature_001.feather.ind: de8564a91f58da523f46c3def239c536
+fixed: c115a5e70ca62561ba7596d534b740b3
+code:
+  functions: {}
+

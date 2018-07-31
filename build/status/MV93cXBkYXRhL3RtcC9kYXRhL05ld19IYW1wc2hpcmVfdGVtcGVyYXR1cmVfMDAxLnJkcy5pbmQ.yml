@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Hampshire_temperature_001.rds.ind
+type: file
+hash: cdce0edf53bd53ede12e5ceb35e17caa
+time: 2018-07-27 18:06:49 UTC
+depends:
+  partition_New_Hampshire_temperature_001: 931244d6ca900c3266d5c77f80c7dca7
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0c9df578a81dba80c7dd490e0fee6c37
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

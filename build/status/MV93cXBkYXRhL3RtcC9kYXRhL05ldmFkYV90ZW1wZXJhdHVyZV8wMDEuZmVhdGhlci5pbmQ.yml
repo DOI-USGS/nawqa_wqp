@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nevada_temperature_001.feather.ind
+type: file
+hash: 9f5d6328e34218468d7de23ab9af0322
+time: 2018-07-27 18:04:37 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 0df308a90a9be2ef26ad25161e02adc0
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

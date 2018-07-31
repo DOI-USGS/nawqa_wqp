@@ -16,10 +16,11 @@ filter_partitions <- function(partitions, pull_task) {
 # so that we know whether to re-pull a partition based solely on whether the
 # contents of that row have changed. each row should therefore include the lists
 # of sites and characteristic names.
-partition_inventory <- function(inventory_ind, wqp_pull, wqp_state_codes, wqp_codes) {
+partition_inventory <- function(ind_file, inventory_ind, wqp_pull, wqp_state_codes, wqp_codes) {
   # read in the inventory, which includes all dates and is therefore a superset
   # of what we'll be pulling for a specific date range
-  scipiper::sc_retrieve(inventory_ind)
+
+  #scipiper::sc_retrieve(inventory_ind)
   inventory <- feather::read_feather(scipiper::as_data_file(inventory_ind)) %>%
     select(Constituent, Site=MonitoringLocationIdentifier, StateCode, resultCount)
 
@@ -80,12 +81,93 @@ partition_inventory <- function(inventory_ind, wqp_pull, wqp_state_codes, wqp_co
     dplyr::left_join(parameter_codes, by='Constituent') %>%
     dplyr::mutate(SiteType=list(site_types))
 
-  return(pull_tasks_df)
+  # write the data file and the indicator file
+  data_file <- as_data_file(ind_file)
+  saveRDS(pull_tasks_df, file=data_file)
+  gd_put(ind_file, data_file) # sc_indicate(ind_file, data_file=data_file)
+
+  invisible()
+}
+
+plan_wqp_pull_per_constituent <- function(constituents, folders, folders_item) {
+
+  partitions <- scipiper::create_task_step(
+    step_name = 'partitions',
+    target_name = function(task_name, step_name, ...) {
+      sprintf('partitions_%s', task_name)
+    },
+    command = function(task_name, ...) {
+      sprintf("readRDS('%s')",
+              file.path(folders$tmp, sprintf("partition_%s.rds", task_name)))
+    }
+  )
+
+  make_plan <- scipiper::create_task_step(
+    step_name = 'make_plan',
+    target_name = function(task_name, step_name, ...) {
+      sprintf('wqp_pull_plan_%s', task_name)
+    },
+    command = function(task_name, ...) {
+      sprintf("plan_wqp_pull(%s, I('%s'), %s)",
+              sprintf('partitions_%s', task_name),
+              task_name,
+              folders_item)
+    }
+  )
+
+  create_plan <-  scipiper::create_task_step(
+    step_name = 'create_plan',
+    target_name = function(task_name, step_name, ...) {
+      sprintf('tasks_1_wqp_%s.yml', task_name)
+    },
+    command = function(task_name, ...) {
+      sprintf(
+        paste(
+          "create_task_makefile(",
+          "makefile=target_name,",
+          "task_plan=%s,",
+          "include=I(c('tasks_1_wqp.yml')),",
+          "packages=I(c('dplyr', 'dataRetrieval', 'feather', 'scipiper')),",
+          "file_extensions=I(c('ind','feather')))",
+          sep="\n      "
+        ),
+        sprintf('wqp_pull_plan_%s', task_name)
+      )
+    }
+  )
+
+  pull_data <-  scipiper::create_task_step(
+    step_name = 'pull_data',
+    target_name = function(task_name, step_name, ...) {
+      sprintf('1_wqpdata/log/tasks_1_wqp_%s.ind', task_name)
+    },
+    command = function(task_name, ...) {
+      sprintf(
+        paste(
+          "loop_tasks(",
+          "task_plan=%s,",
+          "task_makefile='%s',",
+          "num_tries=I(30), sleep_on_error=I(20))",
+          sep="\n      "
+        ),
+        sprintf('wqp_pull_plan_%s', task_name),
+        sprintf('tasks_1_wqp_%s.yml', task_name)
+      )
+    }
+  )
+
+  task_plan <- scipiper::create_task_plan(
+    task_names=sort(names(constituents$characteristicName)),
+    task_steps=list(partitions, make_plan, create_plan, pull_data),
+    final_steps='pull_data',
+    add_complete=FALSE,
+    ind_dir=folders$log)
+
 }
 
 # prepare a plan for downloading (from WQP) and posting (to GD) one data file
-# per state
-plan_wqp_pull <- function(partitions, folders) {
+# per state per constituent
+plan_wqp_pull <- function(partitions, constituent, folders) {
 
   partition <- scipiper::create_task_step(
     step_name = 'partition',
@@ -93,7 +175,7 @@ plan_wqp_pull <- function(partitions, folders) {
       sprintf('partition_%s', task_name)
     },
     command = function(task_name, ...) {
-      sprintf("filter_partitions(wqp_pull_partitions, I('%s'))", task_name)
+      sprintf("filter_partitions(partitions_%s, I('%s'))", constituent, task_name)
     }
   )
 
@@ -135,7 +217,7 @@ plan_wqp_pull <- function(partitions, folders) {
         "extract_wqp_data(",
         "ind_file=target_name,",
         sprintf("local_file=I('%s'),", scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))),
-        "remake_file = 'tasks_1_wqp.yml')",
+        sprintf("remake_file = 'tasks_1_wqp_%s.yml')", constituent),
         sep="\n      ")
     }
   )
@@ -151,7 +233,7 @@ plan_wqp_pull <- function(partitions, folders) {
         "extract_wqp_siteinfo(",
         "ind_file=target_name,",
         sprintf("local_file=I('%s'),", scipiper::as_ind_file(file.path(folders$tmp, sprintf('%s.rds', task_name)))),
-        "remake_file = 'tasks_1_wqp.yml')",
+        sprintf("remake_file = 'tasks_1_wqp_%s.yml')", constituent),
         sep="\n      ")
     }
   )
@@ -230,14 +312,6 @@ plan_wqp_pull <- function(partitions, folders) {
     add_complete=TRUE,
     ind_dir=folders$log)
 
-}
-
-create_wqp_pull_makefile <- function(makefile, task_plan) {
-  create_task_makefile(
-    makefile=makefile, task_plan=task_plan,
-    include='1_wqpdata.yml',
-    packages=c('dplyr', 'dataRetrieval', 'feather', 'scipiper'),
-    file_extensions=c('ind','feather'))
 }
 
 get_wqp_data <- function(ind_file, partition, wq_dates) {

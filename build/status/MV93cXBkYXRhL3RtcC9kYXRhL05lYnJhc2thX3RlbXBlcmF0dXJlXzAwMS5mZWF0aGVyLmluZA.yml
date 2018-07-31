@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nebraska_temperature_001.feather.ind
+type: file
+hash: 00523890bfd1ff96e0d0a838f8d6b0bf
+time: 2018-07-27 18:02:38 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 17ba9c6afac9cf4467037a5fbffbd36c
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

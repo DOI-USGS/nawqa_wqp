@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Puerto_Rico_temperature_001_siteinfo.feather.ind
+type: file
+hash: 583f1d17007336ea51199c6d94e325fd
+time: 2018-07-27 19:42:00 UTC
+depends:
+  1_wqpdata/tmp/data/Puerto_Rico_temperature_001_siteinfo.feather.ind: 583f1d17007336ea51199c6d94e325fd
+fixed: 61071f16b494bb45bf4d986a630e6d82
+code:
+  functions: {}
+

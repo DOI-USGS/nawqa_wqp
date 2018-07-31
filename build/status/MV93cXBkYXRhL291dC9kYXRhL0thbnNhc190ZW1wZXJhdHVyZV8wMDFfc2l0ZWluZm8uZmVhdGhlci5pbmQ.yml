@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Kansas_temperature_001_siteinfo.feather.ind
+type: file
+hash: b8c5d8523173a1a2b127dff4f80e485f
+time: 2018-07-27 17:22:53 UTC
+depends:
+  1_wqpdata/tmp/data/Kansas_temperature_001_siteinfo.feather.ind: b8c5d8523173a1a2b127dff4f80e485f
+fixed: 2be2fc14d31d5cc5d34429acca8d8328
+code:
+  functions: {}
+

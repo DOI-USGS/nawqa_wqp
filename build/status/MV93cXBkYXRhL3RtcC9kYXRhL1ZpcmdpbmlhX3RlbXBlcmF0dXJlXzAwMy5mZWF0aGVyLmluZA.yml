@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Virginia_temperature_003.feather.ind
+type: file
+hash: f726994730734851a36606a44e3dac77
+time: 2018-07-27 23:36:46 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: f5b929ac5851151bd2498227a44d8ec3
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_temperature_002.rds.ind
+type: file
+hash: 6cc62b926b13738a6ca77bd1fb4c5a44
+time: 2018-07-27 17:05:29 UTC
+depends:
+  partition_Georgia_temperature_002: e7c17cc12125fc7e7503ad99c62cba17
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 2ca25de1c46fdc7df3684040412bfd17
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

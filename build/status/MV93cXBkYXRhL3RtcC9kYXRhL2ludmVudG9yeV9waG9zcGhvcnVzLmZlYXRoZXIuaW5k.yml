@@ -1,0 +1,14 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/inventory_phosphorus.feather.ind
+type: file
+hash: 7ab72ab6a3646945751d8dbc91181f17
+time: 2018-07-26 22:00:58 UTC
+depends:
+  wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
+  wqp_states: 0f8f4a33363213d2698e31f0ee1b1df0
+  wqp_codes_phosphorus: a9d3149f4659af301db77b2cd54c3227
+fixed: 4eb3e933c045d728ea28c34c5bda1111
+code:
+  functions:
+    inventory_wqp: acd761e18726d129aff119d3341da954
+

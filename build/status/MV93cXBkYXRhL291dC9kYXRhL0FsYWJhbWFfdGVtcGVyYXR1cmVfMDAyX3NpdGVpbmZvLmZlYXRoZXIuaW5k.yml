@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Alabama_temperature_002_siteinfo.feather.ind
+type: file
+hash: f17f1a593b307f65dc1b38d69af02ba3
+time: 2018-07-27 15:16:31 UTC
+depends:
+  1_wqpdata/tmp/data/Alabama_temperature_002_siteinfo.feather.ind: f17f1a593b307f65dc1b38d69af02ba3
+fixed: 66f3204a7d65006451bc66dfa9f5b88f
+code:
+  functions: {}
+

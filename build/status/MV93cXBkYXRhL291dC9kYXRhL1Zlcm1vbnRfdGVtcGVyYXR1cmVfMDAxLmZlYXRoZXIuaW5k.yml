@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Vermont_temperature_001.feather.ind
+type: file
+hash: 8ff62a5534a30b69b1ad9e84d83e48cc
+time: 2018-07-27 20:01:54 UTC
+depends:
+  1_wqpdata/tmp/data/Vermont_temperature_001.feather.ind: 8ff62a5534a30b69b1ad9e84d83e48cc
+fixed: 3aa8a845594ab3361654ccff8c5dcf26
+code:
+  functions: {}
+

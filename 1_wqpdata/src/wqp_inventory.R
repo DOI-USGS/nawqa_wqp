@@ -16,15 +16,19 @@ get_wqp_state_codes <- function() {
   return(states_df)
 }
 
+# filter wqp_codes for just one constituent so that we can build them independently
+subset_wqp_codes <- function(wqp_codes, constituent_group) {
+  subset_codes <- wqp_codes
+  subset_codes$characteristicName <- subset_codes$characteristicName[[constituent_group]]
+  return(subset_codes)
+}
+
 # acquire a data frame of site x constituent information, with counts of
 # observations per site-constituent combination and all the site metadata that
 # looks useful
-inventory_wqp <- function(ind_file, wqp_state_codes, wqp_states, wqp_codes) {
+inventory_wqp <- function(ind_file, wqp_state_codes, wqp_states, wqp_codes, constituents) {
   # convert states list to FIPS list
   state_codes <- filter(wqp_state_codes, name %in% wqp_states) %>% pull(value)
-
-  # identify available constituent sets
-  constituents <- names(wqp_codes$characteristicName)
 
   # prepare the args to whatWQPdata. all arguments will be the same every time
   # except characteristicName, which we'll loop through to get separate counts
@@ -41,7 +45,7 @@ inventory_wqp <- function(ind_file, wqp_state_codes, wqp_states, wqp_codes) {
   sample_time <- system.time({
     samples <- bind_rows(lapply(constituents, function(constituent) {
       message(Sys.time(), ': getting inventory for ', constituent)
-      wqp_args$characteristicName <- wqp_codes$characteristicName[[constituent]]
+      wqp_args$characteristicName <- wqp_codes$characteristicName
       tryCatch({
         wqp_wdat <- do.call(whatWQPdata, wqp_args)
         mutate(wqp_wdat, constituent=constituent)
@@ -84,4 +88,71 @@ inventory_wqp <- function(ind_file, wqp_state_codes, wqp_states, wqp_codes) {
   gd_put(ind_file, data_file) # sc_indicate(ind_file, data_file=data_file)
 
   invisible()
+}
+
+# prepare a plan for getting an inventory of available WQP data
+plan_inventory <- function(constituents, folders) {
+
+  subset_codes <- scipiper::create_task_step(
+    step_name = 'subset_codes',
+    target_name = function(task_name, step_name, ...) {
+      sprintf('wqp_codes_%s', task_name)
+    },
+    command = function(task_name, ...) {
+      sprintf("subset_wqp_codes(wqp_codes, I('%s'))", task_name)
+    }
+  )
+
+  inventory <- scipiper::create_task_step(
+    step_name = 'inventory',
+    target_name = function(task_name, step_name, ...) {
+      scipiper::as_ind_file(file.path(folders$tmp, sprintf('inventory_%s.feather', task_name)))
+    },
+    command = function(task_name, ...) {
+      sprintf("inventory_wqp(target_name, wqp_state_codes, wqp_states, wqp_codes_%s, I('%s'))",
+              task_name, task_name)
+    }
+  )
+
+  # steps: download, post
+  download <- scipiper::create_task_step(
+    step_name = 'download',
+    target_name = function(task_name, step_name, ...) {
+      file.path(folders$tmp, sprintf('inventory_%s.feather', task_name))
+    },
+    command = function(task_name, ...) {
+      sprintf(
+        "gd_get(ind_file='%s')",
+        scipiper::as_ind_file(file.path(folders$tmp, sprintf('inventory_%s.feather', task_name)))
+      )
+    }
+  )
+
+  partition <- scipiper::create_task_step(
+    step_name = 'partition',
+    target_name = function(task_name, step_name, ...) {
+      scipiper::as_ind_file(file.path(folders$tmp, sprintf('partition_%s.rds', task_name)))
+    },
+    command = function(task_name, ...) {
+      sprintf(
+        paste(
+          "partition_inventory(",
+          "ind_file = target_name,",
+          "inventory_ind = '%s',",
+          "wqp_pull = wqp_pull,",
+          "wqp_state_codes = wqp_state_codes,",
+          "wqp_codes=wqp_codes)",
+          sep="\n      "),
+        scipiper::as_ind_file(file.path(folders$tmp, sprintf('inventory_%s.feather', task_name))),
+        task_name)
+    }
+  )
+
+  task_plan <- scipiper::create_task_plan(
+    task_names=sort(names(constituents$characteristicName)),
+    task_steps=list(subset_codes, inventory, download, partition),
+    final_steps='partition',
+    add_complete=TRUE,
+    ind_dir=folders$log)
+
 }

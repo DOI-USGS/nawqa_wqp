@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/North_Carolina_temperature_001.feather.ind
+type: file
+hash: b59336b0480a9580b3724b29b6d4d3ba
+time: 2018-07-27 18:20:36 UTC
+depends:
+  1_wqpdata/tmp/data/North_Carolina_temperature_001.feather.ind: b59336b0480a9580b3724b29b6d4d3ba
+fixed: 07768cb6a5397bb307d91fa161f19380
+code:
+  functions: {}
+

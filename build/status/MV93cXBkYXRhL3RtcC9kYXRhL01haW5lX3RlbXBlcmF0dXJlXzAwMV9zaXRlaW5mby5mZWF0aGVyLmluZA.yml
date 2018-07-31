@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maine_temperature_001_siteinfo.feather.ind
+type: file
+hash: a42e9b8e5d5e5e7178b2428de7875ff6
+time: 2018-07-27 17:28:29 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 1b371ae816b9be71799a77b9481f8c73
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

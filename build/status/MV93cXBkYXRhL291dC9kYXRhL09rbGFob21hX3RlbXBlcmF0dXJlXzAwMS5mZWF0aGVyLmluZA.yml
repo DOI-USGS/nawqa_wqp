@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Oklahoma_temperature_001.feather.ind
+type: file
+hash: f9c61c07fe789796145e642db06aceb0
+time: 2018-07-27 18:32:04 UTC
+depends:
+  1_wqpdata/tmp/data/Oklahoma_temperature_001.feather.ind: f9c61c07fe789796145e642db06aceb0
+fixed: 6d9e111b227f888092c72258453bb1cd
+code:
+  functions: {}
+

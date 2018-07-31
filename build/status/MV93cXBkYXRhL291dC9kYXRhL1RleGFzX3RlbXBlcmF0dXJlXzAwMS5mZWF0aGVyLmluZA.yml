@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Texas_temperature_001.feather.ind
+type: file
+hash: edb2c22d0e4f2e158a3e2e84b36d5262
+time: 2018-07-27 19:57:14 UTC
+depends:
+  1_wqpdata/tmp/data/Texas_temperature_001.feather.ind: edb2c22d0e4f2e158a3e2e84b36d5262
+fixed: 13384110e7d770fefebcaa0a5532b11a
+code:
+  functions: {}
+

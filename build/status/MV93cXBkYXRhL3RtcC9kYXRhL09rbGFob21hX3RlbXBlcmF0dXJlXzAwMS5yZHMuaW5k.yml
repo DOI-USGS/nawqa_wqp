@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oklahoma_temperature_001.rds.ind
+type: file
+hash: 2d55ff078cc408fe40a915d9722388fd
+time: 2018-07-27 18:31:09 UTC
+depends:
+  partition_Oklahoma_temperature_001: 76e5c69ea8c44ad11237db6593aa901c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f93b2e3e9aaaa585ba589fe0efa7d3cf
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

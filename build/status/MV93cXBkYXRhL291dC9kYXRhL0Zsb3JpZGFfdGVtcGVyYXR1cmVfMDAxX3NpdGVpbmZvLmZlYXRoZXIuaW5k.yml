@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Florida_temperature_001_siteinfo.feather.ind
+type: file
+hash: 31a0db4f5006574523233011c8b58533
+time: 2018-07-27 16:53:21 UTC
+depends:
+  1_wqpdata/tmp/data/Florida_temperature_001_siteinfo.feather.ind: 31a0db4f5006574523233011c8b58533
+fixed: 69217be5ba7cb2db3667177e0d2f4d7f
+code:
+  functions: {}
+

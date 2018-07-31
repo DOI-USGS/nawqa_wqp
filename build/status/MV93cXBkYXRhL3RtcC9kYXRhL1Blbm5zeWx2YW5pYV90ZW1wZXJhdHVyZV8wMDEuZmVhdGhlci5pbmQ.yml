@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Pennsylvania_temperature_001.feather.ind
+type: file
+hash: 4f69e6e6fcd519c3719e37f19f6ce9ff
+time: 2018-07-27 19:38:08 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: b7d94868233045bd4d422d20d4b0d568
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

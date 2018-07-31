@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Idaho_temperature_001_siteinfo.feather.ind
+type: file
+hash: b34b6f0e9c6f61e8c89f8afcd4e9ee75
+time: 2018-07-27 17:13:08 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 404c5e6212839ad6fe29290af9f539c8
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Connecticut_temperature_001.feather.ind
+type: file
+hash: a4521d3e7c3f1a15e3ee60da46e0b477
+time: 2018-07-27 16:44:49 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 177e0818eb4007b71c86311ee13d5694
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

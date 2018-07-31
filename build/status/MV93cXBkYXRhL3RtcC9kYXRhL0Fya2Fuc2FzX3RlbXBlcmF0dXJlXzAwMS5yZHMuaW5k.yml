@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arkansas_temperature_001.rds.ind
+type: file
+hash: 7d124f301eba1321c784bdefdd7c66cd
+time: 2018-07-27 16:33:42 UTC
+depends:
+  partition_Arkansas_temperature_001: 0559ef3b119f7743636918b6991c3a94
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 41026e72c98deabc2da0a8e003b23871
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

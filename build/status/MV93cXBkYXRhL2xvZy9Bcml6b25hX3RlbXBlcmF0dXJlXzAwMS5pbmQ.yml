@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Arizona_temperature_001.ind
+type: file
+hash: 39eafeb991c342ac34eea195cfc1263b
+time: 2018-07-27 16:32:31 UTC
+depends:
+  1_wqpdata/out/data/Arizona_temperature_001.feather.ind: 559804fd7a12b32252d917283bb7b6e1
+  1_wqpdata/out/data/Arizona_temperature_001_siteinfo.feather.ind: a4532da3655c9b34611f88e022a2710e
+fixed: aab8b278f6b073d5d767005b21d06532
+code:
+  functions: {}
+

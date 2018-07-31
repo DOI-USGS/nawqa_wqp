@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Delaware_temperature_001_siteinfo.feather.ind
+type: file
+hash: 03ca6f0bb64df9ab31fe2d643baa3595
+time: 2018-07-27 16:47:04 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 625c1ea58311591f987bffb846514b30
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

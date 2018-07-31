@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/California_temperature_001.ind
+type: file
+hash: 23c62989138aad09a8fa562eb701868a
+time: 2018-07-27 16:37:19 UTC
+depends:
+  1_wqpdata/out/data/California_temperature_001.feather.ind: 9154f571cc0f4a1f8fd14a4172dcebc0
+  1_wqpdata/out/data/California_temperature_001_siteinfo.feather.ind: 2345697e82036d5ba4af4bb54431c181
+fixed: 5aeea7784c68716a8fdf0773b5d8f38e
+code:
+  functions: {}
+

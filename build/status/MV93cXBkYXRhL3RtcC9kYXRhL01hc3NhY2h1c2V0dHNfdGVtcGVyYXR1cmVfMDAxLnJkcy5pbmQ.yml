@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Massachusetts_temperature_001.rds.ind
+type: file
+hash: 690a8c981a95ac20a7ec26e67ac44918
+time: 2018-07-27 17:43:16 UTC
+depends:
+  partition_Massachusetts_temperature_001: ee569e76446a9a3984b9d20676a54344
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0ba6c93964eea5698971a412fe3ab502
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

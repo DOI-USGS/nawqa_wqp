@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nebraska_temperature_001.rds.ind
+type: file
+hash: b4ca1faf16c43c833ace25f9a167e11b
+time: 2018-07-27 18:02:34 UTC
+depends:
+  partition_Nebraska_temperature_001: e1425a7f0680d6c9e64da41c4268c7f1
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: af0ff9d8349991b9b6813de57e869533
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

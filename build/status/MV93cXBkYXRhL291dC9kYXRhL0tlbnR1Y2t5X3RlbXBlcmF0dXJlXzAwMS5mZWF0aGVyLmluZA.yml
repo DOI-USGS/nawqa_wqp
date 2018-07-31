@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Kentucky_temperature_001.feather.ind
+type: file
+hash: f0e203b4597b5b3cc7029faddd862b18
+time: 2018-07-27 17:24:37 UTC
+depends:
+  1_wqpdata/tmp/data/Kentucky_temperature_001.feather.ind: f0e203b4597b5b3cc7029faddd862b18
+fixed: bee4a7766f1bb0dbcec27c88e8996dd0
+code:
+  functions: {}
+

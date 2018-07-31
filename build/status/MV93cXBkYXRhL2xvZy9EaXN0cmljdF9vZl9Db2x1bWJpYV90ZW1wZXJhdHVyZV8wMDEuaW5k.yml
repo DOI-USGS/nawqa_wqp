@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/District_of_Columbia_temperature_001.ind
+type: file
+hash: 5d53f6cce0fa20044972e417ca6a7132
+time: 2018-07-27 16:49:46 UTC
+depends:
+  1_wqpdata/out/data/District_of_Columbia_temperature_001.feather.ind: aeddfc25c869e54fa7e94c1699cb1fb1
+  1_wqpdata/out/data/District_of_Columbia_temperature_001_siteinfo.feather.ind: 9eeb7e7cf802abf0b3859e13acd5302d
+fixed: a03996dd2fb9df662f6f6e8e1fd33bcf
+code:
+  functions: {}
+

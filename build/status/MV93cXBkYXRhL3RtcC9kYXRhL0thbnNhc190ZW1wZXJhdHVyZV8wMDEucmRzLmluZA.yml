@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kansas_temperature_001.rds.ind
+type: file
+hash: dcd9d4605b2cc756755fffe4d9125bb9
+time: 2018-07-27 17:21:48 UTC
+depends:
+  partition_Kansas_temperature_001: f55d93e52e279ae8aeaf538ed8fc24cd
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 53a712ec0a3b2d42c22d3dc96b68ebfd
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

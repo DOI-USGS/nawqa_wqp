@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Rhode_Island_temperature_001.feather.ind
+type: file
+hash: 73bbce7e7abc6414d665e35aa4fe6fc5
+time: 2018-07-27 19:43:08 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: a754e5352002307dffbb117444178ab7
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

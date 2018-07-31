@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Texas_temperature_001.ind
+type: file
+hash: d180ca6b30d903c8607e241a018b3b78
+time: 2018-07-27 19:57:31 UTC
+depends:
+  1_wqpdata/out/data/Texas_temperature_001.feather.ind: edb2c22d0e4f2e158a3e2e84b36d5262
+  1_wqpdata/out/data/Texas_temperature_001_siteinfo.feather.ind: 272a1cdd79c83e6fbe1cb763eca20b72
+fixed: 672ee4999ad5000833824cf269bfe9ee
+code:
+  functions: {}
+

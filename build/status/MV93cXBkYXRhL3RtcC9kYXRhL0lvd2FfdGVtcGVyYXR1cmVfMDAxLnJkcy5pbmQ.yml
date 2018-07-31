@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Iowa_temperature_001.rds.ind
+type: file
+hash: e9e65abbb9c557a6bf6b0f95cd8aefce
+time: 2018-07-27 17:19:37 UTC
+depends:
+  partition_Iowa_temperature_001: 2c96bbe5f3dc57a63aae3cf1d658a50f
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: a9c13c4048d45b78ce96c9e744c4be30
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

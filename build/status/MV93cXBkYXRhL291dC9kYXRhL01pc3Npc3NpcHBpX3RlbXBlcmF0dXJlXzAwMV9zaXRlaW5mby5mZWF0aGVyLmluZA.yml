@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Mississippi_temperature_001_siteinfo.feather.ind
+type: file
+hash: e0a985c2ffcfde4570155f8d8a704c15
+time: 2018-07-27 17:56:50 UTC
+depends:
+  1_wqpdata/tmp/data/Mississippi_temperature_001_siteinfo.feather.ind: e0a985c2ffcfde4570155f8d8a704c15
+fixed: 5ece359d0e6fedbd36bfa2188cfd2659
+code:
+  functions: {}
+

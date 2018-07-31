@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Minnesota_temperature_003.ind
+type: file
+hash: 586f5491375ad9b5b227d20ceb347ea7
+time: 2018-07-27 17:54:50 UTC
+depends:
+  1_wqpdata/out/data/Minnesota_temperature_003.feather.ind: 5fc471f009bfc995a102897245e5e582
+  1_wqpdata/out/data/Minnesota_temperature_003_siteinfo.feather.ind: 53010d8523c80cd0cc9bfb6b92b935bb
+fixed: b3dfeedfbdc0d802b06b797289f22c41
+code:
+  functions: {}
+

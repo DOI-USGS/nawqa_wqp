@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Montana_temperature_001_siteinfo.feather.ind
+type: file
+hash: 38a5ce759735d8a1241d7170dd77a87a
+time: 2018-07-27 18:00:40 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: a027cd6d0d76a481969ee66cb2d49248
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

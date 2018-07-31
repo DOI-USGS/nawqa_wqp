@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Northern_Mariana_Islands_temperature_001.rds.ind
+type: file
+hash: 92041ad9a1bdc34c1d6875d8d20cdc62
+time: 2018-07-27 18:26:23 UTC
+depends:
+  partition_Northern_Mariana_Islands_temperature_001: 4c07968da895d36ba6d734d2878a72fa
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 179faa69e7d71e493a0a8fba3a6f4fe1
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

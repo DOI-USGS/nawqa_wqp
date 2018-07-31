@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alaska_temperature_015.rds.ind
+type: file
+hash: 127be55ec2f01ef9a63677c4e8234e96
+time: 2018-07-27 16:17:29 UTC
+depends:
+  partition_Alaska_temperature_015: e0271f27d82abd3c7759a6f607c2148c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9d7eaa330de5b32737a0e3691007848f
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

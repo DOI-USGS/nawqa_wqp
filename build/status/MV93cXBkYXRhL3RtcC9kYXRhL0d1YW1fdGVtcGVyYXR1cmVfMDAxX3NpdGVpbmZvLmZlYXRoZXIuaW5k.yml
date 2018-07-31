@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Guam_temperature_001_siteinfo.feather.ind
+type: file
+hash: f3b10ab9320a1f421cbf628139d54d3f
+time: 2018-07-27 17:08:56 UTC
+depends:
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 74fbabdc179cd09ceb6360292ae3b96f
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

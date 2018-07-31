@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Alaska_temperature_003.ind
+type: file
+hash: d86ca26cce39d9665f9f23ada33586ad
+time: 2018-07-27 15:27:11 UTC
+depends:
+  1_wqpdata/out/data/Alaska_temperature_003.feather.ind: a261e9dc8fc90d48f2dd5f7775b94398
+  1_wqpdata/out/data/Alaska_temperature_003_siteinfo.feather.ind: f65125ac313106640ceb35902af36450
+fixed: bce4b69fbcba5cf5bd21719688577391
+code:
+  functions: {}
+

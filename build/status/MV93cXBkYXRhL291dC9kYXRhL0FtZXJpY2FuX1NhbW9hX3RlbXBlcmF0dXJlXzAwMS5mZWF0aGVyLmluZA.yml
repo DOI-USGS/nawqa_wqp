@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/American_Samoa_temperature_001.feather.ind
+type: file
+hash: 99ee6ea763cdce788d17f7e58c8754f9
+time: 2018-07-27 16:29:59 UTC
+depends:
+  1_wqpdata/tmp/data/American_Samoa_temperature_001.feather.ind: 99ee6ea763cdce788d17f7e58c8754f9
+fixed: 853c06b989b2aa99cdc919ec0051beb9
+code:
+  functions: {}
+

@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/New_Jersey_nitrate_001.rds.ind
 type: file
-hash: 3193cac02357fcd6c0d2a1b300f0bc15
-time: 2018-07-20 22:46:10 UTC
+hash: f68321bce5383c068df07943d41db9d8
+time: 2018-07-26 20:48:53 UTC
 depends:
-  partition_New_Jersey_nitrate_001: 6cd65efef02f8b70afe2653acadf6e0f
+  partition_New_Jersey_nitrate_001: 4fbf88b3ca510148e8fca150d1a698b2
   wq_dates: bee604e33ba2c2f842c7d265ff951c9b
 fixed: fa4828b6b8010dd2b28491f57488e086
 code:

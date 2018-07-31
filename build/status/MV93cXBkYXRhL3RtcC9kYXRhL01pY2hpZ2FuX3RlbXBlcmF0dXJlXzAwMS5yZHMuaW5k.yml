@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Michigan_temperature_001.rds.ind
+type: file
+hash: 97b60dc23cf039656c69bc4b3705fca2
+time: 2018-07-27 17:45:03 UTC
+depends:
+  partition_Michigan_temperature_001: 68a9df6f8c772d2e829446fffb416706
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: a62aaacdacf68725ff7c06d9e000b1a2
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Carolina_temperature_001.rds.ind
+type: file
+hash: 82ac16caaf4193a01a402df73559e31b
+time: 2018-07-27 18:19:49 UTC
+depends:
+  partition_North_Carolina_temperature_001: 5dc0740d0ccebb16006c7574c96ca662
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: b92264fb165d6bb4aab39f714ac05e14
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Hawaii_temperature_001.ind
+type: file
+hash: d7a38474e002b56a55b468dc3b055049
+time: 2018-07-27 17:11:36 UTC
+depends:
+  1_wqpdata/out/data/Hawaii_temperature_001.feather.ind: 9b4c55cbbbf87c43826c816158ff93a1
+  1_wqpdata/out/data/Hawaii_temperature_001_siteinfo.feather.ind: 79ff16248f1c0197a59f83a8ffc50cc5
+fixed: cc4b910e140e17f1793fb505f7c98c55
+code:
+  functions: {}
+

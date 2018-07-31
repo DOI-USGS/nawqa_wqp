@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/District_of_Columbia_temperature_001.rds.ind
+type: file
+hash: 65f357f20d75b11889103754575786aa
+time: 2018-07-27 16:48:45 UTC
+depends:
+  partition_District_of_Columbia_temperature_001: d030ca4f8ca58f707925fad493c1738a
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 743eadd07b8ee2d93864ca1f39f8d1ff
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

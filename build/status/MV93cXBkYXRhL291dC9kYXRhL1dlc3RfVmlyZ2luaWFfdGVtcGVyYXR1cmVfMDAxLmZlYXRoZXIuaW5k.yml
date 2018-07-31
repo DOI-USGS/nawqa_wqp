@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/West_Virginia_temperature_001.feather.ind
+type: file
+hash: 3792ff9151010e62860ed704eb0655ff
+time: 2018-07-27 23:55:07 UTC
+depends:
+  1_wqpdata/tmp/data/West_Virginia_temperature_001.feather.ind: 3792ff9151010e62860ed704eb0655ff
+fixed: bddfb704a7609fcff4ad4ca3aca2cba0
+code:
+  functions: {}
+

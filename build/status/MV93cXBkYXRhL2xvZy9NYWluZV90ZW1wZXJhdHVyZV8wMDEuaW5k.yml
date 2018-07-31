@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Maine_temperature_001.ind
+type: file
+hash: 7334af17b88afb8b05d3b72cc4e6da3a
+time: 2018-07-27 17:29:17 UTC
+depends:
+  1_wqpdata/out/data/Maine_temperature_001.feather.ind: f19eca0676507264383215ec4975483f
+  1_wqpdata/out/data/Maine_temperature_001_siteinfo.feather.ind: a42e9b8e5d5e5e7178b2428de7875ff6
+fixed: 60b1b9ab4002f99fd57e28777167c251
+code:
+  functions: {}
+
