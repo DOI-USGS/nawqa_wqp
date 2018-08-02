@@ -1,6 +1,6 @@
 target_default: 3_wtemp
 
-# include 1_wqpdata.yml mainly to get the lib.yml targets without reading those targets twice
+# include 1_nwisdata.yml mainly to get the lib.yml targets without reading those targets twice
 include:
   - 1_nwisdata.yml
 
