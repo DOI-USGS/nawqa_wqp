@@ -1,0 +1,14 @@
+version: 0.3.0
+name: 1_nwisdata/out/inventory/nwis_inventory.rds.ind
+type: file
+hash: b01129f2de037154652fda3e88e6cd0c
+time: 2018-07-26 20:46:00 UTC
+depends:
+  nwis_states: 98b4a5b0b50e3555fdb974ffbd354cbe
+  nwis_codes: c56935427c8463794b84b7a76885b949
+  1_nwisdata/out/inventory: .na.character
+fixed: 43af2c100aeaa80a6979584d86aebf95
+code:
+  functions:
+    inventory_nwis: 683a71a403d9d183b1540f5b9cbdd9ba
+
