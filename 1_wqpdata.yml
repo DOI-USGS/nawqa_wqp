@@ -109,5 +109,4 @@ targets:
   1_wqpdata/log/tasks_1_wqp.ind:
     command: loop_tasks(
       task_plan=wqp_pull_plan, task_makefile='tasks_1_wqp.yml',
-      num_tries=I(30), sleep_on_error=I(20),
-      task_names=I("nitrate"))
+      num_tries=I(30), sleep_on_error=I(20))
