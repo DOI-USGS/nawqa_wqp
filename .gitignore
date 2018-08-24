@@ -26,7 +26,8 @@
 .remake/
 
 # don't need .remake or any tmp directories
-*/tmp/
+*/tmp/*
+!1_wqpdata/tmp/data/inventory*.ind
 
 # These files are quick to build and get big, so we don't want to commit
 tasks_*.yml
