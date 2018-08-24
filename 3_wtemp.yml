@@ -1,0 +1,29 @@
+target_default: 3_wtemp
+
+# include 1_nwisdata.yml mainly to get the lib.yml targets without reading those targets twice
+include:
+  - 1_nwisdata.yml
+
+packages:
+  - dplyr
+  - feather
+  - scipiper
+  - yaml
+
+file_extensions:
+  - feather
+  - ind
+
+sources:
+  - 3_wtemp/src/count_wtemp_sites.R
+
+targets:
+
+  3_wtemp:
+    depends:
+      - 1_nwisdata/log/tasks_1_nwis.ind
+
+  wtemp_site_count:
+    command: count_wtemp_sites(
+      nwis_inv_ind='1_nwisdata/out/inventory/nwis_inventory.rds.ind',
+      wqp_inv_ind='1_wqpdata/out/inventory/wqp_inventory.feather.ind')

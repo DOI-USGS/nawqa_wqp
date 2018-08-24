@@ -1,0 +1,16 @@
+# https://nwis.waterdata.usgs.gov/usa/nwis/pmcodes
+parameterCd:
+
+  temperature:
+    - "00010"
+
+# https://maps.waterdata.usgs.gov/mapper/help/sitetype.html
+siteType:
+  - ST
+  - ST-CA
+  - ST-DCH
+  - ST-TS
+
+# outputDataTypeCd in https://waterservices.usgs.gov/rest/Site-Service.html#Service
+service:
+  - uv
