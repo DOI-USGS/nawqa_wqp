@@ -1,0 +1,45 @@
+OrganizationIdentifier,OrganizationFormalName,CharacteristicName,ResultSampleFractionText,ResultMeasure.MeasureUnitCode,sum
+11NPSWRD_WQX,National Park Service Water Resources Division,Nitrate,Total,mg/l,297
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Inorganic nitrogen (nitrate and nitrite),Inorganic,mg/l,1415
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Inorganic nitrogen (nitrate and nitrite),Inorganic,NA,114
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Inorganic nitrogen (nitrate and nitrite),Unknown,mg/l,7926
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Inorganic nitrogen (nitrate and nitrite),Unknown,NA,545
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Orthophosphate,Dissolved,mg/l,1244
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Orthophosphate,Dissolved,NA,284
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Orthophosphate,Unknown,mg/l,7012
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Orthophosphate,Unknown,NA,1153
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Phosphorus,Total,mg/l,5787
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Phosphorus,Total,NA,92
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Phosphorus,Unknown,mg/l,4087
+21AWIC,ALABAMA DEPT. OF ENVIRONMENTAL MANAGEMENT - WATER QUALITY DATA,Phosphorus,Unknown,NA,34
+21FLBFA_WQX,FL Dept of Environmental Protection   Bream Fisherman Assoc.,Inorganic nitrogen (nitrate and nitrite),Total,mg/l,97
+21FLBFA_WQX,FL Dept of Environmental Protection   Bream Fisherman Assoc.,Phosphate-phosphorus,Total,mg/l,96
+21FLBFA_WQX,FL Dept of Environmental Protection   Bream Fisherman Assoc.,Phosphate-phosphorus,Total,NA,1
+21FLGW_WQX,FL Dept. of Environmental Protection,Inorganic nitrogen (nitrate and nitrite),Total,mg/l,1
+21FLGW_WQX,FL Dept. of Environmental Protection,Phosphate-phosphorus,Total,mg/l,1
+21FLPNS_WQX,FL Dept. of Environmental Protection  Northwest District,Inorganic nitrogen (nitrate and nitrite),Total,mg/l,2
+21FLPNS_WQX,FL Dept. of Environmental Protection  Northwest District,Orthophosphate,Dissolved,NA,2
+21FLPNS_WQX,FL Dept. of Environmental Protection  Northwest District,Phosphate-phosphorus,Total,mg/l,2
+21GAEPD_WQX,Georgia DNR Environmental Protection Division,Inorganic nitrogen (nitrate and nitrite),Dissolved,mg/l,12
+21GAEPD_WQX,Georgia DNR Environmental Protection Division,Inorganic nitrogen (nitrate and nitrite),Unknown,mg/l,67
+21GAEPD_WQX,Georgia DNR Environmental Protection Division,Phosphate-phosphorus,Dissolved,mg/l,7
+21GAEPD_WQX,Georgia DNR Environmental Protection Division,Phosphorus,Total,mg/l,79
+21GAEPD_WQX,Georgia DNR Environmental Protection Division,Soluble Reactive Phosphorus (SRP),Dissolved,mg/l,4
+USGS-AL,USGS Alabama Water Science Center,Inorganic nitrogen (nitrate and nitrite),Dissolved,mg/l as N,253
+USGS-AL,USGS Alabama Water Science Center,Inorganic nitrogen (nitrate and nitrite),Dissolved,NA,8
+USGS-AL,USGS Alabama Water Science Center,Nitrate,Dissolved,mg/l as N,231
+USGS-AL,USGS Alabama Water Science Center,Nitrate,Dissolved,mg/l asNO3,231
+USGS-AL,USGS Alabama Water Science Center,Nitrate,Dissolved,NA,12
+USGS-AL,USGS Alabama Water Science Center,Orthophosphate,Dissolved,mg/l as P,213
+USGS-AL,USGS Alabama Water Science Center,Orthophosphate,Dissolved,mg/l asPO4,213
+USGS-AL,USGS Alabama Water Science Center,Orthophosphate,Dissolved,NA,48
+USGS-AL,USGS Alabama Water Science Center,Phosphorus,Bed Sediment,mg/kg as P,1
+USGS-AL,USGS Alabama Water Science Center,Phosphorus,Dissolved,mg/l as P,133
+USGS-AL,USGS Alabama Water Science Center,Phosphorus,Dissolved,NA,2
+USGS-AL,USGS Alabama Water Science Center,Phosphorus,Total,mg/l as P,325
+USGS-AL,USGS Alabama Water Science Center,Phosphorus,Total,NA,2
+USGS-GA,USGS Georgia Water Science Center,Inorganic nitrogen (nitrate and nitrite),Total,mg/l as N,72
+USGS-GA,USGS Georgia Water Science Center,Orthophosphate,Dissolved,mg/l as P,20
+USGS-GA,USGS Georgia Water Science Center,Orthophosphate,Dissolved,mg/l asPO4,20
+USGS-GA,USGS Georgia Water Science Center,Orthophosphate,Dissolved,NA,104
+USGS-GA,USGS Georgia Water Science Center,Phosphorus,Total,mg/l as P,72
