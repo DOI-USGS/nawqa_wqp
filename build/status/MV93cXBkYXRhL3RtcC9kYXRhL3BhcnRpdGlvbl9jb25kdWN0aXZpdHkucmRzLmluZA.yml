@@ -1,14 +1,14 @@
 version: 0.3.0
-name: 1_wqpdata/tmp/data/partition_temperature.rds.ind
+name: 1_wqpdata/tmp/data/partition_conductivity.rds.ind
 type: file
-hash: 791c8ff2d05cb24f06415043868a5d89
-time: 2018-09-26 20:16:56 UTC
+hash: 60c7075bd980750c210208247d9f739f
+time: 2018-09-26 16:03:41 UTC
 depends:
-  1_wqpdata/tmp/data/inventory_temperature.feather.ind: ab0d4b027f6b88a3efc41303b9fb489b
+  1_wqpdata/tmp/data/inventory_conductivity.feather.ind: 1999b57f1e606a7769e2872cf82c6e97
   wqp_pull: a25c30028f2a45d7d933854046b0f449
   wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
   wqp_codes: 3ccfac23e04c67b2fe72c8fbd098a39a
-fixed: 86fb00dce3cee9a93122731ec40c05a9
+fixed: d0745f8c097906ebf8cde596787066ff
 code:
   functions:
     partition_inventory: ca480915965142b1c3f7d32ae2f0b4f3

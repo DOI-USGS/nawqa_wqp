@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/log/DO.ind
+type: file
+hash: 6531f491cf8dbd709da2f9be1f7f694d
+time: 2018-09-26 16:16:10 UTC
+depends:
+  1_wqpdata/tmp/data/partition_DO.rds.ind: f7b77d08dd536ffe77b44178be54e880
+fixed: 962c3d75cc30f4c10c869888bcd96123
+code:
+  functions: {}
+
