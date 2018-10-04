@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Texas_DO_001.rds.ind
+type: file
+hash: 4625d30c4a3b86aff49bc5044636ebe0
+time: 2018-09-27 04:28:33 UTC
+depends:
+  partition_Texas_DO_001: 5c2896df9f4f042239e67fe5d62cc27f
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 1d95888cdb2348bf6f82d4202319560f
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

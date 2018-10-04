@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Delaware_DO_001.rds.ind
+type: file
+hash: 1afbe641ac0e0b1c4fdb64bfda9e3866
+time: 2018-09-27 03:08:52 UTC
+depends:
+  partition_Delaware_DO_001: 096c19822a6124b1487c24c24678a7ba
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 76b42e886d2ff9999dfc71bdcf28fbff
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

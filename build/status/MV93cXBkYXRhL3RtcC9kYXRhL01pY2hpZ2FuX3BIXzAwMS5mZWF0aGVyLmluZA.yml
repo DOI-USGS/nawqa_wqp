@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Michigan_pH_001.feather.ind
+type: file
+hash: a95a10827e5d3c0fd47f61a22197ca34
+time: 2018-09-27 08:39:21 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: c82daf1d57fbe692f644c5516d9db300
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

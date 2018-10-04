@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/New_Jersey_pH_001_siteinfo.feather.ind
+type: file
+hash: ef5dabdcfc90f3bfea7d91f84c0cffc7
+time: 2018-09-27 08:54:48 UTC
+depends:
+  1_wqpdata/tmp/data/New_Jersey_pH_001_siteinfo.feather.ind: ef5dabdcfc90f3bfea7d91f84c0cffc7
+fixed: c4aa3e4e79f93cb8786a93c60661be1b
+code:
+  functions: {}
+

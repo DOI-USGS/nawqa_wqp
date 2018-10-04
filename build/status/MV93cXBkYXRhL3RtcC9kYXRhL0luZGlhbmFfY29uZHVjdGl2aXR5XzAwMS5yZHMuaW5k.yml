@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Indiana_conductivity_001.rds.ind
+type: file
+hash: efcaf8f3deae0a5eec2d66dfcd92e9c6
+time: 2018-09-26 22:00:00 UTC
+depends:
+  partition_Indiana_conductivity_001: d291f8efae092774973f1919dc263f72
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 14ab6a20a22704869b20caa20fbed47a
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

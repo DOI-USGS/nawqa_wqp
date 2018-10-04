@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Arizona_DO_001.ind
+type: file
+hash: b99c38f59db79962b6dd9483d17db41a
+time: 2018-09-27 02:58:44 UTC
+depends:
+  1_wqpdata/out/data/Arizona_DO_001.feather.ind: 85242865d6f2029f5047d7215cb0f01c
+  1_wqpdata/out/data/Arizona_DO_001_siteinfo.feather.ind: 6120f4b6744492b5ad723b0a3db60598
+fixed: 7f2e2cfa288bbd33a981edd123e8db57
+code:
+  functions: {}
+

@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/North_Dakota_conductivity_001_siteinfo.feather.ind
+type: file
+hash: e3f77f73a54ea4eee4ebe75542b755b0
+time: 2018-09-26 22:53:55 UTC
+depends:
+  1_wqpdata/tmp/data/North_Dakota_conductivity_001_siteinfo.feather.ind: e3f77f73a54ea4eee4ebe75542b755b0
+fixed: b6f9931124b468ce74844d01c2c5088a
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Michigan_DO_001_siteinfo.feather.ind
+type: file
+hash: 452d1d36d6e6379a190d99b175df3fd1
+time: 2018-09-27 03:45:59 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 7b8c4187fe24b41df07cbaa74462d39d
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

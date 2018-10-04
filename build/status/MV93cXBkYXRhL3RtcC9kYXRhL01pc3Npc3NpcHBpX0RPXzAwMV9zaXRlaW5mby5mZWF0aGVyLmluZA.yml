@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Mississippi_DO_001_siteinfo.feather.ind
+type: file
+hash: 2de8c4f3fe88e771b1b6489ed1f5cf31
+time: 2018-09-27 03:48:33 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 6fcb2457806380748a3ca7a367648b14
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

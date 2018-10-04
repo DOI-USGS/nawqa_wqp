@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Mexico_pH_001.rds.ind
+type: file
+hash: 114c50ed4545dd5d4ad1cb07a84c5ceb
+time: 2018-09-27 08:55:34 UTC
+depends:
+  partition_New_Mexico_pH_001: 82cbaf391ab8b0d6139f8d770fc5b845
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: bc95e57fda485aa5e3781b320704a868
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

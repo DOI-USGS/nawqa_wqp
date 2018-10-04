@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/American_Samoa_DO_001.feather.ind
+type: file
+hash: 68e4314d0344546a70f34654fd8edd75
+time: 2018-09-27 02:56:44 UTC
+depends:
+  1_wqpdata/tmp/data/American_Samoa_DO_001.feather.ind: 68e4314d0344546a70f34654fd8edd75
+fixed: 3fa69d475c4948dc123c2aa03767b366
+code:
+  functions: {}
+

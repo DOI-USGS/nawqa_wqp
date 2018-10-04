@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Utah_conductivity_001.rds.ind
+type: file
+hash: a1f83051fa4299adb6904ff8ffa8954c
+time: 2018-09-26 23:16:34 UTC
+depends:
+  partition_Utah_conductivity_001: e658b03e4b95b6f4eaaf31e9b28047e6
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: ff9d7c02abe508e766a7963cb9c6666c
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

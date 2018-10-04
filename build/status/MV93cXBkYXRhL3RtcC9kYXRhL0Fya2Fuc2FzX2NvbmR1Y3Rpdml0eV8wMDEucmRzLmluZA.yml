@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arkansas_conductivity_001.rds.ind
+type: file
+hash: 2449eca86aa019b81885f0de52f68bc4
+time: 2018-09-26 23:33:12 UTC
+depends:
+  partition_Arkansas_conductivity_001: 42b1c4b3d8cc0abc8a407d45b3e5bd59
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 35e7c7d845826394247a258e0e70975a
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

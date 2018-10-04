@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Delaware_DO_001.feather.ind
+type: file
+hash: 68754588ef7cc5ec770b10ab1ddf7074
+time: 2018-09-27 03:08:53 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 7a8637887f3205597a0a2af0948afe59
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kentucky_pH_001.feather.ind
+type: file
+hash: 80dbfa148e49d89ca07cb9cb805f18ce
+time: 2018-09-27 08:31:09 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: aa447db95683eb340a219bb8bd9fc5a8
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

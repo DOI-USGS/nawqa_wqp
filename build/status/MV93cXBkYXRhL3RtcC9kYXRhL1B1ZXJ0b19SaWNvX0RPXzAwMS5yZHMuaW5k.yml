@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Puerto_Rico_DO_001.rds.ind
+type: file
+hash: 776f04c1aa0a301768d019610dfcf92e
+time: 2018-09-27 04:17:53 UTC
+depends:
+  partition_Puerto_Rico_DO_001: d7acc41c56c37eb0f6a68361991817b8
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0c02af41acdec21ca15fc0c9f810b7ac
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

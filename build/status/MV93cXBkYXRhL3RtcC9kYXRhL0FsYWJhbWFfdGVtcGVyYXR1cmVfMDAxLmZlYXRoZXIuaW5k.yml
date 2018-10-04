@@ -1,13 +1,12 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Alabama_temperature_001.feather.ind
 type: file
-hash: 5fbab0adf3e2bb0097cecd89c9076f22
-time: 2018-05-30 21:55:06 UTC
+hash: 300c60e350877d1f67b540f170d5a0c6
+time: 2018-09-27 21:35:45 UTC
 depends:
-  partition_Alabama_temperature_001: ec8ff413cee77cb94520e7b299ed1ea5
-  wq_dates: 20d7954a5dd1cebdced3c8a94478dfd1
-fixed: 702475665aed413120b12b99de592d8f
+  tasks_1_wqp_temperature.yml: d0d521edec41c40640fef239c1188319
+fixed: 6799abd94f381026908dd3a9553a3ac5
 code:
   functions:
-    get_wqp_data: 6444cc4d406dda5eefd91ea74e90e252
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
 

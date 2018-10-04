@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/New_York_DO_001.feather.ind
+type: file
+hash: f55c923c829359e0eb0cd81aaea4d173
+time: 2018-09-27 04:04:42 UTC
+depends:
+  1_wqpdata/tmp/data/New_York_DO_001.feather.ind: f55c923c829359e0eb0cd81aaea4d173
+fixed: f0186b490e8faceca4a7dcd74a79c2d0
+code:
+  functions: {}
+

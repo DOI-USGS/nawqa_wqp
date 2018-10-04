@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Delaware_DO_001.ind
+type: file
+hash: eb0fee275f1189eb69676c375d2ba208
+time: 2018-09-27 03:09:50 UTC
+depends:
+  1_wqpdata/out/data/Delaware_DO_001.feather.ind: 68754588ef7cc5ec770b10ab1ddf7074
+  1_wqpdata/out/data/Delaware_DO_001_siteinfo.feather.ind: 40879d9a587084ac1e57bef54ed69265
+fixed: 7e93c5ff8477a7c2e39524c00ab95541
+code:
+  functions: {}
+

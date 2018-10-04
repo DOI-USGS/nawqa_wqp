@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Dakota_DO_001.rds.ind
+type: file
+hash: 9de7216c1fc3349f1f1e6244aab4b25a
+time: 2018-09-27 04:24:07 UTC
+depends:
+  partition_South_Dakota_DO_001: 6c66ae26b7b24ce73e4fdb1fc3a0d728
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: df9a63b3f72b3ecbc23f8aff08dfff08
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

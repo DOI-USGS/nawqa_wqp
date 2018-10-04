@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Iowa_pH_001.ind
+type: file
+hash: 70385ec9ae2413b0389a9978edb1ec95
+time: 2018-09-27 08:28:40 UTC
+depends:
+  1_wqpdata/out/data/Iowa_pH_001.feather.ind: ccfa105698c7891ede134b6b430e0580
+  1_wqpdata/out/data/Iowa_pH_001_siteinfo.feather.ind: 850a610bcff6ef4c79d7802de7789344
+fixed: bf9906c8bedaffddbb5f796c0f71e977
+code:
+  functions: {}
+

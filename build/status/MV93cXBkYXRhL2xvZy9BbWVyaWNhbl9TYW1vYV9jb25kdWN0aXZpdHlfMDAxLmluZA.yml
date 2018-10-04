@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/American_Samoa_conductivity_001.ind
+type: file
+hash: 29dd2d360ecd877c9132b66fea1a0a3b
+time: 2018-09-26 23:32:19 UTC
+depends:
+  1_wqpdata/out/data/American_Samoa_conductivity_001.feather.ind: 221c08d7cd0005a218267b7ab34d8c71
+  1_wqpdata/out/data/American_Samoa_conductivity_001_siteinfo.feather.ind: 3ef739b593505fa8bc80446d5ae5c276
+fixed: d9b4441909ff93da747d234e475482b7
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wisconsin_DO_001.feather.ind
+type: file
+hash: 177cd9a9706ec31713c5e3b7bfcd50c4
+time: 2018-09-27 04:39:41 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: fe90e890fe1b38d2269f68d921338801
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

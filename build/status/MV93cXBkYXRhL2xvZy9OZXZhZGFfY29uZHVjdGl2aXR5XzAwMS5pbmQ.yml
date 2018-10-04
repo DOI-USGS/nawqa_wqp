@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Nevada_conductivity_001.ind
+type: file
+hash: 9fc73429f26f53e5c48c4f10dc2d88a1
+time: 2018-09-26 22:43:25 UTC
+depends:
+  1_wqpdata/out/data/Nevada_conductivity_001.feather.ind: c01d03b4d605768fc25c1bb2e5c84c4c
+  1_wqpdata/out/data/Nevada_conductivity_001_siteinfo.feather.ind: bdce9af2e909c5dc0b986581f1374796
+fixed: 7d46a69ed62b34bc8d3db5124ccb693d
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Mississippi_conductivity_001_siteinfo.feather.ind
+type: file
+hash: a3e3ad66a8ec1d7e5a756e6ec4211a0a
+time: 2018-09-26 22:35:04 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+fixed: 4d9f80cabc09977e94ad17eab4945f68
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

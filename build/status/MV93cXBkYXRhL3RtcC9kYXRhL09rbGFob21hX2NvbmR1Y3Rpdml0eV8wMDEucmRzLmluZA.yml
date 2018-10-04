@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oklahoma_conductivity_001.rds.ind
+type: file
+hash: 2ca69bd126a0799036a2c58349480c03
+time: 2018-09-26 22:57:58 UTC
+depends:
+  partition_Oklahoma_conductivity_001: d6feaf76fa4d7a0045351d4d1d6dbfa1
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c8b3ea45a351d742e72a23304291b7ca
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

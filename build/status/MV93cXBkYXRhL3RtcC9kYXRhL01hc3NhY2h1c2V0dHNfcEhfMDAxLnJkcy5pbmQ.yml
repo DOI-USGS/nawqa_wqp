@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Massachusetts_pH_001.rds.ind
+type: file
+hash: 6b6e9c4f973f768b1ee540325e67ba1b
+time: 2018-09-27 08:37:41 UTC
+depends:
+  partition_Massachusetts_pH_001: a294d7d103eb5d1e048facdde4503080
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 64c551044b6d7ad03fd34c58c3d18aad
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

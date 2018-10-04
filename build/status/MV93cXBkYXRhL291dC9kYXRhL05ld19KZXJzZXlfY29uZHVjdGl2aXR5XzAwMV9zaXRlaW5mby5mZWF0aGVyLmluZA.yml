@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/New_Jersey_conductivity_001_siteinfo.feather.ind
+type: file
+hash: 6945c149c8e6e83f28499a0ed10c9337
+time: 2018-09-26 22:47:17 UTC
+depends:
+  1_wqpdata/tmp/data/New_Jersey_conductivity_001_siteinfo.feather.ind: 6945c149c8e6e83f28499a0ed10c9337
+fixed: b95506f968a0868f1c1cba1d74876933
+code:
+  functions: {}
+

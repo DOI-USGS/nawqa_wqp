@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Iowa_DO_001.feather.ind
+type: file
+hash: 927ef97f4d0eb361278ee3290d48f990
+time: 2018-09-27 03:23:09 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 53ca563b0d30cb5daa13ca57dc2bcb16
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

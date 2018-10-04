@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kentucky_DO_001_siteinfo.feather.ind
+type: file
+hash: 4ac4a8b9d2c48abf5901a9f0d8c3c6a8
+time: 2018-09-27 03:26:36 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 470990df32e1984ddcc4bc3264e3abb0
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

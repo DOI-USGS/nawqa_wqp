@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Northern_Mariana_Islands_pH_001_siteinfo.feather.ind
+type: file
+hash: 809c8cbd7570ed3ab8b3049199bd207f
+time: 2018-09-27 09:01:49 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: eb73c380ccb78ad5a266d86ef9a0786f
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

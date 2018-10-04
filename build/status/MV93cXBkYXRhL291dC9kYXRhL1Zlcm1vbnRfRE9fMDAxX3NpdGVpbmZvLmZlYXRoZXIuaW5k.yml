@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Vermont_DO_001_siteinfo.feather.ind
+type: file
+hash: 36b46a57c1a52fa5a0d9ffcca9053839
+time: 2018-09-27 04:33:07 UTC
+depends:
+  1_wqpdata/tmp/data/Vermont_DO_001_siteinfo.feather.ind: 36b46a57c1a52fa5a0d9ffcca9053839
+fixed: 7632894a0be4e9b4f49e6d995824a216
+code:
+  functions: {}
+

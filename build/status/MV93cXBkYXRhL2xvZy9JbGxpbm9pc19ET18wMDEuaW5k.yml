@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Illinois_DO_001.ind
+type: file
+hash: 293c8b17fb1fb619f475d9876299d800
+time: 2018-09-27 03:19:36 UTC
+depends:
+  1_wqpdata/out/data/Illinois_DO_001.feather.ind: a8ce53c4f170adb94acb9352adf586d4
+  1_wqpdata/out/data/Illinois_DO_001_siteinfo.feather.ind: 79e45add77083bf3f6bbb362f6cb82ba
+fixed: 1e119e90fda14e39739f759e128ba63d
+code:
+  functions: {}
+

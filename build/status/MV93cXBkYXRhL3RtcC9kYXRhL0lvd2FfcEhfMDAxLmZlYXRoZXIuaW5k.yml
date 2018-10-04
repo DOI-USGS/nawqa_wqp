@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Iowa_pH_001.feather.ind
+type: file
+hash: ccfa105698c7891ede134b6b430e0580
+time: 2018-09-27 08:27:37 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: ce5f8ac0762d65c1959e599bc5116709
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

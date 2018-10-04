@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Connecticut_DO_001.ind
+type: file
+hash: feb42930fd49a219773c2ce092aa5798
+time: 2018-09-27 03:08:06 UTC
+depends:
+  1_wqpdata/out/data/Connecticut_DO_001.feather.ind: 809c8cbd7570ed3ab8b3049199bd207f
+  1_wqpdata/out/data/Connecticut_DO_001_siteinfo.feather.ind: 809c8cbd7570ed3ab8b3049199bd207f
+fixed: 0195c07d1a80835eb7e7272efd3325f4
+code:
+  functions: {}
+

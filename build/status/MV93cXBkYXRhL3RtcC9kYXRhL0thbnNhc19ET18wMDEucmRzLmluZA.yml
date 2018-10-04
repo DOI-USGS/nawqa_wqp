@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kansas_DO_001.rds.ind
+type: file
+hash: 8838b55d1539fa776b4add576f0a4593
+time: 2018-09-27 03:24:46 UTC
+depends:
+  partition_Kansas_DO_001: 9c28c1fa4c928c9fc727529ebe839dfe
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: ac563be501e233ffb6ceb22f507cb79e
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

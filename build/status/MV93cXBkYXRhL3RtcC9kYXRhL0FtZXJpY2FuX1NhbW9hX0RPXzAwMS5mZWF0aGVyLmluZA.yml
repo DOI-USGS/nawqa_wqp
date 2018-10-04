@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/American_Samoa_DO_001.feather.ind
+type: file
+hash: 68e4314d0344546a70f34654fd8edd75
+time: 2018-09-27 02:56:17 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 07b3a1ed5786241dcb43c052f6f3dbc5
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

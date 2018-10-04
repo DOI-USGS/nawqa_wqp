@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Northern_Mariana_Islands_conductivity_001.feather.ind
+type: file
+hash: 809c8cbd7570ed3ab8b3049199bd207f
+time: 2018-09-26 22:54:10 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+fixed: 2002ba0641a3cdfac0bfa1b87a4c52f2
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

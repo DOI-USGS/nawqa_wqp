@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alaska_DO_001.feather.ind
+type: file
+hash: 395fb6a1192c19f896227ae2955dbc9f
+time: 2018-09-27 02:54:22 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: ff0b4a4690955ee8f07951c8fc3df50c
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

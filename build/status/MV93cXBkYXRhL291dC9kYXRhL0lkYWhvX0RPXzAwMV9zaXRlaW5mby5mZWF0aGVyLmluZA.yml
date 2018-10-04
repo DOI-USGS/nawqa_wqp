@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Idaho_DO_001_siteinfo.feather.ind
+type: file
+hash: 7b733f23a8103392949aad624593c5f1
+time: 2018-09-27 03:18:08 UTC
+depends:
+  1_wqpdata/tmp/data/Idaho_DO_001_siteinfo.feather.ind: 7b733f23a8103392949aad624593c5f1
+fixed: 1e804ff21362a973106618023a7a9add
+code:
+  functions: {}
+

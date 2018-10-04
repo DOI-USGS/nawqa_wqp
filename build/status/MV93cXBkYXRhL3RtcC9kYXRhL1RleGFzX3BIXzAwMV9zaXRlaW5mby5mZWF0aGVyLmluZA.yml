@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Texas_pH_001_siteinfo.feather.ind
+type: file
+hash: de7da33657bd38d41e72fd846ab68bd7
+time: 2018-09-27 09:24:48 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: dbe45ddec5fd77a94376b366ad1ee13c
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

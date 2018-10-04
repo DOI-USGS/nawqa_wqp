@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Vermont_conductivity_001.rds.ind
+type: file
+hash: 9af57f75bbe9e4c31a3c32c744ba2f49
+time: 2018-09-26 23:18:37 UTC
+depends:
+  partition_Vermont_conductivity_001: c8c4ea89943522f97f1e1061a227ef26
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: cab5124b1154aa0f75fa8b3e7055785d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

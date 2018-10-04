@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Hawaii_DO_001.rds.ind
+type: file
+hash: 8aa171caa5c0be72be4961fefff2e345
+time: 2018-09-27 03:15:37 UTC
+depends:
+  partition_Hawaii_DO_001: 8407d6b25a822220a86f00049f9aabe6
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 40c77be6bef1ef76ada123cda8551809
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

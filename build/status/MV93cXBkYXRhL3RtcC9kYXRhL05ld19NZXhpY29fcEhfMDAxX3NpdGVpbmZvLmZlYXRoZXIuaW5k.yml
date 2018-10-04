@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Mexico_pH_001_siteinfo.feather.ind
+type: file
+hash: d626c55692970cd6ada7db0796644d30
+time: 2018-09-27 08:55:39 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: 19a6c85ca1dfce627dce6dc76728a713
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

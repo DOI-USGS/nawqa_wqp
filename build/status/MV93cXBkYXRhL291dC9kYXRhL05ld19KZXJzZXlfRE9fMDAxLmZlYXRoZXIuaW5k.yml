@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/New_Jersey_DO_001.feather.ind
+type: file
+hash: f290870fea9caebe4f81d67611ed7a7b
+time: 2018-09-27 04:00:23 UTC
+depends:
+  1_wqpdata/tmp/data/New_Jersey_DO_001.feather.ind: f290870fea9caebe4f81d67611ed7a7b
+fixed: 4aa421884ac6da47a908a12b6bf4cfc7
+code:
+  functions: {}
+

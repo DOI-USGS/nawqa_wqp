@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Massachusetts_DO_001.ind
+type: file
+hash: 4b9a99a2827b4bc6073073861d0140b7
+time: 2018-09-27 03:45:12 UTC
+depends:
+  1_wqpdata/out/data/Massachusetts_DO_001.feather.ind: 11324969965c8c281dbb390d07db4b04
+  1_wqpdata/out/data/Massachusetts_DO_001_siteinfo.feather.ind: 85ced46aa5bc7987436aa59809c742c8
+fixed: 8b05516c7af4f2c6fb416ba403a90987
+code:
+  functions: {}
+

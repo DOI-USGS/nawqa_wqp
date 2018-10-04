@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Massachusetts_DO_001.feather.ind
+type: file
+hash: 11324969965c8c281dbb390d07db4b04
+time: 2018-09-27 03:44:49 UTC
+depends:
+  1_wqpdata/tmp/data/Massachusetts_DO_001.feather.ind: 11324969965c8c281dbb390d07db4b04
+fixed: 99163a4b8efa464c43fa633472f844d8
+code:
+  functions: {}
+

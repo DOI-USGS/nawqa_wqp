@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Arizona_pH_001_siteinfo.feather.ind
+type: file
+hash: 3c579908cb4d1b0edef8ca5da549a640
+time: 2018-09-27 08:04:49 UTC
+depends:
+  1_wqpdata/tmp/data/Arizona_pH_001_siteinfo.feather.ind: 3c579908cb4d1b0edef8ca5da549a640
+fixed: ceb0d47b80d6cc6dfee3e77f5ed8ff97
+code:
+  functions: {}
+

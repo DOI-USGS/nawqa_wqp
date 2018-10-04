@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Connecticut_pH_001.ind
+type: file
+hash: d7b95132f33aa3d652d83e3f0cb37547
+time: 2018-09-27 08:12:56 UTC
+depends:
+  1_wqpdata/out/data/Connecticut_pH_001.feather.ind: fab808aaf180923cb4f2767d5c5c156c
+  1_wqpdata/out/data/Connecticut_pH_001_siteinfo.feather.ind: 66277afd08a12f99cea677c6a0f7846d
+fixed: ae8f4b8820a45ac68d674bf6258a7571
+code:
+  functions: {}
+

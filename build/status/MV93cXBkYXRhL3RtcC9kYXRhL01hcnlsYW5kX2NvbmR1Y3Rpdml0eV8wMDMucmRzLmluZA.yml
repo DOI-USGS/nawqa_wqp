@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maryland_conductivity_003.rds.ind
+type: file
+hash: 5a12f3d7ff7b4dc0a6d3a534c5460c93
+time: 2018-09-26 22:21:43 UTC
+depends:
+  partition_Maryland_conductivity_003: b7c5c7d7bd6637a716df2f811b10d0a2
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 874f75d56a5126f67016d7840c3273a1
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

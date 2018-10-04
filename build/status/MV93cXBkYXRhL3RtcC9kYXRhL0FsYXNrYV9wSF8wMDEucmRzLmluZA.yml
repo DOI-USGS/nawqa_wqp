@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alaska_pH_001.rds.ind
+type: file
+hash: b4b914b983b8e1944ee27f5f2153561b
+time: 2018-09-27 07:59:51 UTC
+depends:
+  partition_Alaska_pH_001: 3b690256b044bd9d071990d7016838f5
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5263baf80cf8ff8146e34862c28c5e23
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

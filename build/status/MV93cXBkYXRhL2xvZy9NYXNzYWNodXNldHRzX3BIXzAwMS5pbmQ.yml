@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Massachusetts_pH_001.ind
+type: file
+hash: 24aefe6640ab80e704920d8d0d07c5e6
+time: 2018-09-27 08:38:41 UTC
+depends:
+  1_wqpdata/out/data/Massachusetts_pH_001.feather.ind: 2d77348fc22fa82f4ae1fb6105fec4a4
+  1_wqpdata/out/data/Massachusetts_pH_001_siteinfo.feather.ind: 6547a002605b70c7a454c68ac706aa97
+fixed: ad5f7dcbbc5eaa83e80b9067f4f95a52
+code:
+  functions: {}
+

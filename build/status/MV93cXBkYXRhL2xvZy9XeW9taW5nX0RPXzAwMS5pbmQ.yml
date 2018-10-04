@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Wyoming_DO_001.ind
+type: file
+hash: 410cae11edad79271e427012fced8339
+time: 2018-09-27 04:43:02 UTC
+depends:
+  1_wqpdata/out/data/Wyoming_DO_001.feather.ind: 984c8490d7e604c08b405d686e6a2603
+  1_wqpdata/out/data/Wyoming_DO_001_siteinfo.feather.ind: ec3fdde69ec910fd746a41affb3a836f
+fixed: 08b0010dca5e3435ce1b663bbbe93ca2
+code:
+  functions: {}
+

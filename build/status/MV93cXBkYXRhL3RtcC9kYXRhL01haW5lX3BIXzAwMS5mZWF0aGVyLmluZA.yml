@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maine_pH_001.feather.ind
+type: file
+hash: e3c17876e4f9a014ca04dcc792e67037
+time: 2018-09-27 08:34:43 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: 9a2968160aa681e5258ee9a3cc86f39d
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

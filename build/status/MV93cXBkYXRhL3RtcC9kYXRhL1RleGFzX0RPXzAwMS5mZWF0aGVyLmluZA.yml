@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Texas_DO_001.feather.ind
+type: file
+hash: c2089eb7f71f0017f0bc4ec3822d4860
+time: 2018-09-27 04:28:34 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: deb8a393364e9f3396c58fb6f3e9555f
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

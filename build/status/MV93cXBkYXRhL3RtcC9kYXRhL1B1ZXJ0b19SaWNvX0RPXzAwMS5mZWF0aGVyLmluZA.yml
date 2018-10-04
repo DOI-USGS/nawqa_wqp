@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Puerto_Rico_DO_001.feather.ind
+type: file
+hash: 99b93e39f4d4eb814bcee275b175b52f
+time: 2018-09-27 04:17:53 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: ef1e28665e6d821974caa604838d9ea2
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_pH_001.feather.ind
+type: file
+hash: 6a7063ab14caa37c1320a0edd9e840c9
+time: 2018-09-27 08:10:01 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: c33e56a393def2ff7758ec5266fd86aa
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Mississippi_pH_001.feather.ind
+type: file
+hash: d800181790ca49717eff1c28d547d868
+time: 2018-09-27 08:42:03 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: 60d8d0c0f0015894ce8aef8e27d236f7
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

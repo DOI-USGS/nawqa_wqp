@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arizona_DO_001.rds.ind
+type: file
+hash: eb4c82c819d9f5012035f59c2f2dc7a4
+time: 2018-09-27 02:57:47 UTC
+depends:
+  partition_Arizona_DO_001: 666a6e82a1a04a21a5947b8d54fc4962
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d12f8ce20a704c5fbfcdbad27afe9c98
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

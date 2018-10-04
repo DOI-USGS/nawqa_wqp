@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kentucky_pH_001.rds.ind
+type: file
+hash: cab9d3dfe993bde53bd7d630d46a83f2
+time: 2018-09-27 08:31:08 UTC
+depends:
+  partition_Kentucky_pH_001: 7a08c70fe61d22205a0f09e1fa624537
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: be7de8c1eb85be6aedc65eaf62e81721
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

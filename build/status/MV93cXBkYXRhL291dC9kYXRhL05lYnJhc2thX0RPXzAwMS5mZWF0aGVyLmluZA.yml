@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Nebraska_DO_001.feather.ind
+type: file
+hash: e366864abe26e4d556ee68dd1114d31f
+time: 2018-09-27 03:54:22 UTC
+depends:
+  1_wqpdata/tmp/data/Nebraska_DO_001.feather.ind: e366864abe26e4d556ee68dd1114d31f
+fixed: 0182a515a41c5fba71c38dcf70662883
+code:
+  functions: {}
+

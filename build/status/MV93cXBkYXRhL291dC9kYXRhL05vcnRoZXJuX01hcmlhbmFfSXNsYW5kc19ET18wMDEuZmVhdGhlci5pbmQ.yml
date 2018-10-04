@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Northern_Mariana_Islands_DO_001.feather.ind
+type: file
+hash: 809c8cbd7570ed3ab8b3049199bd207f
+time: 2018-09-27 04:08:27 UTC
+depends:
+  1_wqpdata/tmp/data/Northern_Mariana_Islands_DO_001.feather.ind: 809c8cbd7570ed3ab8b3049199bd207f
+fixed: 6611631433db9ae22b44c12efa17ba91
+code:
+  functions: {}
+

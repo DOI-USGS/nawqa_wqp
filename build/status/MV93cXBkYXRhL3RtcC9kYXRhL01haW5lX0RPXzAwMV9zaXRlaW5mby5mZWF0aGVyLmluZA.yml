@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maine_DO_001_siteinfo.feather.ind
+type: file
+hash: 8bd6c3ac642eb95392aa4fbdf8adacbc
+time: 2018-09-27 03:29:59 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 89765fb06a1b563355d27dd983dc99ce
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

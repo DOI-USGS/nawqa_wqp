@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Kansas_DO_001.feather.ind
+type: file
+hash: 3bb00362941a32617babec2ad63ca184
+time: 2018-09-27 03:25:17 UTC
+depends:
+  1_wqpdata/tmp/data/Kansas_DO_001.feather.ind: 3bb00362941a32617babec2ad63ca184
+fixed: 4b4b586e4898a1fb9487ec4678ef7f91
+code:
+  functions: {}
+

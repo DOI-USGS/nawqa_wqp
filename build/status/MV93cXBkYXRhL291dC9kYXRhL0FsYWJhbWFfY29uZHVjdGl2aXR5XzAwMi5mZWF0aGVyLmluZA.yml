@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Alabama_conductivity_002.feather.ind
+type: file
+hash: 06bc13bf1957dd8bccd322753f902fc3
+time: 2018-09-26 21:32:31 UTC
+depends:
+  1_wqpdata/tmp/data/Alabama_conductivity_002.feather.ind: 06bc13bf1957dd8bccd322753f902fc3
+fixed: f5b262c8e94b24e9a373943e5e568104
+code:
+  functions: {}
+

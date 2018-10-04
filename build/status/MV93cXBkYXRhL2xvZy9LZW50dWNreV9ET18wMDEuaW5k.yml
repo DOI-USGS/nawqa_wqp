@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Kentucky_DO_001.ind
+type: file
+hash: ccc9f776cfbebfa123d351f52430f7ce
+time: 2018-09-27 03:27:41 UTC
+depends:
+  1_wqpdata/out/data/Kentucky_DO_001.feather.ind: 9e2b625a3c349206cd3f9cffb8729471
+  1_wqpdata/out/data/Kentucky_DO_001_siteinfo.feather.ind: 4ac4a8b9d2c48abf5901a9f0d8c3c6a8
+fixed: b8f433296120a8f16595694ff2702c37
+code:
+  functions: {}
+

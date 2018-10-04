@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arkansas_DO_001.rds.ind
+type: file
+hash: 0a01f7797059977d6c5943d026a617f8
+time: 2018-09-27 02:59:37 UTC
+depends:
+  partition_Arkansas_DO_001: f1cb7d71b568a8cf8adc93ee012c811d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 7329524a71f481f34a52a4b590da9a31
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

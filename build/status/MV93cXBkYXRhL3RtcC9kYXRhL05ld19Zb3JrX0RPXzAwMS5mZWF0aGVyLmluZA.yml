@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_York_DO_001.feather.ind
+type: file
+hash: f55c923c829359e0eb0cd81aaea4d173
+time: 2018-09-27 04:03:58 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 91d284f455863045b46da2b07c4e281a
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

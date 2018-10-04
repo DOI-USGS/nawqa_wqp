@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Northern_Mariana_Islands_conductivity_001.rds.ind
+type: file
+hash: 92041ad9a1bdc34c1d6875d8d20cdc62
+time: 2018-09-26 22:54:10 UTC
+depends:
+  partition_Northern_Mariana_Islands_conductivity_001: d8d5d43d28e7573cbb307cb3ccde9bc5
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 48cc1f51a81524040be9bfabd97babaa
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

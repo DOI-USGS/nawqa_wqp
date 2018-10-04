@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Arizona_DO_001.feather.ind
+type: file
+hash: 85242865d6f2029f5047d7215cb0f01c
+time: 2018-09-27 02:58:21 UTC
+depends:
+  1_wqpdata/tmp/data/Arizona_DO_001.feather.ind: 85242865d6f2029f5047d7215cb0f01c
+fixed: 687ec8701e66ea995e9622c603afa60c
+code:
+  functions: {}
+

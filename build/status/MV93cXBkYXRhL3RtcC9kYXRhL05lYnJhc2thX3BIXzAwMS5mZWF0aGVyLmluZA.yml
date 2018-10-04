@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nebraska_pH_001.feather.ind
+type: file
+hash: b2887793a82089cb9573e1f82568336b
+time: 2018-09-27 08:47:40 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: 4d74c4d008e71120f57c505e61b562a8
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

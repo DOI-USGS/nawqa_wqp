@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Alaska_DO_001_siteinfo.feather.ind
+type: file
+hash: 80dea336dd71c734d87664df10cbc0d9
+time: 2018-09-27 02:55:45 UTC
+depends:
+  1_wqpdata/tmp/data/Alaska_DO_001_siteinfo.feather.ind: 80dea336dd71c734d87664df10cbc0d9
+fixed: 66733889b11c1e5333fc99c5e0753425
+code:
+  functions: {}
+

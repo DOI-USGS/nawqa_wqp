@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Ohio_conductivity_001.rds.ind
+type: file
+hash: 5e785c096359d8fe299c6785909098e4
+time: 2018-09-26 22:55:53 UTC
+depends:
+  partition_Ohio_conductivity_001: 9513024b571e7ace3bbcb65ea31e25ad
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 24cf2d908a25b1e429e7ee6416d7c7c0
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

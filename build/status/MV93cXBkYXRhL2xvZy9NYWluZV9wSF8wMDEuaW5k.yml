@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Maine_pH_001.ind
+type: file
+hash: be137347e887dac3a72ce3452b8be121
+time: 2018-09-27 08:35:45 UTC
+depends:
+  1_wqpdata/out/data/Maine_pH_001.feather.ind: e3c17876e4f9a014ca04dcc792e67037
+  1_wqpdata/out/data/Maine_pH_001_siteinfo.feather.ind: def92b0c4c25517c6b367777ceedb515
+fixed: 358a093ecc4cbc130717fa9c61650711
+code:
+  functions: {}
+

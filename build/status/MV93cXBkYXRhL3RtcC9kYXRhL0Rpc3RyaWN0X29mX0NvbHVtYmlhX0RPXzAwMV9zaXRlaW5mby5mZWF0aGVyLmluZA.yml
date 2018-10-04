@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/District_of_Columbia_DO_001_siteinfo.feather.ind
+type: file
+hash: 60df946da4e20c680697c5695def44fa
+time: 2018-09-27 03:10:34 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 5fed821a1c6dfde0f9b54825c02ce615
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

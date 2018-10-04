@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Rhode_Island_pH_001.ind
+type: file
+hash: 33c7e215b93fe1fee826c3dbab475cb3
+time: 2018-09-27 09:15:23 UTC
+depends:
+  1_wqpdata/out/data/Rhode_Island_pH_001.feather.ind: 4546dc394ce3fbaacf206675e35e99ec
+  1_wqpdata/out/data/Rhode_Island_pH_001_siteinfo.feather.ind: c6302fb581cc549ee4bd7635c8c4f6d0
+fixed: 7c94d4808939de25061fb073c10820f6
+code:
+  functions: {}
+
