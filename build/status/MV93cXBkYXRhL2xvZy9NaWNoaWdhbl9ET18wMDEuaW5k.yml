@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Michigan_DO_001.ind
+type: file
+hash: 91ebcea9d896d9e67a723a30c5b0a1fa
+time: 2018-09-27 03:46:53 UTC
+depends:
+  1_wqpdata/out/data/Michigan_DO_001.feather.ind: 618a2689e0b03e901ceba1dfa18d35b4
+  1_wqpdata/out/data/Michigan_DO_001_siteinfo.feather.ind: 452d1d36d6e6379a190d99b175df3fd1
+fixed: 113541b07385a823defbc32130449974
+code:
+  functions: {}
+

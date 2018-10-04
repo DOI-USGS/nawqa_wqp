@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/West_Virginia_pH_001_siteinfo.feather.ind
+type: file
+hash: de5a5ef9d4230f39febd57dc333ead0a
+time: 2018-09-27 09:35:13 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: 82209b69dc2f9671ea0232ea0107219e
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

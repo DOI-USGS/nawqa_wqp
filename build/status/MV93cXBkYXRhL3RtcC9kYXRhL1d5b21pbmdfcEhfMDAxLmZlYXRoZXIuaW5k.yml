@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wyoming_pH_001.feather.ind
+type: file
+hash: fd1eda7a30b2ab57e8fbd219eaf5e307
+time: 2018-09-27 09:39:33 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: f8ff847cdcf2b4c3d82b8fd70a144ffd
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

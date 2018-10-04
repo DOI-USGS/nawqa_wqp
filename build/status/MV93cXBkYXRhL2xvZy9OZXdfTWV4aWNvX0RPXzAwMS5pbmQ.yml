@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_Mexico_DO_001.ind
+type: file
+hash: c9a7b18b41f8c49632034e0b81b0bb36
+time: 2018-09-27 04:03:12 UTC
+depends:
+  1_wqpdata/out/data/New_Mexico_DO_001.feather.ind: a815629436c375a6201979c0a58702d2
+  1_wqpdata/out/data/New_Mexico_DO_001_siteinfo.feather.ind: 396a842ee72a5d14736bf69c69b5387e
+fixed: c9c9ef227014e41c8e77693b1629119c
+code:
+  functions: {}
+

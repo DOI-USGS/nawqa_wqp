@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Texas_pH_001.rds.ind
+type: file
+hash: 5273c5e9c9ec64283fc324febca29ca0
+time: 2018-09-27 09:24:43 UTC
+depends:
+  partition_Texas_pH_001: 149deae6f7d7adb144f7819a6f18bf37
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c56e00d17fa1b932303e3505aa9ceec6
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

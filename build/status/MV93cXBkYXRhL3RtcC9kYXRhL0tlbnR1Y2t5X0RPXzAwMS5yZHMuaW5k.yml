@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kentucky_DO_001.rds.ind
+type: file
+hash: d36095a5a3b81d92cd99e91517aec784
+time: 2018-09-27 03:26:31 UTC
+depends:
+  partition_Kentucky_DO_001: 83b9ff0e09273417ae58e99c5bd35fbf
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: b642fff0a7889c2e115122bbd91212d4
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

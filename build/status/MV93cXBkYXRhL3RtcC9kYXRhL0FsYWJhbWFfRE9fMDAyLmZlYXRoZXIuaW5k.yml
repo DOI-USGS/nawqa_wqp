@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alabama_DO_002.feather.ind
+type: file
+hash: c3376b5dc219c47fef55dfd8b18d8cb8
+time: 2018-09-27 02:50:45 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: eaebd37b23c96913932828e13af4f26e
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

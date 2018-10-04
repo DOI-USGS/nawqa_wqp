@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Oklahoma_conductivity_001.ind
+type: file
+hash: a8b281719c21f049efc663a4a948c6f2
+time: 2018-09-26 22:59:01 UTC
+depends:
+  1_wqpdata/out/data/Oklahoma_conductivity_001.feather.ind: 7148c124fb532f1319d88de00bb6aef4
+  1_wqpdata/out/data/Oklahoma_conductivity_001_siteinfo.feather.ind: c30b7b75c0c8919598c439923f8fbdc4
+fixed: 6bdab74b3b5628fc717d20e892156206
+code:
+  functions: {}
+

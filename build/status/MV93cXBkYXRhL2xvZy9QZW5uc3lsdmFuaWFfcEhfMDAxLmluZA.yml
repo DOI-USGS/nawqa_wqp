@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Pennsylvania_pH_001.ind
+type: file
+hash: 721a4608e51afed077984a2e6f67243a
+time: 2018-09-27 09:11:33 UTC
+depends:
+  1_wqpdata/out/data/Pennsylvania_pH_001.feather.ind: b2c2e167c06152a86e25ba18b7588e11
+  1_wqpdata/out/data/Pennsylvania_pH_001_siteinfo.feather.ind: 59f6744db9d131af62add245e9cd5cfa
+fixed: c26d30bca8bf08284d6650ffef7ac42a
+code:
+  functions: {}
+

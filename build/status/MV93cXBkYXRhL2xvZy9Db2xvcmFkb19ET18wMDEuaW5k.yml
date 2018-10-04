@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Colorado_DO_001.ind
+type: file
+hash: 660a294fcfca2140f3865dbcb427cab3
+time: 2018-09-27 03:07:03 UTC
+depends:
+  1_wqpdata/out/data/Colorado_DO_001.feather.ind: 447a6400d1117f56b92a85ce94634e6c
+  1_wqpdata/out/data/Colorado_DO_001_siteinfo.feather.ind: e7d6131625414a482f0d44cf9aae4023
+fixed: 75b2b4d9afe4b3b65436cac6bc8218d1
+code:
+  functions: {}
+

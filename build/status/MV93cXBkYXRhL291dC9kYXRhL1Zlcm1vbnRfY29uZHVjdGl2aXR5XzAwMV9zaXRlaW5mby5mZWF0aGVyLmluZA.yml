@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Vermont_conductivity_001_siteinfo.feather.ind
+type: file
+hash: e659f2cbfc3345debcbb54de4a5e122f
+time: 2018-09-26 23:19:28 UTC
+depends:
+  1_wqpdata/tmp/data/Vermont_conductivity_001_siteinfo.feather.ind: e659f2cbfc3345debcbb54de4a5e122f
+fixed: 0f8a2035a833f85dfaeaf557155961fd
+code:
+  functions: {}
+

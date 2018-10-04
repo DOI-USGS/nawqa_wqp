@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Nebraska_pH_001.ind
+type: file
+hash: 2b661526a2b206be4ecb856a196d8c99
+time: 2018-09-27 08:48:47 UTC
+depends:
+  1_wqpdata/out/data/Nebraska_pH_001.feather.ind: b2887793a82089cb9573e1f82568336b
+  1_wqpdata/out/data/Nebraska_pH_001_siteinfo.feather.ind: 4b89dd2d8df311123c33dc97b3e0ee1c
+fixed: 7ee2b66cd9c6f78e54186e43c1cf2898
+code:
+  functions: {}
+

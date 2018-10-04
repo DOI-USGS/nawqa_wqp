@@ -1,0 +1,15 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/partition_pH.rds.ind
+type: file
+hash: 77564d523f0433a6c0d38c78deeee31e
+time: 2018-09-26 20:16:04 UTC
+depends:
+  1_wqpdata/tmp/data/inventory_pH.feather.ind: 1bad008ac9b49ca67c9a42bbe47c2952
+  wqp_pull: a25c30028f2a45d7d933854046b0f449
+  wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
+  wqp_codes: 3ccfac23e04c67b2fe72c8fbd098a39a
+fixed: cd41d9916814950aa58909fc1cf4008e
+code:
+  functions:
+    partition_inventory: ca480915965142b1c3f7d32ae2f0b4f3
+

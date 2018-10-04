@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/log/conductivity.ind
+type: file
+hash: af2d34ec50aed45fb1306593f72b1157
+time: 2018-09-26 16:03:41 UTC
+depends:
+  1_wqpdata/tmp/data/partition_conductivity.rds.ind: 60c7075bd980750c210208247d9f739f
+fixed: d968f5ecb1ad02d7ac0efa7ccc822e98
+code:
+  functions: {}
+

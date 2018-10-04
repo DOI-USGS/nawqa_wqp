@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Vermont_pH_001.rds.ind
+type: file
+hash: 6553c4e1b8dff308703a773831794cfb
+time: 2018-09-27 09:28:30 UTC
+depends:
+  partition_Vermont_pH_001: 1bae601e31b36611c69bdfc61a056ef9
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d89d7935fbb608163641ea66be3c5b48
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nevada_conductivity_001.rds.ind
+type: file
+hash: 0b710088b5a0711f88169443c751c05e
+time: 2018-09-26 22:42:31 UTC
+depends:
+  partition_Nevada_conductivity_001: 9e1b3d76332fa7e3fd49efdbe0c8210e
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c4cc4eec6afe7084a45b59644013c91c
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

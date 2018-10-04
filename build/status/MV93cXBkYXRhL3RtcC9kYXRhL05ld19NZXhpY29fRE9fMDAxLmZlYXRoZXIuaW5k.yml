@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Mexico_DO_001.feather.ind
+type: file
+hash: a815629436c375a6201979c0a58702d2
+time: 2018-09-27 04:01:48 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: a8919753c54da8b18cd41e1ce1d4d041
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

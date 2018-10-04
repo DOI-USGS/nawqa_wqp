@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Hawaii_DO_001.feather.ind
+type: file
+hash: 334736af863a998bd7a3f87d4e9cb2bd
+time: 2018-09-27 03:15:38 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 0cffccf9a49d2d972362ace65d76b7ad
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

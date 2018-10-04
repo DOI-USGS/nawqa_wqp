@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Illinois_conductivity_001.ind
+type: file
+hash: 6bb6e9837e42dadccef54ec21c7e2049
+time: 2018-09-26 21:59:10 UTC
+depends:
+  1_wqpdata/out/data/Illinois_conductivity_001.feather.ind: d95ad40a107151140c584fbcd3d3d7ec
+  1_wqpdata/out/data/Illinois_conductivity_001_siteinfo.feather.ind: 77f4a7387ded0840a85e386af0ef482b
+fixed: c355679b5f6b8405408fac2feada988c
+code:
+  functions: {}
+

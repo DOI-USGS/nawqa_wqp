@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wyoming_conductivity_001.feather.ind
+type: file
+hash: 8b5512b2894105e9d9496c43c559931e
+time: 2018-09-26 23:29:59 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+fixed: ea68398dbdbc026702e4b318a1bab1fb
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

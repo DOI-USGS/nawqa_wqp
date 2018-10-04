@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wyoming_DO_001_siteinfo.feather.ind
+type: file
+hash: ec3fdde69ec910fd746a41affb3a836f
+time: 2018-09-27 04:42:12 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: bbd3a8e19647cf8febe784d63e4fd019
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

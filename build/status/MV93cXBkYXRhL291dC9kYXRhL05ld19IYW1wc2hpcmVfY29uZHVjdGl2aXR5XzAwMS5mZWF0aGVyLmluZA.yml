@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/New_Hampshire_conductivity_001.feather.ind
+type: file
+hash: deb49f3551cd9b08e6c28be547788ffd
+time: 2018-09-26 22:44:53 UTC
+depends:
+  1_wqpdata/tmp/data/New_Hampshire_conductivity_001.feather.ind: deb49f3551cd9b08e6c28be547788ffd
+fixed: af53ca27a83ee7d835f04e56e55da1ff
+code:
+  functions: {}
+

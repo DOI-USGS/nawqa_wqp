@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Puerto_Rico_pH_001.ind
+type: file
+hash: 79698ae2d68a3e3b861b23b1ad38e492
+time: 2018-09-27 09:13:51 UTC
+depends:
+  1_wqpdata/out/data/Puerto_Rico_pH_001.feather.ind: f1d82c27a32948cfc74ddfb449a53479
+  1_wqpdata/out/data/Puerto_Rico_pH_001_siteinfo.feather.ind: ee49031b5167a06996f0d718d7a6c449
+fixed: 704498c54af4693cc092986c66ccbd60
+code:
+  functions: {}
+

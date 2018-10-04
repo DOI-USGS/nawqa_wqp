@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Iowa_DO_001.rds.ind
+type: file
+hash: 5d4f7b74c5946cd3ce4462583fb929a2
+time: 2018-09-27 03:23:07 UTC
+depends:
+  partition_Iowa_DO_001: dec94a8b7e405ed1f2eb982ec157a696
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: ae9e6a9a9d6dce1689766aef32da4894
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Texas_conductivity_001.feather.ind
+type: file
+hash: a1c1ae8e3f4bff852d88507d4d726576
+time: 2018-09-26 23:14:03 UTC
+depends:
+  1_wqpdata/tmp/data/Texas_conductivity_001.feather.ind: a1c1ae8e3f4bff852d88507d4d726576
+fixed: 8353f6153a48c71a33b7c82f67bd8971
+code:
+  functions: {}
+

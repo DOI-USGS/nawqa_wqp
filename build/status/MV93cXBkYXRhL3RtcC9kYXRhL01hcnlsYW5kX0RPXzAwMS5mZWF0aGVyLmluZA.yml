@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maryland_DO_001.feather.ind
+type: file
+hash: 4747791eb14aeffc1948cbb69656b3c6
+time: 2018-09-27 03:33:42 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 1f72ac7d2d34fc98ec6bd622347837cc
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

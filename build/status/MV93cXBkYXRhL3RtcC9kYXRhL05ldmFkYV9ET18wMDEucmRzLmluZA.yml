@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nevada_DO_001.rds.ind
+type: file
+hash: b112cd6e532eb4de425f613e4613988e
+time: 2018-09-27 03:55:22 UTC
+depends:
+  partition_Nevada_DO_001: 640d5fdc0be7bd6d6e8abf77355c5c83
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5222bf0a51d61eb5cff2b44d5fec5b50
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

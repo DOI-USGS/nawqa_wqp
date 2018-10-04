@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Illinois_DO_001.feather.ind
+type: file
+hash: a8ce53c4f170adb94acb9352adf586d4
+time: 2018-09-27 03:18:43 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 4d625e130cc350e07b9bdd0ee3b6817b
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

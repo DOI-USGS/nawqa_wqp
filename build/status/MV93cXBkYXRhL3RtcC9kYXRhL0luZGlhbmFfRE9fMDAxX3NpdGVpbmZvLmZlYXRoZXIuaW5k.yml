@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Indiana_DO_001_siteinfo.feather.ind
+type: file
+hash: 685d972da3fb39271c14c493510e2c58
+time: 2018-09-27 03:21:07 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 40b82804297c43a147685c900dcb1fed
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

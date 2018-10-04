@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Missouri_DO_001.rds.ind
+type: file
+hash: a7634c9a9ef7bc8eb2eff86ab7fd7dfb
+time: 2018-09-27 03:50:11 UTC
+depends:
+  partition_Missouri_DO_001: c70a02cb4bcecbd3ba8acaa5a5cf0bcd
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 00554a2cb267223fd7de44d08e0dde03
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

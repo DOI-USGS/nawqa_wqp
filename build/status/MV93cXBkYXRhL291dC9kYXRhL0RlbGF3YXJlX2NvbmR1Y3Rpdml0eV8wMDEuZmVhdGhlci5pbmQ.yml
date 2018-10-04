@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Delaware_conductivity_001.feather.ind
+type: file
+hash: 46003c865a1cf7dfacd6cd9482277e5f
+time: 2018-09-26 21:47:05 UTC
+depends:
+  1_wqpdata/tmp/data/Delaware_conductivity_001.feather.ind: 46003c865a1cf7dfacd6cd9482277e5f
+fixed: 92bdf854344a6c1895fed9834d77c5bc
+code:
+  functions: {}
+

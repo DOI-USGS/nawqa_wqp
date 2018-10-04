@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/California_DO_001.feather.ind
+type: file
+hash: 58f15ffacb99776f9d8ea70aa8155557
+time: 2018-09-27 03:03:26 UTC
+depends:
+  1_wqpdata/tmp/data/California_DO_001.feather.ind: 58f15ffacb99776f9d8ea70aa8155557
+fixed: 1928c638386a5297c2dee5c0a08ea696
+code:
+  functions: {}
+

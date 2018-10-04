@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nevada_pH_001_siteinfo.feather.ind
+type: file
+hash: 605cea013a2fde40c0595603f26e187d
+time: 2018-09-27 08:49:31 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: 53ff15e652f7017a6771fbc4c60abb78
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

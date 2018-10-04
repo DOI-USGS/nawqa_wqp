@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Rhode_Island_DO_001.rds.ind
+type: file
+hash: 92041ad9a1bdc34c1d6875d8d20cdc62
+time: 2018-09-27 04:19:04 UTC
+depends:
+  partition_Rhode_Island_DO_001: f4ba13fe2d958d49368a791c7fd12ea2
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 620e0c20864bad99ac3d5c1965fbc9d4
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

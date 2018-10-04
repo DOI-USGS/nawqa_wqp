@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Washington_conductivity_001.ind
+type: file
+hash: 30fd19d1ec610ca86449dd84fd159835
+time: 2018-09-26 23:24:57 UTC
+depends:
+  1_wqpdata/out/data/Washington_conductivity_001.feather.ind: 999a91e4aa921d921af2dee94fea8ecb
+  1_wqpdata/out/data/Washington_conductivity_001_siteinfo.feather.ind: 12948d1245ad01ad1c5a053de8622890
+fixed: d08f6ebfcf39dc30ee06f3a341e67189
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oklahoma_pH_001_siteinfo.feather.ind
+type: file
+hash: 86a38dde2addf006fa77b086b13ec7ef
+time: 2018-09-27 09:05:43 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: edffd716173c06b4c98068b01b4843f8
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

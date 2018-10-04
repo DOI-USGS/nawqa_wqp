@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Louisiana_pH_001.feather.ind
+type: file
+hash: f9f2424ed26844fe2e692df25b902a57
+time: 2018-09-27 08:32:56 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: 0031fe274b5f769b4617368c974ff24f
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

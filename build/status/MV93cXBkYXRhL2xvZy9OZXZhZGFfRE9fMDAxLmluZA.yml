@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Nevada_DO_001.ind
+type: file
+hash: 3eaff3364c276468c0a4a2bede728b74
+time: 2018-09-27 03:56:15 UTC
+depends:
+  1_wqpdata/out/data/Nevada_DO_001.feather.ind: 1a06e7f6187b254a67d0367f80288cf7
+  1_wqpdata/out/data/Nevada_DO_001_siteinfo.feather.ind: 2be83fbc1c6bcb611b072426cfcefd07
+fixed: 68bdb43f84c8271a98826c899557fd36
+code:
+  functions: {}
+

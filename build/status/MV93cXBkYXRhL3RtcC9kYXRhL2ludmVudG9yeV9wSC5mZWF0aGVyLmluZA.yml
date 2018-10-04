@@ -1,0 +1,14 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/inventory_pH.feather.ind
+type: file
+hash: 1bad008ac9b49ca67c9a42bbe47c2952
+time: 2018-09-26 15:40:59 UTC
+depends:
+  wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
+  wqp_states: 0f8f4a33363213d2698e31f0ee1b1df0
+  wqp_codes_pH: 05fa57b3f9933e9e022036bf59fe4fdd
+fixed: f24a48d7267194d690e005eefc2fe555
+code:
+  functions:
+    inventory_wqp: acd761e18726d129aff119d3341da954
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nebraska_conductivity_001.rds.ind
+type: file
+hash: 75195d523856ac5a79333d6c14f6da83
+time: 2018-09-26 22:40:51 UTC
+depends:
+  partition_Nebraska_conductivity_001: 6c215e3b833aed47b0c2ea8e7295c5c5
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 57d79b0ad844474b9d9f1a2059295cb8
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

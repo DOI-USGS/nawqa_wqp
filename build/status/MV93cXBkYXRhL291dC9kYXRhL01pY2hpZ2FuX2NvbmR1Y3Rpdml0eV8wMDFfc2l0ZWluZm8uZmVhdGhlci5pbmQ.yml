@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Michigan_conductivity_001_siteinfo.feather.ind
+type: file
+hash: c3fc70c8dc91aba703b51e2db56c5fac
+time: 2018-09-26 22:30:04 UTC
+depends:
+  1_wqpdata/tmp/data/Michigan_conductivity_001_siteinfo.feather.ind: c3fc70c8dc91aba703b51e2db56c5fac
+fixed: ee37ddb03aaa28661d2ea10d2f349e1b
+code:
+  functions: {}
+

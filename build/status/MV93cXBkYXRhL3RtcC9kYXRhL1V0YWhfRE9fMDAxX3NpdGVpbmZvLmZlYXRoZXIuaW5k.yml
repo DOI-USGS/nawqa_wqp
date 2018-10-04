@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Utah_DO_001_siteinfo.feather.ind
+type: file
+hash: 5437b01dd326ee7a9f2d5b17f6f07bd5
+time: 2018-09-27 04:30:25 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 0e571d4d3d78401dc83be4ccd5f67671
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

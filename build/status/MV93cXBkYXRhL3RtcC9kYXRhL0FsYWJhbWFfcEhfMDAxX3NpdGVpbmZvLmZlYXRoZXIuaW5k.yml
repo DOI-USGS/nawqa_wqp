@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alabama_pH_001_siteinfo.feather.ind
+type: file
+hash: a59b6c802dea68ef9313906129952e03
+time: 2018-09-27 07:52:02 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: 036cda91113c9ee23b1cce1576c9a666
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

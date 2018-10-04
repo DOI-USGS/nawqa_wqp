@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Montana_DO_001.rds.ind
+type: file
+hash: 754efd01bf221ddb8a6fa3af8b648fc8
+time: 2018-09-27 03:51:56 UTC
+depends:
+  partition_Montana_DO_001: 2ee1d699839eda07b9c8fcb79fdc2148
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: becf4738b5bd29f96afff848d6293a2d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

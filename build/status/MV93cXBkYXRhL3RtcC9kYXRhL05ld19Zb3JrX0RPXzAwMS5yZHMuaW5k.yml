@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_York_DO_001.rds.ind
+type: file
+hash: 28fcfac54c0e2473ababbdc8884b1178
+time: 2018-09-27 04:03:57 UTC
+depends:
+  partition_New_York_DO_001: 1e481497e3c3a5f1cf9d91408b0595d6
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 7049f3d31029e0cb638c052c0283c876
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

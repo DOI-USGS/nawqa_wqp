@@ -42,6 +42,23 @@ characteristicName:
     - "Inorganic nitrogen (nitrate and nitrite) as N"
     - "Nitrite-N"
 
+  pH:
+    - "PH"
+    - "pH"
+    - "pH, lab"
+
+  DO:
+    - "Dissolved oxygen"
+    - "Dissolved oxygen (DO)"
+    - "Dissolved oxygen uptake"
+    - "Dissolved oxygen saturation"
+
+  conductivity:
+    - "Specific conductivity"
+    - "Specific conductance"
+    - "Specific Conductance, Calculated/Measured Ratio"
+    - "Conductivity"
+
 # https://www.waterqualitydata.us/Codes/sampleMedia?mimeType=xml
 sampleMedia:
   - "Water"

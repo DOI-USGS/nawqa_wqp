@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Tennessee_pH_001.rds.ind
+type: file
+hash: fce9972dc9565b23d1c8dec7c2e9deed
+time: 2018-09-27 09:22:38 UTC
+depends:
+  partition_Tennessee_pH_001: 6f9e78196dd3f0ab5b617a6b30054d54
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 2a692ddf8dc98685ff1b98a1aecd5595
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

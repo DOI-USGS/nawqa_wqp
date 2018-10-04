@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Massachusetts_conductivity_001.rds.ind
+type: file
+hash: 732328e328fdd4fabfe2dfdd96ab3588
+time: 2018-09-26 22:27:27 UTC
+depends:
+  partition_Massachusetts_conductivity_001: 61ffe76f423c4b58a07d2095dcbf7016
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: cab422e020b60af1f6d2fda6a8a7d8eb
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

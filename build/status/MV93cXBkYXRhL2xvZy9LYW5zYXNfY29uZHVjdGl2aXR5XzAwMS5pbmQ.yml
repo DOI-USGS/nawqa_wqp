@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Kansas_conductivity_001.ind
+type: file
+hash: f56da51e80995f4b4640f4b306bc7af2
+time: 2018-09-26 22:04:34 UTC
+depends:
+  1_wqpdata/out/data/Kansas_conductivity_001.feather.ind: 926774daa78e2b203d8c3164ff8dbbd6
+  1_wqpdata/out/data/Kansas_conductivity_001_siteinfo.feather.ind: e84080cb007c00b892f1dfbfe3d9ad78
+fixed: a870524db1d701c3928a5678f6ad9493
+code:
+  functions: {}
+

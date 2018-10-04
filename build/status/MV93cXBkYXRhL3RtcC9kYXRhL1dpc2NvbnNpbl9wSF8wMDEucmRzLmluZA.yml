@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wisconsin_pH_001.rds.ind
+type: file
+hash: 626e26f15982c6d5db5674f0a6c66be4
+time: 2018-09-27 09:37:17 UTC
+depends:
+  partition_Wisconsin_pH_001: a27601761f58e67e16337bf3749a4891
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9a1d7c9c450279fcdf159764e763dd6d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

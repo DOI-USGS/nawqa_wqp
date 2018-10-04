@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Michigan_DO_001.rds.ind
+type: file
+hash: a6455f3e91b1478acfcf7f2cede9fd36
+time: 2018-09-27 03:45:55 UTC
+depends:
+  partition_Michigan_DO_001: 79ffaa9cdc24303ff2cc0571a1f51cab
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 7e30f0c52d57db97b3e1b5c278dd2cd8
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

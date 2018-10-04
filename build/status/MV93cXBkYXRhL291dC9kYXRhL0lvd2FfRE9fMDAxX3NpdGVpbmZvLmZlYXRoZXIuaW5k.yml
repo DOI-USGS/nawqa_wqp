@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Iowa_DO_001_siteinfo.feather.ind
+type: file
+hash: 80154f2d9d9a643c2e8ae0afd409fc7c
+time: 2018-09-27 03:24:07 UTC
+depends:
+  1_wqpdata/tmp/data/Iowa_DO_001_siteinfo.feather.ind: 80154f2d9d9a643c2e8ae0afd409fc7c
+fixed: 13b5e554dbbd6f66677a812ccedab0e0
+code:
+  functions: {}
+

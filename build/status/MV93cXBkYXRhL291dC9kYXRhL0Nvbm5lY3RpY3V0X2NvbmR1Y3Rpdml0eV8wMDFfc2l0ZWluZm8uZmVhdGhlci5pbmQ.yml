@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Connecticut_conductivity_001_siteinfo.feather.ind
+type: file
+hash: 4e8bb314551a755de4fab91a98d58a79
+time: 2018-09-26 21:45:59 UTC
+depends:
+  1_wqpdata/tmp/data/Connecticut_conductivity_001_siteinfo.feather.ind: 4e8bb314551a755de4fab91a98d58a79
+fixed: 2174bf8358aab7f2f529979078511669
+code:
+  functions: {}
+

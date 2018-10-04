@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_Mexico_pH_001.ind
+type: file
+hash: b6da89f1894fc8b1def8123caf903bec
+time: 2018-09-27 08:56:43 UTC
+depends:
+  1_wqpdata/out/data/New_Mexico_pH_001.feather.ind: e7a90444770886e821b5e1284ba560ac
+  1_wqpdata/out/data/New_Mexico_pH_001_siteinfo.feather.ind: d626c55692970cd6ada7db0796644d30
+fixed: d034e524ba6fbc75dfea2778675e1666
+code:
+  functions: {}
+

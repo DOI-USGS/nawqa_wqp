@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Dakota_DO_001_siteinfo.feather.ind
+type: file
+hash: e975981a79558689d4426d01045fcf81
+time: 2018-09-27 04:24:13 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 0356e4c72fa5dddcfde2e3d4a361096a
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

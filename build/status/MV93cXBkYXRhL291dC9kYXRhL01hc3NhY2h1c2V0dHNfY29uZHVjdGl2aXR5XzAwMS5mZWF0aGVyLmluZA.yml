@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Massachusetts_conductivity_001.feather.ind
+type: file
+hash: 1169c3ee7587b3e17914e054955c6552
+time: 2018-09-26 22:27:58 UTC
+depends:
+  1_wqpdata/tmp/data/Massachusetts_conductivity_001.feather.ind: 1169c3ee7587b3e17914e054955c6552
+fixed: 63470b20f43b881a38f82038f1988214
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/South_Carolina_conductivity_001.ind
+type: file
+hash: 2a8c57d6d65e1d6f92a66d7fd6c49b1e
+time: 2018-09-26 23:08:02 UTC
+depends:
+  1_wqpdata/out/data/South_Carolina_conductivity_001.feather.ind: b49fe71dc5d8e07dcfb0dd0942f29bad
+  1_wqpdata/out/data/South_Carolina_conductivity_001_siteinfo.feather.ind: d653a19735d1929a3d19d0307f1d6d87
+fixed: 857ccf57cdd123cd9fd32e3e01d69998
+code:
+  functions: {}
+

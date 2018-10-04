@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Connecticut_pH_001.feather.ind
+type: file
+hash: fab808aaf180923cb4f2767d5c5c156c
+time: 2018-09-27 08:11:59 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: a68ddc543a0337b46c165ff3cc14aee5
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

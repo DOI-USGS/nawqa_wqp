@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Puerto_Rico_conductivity_001.feather.ind
+type: file
+hash: 4954b8cf55e2406cc7c114de1be50fe8
+time: 2018-09-26 23:04:18 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+fixed: 438aa66bf69aed33ff2dfa10a3ed26cf
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

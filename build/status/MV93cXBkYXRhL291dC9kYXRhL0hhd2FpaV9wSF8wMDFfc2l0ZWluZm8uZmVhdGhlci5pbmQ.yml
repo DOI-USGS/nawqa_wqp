@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Hawaii_pH_001_siteinfo.feather.ind
+type: file
+hash: 50c8890600d0a300d10567f71d16e338
+time: 2018-09-27 08:21:24 UTC
+depends:
+  1_wqpdata/tmp/data/Hawaii_pH_001_siteinfo.feather.ind: 50c8890600d0a300d10567f71d16e338
+fixed: 0488066837bd0bd14866596509610443
+code:
+  functions: {}
+

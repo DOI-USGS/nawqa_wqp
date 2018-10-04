@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Hawaii_conductivity_001_siteinfo.feather.ind
+type: file
+hash: 7efa20731a12f12109207d57e431c58e
+time: 2018-09-26 21:56:05 UTC
+depends:
+  1_wqpdata/tmp/data/Hawaii_conductivity_001_siteinfo.feather.ind: 7efa20731a12f12109207d57e431c58e
+fixed: 841600f0011a8016fe9db1a8a90b79e4
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arizona_pH_001.rds.ind
+type: file
+hash: a1c06b8be8d1fb8a38b71f319a30e14e
+time: 2018-09-27 08:03:47 UTC
+depends:
+  partition_Arizona_pH_001: f606b2b77508c2821023feae00090b44
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9596103473198315552aae262f718bd0
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

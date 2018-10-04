@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Arizona_conductivity_001.feather.ind
+type: file
+hash: efda673e5655f71e442caed9f1412d6e
+time: 2018-09-26 21:41:20 UTC
+depends:
+  1_wqpdata/tmp/data/Arizona_conductivity_001.feather.ind: efda673e5655f71e442caed9f1412d6e
+fixed: 2c13b997b81ddcaba0f5a6f071b6087d
+code:
+  functions: {}
+

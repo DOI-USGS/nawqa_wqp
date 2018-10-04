@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Michigan_DO_001.feather.ind
+type: file
+hash: 618a2689e0b03e901ceba1dfa18d35b4
+time: 2018-09-27 03:46:30 UTC
+depends:
+  1_wqpdata/tmp/data/Michigan_DO_001.feather.ind: 618a2689e0b03e901ceba1dfa18d35b4
+fixed: 7c811edf46faaae692065d16532ca753
+code:
+  functions: {}
+

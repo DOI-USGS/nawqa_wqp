@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oregon_DO_001.feather.ind
+type: file
+hash: 317b17d5573a4d6d143b4e89800420f2
+time: 2018-09-27 04:14:06 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 668dcb76d34c02a3bbfb89e5e3c43496
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

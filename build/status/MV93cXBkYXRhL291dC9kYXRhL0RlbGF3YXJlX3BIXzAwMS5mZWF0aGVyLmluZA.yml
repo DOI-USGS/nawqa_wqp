@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Delaware_pH_001.feather.ind
+type: file
+hash: 91ff5ddcd2480c89efd6a42196c1a2e3
+time: 2018-09-27 08:14:03 UTC
+depends:
+  1_wqpdata/tmp/data/Delaware_pH_001.feather.ind: 91ff5ddcd2480c89efd6a42196c1a2e3
+fixed: c4bee79eeb5593853ddaf538c0960d9b
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/District_of_Columbia_conductivity_001.feather.ind
+type: file
+hash: 43162caee9f0bbf0b7f97a2dbbd19814
+time: 2018-09-26 21:48:00 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+fixed: c062e8f1d77083105e5da2c1391f615e
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

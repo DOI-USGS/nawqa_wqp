@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wyoming_conductivity_001.rds.ind
+type: file
+hash: d86703a21eaf3cfb4ac5d4e36c458a77
+time: 2018-09-26 23:29:58 UTC
+depends:
+  partition_Wyoming_conductivity_001: d8bfc073bac00f9bba37b00208395687
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: fbfcc19e7419a319f09a81f1bcd84c6c
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

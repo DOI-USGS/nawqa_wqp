@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/West_Virginia_conductivity_001.ind
+type: file
+hash: f409c896e14ea5ebd19cb06eec3e2393
+time: 2018-09-26 23:26:32 UTC
+depends:
+  1_wqpdata/out/data/West_Virginia_conductivity_001.feather.ind: b714b1f32b24bd2124181f6ae13432a2
+  1_wqpdata/out/data/West_Virginia_conductivity_001_siteinfo.feather.ind: 42220e5d36db6fddbef8c5d56bfe9185
+fixed: 3850a64b3b4384f7edf5fd85e540a8de
+code:
+  functions: {}
+

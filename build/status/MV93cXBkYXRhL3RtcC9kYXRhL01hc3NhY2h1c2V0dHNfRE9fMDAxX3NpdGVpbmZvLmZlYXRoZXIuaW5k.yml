@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Massachusetts_DO_001_siteinfo.feather.ind
+type: file
+hash: 85ced46aa5bc7987436aa59809c742c8
+time: 2018-09-27 03:44:12 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: e645cc27ca3eeca309b7b2c19f197859
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Utah_conductivity_001.feather.ind
+type: file
+hash: b1ad4df228200b1509d6aa9036b76193
+time: 2018-09-26 23:16:35 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+fixed: b630783c01c9588e24c18a539a67f4da
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

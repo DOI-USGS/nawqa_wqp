@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/West_Virginia_pH_001.rds.ind
+type: file
+hash: 12dbf6bbc784bfbe70cbab4ca68f0aaa
+time: 2018-09-27 09:35:07 UTC
+depends:
+  partition_West_Virginia_pH_001: 9f27bf7998d077856f0cd8ae901fa646
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 2a15762f85d9eca7796df6fbee5649bc
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

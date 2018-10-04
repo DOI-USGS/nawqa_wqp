@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Delaware_conductivity_001.rds.ind
+type: file
+hash: 19baadb8b1271e0afa7e91f440f6ddc7
+time: 2018-09-26 21:46:32 UTC
+depends:
+  partition_Delaware_conductivity_001: 733078f0843c0e77648d8e603ba3dd28
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 633fb3729eb2b55c4692c5e7a4855a08
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Indiana_DO_001.rds.ind
+type: file
+hash: 9d0c651ad26aec84b48abf7da5433263
+time: 2018-09-27 03:21:02 UTC
+depends:
+  partition_Indiana_DO_001: 33f736261ef2a33ba9684c550c45daa9
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: fe83698ea1e1cbb0258ccf2eb2454372
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

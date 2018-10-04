@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Delaware_conductivity_001.ind
+type: file
+hash: 6007356dade739a1d3759723b51026d9
+time: 2018-09-26 21:47:27 UTC
+depends:
+  1_wqpdata/out/data/Delaware_conductivity_001.feather.ind: 46003c865a1cf7dfacd6cd9482277e5f
+  1_wqpdata/out/data/Delaware_conductivity_001_siteinfo.feather.ind: 03ca6f0bb64df9ab31fe2d643baa3595
+fixed: df91910aca8308a00517860947250e2b
+code:
+  functions: {}
+

@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Missouri_DO_001_siteinfo.feather.ind
+type: file
+hash: 36abc3d00771332b7ec66ecf287f68be
+time: 2018-09-27 03:51:10 UTC
+depends:
+  1_wqpdata/tmp/data/Missouri_DO_001_siteinfo.feather.ind: 36abc3d00771332b7ec66ecf287f68be
+fixed: 2b05d1c36140b4e14cdbaf1bc7d04c61
+code:
+  functions: {}
+

@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/District_of_Columbia_pH_001_siteinfo.feather.ind
+type: file
+hash: e98eafc139c1b91d5afa85ac8ea2d868
+time: 2018-09-27 08:16:04 UTC
+depends:
+  1_wqpdata/tmp/data/District_of_Columbia_pH_001_siteinfo.feather.ind: e98eafc139c1b91d5afa85ac8ea2d868
+fixed: 375b67869cdf6a228f3ad4a284bb0db2
+code:
+  functions: {}
+

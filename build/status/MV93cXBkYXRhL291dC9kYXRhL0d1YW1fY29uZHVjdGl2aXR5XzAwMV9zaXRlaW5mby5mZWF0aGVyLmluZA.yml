@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Guam_conductivity_001_siteinfo.feather.ind
+type: file
+hash: 721ed9e46f35c1f9e50999c0d636ad9c
+time: 2018-09-26 21:54:45 UTC
+depends:
+  1_wqpdata/tmp/data/Guam_conductivity_001_siteinfo.feather.ind: 721ed9e46f35c1f9e50999c0d636ad9c
+fixed: 71af7fa74f13d8a38abc0a90a6378fc4
+code:
+  functions: {}
+

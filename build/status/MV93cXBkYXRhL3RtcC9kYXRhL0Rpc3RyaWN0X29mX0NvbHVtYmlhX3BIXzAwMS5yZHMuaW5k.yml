@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/District_of_Columbia_pH_001.rds.ind
+type: file
+hash: f061946fa76936af7c98a644fc438a21
+time: 2018-09-27 08:15:06 UTC
+depends:
+  partition_District_of_Columbia_pH_001: bcc894d7af447d99f3d2a23e68de8ecf
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 63e4359f5fdf5eb049315ae31e4369cc
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

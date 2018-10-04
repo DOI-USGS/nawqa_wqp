@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Kentucky_DO_001.feather.ind
+type: file
+hash: 9e2b625a3c349206cd3f9cffb8729471
+time: 2018-09-27 03:27:18 UTC
+depends:
+  1_wqpdata/tmp/data/Kentucky_DO_001.feather.ind: 9e2b625a3c349206cd3f9cffb8729471
+fixed: 94936999edce13d7568915973dd1dc8a
+code:
+  functions: {}
+

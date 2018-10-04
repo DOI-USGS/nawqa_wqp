@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Iowa_conductivity_001_siteinfo.feather.ind
+type: file
+hash: 66b2b39a143d68349e4d8fedf9c024bc
+time: 2018-09-26 22:02:47 UTC
+depends:
+  1_wqpdata/tmp/data/Iowa_conductivity_001_siteinfo.feather.ind: 66b2b39a143d68349e4d8fedf9c024bc
+fixed: b8fcbe9ef04fe3bdcc1489d0c0f7a069
+code:
+  functions: {}
+

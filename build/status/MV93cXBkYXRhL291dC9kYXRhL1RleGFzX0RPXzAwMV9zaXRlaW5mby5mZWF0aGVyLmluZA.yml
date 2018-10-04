@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Texas_DO_001_siteinfo.feather.ind
+type: file
+hash: 320d6b3e3dbc18a8aba6eb6339152fa3
+time: 2018-09-27 04:29:27 UTC
+depends:
+  1_wqpdata/tmp/data/Texas_DO_001_siteinfo.feather.ind: 320d6b3e3dbc18a8aba6eb6339152fa3
+fixed: 4affd3fee43090bffe268ca37fceb158
+code:
+  functions: {}
+

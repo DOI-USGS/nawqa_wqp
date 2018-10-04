@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Washington_DO_001.feather.ind
+type: file
+hash: 7ea8aa86fe4c4d5cd980adaabb7f704b
+time: 2018-09-27 04:36:17 UTC
+depends:
+  1_wqpdata/tmp/data/Washington_DO_001.feather.ind: 7ea8aa86fe4c4d5cd980adaabb7f704b
+fixed: d5121c20729456577c1553d08771e05f
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Connecticut_pH_001.rds.ind
+type: file
+hash: 464088cb40c350747c82d3340b0bbcc9
+time: 2018-09-27 08:11:58 UTC
+depends:
+  partition_Connecticut_pH_001: a6f8b95a105175e398bf6c40ba4a251b
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 75e0a907abd239bc4df93f9367cd1a8b
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

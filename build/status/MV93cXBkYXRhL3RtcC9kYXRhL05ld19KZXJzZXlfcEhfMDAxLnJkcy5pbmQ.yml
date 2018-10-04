@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Jersey_pH_001.rds.ind
+type: file
+hash: 5bb0c2d9a58527bed1c6265a0b86fe63
+time: 2018-09-27 08:53:23 UTC
+depends:
+  partition_New_Jersey_pH_001: 077ce510286abf4294e89d222d91b398
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 7790a9c389e94b541b23f5891aa97bc9
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

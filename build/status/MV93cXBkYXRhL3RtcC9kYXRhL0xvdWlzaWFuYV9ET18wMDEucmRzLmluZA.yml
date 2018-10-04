@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Louisiana_DO_001.rds.ind
+type: file
+hash: 42b74975a4db3409c351187ad76d6600
+time: 2018-09-27 03:28:21 UTC
+depends:
+  partition_Louisiana_DO_001: df929f21d33cef56d7c8a29b1f739a41
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 39ec8fbe2745a53302cb01e37b2a3f81
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

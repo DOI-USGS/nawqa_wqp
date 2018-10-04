@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Indiana_pH_001.rds.ind
+type: file
+hash: 7cebbe8d753087753e729de06afbd41d
+time: 2018-09-27 08:25:37 UTC
+depends:
+  partition_Indiana_pH_001: ffa706dff7a4b87545fc7a6a6e5d3524
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: ba669ec0455037dd86e580a0bc61fc88
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

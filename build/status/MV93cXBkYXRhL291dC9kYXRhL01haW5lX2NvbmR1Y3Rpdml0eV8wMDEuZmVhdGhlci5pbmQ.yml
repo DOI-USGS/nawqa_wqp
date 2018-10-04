@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Maine_conductivity_001.feather.ind
+type: file
+hash: 1dd172db6b11681fd4f391ecdf6f0525
+time: 2018-09-26 22:08:42 UTC
+depends:
+  1_wqpdata/tmp/data/Maine_conductivity_001.feather.ind: 1dd172db6b11681fd4f391ecdf6f0525
+fixed: e658432fc0e932e29e9188d1864cd84b
+code:
+  functions: {}
+

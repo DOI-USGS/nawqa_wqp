@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nevada_pH_001.rds.ind
+type: file
+hash: 1b372e76d9037628512bef7972c707db
+time: 2018-09-27 08:49:26 UTC
+depends:
+  partition_Nevada_pH_001: ff2d23197af5c6123db7c4dc1ec79aad
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: dab05f0e97a8e872dd650f0e992d1ecf
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

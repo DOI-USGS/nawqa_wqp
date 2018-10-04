@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Maryland_DO_003.ind
+type: file
+hash: 117b9e8aec40b93651651c92c59a11a3
+time: 2018-09-27 03:43:35 UTC
+depends:
+  1_wqpdata/out/data/Maryland_DO_003.feather.ind: b4932351bf7b34300dc9fab4a71c664c
+  1_wqpdata/out/data/Maryland_DO_003_siteinfo.feather.ind: d3e82a70bb4d93b869007fd0b40c1441
+fixed: 304354242b125460ed71624ed0761f83
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Jersey_DO_001.feather.ind
+type: file
+hash: f290870fea9caebe4f81d67611ed7a7b
+time: 2018-09-27 03:59:29 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: 3db733cc959525b91623d4e00f518014
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

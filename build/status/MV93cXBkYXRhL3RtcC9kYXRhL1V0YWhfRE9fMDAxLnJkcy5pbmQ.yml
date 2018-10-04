@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Utah_DO_001.rds.ind
+type: file
+hash: 1d1be75c86eda0de6e18619697d73c06
+time: 2018-09-27 04:30:18 UTC
+depends:
+  partition_Utah_DO_001: 2239f0a411efcc79a767123223741325
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: ff78692eeb6eb5b13f917177ee2167a5
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

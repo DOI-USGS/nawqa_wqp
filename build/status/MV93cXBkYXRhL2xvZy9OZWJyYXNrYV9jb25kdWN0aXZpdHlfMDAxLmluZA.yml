@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Nebraska_conductivity_001.ind
+type: file
+hash: 3e67250c6c6d709cee5987480132a311
+time: 2018-09-26 22:41:50 UTC
+depends:
+  1_wqpdata/out/data/Nebraska_conductivity_001.feather.ind: 37e9c7c336c978f8d522c0b05e83de1a
+  1_wqpdata/out/data/Nebraska_conductivity_001_siteinfo.feather.ind: 4b2f6d5a0b5fd6923e0ac18ecbb31107
+fixed: 712ef57dfdc47bd8bd919d53a35d93f6
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Hampshire_conductivity_001.rds.ind
+type: file
+hash: 7451a784bf7bced020e696bb33a65538
+time: 2018-09-26 22:44:10 UTC
+depends:
+  partition_New_Hampshire_conductivity_001: 82690eb4e989bb28ca1ee0abb5a1c2fb
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 1a726780e886f111564c45369c625475
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

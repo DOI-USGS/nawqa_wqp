@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nevada_DO_001.feather.ind
+type: file
+hash: 1a06e7f6187b254a67d0367f80288cf7
+time: 2018-09-27 03:55:23 UTC
+depends:
+  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+fixed: c352ea1c5311a9bf9400bf3c8c7e5942
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

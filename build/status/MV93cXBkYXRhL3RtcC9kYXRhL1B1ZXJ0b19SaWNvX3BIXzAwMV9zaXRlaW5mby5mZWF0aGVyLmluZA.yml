@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Puerto_Rico_pH_001_siteinfo.feather.ind
+type: file
+hash: ee49031b5167a06996f0d718d7a6c449
+time: 2018-09-27 09:12:58 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: b97fc7b8bc174e2a2ade5704f9962311
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

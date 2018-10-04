@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Dakota_DO_001.rds.ind
+type: file
+hash: 810f6478d2d832825fd254b8e87d65a1
+time: 2018-09-27 04:06:50 UTC
+depends:
+  partition_North_Dakota_DO_001: d32761c06ae7be43634fc3aaa089ffe6
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c3b6ee5f815ea35f3ee31243daf0fe36
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

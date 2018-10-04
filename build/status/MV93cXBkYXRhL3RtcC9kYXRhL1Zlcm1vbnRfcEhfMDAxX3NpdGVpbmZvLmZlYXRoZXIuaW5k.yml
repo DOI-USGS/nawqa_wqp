@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Vermont_pH_001_siteinfo.feather.ind
+type: file
+hash: ade1b4b616ea3c069918e38ea6aabe16
+time: 2018-09-27 09:28:36 UTC
+depends:
+  tasks_1_wqp_pH.yml: 50f460b2a72164585f84b6ce3a292f99
+fixed: e2a395ba657af25d8016ded7066e8159
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Arkansas_DO_001.ind
+type: file
+hash: a112461e3ad1f4cb77e2c5e6ea3d79b6
+time: 2018-09-27 03:00:37 UTC
+depends:
+  1_wqpdata/out/data/Arkansas_DO_001.feather.ind: c1b20f05cc49be21a8bb5caabd10606e
+  1_wqpdata/out/data/Arkansas_DO_001_siteinfo.feather.ind: 905b1c7054a5906d7cf2d45e96bac96a
+fixed: 79f9d71cd9604e37e2417ba3bf52d49a
+code:
+  functions: {}
+
