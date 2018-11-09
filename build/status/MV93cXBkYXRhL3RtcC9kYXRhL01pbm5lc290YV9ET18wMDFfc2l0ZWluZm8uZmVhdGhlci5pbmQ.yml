@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Minnesota_DO_001_siteinfo.feather.ind
+type: file
+hash: c04f7228e45f9ebfb02308e597a9e262
+time: 2018-11-05 22:49:17 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: a9f4b9b36299d8c0b55aa6370b16239b
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

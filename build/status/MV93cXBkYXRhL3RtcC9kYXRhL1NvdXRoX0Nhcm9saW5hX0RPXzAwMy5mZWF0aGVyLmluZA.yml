@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Carolina_DO_003.feather.ind
+type: file
+hash: db088a8aed209e45527760bc7bc8f94d
+time: 2018-11-06 01:50:56 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: 5dec6b5a64bc777f80b786d638261796
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Montana_conductivity_001_siteinfo.feather.ind
 type: file
-hash: 86c7e74531df41be669fba8ceca845a9
-time: 2018-09-26 22:39:03 UTC
+hash: 7eb77319742a1dbc961c1851bb189c45
+time: 2018-11-08 18:49:50 UTC
 depends:
-  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
 fixed: 5154bb31e4d0d0cf7a769afc3af495ed
 code:
   functions:

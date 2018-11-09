@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oregon_pH_003.rds.ind
+type: file
+hash: a1b156b2165291c85e7db766e061a3a8
+time: 2018-10-12 05:30:22 UTC
+depends:
+  partition_Oregon_pH_003: 4ec7408e0ae00e572129d9c7cad73aeb
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5d6efb8ac7e934628e6cfb976ffb9e64
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

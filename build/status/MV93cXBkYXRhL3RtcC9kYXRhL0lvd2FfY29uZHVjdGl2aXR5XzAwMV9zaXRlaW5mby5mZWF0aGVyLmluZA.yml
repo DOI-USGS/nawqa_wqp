@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Iowa_conductivity_001_siteinfo.feather.ind
 type: file
-hash: 66b2b39a143d68349e4d8fedf9c024bc
-time: 2018-09-26 22:01:55 UTC
+hash: 763fe60fd99c84d260d2401fbc702935
+time: 2018-11-08 23:20:55 UTC
 depends:
-  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
 fixed: 75cd125957919e5a77244de06362b92e
 code:
   functions:

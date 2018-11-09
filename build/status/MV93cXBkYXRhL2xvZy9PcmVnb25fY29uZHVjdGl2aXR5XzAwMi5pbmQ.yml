@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Oregon_conductivity_002.ind
+type: file
+hash: c5593e7835baa82a0e752126a5ce2942
+time: 2018-11-09 01:32:43 UTC
+depends:
+  1_wqpdata/out/data/Oregon_conductivity_002.feather.ind: 86ce776f73aab587cc9a41cee8ad6847
+  1_wqpdata/out/data/Oregon_conductivity_002_siteinfo.feather.ind: 569b6654f41e8efd50933632b55d06e9
+fixed: d518cb1e3b93523f4e9c250bd97aff09
+code:
+  functions: {}
+

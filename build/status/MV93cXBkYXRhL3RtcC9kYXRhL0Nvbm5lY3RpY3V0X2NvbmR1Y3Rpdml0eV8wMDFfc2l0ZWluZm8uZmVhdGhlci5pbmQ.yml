@@ -2,9 +2,9 @@ version: 0.3.0
 name: 1_wqpdata/tmp/data/Connecticut_conductivity_001_siteinfo.feather.ind
 type: file
 hash: 4e8bb314551a755de4fab91a98d58a79
-time: 2018-09-26 21:45:10 UTC
+time: 2018-11-07 22:43:14 UTC
 depends:
-  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
 fixed: 4609ccdade56cc6edca12dd16720624c
 code:
   functions:

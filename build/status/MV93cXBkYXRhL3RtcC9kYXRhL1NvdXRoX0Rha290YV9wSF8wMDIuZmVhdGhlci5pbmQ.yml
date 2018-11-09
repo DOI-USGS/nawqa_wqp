@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Dakota_pH_002.feather.ind
+type: file
+hash: f29dbd04fdb568462a6c150d6f276bbc
+time: 2018-10-12 06:10:35 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: fcea26e33859d9c9dbaa58b73b54468e
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

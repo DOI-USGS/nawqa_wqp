@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/log/nitrogen.ind
+type: file
+hash: e09d6c83205d87cb0081b3f2dfd8b5e1
+time: 2018-10-11 23:50:52 UTC
+depends:
+  1_wqpdata/tmp/data/partition_nitrogen.rds.ind: 9ddcb715ff1ab2793dfca36854b2c4b1
+fixed: e3dd9bc71cdce5867da947665e924e16
+code:
+  functions: {}
+

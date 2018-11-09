@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Indiana_DO_003_siteinfo.feather.ind
+type: file
+hash: 502352df81daafa62212de6026dcf063
+time: 2018-11-05 21:20:37 UTC
+depends:
+  1_wqpdata/tmp/data/Indiana_DO_003_siteinfo.feather.ind: 502352df81daafa62212de6026dcf063
+fixed: 5b97e208a1b13abcfeafdb6c2d3fdfa4
+code:
+  functions: {}
+

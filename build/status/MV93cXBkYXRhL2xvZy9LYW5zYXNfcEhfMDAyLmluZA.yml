@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Kansas_pH_002.ind
+type: file
+hash: 797f76cee0799f24f0664e55b99a0a3e
+time: 2018-10-12 03:16:59 UTC
+depends:
+  1_wqpdata/out/data/Kansas_pH_002.feather.ind: 7f8285a22b9e5c30f9af7ddd992557fd
+  1_wqpdata/out/data/Kansas_pH_002_siteinfo.feather.ind: e966c5f75d32452ee29f9ca52b8623d4
+fixed: 3bc47c6815850b5f9de6dde5ef85732d
+code:
+  functions: {}
+

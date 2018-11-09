@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Florida_DO_012.ind
+type: file
+hash: ddb0e8ae7741703d5b195ff74e01480d
+time: 2018-11-05 20:41:10 UTC
+depends:
+  1_wqpdata/out/data/Florida_DO_012.feather.ind: eac18b79b5c35df90d40f115f57487b1
+  1_wqpdata/out/data/Florida_DO_012_siteinfo.feather.ind: 990a26731807e7287bd5d3ea7ed0c4ca
+fixed: c5100deea61aa9226c10e0e309de35fa
+code:
+  functions: {}
+

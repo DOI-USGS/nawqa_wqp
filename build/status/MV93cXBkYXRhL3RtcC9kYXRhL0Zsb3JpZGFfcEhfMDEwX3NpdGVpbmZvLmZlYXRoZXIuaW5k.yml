@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Florida_pH_010_siteinfo.feather.ind
+type: file
+hash: ca21d795760eaf2f2b1e5bd772d34336
+time: 2018-11-07 05:46:22 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: f98e87e471a99a06362a67f2c5f5550e
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Carolina_DO_003.feather.ind
+type: file
+hash: e56c65d85416b9d6b9b5a0c54ae3f06e
+time: 2018-11-06 00:07:57 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: 8d95c95a0082a3c4677e7d4df12be14e
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

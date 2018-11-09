@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alaska_conductivity_002.rds.ind
+type: file
+hash: 6a5f9f12f17c7d763a99ea757a1bbfe4
+time: 2018-11-07 21:20:23 UTC
+depends:
+  partition_Alaska_conductivity_002: f0739264542786c738efdc248ac904bd
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: cd0b7611632a379e2364f873a825ae53
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

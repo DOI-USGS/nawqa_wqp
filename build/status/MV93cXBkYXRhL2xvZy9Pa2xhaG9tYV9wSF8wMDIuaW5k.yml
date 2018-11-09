@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Oklahoma_pH_002.ind
+type: file
+hash: 5baec65982dfed8f666d5b238195c99f
+time: 2018-11-07 17:12:12 UTC
+depends:
+  1_wqpdata/out/data/Oklahoma_pH_002.feather.ind: 4c9075c2152b8435dd557b0b85350282
+  1_wqpdata/out/data/Oklahoma_pH_002_siteinfo.feather.ind: b9cc3c99b0fbb2036a7119ded2f7a956
+fixed: 8c16fca67d50ad4420d368dd9428900a
+code:
+  functions: {}
+

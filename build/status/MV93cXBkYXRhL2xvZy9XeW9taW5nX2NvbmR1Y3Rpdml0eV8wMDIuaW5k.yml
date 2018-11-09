@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Wyoming_conductivity_002.ind
+type: file
+hash: 24976c5dbb7b84d6b95786e7772378c1
+time: 2018-11-09 05:25:28 UTC
+depends:
+  1_wqpdata/out/data/Wyoming_conductivity_002.feather.ind: 135cd4d05b58b03e114d07ee9e1f6ea2
+  1_wqpdata/out/data/Wyoming_conductivity_002_siteinfo.feather.ind: 77e11ecb9e871c2523609105b3059d01
+fixed: 235c47aca9db6bc50ff65b567a462432
+code:
+  functions: {}
+

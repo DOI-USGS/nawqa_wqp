@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Montana_conductivity_002.rds.ind
+type: file
+hash: abca001a2d189ca90cba7428d652d34e
+time: 2018-11-08 18:53:54 UTC
+depends:
+  partition_Montana_conductivity_002: 37a1c8b9b1d331823cedbc7aa80aec32
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 225cc1040acec5217a255ac8c0d8a6d4
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

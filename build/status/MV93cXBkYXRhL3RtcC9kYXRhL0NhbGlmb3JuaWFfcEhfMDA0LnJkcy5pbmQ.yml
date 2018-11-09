@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/California_pH_004.rds.ind
+type: file
+hash: f94cb3336e4d1d10408af8ae16647f81
+time: 2018-10-12 01:53:41 UTC
+depends:
+  partition_California_pH_004: b8dc41ac2a8d49cd7fc9e90ce59759e8
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 8739865d0699e220625b8de5c06e9453
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

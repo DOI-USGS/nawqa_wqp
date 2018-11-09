@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/New_Hampshire_DO_002_siteinfo.feather.ind
+type: file
+hash: 5d01bbcd7745cf2ac472343eac4ba294
+time: 2018-11-05 23:33:58 UTC
+depends:
+  1_wqpdata/tmp/data/New_Hampshire_DO_002_siteinfo.feather.ind: 5d01bbcd7745cf2ac472343eac4ba294
+fixed: 974461ebde0ca1732cba01a3c818ff40
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maryland_pH_013.rds.ind
+type: file
+hash: 85e2081546e2effd50219fff8f5f65cc
+time: 2018-10-12 04:10:02 UTC
+depends:
+  partition_Maryland_pH_013: 223a796546a21c78fcc573da7f88ed7c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5fb5900c23492364e7c38e590d893f4c
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

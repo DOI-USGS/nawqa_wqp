@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/California_conductivity_003.feather.ind
+type: file
+hash: 0a4373124f436660ad2e5807e970878f
+time: 2018-11-07 22:03:11 UTC
+depends:
+  1_wqpdata/tmp/data/California_conductivity_003.feather.ind: 0a4373124f436660ad2e5807e970878f
+fixed: 5ebea0eccdd674522298b688ff5eaeac
+code:
+  functions: {}
+

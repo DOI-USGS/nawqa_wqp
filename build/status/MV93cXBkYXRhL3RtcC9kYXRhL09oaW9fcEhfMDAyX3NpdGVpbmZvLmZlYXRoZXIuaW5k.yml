@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Ohio_pH_002_siteinfo.feather.ind
+type: file
+hash: 88af4ce8c7155d132060183c88461c66
+time: 2018-11-07 17:01:26 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 87b02192b8d64c380facff1fc4bd69b9
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

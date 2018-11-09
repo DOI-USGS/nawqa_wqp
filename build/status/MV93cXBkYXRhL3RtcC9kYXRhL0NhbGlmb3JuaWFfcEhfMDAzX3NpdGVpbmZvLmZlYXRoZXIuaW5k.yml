@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/California_pH_003_siteinfo.feather.ind
+type: file
+hash: 2e486d0bd6663da2c7bc2e6eaeac6a64
+time: 2018-10-12 01:50:59 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: c5e0030b10b0eb4d1d64c8258e6007a2
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

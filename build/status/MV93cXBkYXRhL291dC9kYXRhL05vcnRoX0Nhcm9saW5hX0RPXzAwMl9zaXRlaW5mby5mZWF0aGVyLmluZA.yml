@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/North_Carolina_DO_002_siteinfo.feather.ind
+type: file
+hash: ffa94e22e26bc564e8157ff3fbdf29ae
+time: 2018-11-06 00:03:15 UTC
+depends:
+  1_wqpdata/tmp/data/North_Carolina_DO_002_siteinfo.feather.ind: ffa94e22e26bc564e8157ff3fbdf29ae
+fixed: c9aee222be04c29404763b86aab8b663
+code:
+  functions: {}
+

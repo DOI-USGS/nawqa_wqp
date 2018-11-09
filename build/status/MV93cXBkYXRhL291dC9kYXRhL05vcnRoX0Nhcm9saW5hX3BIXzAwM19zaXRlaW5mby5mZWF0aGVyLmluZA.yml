@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/North_Carolina_pH_003_siteinfo.feather.ind
+type: file
+hash: c51e84f2ca8ada99b039985d1410cd48
+time: 2018-10-12 05:00:18 UTC
+depends:
+  1_wqpdata/tmp/data/North_Carolina_pH_003_siteinfo.feather.ind: c51e84f2ca8ada99b039985d1410cd48
+fixed: 7246c4ea5e7f022d078659078682e4af
+code:
+  functions: {}
+

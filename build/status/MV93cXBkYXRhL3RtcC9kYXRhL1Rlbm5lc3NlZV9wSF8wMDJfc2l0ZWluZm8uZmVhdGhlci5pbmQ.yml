@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Tennessee_pH_002_siteinfo.feather.ind
+type: file
+hash: 4718d6de08c42d2bf36a9604275d4283
+time: 2018-11-07 17:25:46 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 8a58afc8be9ea4dc0ec6358e2e38cb17
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Idaho_pH_002.rds.ind
+type: file
+hash: 017f84de18d347575a877afd49667644
+time: 2018-10-12 02:58:31 UTC
+depends:
+  partition_Idaho_pH_002: 14cfcd1b2784a227c0600c7ec2dd925d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 93e8438cbb6f1b1773a038c07b545b91
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

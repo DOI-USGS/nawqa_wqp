@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Washington_conductivity_002.feather.ind
+type: file
+hash: e6858dca1e5a4c8992faaba80c427cdd
+time: 2018-11-09 04:44:47 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 34db58178134a2e95b6dcc9325bff28f
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

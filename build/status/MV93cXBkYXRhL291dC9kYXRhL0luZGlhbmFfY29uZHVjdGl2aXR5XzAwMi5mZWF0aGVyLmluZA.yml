@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Indiana_conductivity_002.feather.ind
+type: file
+hash: dd14ebe7c3bad8c38fe34504e704a3fb
+time: 2018-11-08 15:37:36 UTC
+depends:
+  1_wqpdata/tmp/data/Indiana_conductivity_002.feather.ind: dd14ebe7c3bad8c38fe34504e704a3fb
+fixed: ea681ac6d1a67ffede2f2951c962df11
+code:
+  functions: {}
+

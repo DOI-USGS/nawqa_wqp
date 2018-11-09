@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Maryland_conductivity_001_siteinfo.feather.ind
 type: file
-hash: f739bea533da26e1317a3e8ee7071e14
-time: 2018-09-26 22:12:09 UTC
+hash: 852972852b1907ba61e93a42fcaea806
+time: 2018-11-08 16:31:26 UTC
 depends:
-  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
 fixed: b8c46ef297757f4639c30f79d2864828
 code:
   functions:

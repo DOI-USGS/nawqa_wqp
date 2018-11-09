@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Ohio_DO_002.rds.ind
+type: file
+hash: a95fdbe92cf7e495719572195c05048a
+time: 2018-11-06 00:54:01 UTC
+depends:
+  partition_Ohio_DO_002: b33bc3e1971426262d99e2df0aa8bf06
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: bd819a63460d623f64e472af3bbaae9d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

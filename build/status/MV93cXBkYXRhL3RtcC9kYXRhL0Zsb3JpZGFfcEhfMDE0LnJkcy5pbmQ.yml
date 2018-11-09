@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Florida_pH_014.rds.ind
+type: file
+hash: 55cadf3c16272a4068bdd977aea3beaa
+time: 2018-11-07 06:09:07 UTC
+depends:
+  partition_Florida_pH_014: 0101341ff5a66ee1cf4f7a5b58fc016a
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 30ede163e9bf0bfe5f32096cd863bcd3
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

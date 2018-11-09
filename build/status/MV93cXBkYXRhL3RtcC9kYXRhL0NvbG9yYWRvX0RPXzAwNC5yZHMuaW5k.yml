@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_DO_004.rds.ind
+type: file
+hash: fe0561c72ac703def744f4d46126a182
+time: 2018-10-12 14:49:24 UTC
+depends:
+  partition_Colorado_DO_004: f9f231ef624943967a98a3765bb18755
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 8b219b5f037f323a46ba1fa2a5b8a252
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

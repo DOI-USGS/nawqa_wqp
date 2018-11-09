@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Michigan_conductivity_001.rds.ind
 type: file
-hash: d0e0af82a789fb9d9578a7fe18231b80
-time: 2018-09-26 22:29:02 UTC
+hash: f0f05f2201badacec0e3dee7b31fd3da
+time: 2018-11-08 23:37:28 UTC
 depends:
-  partition_Michigan_conductivity_001: 64f68becc7e8e13f4954623c9cfcbc69
+  partition_Michigan_conductivity_001: 3c51ec061d414677eb5cc0465eb72d7f
   wq_dates: bee604e33ba2c2f842c7d265ff951c9b
 fixed: 89abde292051dc921eb2919c5733a332
 code:

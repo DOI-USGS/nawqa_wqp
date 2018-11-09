@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Washington_conductivity_003.rds.ind
+type: file
+hash: 79367460dfa543c15c7260706870d4ea
+time: 2018-11-09 04:51:12 UTC
+depends:
+  partition_Washington_conductivity_003: c5e8279231a1d62590c764fded7d97c0
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 641338d3b69f0e2f3dfce6c7ddc83143
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

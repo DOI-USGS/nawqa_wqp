@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Utah_DO_003.feather.ind
+type: file
+hash: 547d6551e5776305efd536e94265757d
+time: 2018-11-06 03:14:13 UTC
+depends:
+  1_wqpdata/tmp/data/Utah_DO_003.feather.ind: 547d6551e5776305efd536e94265757d
+fixed: 7cebbbc0c1d70a80d78e0fd8dce3a398
+code:
+  functions: {}
+

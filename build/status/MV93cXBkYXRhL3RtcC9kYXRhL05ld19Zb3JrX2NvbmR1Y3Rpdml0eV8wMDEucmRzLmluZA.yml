@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/New_York_conductivity_001.rds.ind
 type: file
-hash: 6b13046117b1a3e6d8d4d3119a7d059c
-time: 2018-09-26 22:50:23 UTC
+hash: f2a7c915eb9d78cd1bfb6e1f6c8799f9
+time: 2018-11-09 00:11:45 UTC
 depends:
-  partition_New_York_conductivity_001: 9dc6d795568d91f84755bb27852144c8
+  partition_New_York_conductivity_001: e7dd7ee2b4a84581a3194dec32db7a34
   wq_dates: bee604e33ba2c2f842c7d265ff951c9b
 fixed: dd5aa96c3ca9b367e916148e0b55c2e0
 code:

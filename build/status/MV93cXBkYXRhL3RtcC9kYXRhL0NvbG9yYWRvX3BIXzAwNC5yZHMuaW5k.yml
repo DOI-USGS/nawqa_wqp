@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_pH_004.rds.ind
+type: file
+hash: 59981aa200898909921df8204b174db7
+time: 2018-11-07 04:30:14 UTC
+depends:
+  partition_Colorado_pH_004: 65141517483b36563448c5e749799a88
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0e81203ef5ca16996e8adb852c731aeb
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arkansas_DO_002_siteinfo.feather.ind
+type: file
+hash: 70eec97c2303c75a42d00b024c074cd9
+time: 2018-10-12 14:34:51 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: e730ea1b9aaa075346eb139b982e9f79
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

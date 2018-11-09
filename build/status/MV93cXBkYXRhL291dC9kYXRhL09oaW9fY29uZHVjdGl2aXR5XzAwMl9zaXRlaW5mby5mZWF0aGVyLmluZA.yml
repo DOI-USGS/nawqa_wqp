@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Ohio_conductivity_002_siteinfo.feather.ind
+type: file
+hash: 6e73877445f9a4f4a0be6c726da54260
+time: 2018-11-09 01:15:25 UTC
+depends:
+  1_wqpdata/tmp/data/Ohio_conductivity_002_siteinfo.feather.ind: 6e73877445f9a4f4a0be6c726da54260
+fixed: 84082013bf477e24f04c5e5b9e287f05
+code:
+  functions: {}
+

@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Rhode_Island_conductivity_001_siteinfo.feather.ind
 type: file
-hash: c6302fb581cc549ee4bd7635c8c4f6d0
-time: 2018-09-26 23:05:47 UTC
+hash: eb221e22078a322077aa2499b1122969
+time: 2018-11-09 02:10:10 UTC
 depends:
-  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
 fixed: 76ba80310e88bf23a0cec8e802c97e0e
 code:
   functions:

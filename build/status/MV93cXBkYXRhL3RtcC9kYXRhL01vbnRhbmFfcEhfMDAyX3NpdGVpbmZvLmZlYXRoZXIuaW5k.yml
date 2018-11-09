@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Montana_pH_002_siteinfo.feather.ind
+type: file
+hash: 9e6bcf3410789168c966c8bdd0de71cf
+time: 2018-11-07 16:25:42 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: f369a03c5f38bea71de91ad25fc69880
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

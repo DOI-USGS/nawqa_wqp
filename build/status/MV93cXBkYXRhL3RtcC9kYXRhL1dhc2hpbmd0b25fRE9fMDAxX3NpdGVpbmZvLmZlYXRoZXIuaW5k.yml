@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Washington_DO_001_siteinfo.feather.ind
 type: file
-hash: e6cd42a31d301fe04ff0f15a3e5281ee
-time: 2018-09-27 04:35:35 UTC
+hash: 12bf1b6f488fb5026ed925d881261bd1
+time: 2018-11-06 04:33:29 UTC
 depends:
-  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
 fixed: fde2b3f5cd0eb1ed0edf50b4d3fce046
 code:
   functions:

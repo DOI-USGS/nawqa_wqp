@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arkansas_conductivity_002_siteinfo.feather.ind
+type: file
+hash: 626653a718c3b6aa06ba3936b2f4a2e1
+time: 2018-11-07 21:50:46 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 84f6919fd2310077473e17ab55a6d643
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Carolina_DO_002.rds.ind
+type: file
+hash: 28afcd9217c0c70aaa4a9c30e9664d19
+time: 2018-11-06 01:44:07 UTC
+depends:
+  partition_South_Carolina_DO_002: fd014d9eb6ef3631c5ac1625f6d05bf4
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d1c3b503d8640feec252c2fb4d9a5f9f
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

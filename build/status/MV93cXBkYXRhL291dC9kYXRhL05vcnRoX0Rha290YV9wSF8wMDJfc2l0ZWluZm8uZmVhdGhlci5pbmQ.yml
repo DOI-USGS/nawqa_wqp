@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/North_Dakota_pH_002_siteinfo.feather.ind
+type: file
+hash: 64eab15b37e58d71fb60678aa2b16b03
+time: 2018-10-12 05:17:05 UTC
+depends:
+  1_wqpdata/tmp/data/North_Dakota_pH_002_siteinfo.feather.ind: 64eab15b37e58d71fb60678aa2b16b03
+fixed: 5176efcd248b7c884becb7df1dfae406
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maryland_pH_012.feather.ind
+type: file
+hash: 39cf63fc1586adc98e3207b38c2512a8
+time: 2018-10-12 04:06:55 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 276f399d6eca335e03f0f0a18f05b096
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Florida_DO_010.rds.ind
+type: file
+hash: 4c3c498e26ff3e2fb55870fb120e2b70
+time: 2018-11-05 20:31:51 UTC
+depends:
+  partition_Florida_DO_010: 6b6cfe4fc59712264f40a306af83fc96
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 8b996f72021775934240578786a63c17
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

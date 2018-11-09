@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arkansas_pH_003.rds.ind
+type: file
+hash: b57160f03e202880ff91cfe13ba0c526
+time: 2018-10-12 01:43:15 UTC
+depends:
+  partition_Arkansas_pH_003: 8eb2f3e03dc70b9de518841c31a96107
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: b0d9cad572d5cc0c8886289404d2a721
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

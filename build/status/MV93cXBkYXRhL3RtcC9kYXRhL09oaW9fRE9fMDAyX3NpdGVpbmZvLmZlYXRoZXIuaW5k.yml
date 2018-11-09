@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Ohio_DO_002_siteinfo.feather.ind
+type: file
+hash: f1ece10917204c003cae1a4871294aff
+time: 2018-11-06 00:54:20 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: fdcb41b2056f43847820a066e93107c1
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

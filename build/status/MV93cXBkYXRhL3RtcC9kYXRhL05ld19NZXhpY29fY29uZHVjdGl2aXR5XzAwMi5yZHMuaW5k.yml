@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Mexico_conductivity_002.rds.ind
+type: file
+hash: ac882e8ec7e874b8f92fc4e699d9f93d
+time: 2018-11-08 23:59:37 UTC
+depends:
+  partition_New_Mexico_conductivity_002: 0185c2c3b4fd2b359b962feea07d208d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 055fc4fbe367fab5d255dbc6525c7186
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Missouri_pH_002.rds.ind
+type: file
+hash: 41260bf0e36f26be26dd744b272c37da
+time: 2018-11-07 16:09:28 UTC
+depends:
+  partition_Missouri_pH_002: 4a163bab3599fefddd00c14bd2cf3740
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f5f84e6d1ce3916a279e315828cf5b7d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

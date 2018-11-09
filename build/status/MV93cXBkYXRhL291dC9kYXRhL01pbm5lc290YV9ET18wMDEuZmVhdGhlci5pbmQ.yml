@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Minnesota_DO_001.feather.ind
+type: file
+hash: 66aa39058da19235cd6326e0f37f2684
+time: 2018-11-05 22:50:20 UTC
+depends:
+  1_wqpdata/tmp/data/Minnesota_DO_001.feather.ind: 66aa39058da19235cd6326e0f37f2684
+fixed: d10b7a9d2875c34a17f71b5a18788369
+code:
+  functions: {}
+

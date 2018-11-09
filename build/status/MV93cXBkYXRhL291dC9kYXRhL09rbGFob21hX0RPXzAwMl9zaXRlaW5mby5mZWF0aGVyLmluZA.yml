@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Oklahoma_DO_002_siteinfo.feather.ind
+type: file
+hash: dc6f46c43bae0b42a8efe8500e12fe3c
+time: 2018-11-06 01:08:28 UTC
+depends:
+  1_wqpdata/tmp/data/Oklahoma_DO_002_siteinfo.feather.ind: dc6f46c43bae0b42a8efe8500e12fe3c
+fixed: e66e97eda63a646b7045f49fe5491e36
+code:
+  functions: {}
+

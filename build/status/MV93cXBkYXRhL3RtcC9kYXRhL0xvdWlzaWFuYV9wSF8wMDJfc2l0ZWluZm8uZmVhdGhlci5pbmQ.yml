@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Louisiana_pH_002_siteinfo.feather.ind
+type: file
+hash: d51fbe2b7dd2ac54009f2aa5eb476a42
+time: 2018-10-12 03:27:22 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 54e2022e84aa488732fa142dc39a52f2
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

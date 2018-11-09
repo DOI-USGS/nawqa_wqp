@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Idaho_pH_002_siteinfo.feather.ind
+type: file
+hash: 295887d6978e30b79ad4b4edbc6802c5
+time: 2018-10-12 02:58:55 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: dcd7e748e0108719fdd1cb325dd4b763
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

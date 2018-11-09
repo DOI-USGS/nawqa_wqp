@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Colorado_DO_003.feather.ind
+type: file
+hash: c3a94ef610e01568a8d3e42ed8949033
+time: 2018-11-05 19:53:14 UTC
+depends:
+  1_wqpdata/tmp/data/Colorado_DO_003.feather.ind: c3a94ef610e01568a8d3e42ed8949033
+fixed: 0d97279124c14d2563a44638b510de71
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oregon_DO_004.rds.ind
+type: file
+hash: 59d57d1242ce53bd72921a85cc7c9f8e
+time: 2018-11-06 01:25:43 UTC
+depends:
+  partition_Oregon_DO_004: 5bf623145ffb1937849078ee4bfc7acd
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5bae66f57348302ada0616bc4952f171
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

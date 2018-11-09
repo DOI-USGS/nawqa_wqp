@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/District_of_Columbia_conductivity_001.rds.ind
 type: file
-hash: 1f60b42ae8403b4429bd89db4242607d
-time: 2018-09-26 21:47:59 UTC
+hash: f17a9149213d3e9a57ee459d81b965db
+time: 2018-11-07 22:48:33 UTC
 depends:
-  partition_District_of_Columbia_conductivity_001: 7136803548cdd586d3defab16245b13e
+  partition_District_of_Columbia_conductivity_001: abdae6227462fe2e79831cbbffbca9c2
   wq_dates: bee604e33ba2c2f842c7d265ff951c9b
 fixed: 3957424abd6a7f7fa97c170963278890
 code:

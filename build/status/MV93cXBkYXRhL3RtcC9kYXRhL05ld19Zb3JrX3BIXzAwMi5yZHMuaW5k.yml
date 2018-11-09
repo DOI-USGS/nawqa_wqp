@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_York_pH_002.rds.ind
+type: file
+hash: 2174aee7b9f63b117cfbb061fc1f198a
+time: 2018-11-07 16:48:38 UTC
+depends:
+  partition_New_York_pH_002: 638bce23bb308747db99758ea382cb73
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 855606e4c8a1c39317eee02066301175
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

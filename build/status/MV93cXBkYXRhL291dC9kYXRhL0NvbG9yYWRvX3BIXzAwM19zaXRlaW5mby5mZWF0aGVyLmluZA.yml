@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Colorado_pH_003_siteinfo.feather.ind
+type: file
+hash: 3019f258b011cbcb780be3c41381b21c
+time: 2018-11-07 04:26:44 UTC
+depends:
+  1_wqpdata/tmp/data/Colorado_pH_003_siteinfo.feather.ind: 3019f258b011cbcb780be3c41381b21c
+fixed: 616f8c16ce2080bead1941dfa47d26d5
+code:
+  functions: {}
+

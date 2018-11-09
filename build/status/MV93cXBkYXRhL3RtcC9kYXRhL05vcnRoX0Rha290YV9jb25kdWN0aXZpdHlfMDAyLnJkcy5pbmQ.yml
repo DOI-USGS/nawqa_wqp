@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Dakota_conductivity_002.rds.ind
+type: file
+hash: 7ca1d179d15da99cf8590ceb717c121e
+time: 2018-11-09 01:01:37 UTC
+depends:
+  partition_North_Dakota_conductivity_002: c600e30d5918aedebb21df1ca0b4e722
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 02bb9007ddfa8bf589035fae60d0cae1
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

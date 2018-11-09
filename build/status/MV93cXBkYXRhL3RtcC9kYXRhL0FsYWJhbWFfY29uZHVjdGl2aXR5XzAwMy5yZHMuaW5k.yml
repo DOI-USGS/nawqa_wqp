@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alabama_conductivity_003.rds.ind
+type: file
+hash: d1a1bcbce59549d43e5d903f30020de6
+time: 2018-11-07 20:52:38 UTC
+depends:
+  partition_Alabama_conductivity_003: 1e64aecb1eedde7a1cc04387141cc7e7
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 71e9c1ed65a878b8ba7d801f290cec84
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Tennessee_DO_003_siteinfo.feather.ind
+type: file
+hash: 6acc1c3b3e3be017bec38897f0c54902
+time: 2018-11-06 02:53:46 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: 15f7333e2f65dfa797c142c9a572e822
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

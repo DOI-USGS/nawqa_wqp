@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alaska_DO_002.rds.ind
+type: file
+hash: 2be7ed59784d5b5a10b76935cf6bfb59
+time: 2018-11-05 19:47:20 UTC
+depends:
+  partition_Alaska_DO_002: c1cfff33e45b65cebe763c32bfc149e4
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: e512e6e0c9ada071d5920f378366b29a
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

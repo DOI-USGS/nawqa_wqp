@@ -1,8 +1,8 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/inventory_conductivity.feather.ind
 type: file
-hash: 1999b57f1e606a7769e2872cf82c6e97
-time: 2018-09-26 16:02:58 UTC
+hash: 8c942f66f8f68c0fcdbb6168133f22e0
+time: 2018-10-11 22:56:11 UTC
 depends:
   wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
   wqp_states: 0f8f4a33363213d2698e31f0ee1b1df0

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/South_Carolina_DO_002.ind
+type: file
+hash: 1456f51e100a0b5f8072631dfa7a888a
+time: 2018-11-06 01:46:26 UTC
+depends:
+  1_wqpdata/out/data/South_Carolina_DO_002.feather.ind: abaf150237646cbdc288badc238d05bd
+  1_wqpdata/out/data/South_Carolina_DO_002_siteinfo.feather.ind: b77ef150d826905195fb71bf5111741d
+fixed: a5ee53e611a8ebab5b5a906de0a2c47c
+code:
+  functions: {}
+

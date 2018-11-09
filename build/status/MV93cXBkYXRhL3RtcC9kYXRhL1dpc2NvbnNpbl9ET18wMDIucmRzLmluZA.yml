@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wisconsin_DO_002.rds.ind
+type: file
+hash: b826a5cbeaf89bfd80b350499d874274
+time: 2018-11-06 05:07:03 UTC
+depends:
+  partition_Wisconsin_DO_002: d9e25ed3a40b740cff5eb49dada5932d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c09db21906d87611c82b1be113b0a3a9
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

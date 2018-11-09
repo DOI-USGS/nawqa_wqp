@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Illinois_pH_002.feather.ind
+type: file
+hash: 0a638729584b6dbc6d53e6a210bf0d28
+time: 2018-10-12 03:04:23 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: a571d07404b1626121cd9b24b6988a77
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

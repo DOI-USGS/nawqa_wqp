@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/South_Dakota_conductivity_003_siteinfo.feather.ind
+type: file
+hash: 556a7d048a6a13bebad04b1bd1468b5c
+time: 2018-11-09 02:39:57 UTC
+depends:
+  1_wqpdata/tmp/data/South_Dakota_conductivity_003_siteinfo.feather.ind: 556a7d048a6a13bebad04b1bd1468b5c
+fixed: f2f751e228b85d3a66912bf6b6c253c9
+code:
+  functions: {}
+

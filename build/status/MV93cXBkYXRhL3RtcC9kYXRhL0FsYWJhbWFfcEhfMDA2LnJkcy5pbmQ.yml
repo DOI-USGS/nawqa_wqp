@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alabama_pH_006.rds.ind
+type: file
+hash: 91e69bbd752d6ab871c7b9f255aa0958
+time: 2018-10-12 01:27:39 UTC
+depends:
+  partition_Alabama_pH_006: c57097b19484547d34470964f92520dd
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 1646d471877affdd90c91d81be498b6c
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

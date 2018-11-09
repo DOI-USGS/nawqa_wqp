@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Missouri_pH_002_siteinfo.feather.ind
+type: file
+hash: 078b1184787aa60b38e16c0c6faf0eb3
+time: 2018-11-07 16:12:05 UTC
+depends:
+  1_wqpdata/tmp/data/Missouri_pH_002_siteinfo.feather.ind: 078b1184787aa60b38e16c0c6faf0eb3
+fixed: 56c8ea1484cfbb6d7213d670ab14137f
+code:
+  functions: {}
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Alaska_pH_002.ind
+type: file
+hash: 8129b6eaea4e971d07b3f4b05def3322
+time: 2018-11-07 04:10:45 UTC
+depends:
+  1_wqpdata/out/data/Alaska_pH_002.feather.ind: faab0e498289f390c2b4f416a161f8e8
+  1_wqpdata/out/data/Alaska_pH_002_siteinfo.feather.ind: 5d6984f573b748939b7b4148a9864576
+fixed: 852ab2498daa09838910f9fd07102b6e
+code:
+  functions: {}
+

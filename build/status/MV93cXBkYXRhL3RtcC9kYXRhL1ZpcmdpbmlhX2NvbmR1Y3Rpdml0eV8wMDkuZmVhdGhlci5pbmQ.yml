@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Virginia_conductivity_009.feather.ind
+type: file
+hash: 3eaddb144b2b96682b2a07942f469e6c
+time: 2018-11-09 04:10:59 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 122cbc6b123854a814854535d983db3d
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

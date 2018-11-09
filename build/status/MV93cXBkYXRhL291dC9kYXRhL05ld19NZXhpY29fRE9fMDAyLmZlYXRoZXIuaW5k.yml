@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/New_Mexico_DO_002.feather.ind
+type: file
+hash: 2258fa7dd309c378fcb86611eccc3314
+time: 2018-11-05 23:46:15 UTC
+depends:
+  1_wqpdata/tmp/data/New_Mexico_DO_002.feather.ind: 2258fa7dd309c378fcb86611eccc3314
+fixed: 5402dac9f950c40bca68d41ff3bfce93
+code:
+  functions: {}
+

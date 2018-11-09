@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Louisiana_conductivity_002.feather.ind
+type: file
+hash: 052ba37ac1092c5805d96f27949e8130
+time: 2018-11-08 16:26:21 UTC
+depends:
+  1_wqpdata/tmp/data/Louisiana_conductivity_002.feather.ind: 052ba37ac1092c5805d96f27949e8130
+fixed: 6a4c51cc0283cad126100af22a852f17
+code:
+  functions: {}
+

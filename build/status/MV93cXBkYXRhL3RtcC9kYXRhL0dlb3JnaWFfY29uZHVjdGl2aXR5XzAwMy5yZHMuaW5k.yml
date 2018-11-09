@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_conductivity_003.rds.ind
+type: file
+hash: e1273de03c5a699b1a415f2ed94018dd
+time: 2018-11-08 14:48:00 UTC
+depends:
+  partition_Georgia_conductivity_003: 5df096681cc7588951a7d6c228c9ae33
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 65d947f806a7edf0b23777a27b2c7678
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

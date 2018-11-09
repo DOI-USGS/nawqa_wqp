@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_pH_004.feather.ind
+type: file
+hash: c44a0eeb84f5cfbfa5f7fe8d2e4c9a06
+time: 2018-10-12 02:31:55 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 27b77b8bc3cec7e056ad2858da64085a
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

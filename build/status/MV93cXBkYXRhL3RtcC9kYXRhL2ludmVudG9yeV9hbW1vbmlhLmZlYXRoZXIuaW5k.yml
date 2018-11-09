@@ -1,0 +1,14 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/inventory_ammonia.feather.ind
+type: file
+hash: 7bdcedb0204f7de7d3f819c5768f45ec
+time: 2018-10-11 22:34:36 UTC
+depends:
+  wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
+  wqp_states: 0f8f4a33363213d2698e31f0ee1b1df0
+  wqp_codes_ammonia: 4337f3260438601d8cefc94824f825d4
+fixed: e7f5b1ca7a274d7796bb47a072391e34
+code:
+  functions:
+    inventory_wqp: acd761e18726d129aff119d3341da954
+

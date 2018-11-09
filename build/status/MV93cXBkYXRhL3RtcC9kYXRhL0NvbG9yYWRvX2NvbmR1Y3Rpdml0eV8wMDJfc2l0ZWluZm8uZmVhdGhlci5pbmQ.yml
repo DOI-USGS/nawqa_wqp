@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_conductivity_002_siteinfo.feather.ind
+type: file
+hash: 37d799b7d9ec0b264557e33997cac777
+time: 2018-11-07 22:25:30 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 601af1b75ad33f6590001a9e318a3760
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Florida_DO_013.feather.ind
+type: file
+hash: b1837d66131f44cc6fce947ea9ce7b30
+time: 2018-11-05 20:42:47 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: dc84acf1cb4327f4f7fc039d89f18843
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

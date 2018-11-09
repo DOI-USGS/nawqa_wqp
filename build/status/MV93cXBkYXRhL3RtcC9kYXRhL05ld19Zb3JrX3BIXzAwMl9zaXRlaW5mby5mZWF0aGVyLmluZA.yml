@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_York_pH_002_siteinfo.feather.ind
+type: file
+hash: fec3c0900b2ba14904bb58b78cdc83db
+time: 2018-11-07 16:49:09 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 3bbf54a0df1083a64629a5eb49b9b533
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

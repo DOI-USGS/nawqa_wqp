@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Louisiana_DO_002.feather.ind
+type: file
+hash: 7f8381b9664f48b83230b6ff4c730336
+time: 2018-11-05 21:32:59 UTC
+depends:
+  1_wqpdata/tmp/data/Louisiana_DO_002.feather.ind: 7f8381b9664f48b83230b6ff4c730336
+fixed: e63fde57619721a0f9efe0faccae1065
+code:
+  functions: {}
+

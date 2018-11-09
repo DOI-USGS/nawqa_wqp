@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Virginia_DO_002_siteinfo.feather.ind
+type: file
+hash: bd37d657f004da5793ff5e750c8a12fc
+time: 2018-11-06 03:26:42 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: 69a5f2b80feb887b88b7fe835772b9d3
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

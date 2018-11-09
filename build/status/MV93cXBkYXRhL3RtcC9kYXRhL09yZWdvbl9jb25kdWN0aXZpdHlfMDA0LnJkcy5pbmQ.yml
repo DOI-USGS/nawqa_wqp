@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oregon_conductivity_004.rds.ind
+type: file
+hash: a452c0de507c8ebcaf5649f0d2c8a826
+time: 2018-11-09 01:40:45 UTC
+depends:
+  partition_Oregon_conductivity_004: ae0c54c1e75d868182f5dc370bd8ba4c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: a104ce663103a049d812a121574c7cfc
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

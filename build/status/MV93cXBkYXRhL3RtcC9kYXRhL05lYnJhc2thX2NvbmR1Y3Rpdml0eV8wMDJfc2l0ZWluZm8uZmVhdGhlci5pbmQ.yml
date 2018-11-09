@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Nebraska_conductivity_002_siteinfo.feather.ind
+type: file
+hash: 3bde9755d11a41be24ec271d77c7349c
+time: 2018-11-08 19:14:28 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 4c24e129db647877f5ebbf5174d49d6f
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

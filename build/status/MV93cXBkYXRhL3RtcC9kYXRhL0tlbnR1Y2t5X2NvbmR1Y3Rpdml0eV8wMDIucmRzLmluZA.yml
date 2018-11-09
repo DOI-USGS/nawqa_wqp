@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kentucky_conductivity_002.rds.ind
+type: file
+hash: ce1a521e4db5d9962230c60df349c00e
+time: 2018-11-08 16:13:41 UTC
+depends:
+  partition_Kentucky_conductivity_002: a67009e15231e06728047564d822a90d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 1c19f3f2127cbced6bf6b3a9ba6ef881
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/California_pH_003.ind
+type: file
+hash: 8db976b2f251e89fe67343cfeae881ae
+time: 2018-10-12 01:52:23 UTC
+depends:
+  1_wqpdata/out/data/California_pH_003.feather.ind: 83de2c741220b854cb1964d5cffba1d7
+  1_wqpdata/out/data/California_pH_003_siteinfo.feather.ind: 2e486d0bd6663da2c7bc2e6eaeac6a64
+fixed: ba724b019f37a44c2ce6e90974fd402c
+code:
+  functions: {}
+

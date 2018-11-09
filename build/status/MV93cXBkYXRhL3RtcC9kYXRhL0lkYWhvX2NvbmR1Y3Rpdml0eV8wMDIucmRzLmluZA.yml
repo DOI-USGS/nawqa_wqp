@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Idaho_conductivity_002.rds.ind
+type: file
+hash: 5a775b76d94d0dec673bc4ecafe3301e
+time: 2018-11-08 15:12:18 UTC
+depends:
+  partition_Idaho_conductivity_002: dc76d406e2696f0124b83c3faba0c89e
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f840aceb0922983acdd0c26f0b497427
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

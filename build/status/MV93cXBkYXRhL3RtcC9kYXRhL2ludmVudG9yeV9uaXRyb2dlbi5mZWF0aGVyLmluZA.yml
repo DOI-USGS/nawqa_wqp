@@ -1,0 +1,14 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/inventory_nitrogen.feather.ind
+type: file
+hash: 6b3b5fb6dbc6965d4aea0a5a9c60d22a
+time: 2018-10-11 23:50:15 UTC
+depends:
+  wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
+  wqp_states: 0f8f4a33363213d2698e31f0ee1b1df0
+  wqp_codes_nitrogen: 0ea7bd1b2cadf0586d5e1cdeece90768
+fixed: f165e42b7c33cdba734af36aec4c941f
+code:
+  functions:
+    inventory_wqp: acd761e18726d129aff119d3341da954
+

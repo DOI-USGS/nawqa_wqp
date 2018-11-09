@@ -1,0 +1,15 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/partition_ammonia.rds.ind
+type: file
+hash: 8b8e2956bf37aab7696b2e72fec55e8e
+time: 2018-10-11 22:35:10 UTC
+depends:
+  1_wqpdata/tmp/data/inventory_ammonia.feather.ind: 7bdcedb0204f7de7d3f819c5768f45ec
+  wqp_pull: e58432c4695fa9261d96c3968ef57f53
+  wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
+  wqp_codes: a26b59b3813847e316bac34df3d47d18
+fixed: 6faa50592b3c0c94122c64c144e5c91e
+code:
+  functions:
+    partition_inventory: ca480915965142b1c3f7d32ae2f0b4f3
+

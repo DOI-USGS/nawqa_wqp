@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Florida_conductivity_014_siteinfo.feather.ind
+type: file
+hash: d5b3ba88614cceaee4cde1564da225e5
+time: 2018-11-08 14:22:15 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: a914720e8dae458b5d10091bd9cc7f6e
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

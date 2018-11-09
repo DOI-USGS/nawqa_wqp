@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Maryland_pH_009_siteinfo.feather.ind
+type: file
+hash: 0bd98c73a206213c5d43457c45bac4e3
+time: 2018-10-12 03:58:03 UTC
+depends:
+  1_wqpdata/tmp/data/Maryland_pH_009_siteinfo.feather.ind: 0bd98c73a206213c5d43457c45bac4e3
+fixed: aca87379d48f67f61e31bed174ad8a3c
+code:
+  functions: {}
+

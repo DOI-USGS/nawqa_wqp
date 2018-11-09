@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/South_Carolina_pH_002_siteinfo.feather.ind
+type: file
+hash: 2f1db59823e1bc4deaf42e2103070e1d
+time: 2018-10-12 05:58:52 UTC
+depends:
+  1_wqpdata/tmp/data/South_Carolina_pH_002_siteinfo.feather.ind: 2f1db59823e1bc4deaf42e2103070e1d
+fixed: 4ad979b5836c82005050a35519ad779e
+code:
+  functions: {}
+

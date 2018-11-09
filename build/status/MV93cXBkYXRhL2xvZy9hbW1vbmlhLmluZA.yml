@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/log/ammonia.ind
+type: file
+hash: eea35d31a948c1bf67333e823e59ed70
+time: 2018-10-11 22:35:10 UTC
+depends:
+  1_wqpdata/tmp/data/partition_ammonia.rds.ind: 8b8e2956bf37aab7696b2e72fec55e8e
+fixed: bb668ae4cc964933e0e1be658d4c76f9
+code:
+  functions: {}
+

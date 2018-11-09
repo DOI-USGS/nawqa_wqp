@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/out/data/Arkansas_DO_001.feather.ind
 type: file
-hash: c1b20f05cc49be21a8bb5caabd10606e
-time: 2018-09-27 03:00:12 UTC
+hash: f674a313b5c5d39d2270bac090b8dcbe
+time: 2018-10-12 14:32:40 UTC
 depends:
-  1_wqpdata/tmp/data/Arkansas_DO_001.feather.ind: c1b20f05cc49be21a8bb5caabd10606e
+  1_wqpdata/tmp/data/Arkansas_DO_001.feather.ind: f674a313b5c5d39d2270bac090b8dcbe
 fixed: dc72da3e72c80ae06c2ec0a149891908
 code:
   functions: {}
