@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/California_DO_001_siteinfo.feather.ind
 type: file
-hash: c3c34402d19116a9dfe0071dac961fa7
-time: 2018-09-27 03:02:19 UTC
+hash: 7088cf1c8dc44b5909d650e0ad932243
+time: 2018-10-12 14:38:09 UTC
 depends:
-  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
 fixed: 6e08730b0c9215cef2d5bc29b174fd3c
 code:
   functions:

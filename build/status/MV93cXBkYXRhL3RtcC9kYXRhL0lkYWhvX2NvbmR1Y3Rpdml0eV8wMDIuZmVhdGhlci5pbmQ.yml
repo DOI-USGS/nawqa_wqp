@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Idaho_conductivity_002.feather.ind
+type: file
+hash: 263d8b0607635cee8409e9ddf23d8ef1
+time: 2018-11-08 15:12:24 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 05f477e0fc8b5476834a2ad3629cac5e
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

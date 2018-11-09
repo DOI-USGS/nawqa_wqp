@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Dakota_conductivity_002.rds.ind
+type: file
+hash: cc7ba7b8963063fdc2d03a9e4ae11299
+time: 2018-11-09 02:24:17 UTC
+depends:
+  partition_South_Dakota_conductivity_002: a67f6c2db1b6da9431efb8e61d1365f6
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d8f616f378561881e4f0bc4397bc0e9e
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

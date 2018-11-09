@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Virginia_conductivity_004.rds.ind
+type: file
+hash: 7f2fd21ab9e8e8dfbea464062ed1d8d0
+time: 2018-11-09 03:44:40 UTC
+depends:
+  partition_Virginia_conductivity_004: b9635db21988358c5cbc39df93ba7118
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: e79421e5e9cfee580cd011b22b33cd33
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

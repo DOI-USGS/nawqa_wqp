@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Oregon_DO_004.ind
+type: file
+hash: a720c1e01125a1fe4abb14fec72696bb
+time: 2018-11-06 01:27:34 UTC
+depends:
+  1_wqpdata/out/data/Oregon_DO_004.feather.ind: 5bb42c2e9f8da107ce754821bc76c9ba
+  1_wqpdata/out/data/Oregon_DO_004_siteinfo.feather.ind: 6742ef3c77123a3b27363cf030fed6a7
+fixed: 798db540dc9a932841048533fe0dadac
+code:
+  functions: {}
+

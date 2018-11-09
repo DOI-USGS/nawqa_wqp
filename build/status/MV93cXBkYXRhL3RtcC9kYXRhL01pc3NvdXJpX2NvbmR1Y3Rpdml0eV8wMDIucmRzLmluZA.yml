@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Missouri_conductivity_002.rds.ind
+type: file
+hash: 3c0d92888f70fae41fc27552e62a3c6e
+time: 2018-11-08 18:42:46 UTC
+depends:
+  partition_Missouri_conductivity_002: db138c70d192bd57e27ed34a15c90533
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: f184382fbd0c632009222b0f84f90d15
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

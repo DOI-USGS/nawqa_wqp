@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_conductivity_003.rds.ind
+type: file
+hash: fe1540671dee369f17e15ef2041253ed
+time: 2018-11-07 22:28:43 UTC
+depends:
+  partition_Colorado_conductivity_003: 065c36081b4a1dc21786516449f22268
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 725fe68c30e68bee7b19b85b96a571ee
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

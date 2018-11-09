@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Wisconsin_DO_004.feather.ind
+type: file
+hash: f6889c1a666c74920d1e41b8d974f76a
+time: 2018-11-06 05:24:31 UTC
+depends:
+  1_wqpdata/tmp/data/Wisconsin_DO_004.feather.ind: f6889c1a666c74920d1e41b8d974f76a
+fixed: 3cd8383707e40850f62c51f66bd538b6
+code:
+  functions: {}
+

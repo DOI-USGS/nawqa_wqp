@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Utah_pH_004_siteinfo.feather.ind
+type: file
+hash: 92fb183c07021e18c7bf389c15dcbd17
+time: 2018-10-12 06:32:16 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 00b2d85866d179e2f064002ed7e9e665
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/South_Carolina_pH_003.feather.ind
+type: file
+hash: 1c22be642eea75371168bb24fc7671c3
+time: 2018-10-12 06:00:27 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: eff5352efbdac1be3096540653ede5b2
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

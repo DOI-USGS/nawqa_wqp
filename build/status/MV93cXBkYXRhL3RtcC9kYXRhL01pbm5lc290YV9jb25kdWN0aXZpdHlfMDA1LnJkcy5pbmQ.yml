@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Minnesota_conductivity_005.rds.ind
+type: file
+hash: c6bd5d18388158db81d91d08ca2f2de4
+time: 2018-11-08 18:27:03 UTC
+depends:
+  partition_Minnesota_conductivity_005: 18d014f95b797c4163ee28d6114b6101
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 68ffb869dd31ff5f5b9c9ce75b938799
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

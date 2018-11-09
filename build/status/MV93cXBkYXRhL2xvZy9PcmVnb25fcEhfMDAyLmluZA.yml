@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Oregon_pH_002.ind
+type: file
+hash: 3fcf8c22c4047e705b1c82fd0056548a
+time: 2018-10-12 05:29:09 UTC
+depends:
+  1_wqpdata/out/data/Oregon_pH_002.feather.ind: 5a1a19ae7b832d6f2a7cc96c21b3d49a
+  1_wqpdata/out/data/Oregon_pH_002_siteinfo.feather.ind: 33891fcc2544ecbc83021ebcb9446eaf
+fixed: 8a2fa9f5ebd91fc32654b01c70dec11c
+code:
+  functions: {}
+

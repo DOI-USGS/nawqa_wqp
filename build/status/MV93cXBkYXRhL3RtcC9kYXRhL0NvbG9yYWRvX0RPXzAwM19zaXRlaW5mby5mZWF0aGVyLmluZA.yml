@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Colorado_DO_003_siteinfo.feather.ind
+type: file
+hash: 890ac9d63decdc71a0e10906e528baac
+time: 2018-11-05 19:52:30 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: 075656384d5477108c507b5e4c49be15
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

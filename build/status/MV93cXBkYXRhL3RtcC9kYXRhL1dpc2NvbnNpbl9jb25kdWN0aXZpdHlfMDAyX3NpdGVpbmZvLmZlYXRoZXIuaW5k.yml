@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wisconsin_conductivity_002_siteinfo.feather.ind
+type: file
+hash: 28f33aa4d04a21f6fed5767ca1046269
+time: 2018-11-09 05:09:11 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 1f8cce2c15e134f5d4ed0e9ae345799c
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

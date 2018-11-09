@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Georgia_conductivity_003_siteinfo.feather.ind
+type: file
+hash: 524c5415a7db37c893d5f9a89ace3b3f
+time: 2018-11-08 14:50:40 UTC
+depends:
+  1_wqpdata/tmp/data/Georgia_conductivity_003_siteinfo.feather.ind: 524c5415a7db37c893d5f9a89ace3b3f
+fixed: 1d0ee39ba8da9cd985f7a682ac47cd52
+code:
+  functions: {}
+

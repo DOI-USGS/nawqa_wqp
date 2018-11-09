@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Nevada_conductivity_001_siteinfo.feather.ind
 type: file
-hash: bdce9af2e909c5dc0b986581f1374796
-time: 2018-09-26 22:42:37 UTC
+hash: ecec97db22ab682d999d95244831a736
+time: 2018-11-08 23:40:52 UTC
 depends:
-  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
 fixed: 23b0c5624f39fa244dbaa2dae06af1ca
 code:
   functions:

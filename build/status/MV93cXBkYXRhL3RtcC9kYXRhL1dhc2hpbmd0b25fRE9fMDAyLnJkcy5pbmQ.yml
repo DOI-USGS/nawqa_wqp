@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Washington_DO_002.rds.ind
+type: file
+hash: e534432354953bb617c92deb3625153d
+time: 2018-11-06 04:41:51 UTC
+depends:
+  partition_Washington_DO_002: 8a4ca5cf4b1bb963e28fc4eaddf375ca
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 54255da0293ba74514b13d3897f146d8
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

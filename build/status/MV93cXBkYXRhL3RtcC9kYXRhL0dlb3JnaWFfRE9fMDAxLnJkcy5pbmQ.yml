@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_DO_001.rds.ind
+type: file
+hash: 7873b7423271a89865d6deeca912eae2
+time: 2018-10-12 15:09:22 UTC
+depends:
+  partition_Georgia_DO_001: 5a36ab8c0b48ec8f7817db5531627e8d
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: fd55554c78f0f5f4e93c2989fda75e2a
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,11 +1,11 @@
 version: 0.3.0
 name: 1_wqpdata/log/New_York_DO_001.ind
 type: file
-hash: 076cc4eb15c7fe17b8f7acdfa1bf91ed
-time: 2018-09-27 04:05:11 UTC
+hash: dedde92d4914940b4bcc9de4752d340e
+time: 2018-11-05 23:49:47 UTC
 depends:
-  1_wqpdata/out/data/New_York_DO_001.feather.ind: f55c923c829359e0eb0cd81aaea4d173
-  1_wqpdata/out/data/New_York_DO_001_siteinfo.feather.ind: f9096ec9127d82c2dc11d136b86021b2
+  1_wqpdata/out/data/New_York_DO_001.feather.ind: 758021e95fa046b7ba535d37126c1bf8
+  1_wqpdata/out/data/New_York_DO_001_siteinfo.feather.ind: ede1bebf730e83a4ab7d4180eb29c2c2
 fixed: e2274f2cd8dd4992044e8d7b43db9029
 code:
   functions: {}

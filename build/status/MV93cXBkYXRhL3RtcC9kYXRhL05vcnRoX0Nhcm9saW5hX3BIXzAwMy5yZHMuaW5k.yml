@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Carolina_pH_003.rds.ind
+type: file
+hash: 2902b00a14c14e711d5a3b2ccd0b1133
+time: 2018-10-12 04:58:48 UTC
+depends:
+  partition_North_Carolina_pH_003: 9e7ddffbf751eab42f6f5c94f4f1419a
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0b7fc0d134d34778b69543221f840508
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

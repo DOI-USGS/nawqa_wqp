@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alaska_pH_002.feather.ind
+type: file
+hash: faab0e498289f390c2b4f416a161f8e8
+time: 2018-11-07 04:08:39 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 6ca42468a04652e6d17af92eb22cdc38
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

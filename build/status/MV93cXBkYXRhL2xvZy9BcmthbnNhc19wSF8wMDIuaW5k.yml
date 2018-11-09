@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Arkansas_pH_002.ind
+type: file
+hash: f4f20a19865189ed2204e89a2a714c87
+time: 2018-10-12 01:41:56 UTC
+depends:
+  1_wqpdata/out/data/Arkansas_pH_002.feather.ind: be2df4f8be71371c767d6b9b8b64a7b7
+  1_wqpdata/out/data/Arkansas_pH_002_siteinfo.feather.ind: a67b4a5a6a696a6a9916277b41aad60d
+fixed: cfc97b7ebf75077f296f190ff9dc920e
+code:
+  functions: {}
+

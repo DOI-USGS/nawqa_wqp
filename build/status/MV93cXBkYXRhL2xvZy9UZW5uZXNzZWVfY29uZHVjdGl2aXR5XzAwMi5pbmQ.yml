@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Tennessee_conductivity_002.ind
+type: file
+hash: 073d96f453830e79cf823d1a5cd90806
+time: 2018-11-09 05:34:37 UTC
+depends:
+  1_wqpdata/out/data/Tennessee_conductivity_002.feather.ind: 067406b9be065d0675e29600d7ca7c48
+  1_wqpdata/out/data/Tennessee_conductivity_002_siteinfo.feather.ind: ef54c63b462eefd277d46fe1bbe06041
+fixed: 5f36ccccdfb1cffc8ebc8c3fc8e06bd7
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oklahoma_pH_003.rds.ind
+type: file
+hash: 3a36219b97099a3a25c35e3d5d94805f
+time: 2018-11-07 17:14:06 UTC
+depends:
+  partition_Oklahoma_pH_003: 58848703580c20f133960c4964456460
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0532ef82edea6949a5f32b79a14a7e10
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

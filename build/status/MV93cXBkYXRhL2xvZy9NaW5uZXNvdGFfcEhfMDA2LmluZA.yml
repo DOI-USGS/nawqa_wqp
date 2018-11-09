@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Minnesota_pH_006.ind
+type: file
+hash: 3695f87446251c9debd16d6612a2ae7b
+time: 2018-11-07 07:15:24 UTC
+depends:
+  1_wqpdata/out/data/Minnesota_pH_006.feather.ind: 4287cd3a636fa4d7e2bb126449b64748
+  1_wqpdata/out/data/Minnesota_pH_006_siteinfo.feather.ind: 70af80ac20c4fd6b309d6860ca1d7dee
+fixed: e7c0eb1462775b5e0c9a8576a9621b2f
+code:
+  functions: {}
+

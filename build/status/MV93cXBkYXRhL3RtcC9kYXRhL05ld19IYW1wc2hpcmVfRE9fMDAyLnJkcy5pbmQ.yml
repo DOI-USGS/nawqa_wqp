@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Hampshire_DO_002.rds.ind
+type: file
+hash: 0a850360e9b0a197c65d260807153c90
+time: 2018-11-05 23:32:05 UTC
+depends:
+  partition_New_Hampshire_DO_002: 6611896a37d443bab2e8e344e3484ac6
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5ce861f8591a69abfbd25d2a39f90d17
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

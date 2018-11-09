@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Hampshire_DO_002.feather.ind
+type: file
+hash: 0bb38f40fcab230b1de3fe006082303e
+time: 2018-11-05 23:32:08 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: 3ea993b897f9123f474806a09c815d3a
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/South_Dakota_DO_002.ind
+type: file
+hash: f11202f4ef308d24fbc757254286ad63
+time: 2018-11-06 02:15:05 UTC
+depends:
+  1_wqpdata/out/data/South_Dakota_DO_002.feather.ind: 13ed833daa4d77cceb4432f45fee7cc5
+  1_wqpdata/out/data/South_Dakota_DO_002_siteinfo.feather.ind: ac3009ad35f0b114d01a2dfa44ce90c1
+fixed: 213e1fe4b40617e24bcae0f422a03897
+code:
+  functions: {}
+

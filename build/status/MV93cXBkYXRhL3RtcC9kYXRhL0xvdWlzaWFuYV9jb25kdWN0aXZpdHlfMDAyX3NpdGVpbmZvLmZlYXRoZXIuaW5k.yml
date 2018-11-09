@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Louisiana_conductivity_002_siteinfo.feather.ind
+type: file
+hash: eab9e70a9941227ce904b236a5fec755
+time: 2018-11-08 16:24:51 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 6959d38373d2e4833898b4a4048c9abe
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

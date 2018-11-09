@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Minnesota_pH_001.rds.ind
+type: file
+hash: 787cc7e21358bfba48f79ca04102e3a4
+time: 2018-11-07 06:33:44 UTC
+depends:
+  partition_Minnesota_pH_001: 644bbc21bb4798ac0bcba850ad5ce2bc
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d4bfb06e2d7981fc6309ebae3510954f
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

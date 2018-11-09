@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/South_Dakota_DO_002_siteinfo.feather.ind
+type: file
+hash: ac3009ad35f0b114d01a2dfa44ce90c1
+time: 2018-11-06 02:15:05 UTC
+depends:
+  1_wqpdata/tmp/data/South_Dakota_DO_002_siteinfo.feather.ind: ac3009ad35f0b114d01a2dfa44ce90c1
+fixed: ce2393453187526fc81996fd4a301800
+code:
+  functions: {}
+

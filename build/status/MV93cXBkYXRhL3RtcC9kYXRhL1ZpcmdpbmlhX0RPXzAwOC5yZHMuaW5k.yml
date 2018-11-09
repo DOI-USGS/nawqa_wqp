@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Virginia_DO_008.rds.ind
+type: file
+hash: a02fbfac8f3fbf3f2c9ddf005bb28bce
+time: 2018-11-06 04:02:13 UTC
+depends:
+  partition_Virginia_DO_008: 0265e5f16d1ac7f9fe38bc82939a171f
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5009d0370026d98613477f7ace864fbb
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

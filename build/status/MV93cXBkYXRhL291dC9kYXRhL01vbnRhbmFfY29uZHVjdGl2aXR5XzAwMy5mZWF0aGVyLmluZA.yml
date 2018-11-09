@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Montana_conductivity_003.feather.ind
+type: file
+hash: a5b37712ba5a837c0eebbe67bd132c71
+time: 2018-11-08 19:01:44 UTC
+depends:
+  1_wqpdata/tmp/data/Montana_conductivity_003.feather.ind: a5b37712ba5a837c0eebbe67bd132c71
+fixed: 387ab593d6c3b98297ea367c319f8d22
+code:
+  functions: {}
+

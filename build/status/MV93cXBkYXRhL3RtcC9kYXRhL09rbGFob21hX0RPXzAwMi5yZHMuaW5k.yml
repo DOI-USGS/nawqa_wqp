@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oklahoma_DO_002.rds.ind
+type: file
+hash: 100b2dd68457b51cd57065e314ad4a8a
+time: 2018-11-06 01:06:13 UTC
+depends:
+  partition_Oklahoma_DO_002: 24726c156ca381bb27fc64d5c1cb3295
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 38ff8eec586a318c1d4c4dd154a88aea
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

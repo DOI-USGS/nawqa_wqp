@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Oregon_DO_002.feather.ind
+type: file
+hash: be0e56a3a60626e3cc91f0712ac5afdd
+time: 2018-11-06 01:18:14 UTC
+depends:
+  1_wqpdata/tmp/data/Oregon_DO_002.feather.ind: be0e56a3a60626e3cc91f0712ac5afdd
+fixed: 375928fc53ebc7229640e54ab0f3abeb
+code:
+  functions: {}
+

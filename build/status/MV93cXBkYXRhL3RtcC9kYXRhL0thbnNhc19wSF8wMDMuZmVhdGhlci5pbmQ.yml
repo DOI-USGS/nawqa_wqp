@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kansas_pH_003.feather.ind
+type: file
+hash: f855873264cf594121c3c13a7ccead61
+time: 2018-10-12 03:18:34 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: a46f3b53f891d24697bd07ce84b3f5ea
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

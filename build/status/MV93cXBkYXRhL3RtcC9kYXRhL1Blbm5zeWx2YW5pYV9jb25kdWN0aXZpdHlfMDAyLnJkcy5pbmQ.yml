@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Pennsylvania_conductivity_002.rds.ind
+type: file
+hash: 8c21f49caca29660bbbad4c12c9bafca
+time: 2018-11-09 01:50:17 UTC
+depends:
+  partition_Pennsylvania_conductivity_002: 47100c6985834f95d7af074aaa645fbe
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 63a93e67e0d318442bc25098583646a0
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

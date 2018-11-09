@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Illinois_pH_002_siteinfo.feather.ind
+type: file
+hash: 0365d2d9c7bf793d0b81adb468794f81
+time: 2018-10-12 03:05:42 UTC
+depends:
+  1_wqpdata/tmp/data/Illinois_pH_002_siteinfo.feather.ind: 0365d2d9c7bf793d0b81adb468794f81
+fixed: 7a3ce5fdfbcc0666fb1ab9b1118463ea
+code:
+  functions: {}
+

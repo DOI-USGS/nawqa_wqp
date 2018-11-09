@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Utah_pH_004.rds.ind
+type: file
+hash: 9361c70124fd6c616940080ac248a74d
+time: 2018-10-12 06:31:49 UTC
+depends:
+  partition_Utah_pH_004: 19c405353322aadf4de4c182f72a7f83
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5582e0d5afa9151588c26dc6688812c0
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

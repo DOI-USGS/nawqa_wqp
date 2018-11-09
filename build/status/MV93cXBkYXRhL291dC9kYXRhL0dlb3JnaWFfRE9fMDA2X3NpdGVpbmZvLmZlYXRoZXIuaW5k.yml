@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Georgia_DO_006_siteinfo.feather.ind
+type: file
+hash: ca9834221ff58eb1d602f6081f5b9bd0
+time: 2018-11-05 20:55:55 UTC
+depends:
+  1_wqpdata/tmp/data/Georgia_DO_006_siteinfo.feather.ind: ca9834221ff58eb1d602f6081f5b9bd0
+fixed: eae09438f67fe72ab52673de256441a7
+code:
+  functions: {}
+

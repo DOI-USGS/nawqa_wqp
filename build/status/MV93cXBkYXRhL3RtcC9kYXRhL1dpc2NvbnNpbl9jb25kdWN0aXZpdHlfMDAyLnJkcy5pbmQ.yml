@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wisconsin_conductivity_002.rds.ind
+type: file
+hash: 72f96dbeb5325b7ce09c9925d9a570ef
+time: 2018-11-09 05:08:35 UTC
+depends:
+  partition_Wisconsin_conductivity_002: dc6d415bff593f24f349c63d80193eaf
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 898a5a26bee46f0824bc53554c4576b7
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

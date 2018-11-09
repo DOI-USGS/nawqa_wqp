@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_York_pH_002.ind
+type: file
+hash: 0e59ef5515a3ff596a8eba3af98c3d41
+time: 2018-11-07 16:51:22 UTC
+depends:
+  1_wqpdata/out/data/New_York_pH_002.feather.ind: 3d9a197aaf9b8cf6e1718d2a807bf7f6
+  1_wqpdata/out/data/New_York_pH_002_siteinfo.feather.ind: fec3c0900b2ba14904bb58b78cdc83db
+fixed: f4cea4fde03491024a29a6f2790ab95f
+code:
+  functions: {}
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wyoming_pH_002.rds.ind
+type: file
+hash: 33abf966ad6c58c2dde2f0db788e4c40
+time: 2018-10-12 07:46:47 UTC
+depends:
+  partition_Wyoming_pH_002: cc9b9182cac4607d62d4cf95807df468
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: d469cc03314511fbcf9eb330042afd01
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

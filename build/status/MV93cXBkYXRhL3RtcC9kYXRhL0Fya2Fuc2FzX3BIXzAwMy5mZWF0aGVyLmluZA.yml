@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Arkansas_pH_003.feather.ind
+type: file
+hash: 4ee362a737a72d67398e611767c80fb3
+time: 2018-10-12 01:43:21 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 3b85c3a6d9e0ab5c3627284e8c7a62a8
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Kansas_conductivity_002.rds.ind
+type: file
+hash: c520fd1d5a5464ade72ed8a1ab166108
+time: 2018-11-08 15:54:57 UTC
+depends:
+  partition_Kansas_conductivity_002: 96e8d1a60da5c4a983d2aae4c49b902f
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 5c9cab3077112e9b42596653de8e5709
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

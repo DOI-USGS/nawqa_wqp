@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/North_Carolina_conductivity_002.ind
+type: file
+hash: 3a6a92b84e00eee8dc1072c0fa0f3bc4
+time: 2018-11-09 00:35:19 UTC
+depends:
+  1_wqpdata/out/data/North_Carolina_conductivity_002.feather.ind: 6bb2db2fe614f43b6a493336f7cd1460
+  1_wqpdata/out/data/North_Carolina_conductivity_002_siteinfo.feather.ind: 4550fcecd5d383b98801d3c54754970d
+fixed: 3964a623512631acd18ea907f761444b
+code:
+  functions: {}
+

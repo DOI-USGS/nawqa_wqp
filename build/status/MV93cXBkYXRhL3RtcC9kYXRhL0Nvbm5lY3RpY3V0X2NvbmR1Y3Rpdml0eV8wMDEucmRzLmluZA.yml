@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Connecticut_conductivity_001.rds.ind
 type: file
-hash: b6285e56cc0ddccea57a7c0bc72ab910
-time: 2018-09-26 21:45:06 UTC
+hash: 9cee0d56055b85b63e25954804906fb4
+time: 2018-11-07 22:42:45 UTC
 depends:
-  partition_Connecticut_conductivity_001: 2088ca7b4035dfb4c018c87d538e96fb
+  partition_Connecticut_conductivity_001: b042827fcd71405e28078a0a866e539b
   wq_dates: bee604e33ba2c2f842c7d265ff951c9b
 fixed: ce8894dd7ca65d646857915c39aed5f8
 code:

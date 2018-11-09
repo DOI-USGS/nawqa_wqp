@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_conductivity_002.feather.ind
+type: file
+hash: 1b984a1fda1f1688fca02224fb25194c
+time: 2018-11-08 14:42:30 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 4e0aa1733b53fd1cff5f7a233c3b3df1
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

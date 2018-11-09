@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Alaska_conductivity_002_siteinfo.feather.ind
+type: file
+hash: ae919c25c9ee1d45e28f6b5f6ef77fd2
+time: 2018-11-07 21:20:51 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 912f3fe1aaeb3e446434b9c17a834ed9
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Pennsylvania_conductivity_004_siteinfo.feather.ind
+type: file
+hash: 4122a4ca8023835b13afa52bee2c1e15
+time: 2018-11-09 02:01:54 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: cdb21ab9784a536431900e6c880cb3b4
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

@@ -2,9 +2,9 @@ version: 0.3.0
 name: 1_wqpdata/tmp/data/District_of_Columbia_DO_001_siteinfo.feather.ind
 type: file
 hash: 60df946da4e20c680697c5695def44fa
-time: 2018-09-27 03:10:34 UTC
+time: 2018-10-12 14:56:01 UTC
 depends:
-  tasks_1_wqp_DO.yml: 2f69b819b74eb7462f28f12f67e927ee
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
 fixed: 5fed821a1c6dfde0f9b54825c02ce615
 code:
   functions:

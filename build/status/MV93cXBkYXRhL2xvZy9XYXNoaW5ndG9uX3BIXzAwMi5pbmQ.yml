@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Washington_pH_002.ind
+type: file
+hash: 31045742af641261b19bd330dc725353
+time: 2018-10-12 07:20:46 UTC
+depends:
+  1_wqpdata/out/data/Washington_pH_002.feather.ind: 9167ce71c9b8b98f7c13d908b79cf0f3
+  1_wqpdata/out/data/Washington_pH_002_siteinfo.feather.ind: af97cdab0429be68ef67ea13f331ce49
+fixed: 9c95325677ceaa5681fed48045394b4e
+code:
+  functions: {}
+

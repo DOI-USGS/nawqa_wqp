@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/Arizona_conductivity_001.rds.ind
 type: file
-hash: 92576cbace1ee131080fee1d33893a65
-time: 2018-09-26 21:40:46 UTC
+hash: 49313df64fcfe8027721dd2e9e78c612
+time: 2018-11-07 21:38:48 UTC
 depends:
-  partition_Arizona_conductivity_001: f25f1670b180e26fdff4b0e734f7b5c9
+  partition_Arizona_conductivity_001: 3a7ecea6bd2eceba2a18426fbfe0f13c
   wq_dates: bee604e33ba2c2f842c7d265ff951c9b
 fixed: 607b46ad12c774ae6d6398f36451d8b0
 code:

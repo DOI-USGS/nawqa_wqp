@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Carolina_pH_007_siteinfo.feather.ind
+type: file
+hash: fa67241f76c0ab603bf474530cb43c5c
+time: 2018-10-12 05:10:23 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 0c4fee265266485e54ac7a72166794b0
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

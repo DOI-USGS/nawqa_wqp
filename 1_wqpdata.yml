@@ -102,11 +102,13 @@ targets:
       task_plan=wqp_pull_plan,
       include='1_wqpdata.yml',
       packages=I(c('dplyr', 'dataRetrieval', 'feather', 'scipiper')),
-      file_extensions=I(c('ind','feather')))
+      file_extensions=I(c('ind','feather')),
+      ind_complete=TRUE)
 
   # -- run the data pulls --
 
   1_wqpdata/log/tasks_1_wqp.ind:
     command: loop_tasks(
       task_plan=wqp_pull_plan, task_makefile='tasks_1_wqp.yml',
+      task_names=I(c('pH','DO','conductivity')),
       num_tries=I(30), sleep_on_error=I(20))

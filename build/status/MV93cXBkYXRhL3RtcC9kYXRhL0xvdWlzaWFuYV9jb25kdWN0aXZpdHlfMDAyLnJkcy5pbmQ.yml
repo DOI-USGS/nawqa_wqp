@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Louisiana_conductivity_002.rds.ind
+type: file
+hash: aaeed3d3faf499126b0501c9dd960d31
+time: 2018-11-08 16:24:15 UTC
+depends:
+  partition_Louisiana_conductivity_002: 3830b0be21a74d4c022647f53aca6217
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 1bf6f7eeaecef4030135b99b398d7ad8
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

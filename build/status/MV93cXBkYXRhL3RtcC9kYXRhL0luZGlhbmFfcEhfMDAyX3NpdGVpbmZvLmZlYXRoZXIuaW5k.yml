@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Indiana_pH_002_siteinfo.feather.ind
+type: file
+hash: 6c9203d98d4b7750b98b01cf55b9ba09
+time: 2018-11-07 06:18:37 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: e0995627812b41a52b49992d5d8a6c6b
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

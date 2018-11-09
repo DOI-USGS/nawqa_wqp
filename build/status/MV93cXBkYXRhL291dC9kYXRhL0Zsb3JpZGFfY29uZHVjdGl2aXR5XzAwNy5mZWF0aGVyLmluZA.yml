@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Florida_conductivity_007.feather.ind
+type: file
+hash: ffcd28ea735dddca025b2e48613746de
+time: 2018-11-07 23:18:09 UTC
+depends:
+  1_wqpdata/tmp/data/Florida_conductivity_007.feather.ind: ffcd28ea735dddca025b2e48613746de
+fixed: e6e01b77a61f14f1c854f9ee0f2d0723
+code:
+  functions: {}
+

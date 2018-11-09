@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Virginia_conductivity_009_siteinfo.feather.ind
+type: file
+hash: af136a2574c5530fa5c0c5316402d6d2
+time: 2018-11-09 04:13:05 UTC
+depends:
+  1_wqpdata/tmp/data/Virginia_conductivity_009_siteinfo.feather.ind: af136a2574c5530fa5c0c5316402d6d2
+fixed: caf4e16d0d89a6511f0ba531e408e2a5
+code:
+  functions: {}
+

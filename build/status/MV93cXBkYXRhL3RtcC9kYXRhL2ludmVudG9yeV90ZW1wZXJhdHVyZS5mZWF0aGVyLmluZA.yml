@@ -1,8 +1,8 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/inventory_temperature.feather.ind
 type: file
-hash: 99529aad3fd56b867c694552852218a5
-time: 2018-07-27 05:22:19 UTC
+hash: b866f475357b756cf9370fbeb7726dbc
+time: 2018-10-12 00:49:51 UTC
 depends:
   wqp_state_codes: a931f55b406b1486a4b326c73b1c0e33
   wqp_states: 0f8f4a33363213d2698e31f0ee1b1df0

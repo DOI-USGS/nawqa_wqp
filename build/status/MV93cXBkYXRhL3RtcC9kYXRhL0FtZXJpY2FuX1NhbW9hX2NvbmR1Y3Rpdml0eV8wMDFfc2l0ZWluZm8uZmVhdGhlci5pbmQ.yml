@@ -2,9 +2,9 @@ version: 0.3.0
 name: 1_wqpdata/tmp/data/American_Samoa_conductivity_001_siteinfo.feather.ind
 type: file
 hash: 3ef739b593505fa8bc80446d5ae5c276
-time: 2018-09-26 23:31:34 UTC
+time: 2018-11-07 21:36:37 UTC
 depends:
-  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
 fixed: 7a2e1654b87751757cbeaec885212adb
 code:
   functions:

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Georgia_pH_004.ind
+type: file
+hash: 3efe76adf6dfa8ab858749f736ddae60
+time: 2018-10-12 02:33:29 UTC
+depends:
+  1_wqpdata/out/data/Georgia_pH_004.feather.ind: c44a0eeb84f5cfbfa5f7fe8d2e4c9a06
+  1_wqpdata/out/data/Georgia_pH_004_siteinfo.feather.ind: 6dad3c3edda37c7a74604e37f51689e6
+fixed: dd67be4bd47274d89f75641c689bc66e
+code:
+  functions: {}
+

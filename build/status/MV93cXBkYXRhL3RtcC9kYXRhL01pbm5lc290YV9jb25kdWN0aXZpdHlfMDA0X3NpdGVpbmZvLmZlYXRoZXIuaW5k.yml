@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Minnesota_conductivity_004_siteinfo.feather.ind
+type: file
+hash: 3d47c0c8321b3fc54b5b1476923f544a
+time: 2018-11-08 18:22:16 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 14149dd254c2ca4d000bccfa54297f1b
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_York_conductivity_002.ind
+type: file
+hash: 0ee0290ed9ad97283f7ade468bc2999b
+time: 2018-11-09 00:21:08 UTC
+depends:
+  1_wqpdata/out/data/New_York_conductivity_002.feather.ind: 79536aea32933d8d0b3ec3e78eb6e82d
+  1_wqpdata/out/data/New_York_conductivity_002_siteinfo.feather.ind: 39d989d6b95889c584e9138c809ecc32
+fixed: d944a344d90648b64053bc2f9dade23e
+code:
+  functions: {}
+

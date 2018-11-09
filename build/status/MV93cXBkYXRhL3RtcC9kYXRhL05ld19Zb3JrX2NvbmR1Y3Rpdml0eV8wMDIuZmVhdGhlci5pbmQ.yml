@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_York_conductivity_002.feather.ind
+type: file
+hash: 79536aea32933d8d0b3ec3e78eb6e82d
+time: 2018-11-09 00:18:49 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 45e7a1ab0b418ba9dbc68e0a36962ea6
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Tennessee_DO_002.rds.ind
+type: file
+hash: 653595c5addc10862dac48c07c81cb61
+time: 2018-11-06 02:31:58 UTC
+depends:
+  partition_Tennessee_DO_002: 7a44cb846322d4835c54321601e5a646
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0d421d36e71a924e53cd6e08d1f0d0a4
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

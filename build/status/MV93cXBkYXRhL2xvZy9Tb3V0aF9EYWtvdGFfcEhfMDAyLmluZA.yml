@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/South_Dakota_pH_002.ind
+type: file
+hash: 333ffd4b0c605befe8fed331ad758f7a
+time: 2018-10-12 06:12:09 UTC
+depends:
+  1_wqpdata/out/data/South_Dakota_pH_002.feather.ind: f29dbd04fdb568462a6c150d6f276bbc
+  1_wqpdata/out/data/South_Dakota_pH_002_siteinfo.feather.ind: 7592332d6656c7184ae3de5372863fb0
+fixed: 4e9dd76920443519a442b31c6bb6e960
+code:
+  functions: {}
+

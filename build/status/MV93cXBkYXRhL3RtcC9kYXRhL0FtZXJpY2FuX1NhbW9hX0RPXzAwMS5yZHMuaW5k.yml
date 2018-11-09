@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/American_Samoa_DO_001.rds.ind
 type: file
-hash: 3b80f59773e6fa4000e65e9d27b54da2
-time: 2018-09-27 02:56:16 UTC
+hash: 4982bbd7c1f21c39ca3dbd3b00358fda
+time: 2018-10-12 14:25:26 UTC
 depends:
-  partition_American_Samoa_DO_001: 4f1c713ce8980fecef766b9637304049
+  partition_American_Samoa_DO_001: 70eca0714690a81aae819886ef9d8200
   wq_dates: bee604e33ba2c2f842c7d265ff951c9b
 fixed: 05166b6318a83f2d66ed948db2ec7c0d
 code:

@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Maryland_conductivity_009.feather.ind
+type: file
+hash: c51a986f8849b685a46d21e2213b35f0
+time: 2018-11-08 17:13:41 UTC
+depends:
+  1_wqpdata/tmp/data/Maryland_conductivity_009.feather.ind: c51a986f8849b685a46d21e2213b35f0
+fixed: 659968b2c57aaba898c7035de330be5d
+code:
+  functions: {}
+

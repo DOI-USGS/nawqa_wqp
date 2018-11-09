@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Maryland_DO_005.rds.ind
+type: file
+hash: b670ac1b25154da89a4ab4d5a5f8d160
+time: 2018-11-05 21:54:11 UTC
+depends:
+  partition_Maryland_DO_005: fdf7b177ed4de013882ca1a4c40e5d13
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 3f1c9866625dcfa77e023612c222ef38
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

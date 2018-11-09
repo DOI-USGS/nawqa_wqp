@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Dakota_pH_002.feather.ind
+type: file
+hash: 563f81f6c03395ae10cab14a78c51eb3
+time: 2018-10-12 05:15:40 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 00f008a094c55a1fb0b3930fe291b34e
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Minnesota_DO_002.rds.ind
+type: file
+hash: 41142a3897a8b2b34b94133b4e53740c
+time: 2018-11-05 22:53:42 UTC
+depends:
+  partition_Minnesota_DO_002: 8716945c48ab9a86ea1665e3f71ad412
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: c819e95652a54ff5a183d8650fd9198d
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Utah_conductivity_005_siteinfo.feather.ind
+type: file
+hash: c21122b6979770e22314bd59ca05a242
+time: 2018-11-09 03:16:21 UTC
+depends:
+  1_wqpdata/tmp/data/Utah_conductivity_005_siteinfo.feather.ind: c21122b6979770e22314bd59ca05a242
+fixed: 56cbee1a26a0d88e4cf6b16b2e35aae8
+code:
+  functions: {}
+

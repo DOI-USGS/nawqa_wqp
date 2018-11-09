@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Jersey_conductivity_003.rds.ind
+type: file
+hash: 2e41088abd3042922a500eaf347a63f6
+time: 2018-11-08 19:33:02 UTC
+depends:
+  partition_New_Jersey_conductivity_003: 37e818d68437e4b782dee03e20fd7822
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 13858d2c8527dc66b829c8fcd7e7b32b
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

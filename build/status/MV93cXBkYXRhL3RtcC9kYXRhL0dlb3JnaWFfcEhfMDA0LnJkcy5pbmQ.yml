@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_pH_004.rds.ind
+type: file
+hash: da026d7b59a86dacd03653c9a668d52d
+time: 2018-10-12 02:31:49 UTC
+depends:
+  partition_Georgia_pH_004: b8125ae3fadf9fb5483d1900e1df4d52
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: e159ed161916ba64d6badbeccb9bb561
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

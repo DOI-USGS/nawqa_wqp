@@ -1,10 +1,10 @@
 version: 0.3.0
 name: 1_wqpdata/tmp/data/New_Mexico_conductivity_001_siteinfo.feather.ind
 type: file
-hash: 119b865adf5b5b4f0e251bf2d0df952d
-time: 2018-09-26 22:48:16 UTC
+hash: 3f8c52288c20a15faedb2a0e1a8bf359
+time: 2018-11-08 19:39:04 UTC
 depends:
-  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
 fixed: 43fb7247074b87ff5f14bf0ee2cb9dd5
 code:
   functions:

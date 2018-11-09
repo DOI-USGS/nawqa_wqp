@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Tennessee_DO_002.ind
+type: file
+hash: 8b15fe73dbb845ec930c217c0758244a
+time: 2018-11-06 02:34:13 UTC
+depends:
+  1_wqpdata/out/data/Tennessee_DO_002.feather.ind: cb902e72c79735aa0a183f356982499c
+  1_wqpdata/out/data/Tennessee_DO_002_siteinfo.feather.ind: b065cd1d283dc3be86ecc6a69f4a94b3
+fixed: aa62bd278f0578fb87b274316c818858
+code:
+  functions: {}
+

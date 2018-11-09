@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Kentucky_conductivity_002.ind
+type: file
+hash: 38d0e4c4f04bd97171141de36d5975c9
+time: 2018-11-08 16:16:42 UTC
+depends:
+  1_wqpdata/out/data/Kentucky_conductivity_002.feather.ind: 36df2849c4cd3aa42cb8ceca9987904b
+  1_wqpdata/out/data/Kentucky_conductivity_002_siteinfo.feather.ind: 9f7fb5fe9a3c5db2d777ce5e163ab2c8
+fixed: 0122097f628af3ae7bb8404fadfe7b6e
+code:
+  functions: {}
+

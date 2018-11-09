@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/California_conductivity_005.rds.ind
+type: file
+hash: 92cc17f98e4a563a4d90bafb695d1490
+time: 2018-11-07 22:10:04 UTC
+depends:
+  partition_California_conductivity_005: f20d892f959ac3ccfa98a608915c211c
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: bc54268c26a01277e4a15fa830188b7e
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

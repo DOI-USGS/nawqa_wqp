@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Wisconsin_pH_004.ind
+type: file
+hash: 4a6f98af45a24606c49669bdc5df592d
+time: 2018-10-12 07:39:29 UTC
+depends:
+  1_wqpdata/out/data/Wisconsin_pH_004.feather.ind: d555e58a887a09b650d57bf0787b08ac
+  1_wqpdata/out/data/Wisconsin_pH_004_siteinfo.feather.ind: 187c8970f58fbe5cba993ec2856e9bb9
+fixed: b6ab2de81de624c8496a172b6ba6c8e3
+code:
+  functions: {}
+

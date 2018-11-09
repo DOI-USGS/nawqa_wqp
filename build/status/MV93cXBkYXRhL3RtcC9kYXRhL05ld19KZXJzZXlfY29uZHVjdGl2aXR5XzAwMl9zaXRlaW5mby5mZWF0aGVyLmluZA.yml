@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/New_Jersey_conductivity_002_siteinfo.feather.ind
+type: file
+hash: aa1200a54f9d54b4d9a9d4308e563018
+time: 2018-11-08 19:28:15 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 02569a43c5083020b4181b86f9a47f44
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

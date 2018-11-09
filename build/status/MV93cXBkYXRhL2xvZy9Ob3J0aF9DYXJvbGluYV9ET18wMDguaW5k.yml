@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/North_Carolina_DO_008.ind
+type: file
+hash: 0d6554caebb847578c92d415e71dd390
+time: 2018-11-06 00:37:35 UTC
+depends:
+  1_wqpdata/out/data/North_Carolina_DO_008.feather.ind: 83bf5e73b2aa294e651a9af97ce94cfb
+  1_wqpdata/out/data/North_Carolina_DO_008_siteinfo.feather.ind: 8c003d7cb462dbf21266998ed500cf79
+fixed: 4b97862ffa0a1ccb6e493794c9fdb6ca
+code:
+  functions: {}
+

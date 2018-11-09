@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Virginia_pH_006.rds.ind
+type: file
+hash: 09214feda069b32271dda55b1cc54aba
+time: 2018-10-12 06:54:41 UTC
+depends:
+  partition_Virginia_pH_006: 01672fd191b07e28e96633c18f364038
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: a1d67c1dad3435daf5103958d37dac18
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

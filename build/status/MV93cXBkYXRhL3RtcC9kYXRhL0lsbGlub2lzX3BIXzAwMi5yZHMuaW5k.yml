@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Illinois_pH_002.rds.ind
+type: file
+hash: bbafa107b35ed782193793273c66fb31
+time: 2018-10-12 03:04:17 UTC
+depends:
+  partition_Illinois_pH_002: 40cb2700dd508161b80179d564f4afba
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 85951158aa7d41c344a93a55e05415f8
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

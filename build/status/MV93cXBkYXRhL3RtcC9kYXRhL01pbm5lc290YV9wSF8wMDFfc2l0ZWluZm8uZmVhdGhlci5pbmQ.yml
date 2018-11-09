@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Minnesota_pH_001_siteinfo.feather.ind
+type: file
+hash: ea0b261cc1c9768918bcc21fe8b719b4
+time: 2018-11-07 06:34:13 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: d7ef2b7b5e181bf6e2dc0ff5889b106c
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

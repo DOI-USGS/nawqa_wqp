@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Wisconsin_pH_005.feather.ind
+type: file
+hash: 47a908b63dd941d83b4908cb419e7dbc
+time: 2018-10-12 07:41:04 UTC
+depends:
+  tasks_1_wqp_pH.yml: abc3d9c86e81e38b27cc9af07fc2fcb5
+fixed: 11114cc52895dbc5d6eeba033a5ad2b4
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

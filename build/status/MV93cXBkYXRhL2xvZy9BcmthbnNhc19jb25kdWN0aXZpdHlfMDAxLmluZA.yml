@@ -1,11 +1,11 @@
 version: 0.3.0
 name: 1_wqpdata/log/Arkansas_conductivity_001.ind
 type: file
-hash: 622a736ba9252c9c548ce14c92bc4aff
-time: 2018-09-26 23:34:20 UTC
+hash: 63b3ec5bfc2a6730992e3a65a5b28fc6
+time: 2018-11-07 21:48:26 UTC
 depends:
-  1_wqpdata/out/data/Arkansas_conductivity_001.feather.ind: e43a6e3d1e91acde6d4e6ab3be6e056c
-  1_wqpdata/out/data/Arkansas_conductivity_001_siteinfo.feather.ind: ea528a1dc381c49d3f45f3142046c761
+  1_wqpdata/out/data/Arkansas_conductivity_001.feather.ind: ef1b66d054f6c82183b3d259b682ec0d
+  1_wqpdata/out/data/Arkansas_conductivity_001_siteinfo.feather.ind: ed12e9fc9071a80f4e9827f064b7a1b7
 fixed: b05e3d630f6aeaf9c5fcb7e3a6dcbb8b
 code:
   functions: {}

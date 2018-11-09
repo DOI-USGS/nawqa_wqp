@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Florida_conductivity_008.rds.ind
+type: file
+hash: 5c3c26c9522c059d351e9e9956912ebb
+time: 2018-11-07 23:20:43 UTC
+depends:
+  partition_Florida_conductivity_008: 5223a9d61f2780bf41d8afb1acade6d5
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 15ff906c1520cd7cb87c5768b0f31398
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

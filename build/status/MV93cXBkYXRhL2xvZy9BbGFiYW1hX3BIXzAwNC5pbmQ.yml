@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Alabama_pH_004.ind
+type: file
+hash: 063659c337e37a09ec2f789a70e666be
+time: 2018-10-12 01:21:50 UTC
+depends:
+  1_wqpdata/out/data/Alabama_pH_004.feather.ind: 1806559d82f2cea9ff474e831436c0d7
+  1_wqpdata/out/data/Alabama_pH_004_siteinfo.feather.ind: 991e8a622fd4909cc09ef2a4f5366747
+fixed: 0a58d6c044f825ce2c8df3d52fc4336a
+code:
+  functions: {}
+

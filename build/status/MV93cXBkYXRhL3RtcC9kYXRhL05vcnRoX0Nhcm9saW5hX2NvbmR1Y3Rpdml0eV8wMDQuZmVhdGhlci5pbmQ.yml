@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Carolina_conductivity_004.feather.ind
+type: file
+hash: 685d4f022a18b1dface0bb1721fe2124
+time: 2018-11-09 00:42:50 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 83f979f5286f8210fce28a68fa10c9e3
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

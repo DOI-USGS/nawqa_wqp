@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Colorado_DO_002.ind
+type: file
+hash: 57c765f897a30d80bde8f643ff24621a
+time: 2018-10-12 14:46:35 UTC
+depends:
+  1_wqpdata/out/data/Colorado_DO_002.feather.ind: 2b249d2a1c6635c1266211970e6b57a5
+  1_wqpdata/out/data/Colorado_DO_002_siteinfo.feather.ind: 1d98c82bcb8640a5444cb0589da1d8ab
+fixed: b0f20f344c94780783efcea0d4c0ca70
+code:
+  functions: {}
+

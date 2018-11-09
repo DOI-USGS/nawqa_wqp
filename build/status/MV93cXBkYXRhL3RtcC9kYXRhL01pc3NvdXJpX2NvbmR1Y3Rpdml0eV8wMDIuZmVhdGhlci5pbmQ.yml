@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Missouri_conductivity_002.feather.ind
+type: file
+hash: 16d33a89515454ff03d8821c86ad0aa8
+time: 2018-11-08 18:42:53 UTC
+depends:
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
+fixed: 35fb15930e6f0eb477b46883462e6ca3
+code:
+  functions:
+    extract_wqp_data: 3e8eebad0449689b58046d08dfb11601
+

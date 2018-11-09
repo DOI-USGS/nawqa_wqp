@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Virginia_DO_002.feather.ind
+type: file
+hash: 33d59742f79839248b4be1672bd95e1a
+time: 2018-11-06 03:27:36 UTC
+depends:
+  1_wqpdata/tmp/data/Virginia_DO_002.feather.ind: 33d59742f79839248b4be1672bd95e1a
+fixed: a37431b76cb2d6406772fc461fabe8f6
+code:
+  functions: {}
+

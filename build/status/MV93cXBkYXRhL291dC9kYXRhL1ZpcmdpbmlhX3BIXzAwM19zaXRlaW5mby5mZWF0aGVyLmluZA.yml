@@ -1,0 +1,11 @@
+version: 0.3.0
+name: 1_wqpdata/out/data/Virginia_pH_003_siteinfo.feather.ind
+type: file
+hash: 7c00b0d0d2d026bc54da2e7774648ebf
+time: 2018-10-12 06:46:46 UTC
+depends:
+  1_wqpdata/tmp/data/Virginia_pH_003_siteinfo.feather.ind: 7c00b0d0d2d026bc54da2e7774648ebf
+fixed: fae20f30c40285be4f29b96bb2a53fd5
+code:
+  functions: {}
+

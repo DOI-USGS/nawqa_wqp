@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Pennsylvania_pH_004.rds.ind
+type: file
+hash: 0105093c51010843a6d0df3d77e0c7d8
+time: 2018-10-12 05:45:36 UTC
+depends:
+  partition_Pennsylvania_pH_004: da2bb194ccd8bc3a7d907611f625c974
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 9f564b31229e8ec64efd64020c3bd22e
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

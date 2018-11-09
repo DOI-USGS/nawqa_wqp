@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Georgia_DO_002_siteinfo.feather.ind
+type: file
+hash: 9d9804e09d3f3d2be0b1b4a922c556c2
+time: 2018-10-12 15:13:43 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: 373419b4da57a41db75ded10229991d5
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

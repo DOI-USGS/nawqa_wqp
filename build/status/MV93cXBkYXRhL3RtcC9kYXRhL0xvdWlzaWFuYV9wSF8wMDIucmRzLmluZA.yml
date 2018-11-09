@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Louisiana_pH_002.rds.ind
+type: file
+hash: 4077cc065c24e1a3982d15e41adedd1d
+time: 2018-10-12 03:26:57 UTC
+depends:
+  partition_Louisiana_pH_002: a270a758e7ede7e9581c50034414f8d2
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: a2d5344e9e986bf78e79ca5b3d920f72
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

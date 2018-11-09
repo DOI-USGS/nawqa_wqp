@@ -2,9 +2,9 @@ version: 0.3.0
 name: 1_wqpdata/tmp/data/West_Virginia_conductivity_001_siteinfo.feather.ind
 type: file
 hash: 42220e5d36db6fddbef8c5d56bfe9185
-time: 2018-09-26 23:25:45 UTC
+time: 2018-11-09 04:56:34 UTC
 depends:
-  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
 fixed: 2fe8b133d63df996d6930093c07afcd6
 code:
   functions:

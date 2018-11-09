@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/New_Mexico_conductivity_002.ind
+type: file
+hash: c4a6f1bcfc78778d433aea1e092e2113
+time: 2018-11-09 00:02:10 UTC
+depends:
+  1_wqpdata/out/data/New_Mexico_conductivity_002.feather.ind: a30109300db1444ecf5fe1d4626d3253
+  1_wqpdata/out/data/New_Mexico_conductivity_002_siteinfo.feather.ind: ec816de82c36889f398fafd4390f9b3b
+fixed: 52ed2d3b5714f5463f1c05165adcb13c
+code:
+  functions: {}
+

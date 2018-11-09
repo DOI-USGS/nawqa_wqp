@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/log/Minnesota_DO_005.ind
+type: file
+hash: 4319688884abcdcb858114182f772fd8
+time: 2018-11-05 23:08:41 UTC
+depends:
+  1_wqpdata/out/data/Minnesota_DO_005.feather.ind: 36cc1610bb9a9fa9ee97c59c1add422b
+  1_wqpdata/out/data/Minnesota_DO_005_siteinfo.feather.ind: 88099eeeede358860b22a421326c9d24
+fixed: 99c3a871cee00745a1d7fc4782a84144
+code:
+  functions: {}
+

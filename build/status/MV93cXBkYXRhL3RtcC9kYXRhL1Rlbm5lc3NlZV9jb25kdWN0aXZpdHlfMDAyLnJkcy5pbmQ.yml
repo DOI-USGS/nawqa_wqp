@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Tennessee_conductivity_002.rds.ind
+type: file
+hash: 2bc38f1a4094782b06ea928f2e0952bc
+time: 2018-11-09 05:32:09 UTC
+depends:
+  partition_Tennessee_conductivity_002: c1812889c0f1945ee48dfa9f2391d2c0
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 0117773776941f325c182e4dfb2ec471
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

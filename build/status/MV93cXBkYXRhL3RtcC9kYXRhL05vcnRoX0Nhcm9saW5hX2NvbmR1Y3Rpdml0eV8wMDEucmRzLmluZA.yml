@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/North_Carolina_conductivity_001.rds.ind
+type: file
+hash: 015cd8f808e765b02402efcd50b76513
+time: 2018-11-09 00:26:24 UTC
+depends:
+  partition_North_Carolina_conductivity_001: 7fbe22401a886809bdcea989dae3ca7e
+  wq_dates: bee604e33ba2c2f842c7d265ff951c9b
+fixed: 89dd69b23250f110ba38266ea20c8019
+code:
+  functions:
+    get_wqp_data: 91ac288ac85188281e805da1081d18da
+

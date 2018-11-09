@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_wqpdata/tmp/data/Oklahoma_DO_002_siteinfo.feather.ind
+type: file
+hash: dc6f46c43bae0b42a8efe8500e12fe3c
+time: 2018-11-06 01:06:32 UTC
+depends:
+  tasks_1_wqp_DO.yml: 0382cb6e7b0c2acd65c5d1ff3cfc53d3
+fixed: 7e2fd601f3a16f1eaec07f2240ba4d9c
+code:
+  functions:
+    extract_wqp_siteinfo: cfe597133ed509aeeec3ec1c92604507
+

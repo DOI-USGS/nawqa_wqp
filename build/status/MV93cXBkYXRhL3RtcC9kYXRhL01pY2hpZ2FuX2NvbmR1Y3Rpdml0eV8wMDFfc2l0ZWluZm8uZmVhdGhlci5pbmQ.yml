@@ -2,9 +2,9 @@ version: 0.3.0
 name: 1_wqpdata/tmp/data/Michigan_conductivity_001_siteinfo.feather.ind
 type: file
 hash: c3fc70c8dc91aba703b51e2db56c5fac
-time: 2018-09-26 22:29:07 UTC
+time: 2018-11-08 23:37:56 UTC
 depends:
-  tasks_1_wqp_conductivity.yml: 04f1b7f142ae321f5d44003f6215df04
+  tasks_1_wqp_conductivity.yml: 69c3f73e81d7485770ce7f47b179301b
 fixed: 5af707450486ab69aea75d359f7f13b8
 code:
   functions:
