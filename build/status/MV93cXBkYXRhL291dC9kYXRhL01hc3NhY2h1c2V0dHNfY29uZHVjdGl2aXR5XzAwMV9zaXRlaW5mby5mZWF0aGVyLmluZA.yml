@@ -2,7 +2,7 @@ version: 0.3.0
 name: 1_wqpdata/out/data/Massachusetts_conductivity_001_siteinfo.feather.ind
 type: file
 hash: 190b58bc9e746528febedc8c14795fd3
-time: 2018-09-26 22:28:19 UTC
+time: 2018-11-13 20:43:09 UTC
 depends:
   1_wqpdata/tmp/data/Massachusetts_conductivity_001_siteinfo.feather.ind: 190b58bc9e746528febedc8c14795fd3
 fixed: b7af06d080ba49ce2b659c70327607b5

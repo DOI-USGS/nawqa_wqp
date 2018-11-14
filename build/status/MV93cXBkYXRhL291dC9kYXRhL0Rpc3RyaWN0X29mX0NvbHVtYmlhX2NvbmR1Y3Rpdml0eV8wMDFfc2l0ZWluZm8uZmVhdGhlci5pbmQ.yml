@@ -2,7 +2,7 @@ version: 0.3.0
 name: 1_wqpdata/out/data/District_of_Columbia_conductivity_001_siteinfo.feather.ind
 type: file
 hash: 63db2a0a3830f008fb9bb76f2bbbee05
-time: 2018-09-26 21:48:54 UTC
+time: 2018-11-13 20:40:03 UTC
 depends:
   1_wqpdata/tmp/data/District_of_Columbia_conductivity_001_siteinfo.feather.ind: 63db2a0a3830f008fb9bb76f2bbbee05
 fixed: 957ac1c6b944da0a9103da7c2a9eebf7

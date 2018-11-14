@@ -2,7 +2,7 @@ version: 0.3.0
 name: 1_wqpdata/out/data/Michigan_DO_001_siteinfo.feather.ind
 type: file
 hash: 452d1d36d6e6379a190d99b175df3fd1
-time: 2018-09-27 03:46:53 UTC
+time: 2018-11-13 21:46:40 UTC
 depends:
   1_wqpdata/tmp/data/Michigan_DO_001_siteinfo.feather.ind: 452d1d36d6e6379a190d99b175df3fd1
 fixed: fea919c3d133e53fb8cce219eaab840b
