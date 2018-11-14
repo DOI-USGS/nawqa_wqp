@@ -2,7 +2,7 @@ version: 0.3.0
 name: 1_wqpdata/out/data/South_Carolina_conductivity_001_siteinfo.feather.ind
 type: file
 hash: d653a19735d1929a3d19d0307f1d6d87
-time: 2018-09-26 23:08:02 UTC
+time: 2018-11-13 20:48:21 UTC
 depends:
   1_wqpdata/tmp/data/South_Carolina_conductivity_001_siteinfo.feather.ind: d653a19735d1929a3d19d0307f1d6d87
 fixed: 44f0a794b633ce27cb7b71779b34ed21
